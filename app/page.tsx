@@ -47,7 +47,7 @@ const htmlContent = `
 <nav class="nav">
   <div class="nav-inner">
     <div class="nav-brand">
-      <span class="agora">AGORA</span>
+      <span class="agora">OMINTO</span>
       <span class="x">x</span>
       <img src="/gymshark-logo.svg" alt="Gymshark" class="nav-logo" style="height:16px" />
     </div>
