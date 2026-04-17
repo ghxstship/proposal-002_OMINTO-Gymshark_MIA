@@ -100,7 +100,7 @@ const htmlContent = `
     </div>
 
     <p class="hero-narrative">
-      Agora Graphics is pleased to present this fabrication and production proposal for the Gymshark Phone Box experiential activation, developed in partnership with Ominto Studio&rsquo;s creative direction. This engagement delivers a custom-fabricated pink British phone box equipped with interactive photo, voucher, and call-response technology &mdash; engineered for a single-day pop-up across New York and/or Miami in July 2026. The proposal includes three execution options (NYC-only, Miami-only, or a dual-city deployment with inter-city rewrap), seven recommended Miami locations with estimated venue ranges, and a complete investment summary scaled to the client&rsquo;s $120,000 overall budget.
+      Agora Graphics is pleased to present this fabrication and production proposal for the Gymshark Phone Box experiential activation, developed in partnership with Ominto Studio&rsquo;s creative direction. This engagement delivers a custom-fabricated pink British phone box equipped with interactive photo, voucher, and call-response technology &mdash; engineered for a single-day pop-up across New York and/or Miami in July 2026. The proposal includes three execution options (NYC-only, Miami-only, or a dual-city deployment with inter-city rewrap), twelve recommended venues across both cities with estimated venue ranges, and a complete investment summary scaled to the client&rsquo;s $120,000 overall budget.
     </p>
     <div class="hero-doc">Confidential &amp; Proprietary &bull; Prepared exclusively for Gymshark Ltd. and Ominto Studio</div>
   </div>
@@ -359,9 +359,9 @@ const htmlContent = `
 <section id="locations" class="sec" style="padding-top:0">
   <div data-a>
     <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Location Options</span></div>
-    <h2>Thirteen Venues. Two Cities.</h2>
+    <h2>Twelve Venues. Two Cities.</h2>
     <p class="sec-desc">
-      Six vetted New York venues and seven Miami-area venues &mdash; spanning plazas, art districts, waterfront parks, retail corridors, and beachfronts &mdash; all suitable for a single-day Phone Box deployment. Daily venue ranges are pre-permit market estimates based on published rates and comparable 2024&ndash;2025 activation precedents; final figures are confirmed at permit issuance and vary with footprint, amenities, seasonality, and negotiation. Venue fees are passed through at cost and are <em>not</em> included in the production investment unless explicitly rolled into a package.
+      Six vetted New York venues and six Miami-area venues &mdash; spanning plazas, art districts, waterfront parks, retail corridors, and beachfronts &mdash; all suitable for a single-day Phone Box deployment. Daily venue ranges are pre-permit market estimates based on published rates and comparable 2024&ndash;2025 activation precedents; final figures are confirmed at permit issuance and vary with footprint, amenities, seasonality, and negotiation. Venue fees are passed through at cost and are <em>not</em> included in the production investment unless explicitly rolled into a package.
     </p>
   </div>
 
@@ -391,6 +391,7 @@ const htmlContent = `
             <li>Content-ready cultural landmark backdrop</li>
             <li>Proximity to Gymshark retail for conversion</li>
           </ul>
+          <a href="https://villagealliance.org/public-space" class="loc-link" target="_blank" rel="noopener">Village Alliance Public Space</a>
         </div>
       </div>
 
@@ -410,6 +411,7 @@ const htmlContent = `
             <li>Built-in cultural texture for social content</li>
             <li>Walking distance from Gymshark NYC store</li>
           </ul>
+          <a href="https://www.nycgovparks.org/parks/washington-square-park" class="loc-link" target="_blank" rel="noopener">NYC Parks &mdash; Washington Sq</a>
         </div>
       </div>
 
@@ -429,6 +431,7 @@ const htmlContent = `
             <li>Subway hub &mdash; 14th Street / L, N/Q/R/W, 4/5/6</li>
             <li>Strong precedent for large branded footprints</li>
           </ul>
+          <a href="https://www.unionsquarenyc.org/" class="loc-link" target="_blank" rel="noopener">Union Square Partnership</a>
         </div>
       </div>
 
@@ -448,6 +451,7 @@ const htmlContent = `
             <li>Experienced venue partnership for brand pop-ups</li>
             <li>Short hop to Madison Square Park programming</li>
           </ul>
+          <a href="https://flatironnomad.nyc/" class="loc-link" target="_blank" rel="noopener">Flatiron NoMad Partnership</a>
         </div>
       </div>
 
@@ -467,6 +471,7 @@ const htmlContent = `
             <li>Cobblestones + brick architecture complement pink</li>
             <li>Brooklyn Bridge Park adjacent for overflow</li>
           </ul>
+          <a href="https://dumbo.nyc/" class="loc-link" target="_blank" rel="noopener">DUMBO Improvement District</a>
         </div>
       </div>
 
@@ -486,6 +491,7 @@ const htmlContent = `
             <li>Waterfront + Manhattan skyline backdrop</li>
             <li>Private management &mdash; faster approvals</li>
           </ul>
+          <a href="https://www.dominopark.com/" class="loc-link" target="_blank" rel="noopener">Domino Park Official</a>
         </div>
       </div>
 
@@ -495,7 +501,7 @@ const htmlContent = `
   <!-- MIAMI SUBSECTION -->
   <div class="loc-city-section" data-a>
     <div class="loc-city-heading">
-      <div class="sec-eye"><div class="bar" style="background:var(--f1-red)"></div><span style="color:var(--f1-red)">Miami &bull; Seven Venues</span></div>
+      <div class="sec-eye"><div class="bar" style="background:var(--f1-red)"></div><span style="color:var(--f1-red)">Miami &bull; Six Venues</span></div>
       <h3>Miami Shortlist</h3>
       <p>The client&rsquo;s named Miami candidates plus Agora&rsquo;s recommended additions &mdash; from beachfront fitness culture to private luxury plazas and waterfront downtown parks.</p>
     </div>
@@ -518,6 +524,7 @@ const htmlContent = `
             <li>Private venue &mdash; faster permitting turnaround</li>
             <li>Evening crowd extends activation window</li>
           </ul>
+          <a href="https://thewynwoodwalls.com/" class="loc-link" target="_blank" rel="noopener">Wynwood Walls Official</a>
         </div>
       </div>
 
@@ -537,25 +544,7 @@ const htmlContent = `
             <li>Adjacent cafes and retail enable spillover</li>
             <li>Precedent for branded pop-ups at scale</li>
           </ul>
-        </div>
-      </div>
-
-      <!-- MIAMI: DESIGN DISTRICT -->
-      <div class="loc-card" style="border-color:var(--f1-red)">
-        <div class="loc-hero loc-hero-design">
-          <div class="loc-city" style="color:var(--f1-red)">Miami</div>
-          <div class="loc-title">Miami Design District</div>
-          <div class="loc-sub">Paseo Ponti &amp; adjacent plazas</div>
-        </div>
-        <div class="loc-body">
-          <div class="loc-price">Est. $7,500 &ndash; $15,000 / day</div>
-          <p>Luxury retail corridor with curated pedestrian plazas. Managed privately by Miami Design District Associates, enabling high-end branded activations with tight aesthetic control. Recent precedent: IWC, Dior, Louis Vuitton, Tiffany.</p>
-          <ul>
-            <li>Luxury-adjacent audience, premium context</li>
-            <li>Private management &mdash; faster approvals</li>
-            <li>Clean, uncluttered architectural backdrop</li>
-            <li>Evening programming and events extend window</li>
-          </ul>
+          <a href="https://lincolnroad.com/" class="loc-link" target="_blank" rel="noopener">Lincoln Road BID</a>
         </div>
       </div>
 
@@ -575,6 +564,7 @@ const htmlContent = `
             <li>Lowest venue fee on the Miami shortlist</li>
             <li>Strong content environment: ocean, palms, golden hour</li>
           </ul>
+          <a href="https://www.miamibeachfl.gov/city-hall/parks-and-recreation/parks-facilities-directory/lummus-park/" class="loc-link" target="_blank" rel="noopener">Miami Beach Parks &mdash; Lummus</a>
         </div>
       </div>
 
@@ -594,6 +584,7 @@ const htmlContent = `
             <li>Open lawns accommodate larger footprints</li>
             <li>Transit-accessible (Metromover, parking)</li>
           </ul>
+          <a href="https://www.bayfrontparkmiami.com/maurice-a-ferre-park" class="loc-link" target="_blank" rel="noopener">Maurice A. Ferr&eacute; Park</a>
         </div>
       </div>
 
@@ -613,6 +604,7 @@ const htmlContent = `
             <li>Waterfront visibility from Biscayne Blvd</li>
             <li>Strong cruise-passenger and tourist flow</li>
           </ul>
+          <a href="https://www.bayfrontparkmiami.com/" class="loc-link" target="_blank" rel="noopener">Bayfront Park Management Trust</a>
         </div>
       </div>
 
@@ -632,6 +624,7 @@ const htmlContent = `
             <li>Private plazas &mdash; weather-protected options</li>
             <li>Dense residential tower base for repeat exposure</li>
           </ul>
+          <a href="https://www.brickellcitycentre.com/" class="loc-link" target="_blank" rel="noopener">Brickell City Centre Official</a>
         </div>
       </div>
 
@@ -639,7 +632,7 @@ const htmlContent = `
   </div>
 
   <div class="loc-footnote" data-a>
-    <strong>Note on pricing &amp; imagery:</strong> Daily ranges are pre-permit market estimates based on published rates and comparable 2024&ndash;2025 activation precedents. Actual venue fees depend on footprint, amenities (power, water, security), seasonality, dates, and negotiation, and are billed separately from the production investment and passed through at cost. Location imagery is illustrative stock reference; final photography will be captured during the site survey and scouting phase. Agora Graphics will secure firm quotes and permit letters for the client&rsquo;s selected venue(s) within 5 business days of a signed letter of intent.
+    <strong>Note on pricing &amp; imagery:</strong> Daily ranges are pre-permit market estimates based on published rates and comparable 2024&ndash;2025 activation precedents. Actual venue fees depend on footprint, amenities (power, water, security), seasonality, dates, and negotiation, and are billed separately from the production investment and passed through at cost. Venue imagery is sourced from Wikimedia Commons and reviewed for venue accuracy; imagery for Flatiron Plaza shows the Flatiron Building itself (the plaza is directly adjacent and named for the building), Lummus Park shows the boardwalk rather than the Muscle Beach open-air gym specifically, and Brickell City Centre shows the site during late-stage 2015 construction &mdash; firm site-scouting photography will replace any flagged imagery before final issuance. Agora Graphics will secure firm quotes and permit letters for the client&rsquo;s selected venue(s) within 5 business days of a signed letter of intent.
   </div>
 </section>
 
@@ -656,50 +649,50 @@ const htmlContent = `
   <div class="journey-grid" data-a>
     <div class="journey-step" style="border-color:var(--iwc-gold)">
       <div class="step-num" style="color:var(--iwc-gold)">01</div>
-      <h4>Creative Alignment &amp; Site Confirmation</h4>
-      <p>Review of Ominto Studio V2 pack, venue selection lock-in, site survey for chosen city/cities, and engineering constraint review.</p>
-      <div class="step-date">April 18 &ndash; 25, 2026</div>
+      <h4>Discovery &amp; Creative Consultation</h4>
+      <p>Strategic alignment on brand vision, venue requirements, audience experience goals, and technical constraints. Site surveys and stakeholder interviews inform the creative brief.</p>
+      <div class="step-date">Completed &mdash; March 2026</div>
     </div>
     <div class="journey-step" style="border-color:var(--iwc-gold)">
       <div class="step-num" style="color:var(--iwc-gold)">02</div>
-      <h4>Concept Design &amp; Visualisation</h4>
-      <p>Translation of Ominto creative direction into production-ready 3D renders, spatial layouts, and material specifications. Client review and iterative refinement before engineering handoff.</p>
-      <div class="step-date">April 22 &ndash; May 4</div>
+      <h4>Concept Design &amp; Visualization</h4>
+      <p>Creative direction development, 3D renderings, spatial layout planning, and material specification. Visual presentations for client review and iterative refinement.</p>
+      <div class="step-date">Completed &mdash; March 2026</div>
     </div>
     <div class="journey-step" style="border-color:var(--iwc-gold)">
       <div class="step-num" style="color:var(--iwc-gold)">03</div>
-      <h4>Engineering &amp; Shop Drawings</h4>
-      <p>Structural drawings, electrical schematics for lightbox and tech, ballast plan for outdoor install, and venue compliance documentation.</p>
+      <h4>Engineering &amp; Technical Development</h4>
+      <p>Structural engineering calculations, shop drawings, electrical schematics for lightbox and tech, ballast plan for outdoor install, and venue compliance documentation.</p>
       <div class="step-date">May 4 &ndash; May 15</div>
     </div>
     <div class="journey-step" style="border-color:var(--iwc-gold)">
       <div class="step-num" style="color:var(--iwc-gold)">04</div>
       <h4>Fabrication &amp; Print Production</h4>
-      <p>Scenic shell build, paint &amp; finish, lightbox assembly, vinyl printing, packaging production, and multi-stage QC.</p>
+      <p>Custom scenic builds, precision CNC milling, millwork assembly, large-format vinyl and lightbox output, packaging production, and multi-stage quality control inspections.</p>
       <div class="step-date">May 18 &ndash; June 15</div>
     </div>
-    <div class="journey-step" style="border-color:var(--iwc-gold)">
-      <div class="step-num" style="color:var(--iwc-gold)">05</div>
-      <h4>Tech Integration &amp; Bench Test</h4>
-      <p>IVR prompt recording, voucher printer firmware, camera + cloud storage setup, full bench-test at Agora facility with a dry-run call flow.</p>
-      <div class="step-date">June 15 &ndash; June 22</div>
-    </div>
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
-      <div class="step-num" style="color:var(--mercedes-teal)">06</div>
-      <h4>Transport &amp; Pre-Deployment</h4>
-      <p>Crating, truck load, inter-city transit to first activation city, and overnight staging at local partner facility.</p>
+      <div class="step-num" style="color:var(--mercedes-teal)">05</div>
+      <h4>Logistics &amp; Pre-Deployment</h4>
+      <p>Precision crating, climate-protected transport from our Bohemia, NY fabrication facility to the activation city, and overnight delivery coordination with venue management.</p>
       <div class="step-date">June 22 &ndash; June 26</div>
     </div>
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
+      <div class="step-num" style="color:var(--mercedes-teal)">06</div>
+      <h4>Installation &amp; On-Site Build</h4>
+      <p>Permit-window install at the selected venue, scenic assembly, tech integration, leveling, graphic application, and final scenic finishing.</p>
+      <div class="step-date">June 27 &amp;/or July 11</div>
+    </div>
+    <div class="journey-step" style="border-color:var(--mercedes-teal)">
       <div class="step-num" style="color:var(--mercedes-teal)">07</div>
-      <h4>Install &amp; Live Activation</h4>
-      <p>Permit-window install, operational run for full public day, on-site technician coverage, and same-day strike.</p>
+      <h4>Activation &amp; Live Operations</h4>
+      <p>Full-day public operation with on-site technician coverage, voucher roll management, camera system monitoring, and live-call coordination with the Gymshark social team.</p>
       <div class="step-date">June 27 &amp;/or July 11</div>
     </div>
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
       <div class="step-num" style="color:var(--mercedes-teal)">08</div>
-      <h4>Rewrap / Strike &amp; Closeout</h4>
-      <p>Option 3: warehouse hold + rewrap between cities. All options: final strike, return freight, closeout documentation, and asset archive.</p>
+      <h4>Strike &amp; Project Closeout</h4>
+      <p>Complete de-installation, asset removal, and full site restoration to original condition. Option 3: warehouse hold + rewrap between cities. Post-event reconciliation, final documentation, and project archive.</p>
       <div class="step-date">July 11 &ndash; July 18</div>
     </div>
   </div>
