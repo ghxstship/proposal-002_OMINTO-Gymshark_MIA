@@ -100,7 +100,7 @@ const htmlContent = `
     </div>
 
     <p class="hero-narrative">
-      Agora Graphics is pleased to present this fabrication and production proposal for the Gymshark Phone Box experiential activation, developed in partnership with Ominto Studio&rsquo;s creative direction. This engagement delivers a custom-fabricated pink British phone box equipped with interactive photo, voucher, and call-response technology &mdash; engineered for a single-day pop-up across New York and/or Miami in July 2026. The proposal includes three execution options (NYC-only, Miami-only, or a dual-city deployment with inter-city rewrap), twelve recommended venues across both cities with estimated venue ranges, and a complete investment summary scaled to the client&rsquo;s $120,000 overall budget.
+      Agora Graphics is pleased to present this fabrication and production proposal for the Gymshark Phone Box experiential activation, developed in partnership with Ominto Studio&rsquo;s creative direction. This engagement delivers a custom-fabricated pink British phone box equipped with interactive photo, voucher, and call-response technology &mdash; engineered for a single-day pop-up across Miami and/or New York in July 2026. The proposal includes three execution options (Option 01 Miami-only, Option 02 NYC-only, or Option 03 Miami-first &rarr; NYC with a fully itemized reskin package), twelve recommended venues across both cities (NYC restricted to private properties per FIFA programming conflicts), and a complete investment summary scaled to the client&rsquo;s $120K&ndash;$125K production-investment target.
     </p>
     <div class="hero-doc">Confidential &amp; Proprietary &bull; Prepared exclusively for Gymshark Ltd. and Ominto Studio</div>
   </div>
@@ -132,17 +132,17 @@ const htmlContent = `
     <div class="overview-card" style="border-color:var(--mercedes-teal)">
       <div class="ov-tag" style="color:var(--mercedes-teal)">Activation &mdash; New York</div>
       <h3>NYC Pop-Up</h3>
-      <p><strong>Preferred Location:</strong> Astor Place Plaza, NoHo<br>
+      <p><strong>Preferred Location:</strong> Rockefeller Center Plaza or Manhattan West (private properties)<br>
       <strong>Alt. Dates:</strong> June 27 or July 11, 2026<br>
       <strong>Hours:</strong> 10:00 AM &ndash; 6:00 PM<br>
-      <strong>Load-In:</strong> 4:00 AM &ndash; 8:00 AM (permit window)<br>
-      <strong>Audience:</strong> NYU students, downtown creatives, fitness-minded locals<br>
-      <strong>Proximity:</strong> Steps from Gymshark NYC store for retail conversion</p>
+      <strong>Load-In:</strong> 4:00 AM &ndash; 8:00 AM (private venue window)<br>
+      <strong>Audience:</strong> Midtown office workers, luxury gym members, tourists<br>
+      <strong>Note:</strong> FIFA programming excludes city-owned venues &mdash; private only</p>
     </div>
     <div class="overview-card" style="border-color:var(--f1-red)">
       <div class="ov-tag" style="color:var(--f1-red)">Activation &mdash; Miami</div>
       <h3>Miami Pop-Up</h3>
-      <p><strong>Recommended Locations:</strong> Wynwood, Lincoln Road, Design District, Brickell, Muscle Beach, Bayfront Park, or Maurice A. Ferre Park<br>
+      <p><strong>Recommended Locations:</strong> Midtown Miami (client-preferred), Wynwood, Lincoln Road, Brickell City Centre, Muscle Beach, or Bayfront Park<br>
       <strong>Alt. Dates:</strong> June 27 or July 11, 2026<br>
       <strong>Hours:</strong> 11:00 AM &ndash; 7:00 PM<br>
       <strong>Load-In:</strong> 6:00 AM &ndash; 10:00 AM (venue-dependent)<br>
@@ -215,6 +215,12 @@ const htmlContent = `
           <div class="desc">Aluminium chequer-plate (five-bar pattern) flooring, circular dome overhead light, compact guest seat, and branded analogue phone with pink handset (shelf mount aligned to voucher printer placement).</div></div>
           <div class="price" style="color:var(--iwc-gold)">$2,750</div>
         </div>
+
+        <div class="core-item" style="border-color:var(--iwc-gold)">
+          <div><div class="name">Engineering, Structural Calcs &amp; Shop Drawings</div>
+          <div class="desc">Licensed structural calculations for outdoor sidewalk install, wind-load &amp; ballast plan, electrical schematics for lightbox and tech integration, CAD shop drawings for fabrication, and venue-compliance drawing package. Required for private-venue permit submissions and insurance COI issuance.</div></div>
+          <div class="price" style="color:var(--iwc-gold)">$4,000</div>
+        </div>
       </div>
     </div>
   </div>
@@ -239,60 +245,60 @@ const htmlContent = `
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
           <div><div class="name">Pre-Recorded Call-Response System</div>
-          <div class="desc">Working analogue phone wired to an IVR-style prize quiz. Scripting, voice talent, keypad mapping (star = YES, hash = NO), and win/lose logic supplied by Agora in collaboration with Gymshark comms team.</div></div>
-          <div class="price" style="color:var(--mercedes-teal)">$3,500</div>
+          <div class="desc">Working analogue phone wired to a production-grade IVR prize quiz with multi-branch scripting, licensed voice talent, keypad mapping (star = YES, hash = NO), and redundant win/lose logic. Scripting, voice talent, and QA supplied by Agora in collaboration with Gymshark comms team.</div></div>
+          <div class="price" style="color:var(--mercedes-teal)">$5,500</div>
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
           <div><div class="name">Live Call / Walkie-Talkie Relay</div>
-          <div class="desc">Dual-mode relay so Gymshark social producers can cut in live for hosted calls. Audio broadcast externally so crowd can overhear both sides of the conversation during capture windows.</div></div>
-          <div class="price" style="color:var(--mercedes-teal)">$1,800</div>
+          <div class="desc">Dual-mode encrypted relay so Gymshark social producers can cut in live for hosted calls with studio-grade audio. Audio broadcast externally so crowd can overhear both sides during capture windows. Includes backup uplink and on-site producer headset.</div></div>
+          <div class="price" style="color:var(--mercedes-teal)">$2,900</div>
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
           <div><div class="name">Ceiling-Mounted Dual Camera System</div>
-          <div class="desc">Two ceiling-mounted video+audio cameras capturing guest interactions, integrated with cloud storage subscription. &ldquo;Smile &mdash; you&rsquo;re on camera&rdquo; signage colour-matched to phone box pink for disclosure.</div></div>
-          <div class="price" style="color:var(--mercedes-teal)">$2,400</div>
+          <div class="desc">Two ceiling-mounted 4K video+audio cameras with cloud-storage subscription and live-preview monitoring for the social team. &ldquo;Smile &mdash; you&rsquo;re on camera&rdquo; signage colour-matched to phone box pink for disclosure. Includes media-handoff package.</div></div>
+          <div class="price" style="color:var(--mercedes-teal)">$4,500</div>
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
           <div><div class="name">Thermal Voucher Printer &amp; Shelf Mount</div>
-          <div class="desc">Single-roll thermal ticket printer wrapped in matching pink vinyl, shelf-mounted under the phone and aligned to the bottom of the sliding door. Voucher template designed by Gymshark; Agora handles printer procurement, firmware, roll inventory, and wrap.</div></div>
-          <div class="price" style="color:var(--mercedes-teal)">$1,950</div>
+          <div class="desc">Premium dual-speed thermal ticket printer wrapped in matching pink vinyl, shelf-mounted under the phone and aligned to the bottom of the sliding door. Voucher template designed by Gymshark; Agora handles printer procurement, firmware, redundant roll inventory, and wrap.</div></div>
+          <div class="price" style="color:var(--mercedes-teal)">$2,800</div>
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
           <div><div class="name">Selfie &amp; Belfie Mobile Mounts</div>
-          <div class="desc">Two wall-mounted mobile phone holders spray-painted pink to blend into interior &mdash; one at face level, one positioned for the signature Gymshark &ldquo;belfie.&rdquo; Double-sided mounted to vinyl panels for clean removal.</div></div>
-          <div class="price" style="color:var(--mercedes-teal)">$650</div>
+          <div class="desc">Two wall-mounted mobile phone holders spray-painted pink with integrated motion-triggered ring-light inserts &mdash; one at face level, one positioned for the signature Gymshark &ldquo;belfie.&rdquo; Double-sided mounted to vinyl panels for clean removal.</div></div>
+          <div class="price" style="color:var(--mercedes-teal)">$1,800</div>
+        </div>
+
+        <div class="core-item" style="border-color:var(--mercedes-teal)">
+          <div><div class="name">Content Capture &amp; Media Handoff Platform</div>
+          <div class="desc">Dedicated cloud workspace for captured UGC, colour-corrected proxy exports, organised file-naming by activation day and guest interaction, and a post-event media-handoff package delivered to Gymshark&rsquo;s social team within 48 hours of strike.</div></div>
+          <div class="price" style="color:var(--mercedes-teal)">$2,500</div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- PHASE 03: BRANDING & PACKAGING -->
+  <!-- PHASE 03: BRANDING & SIGNAGE -->
   <div class="phase" data-a>
     <div class="phase-head" onclick="togglePhase(this)" style="border-left:4px solid var(--f1-red)">
       <div class="phase-num" style="color:var(--f1-red)">03</div>
       <div class="phase-info">
-        <h3>Branding &amp; Packaging</h3>
-        <div class="sub">200-unit yellow-pages-inspired product boxes, wayfinding signage, disclosure graphics</div>
+        <h3>Branding &amp; Signage</h3>
+        <div class="sub">Disclosure graphics, wayfinding, and venue dressing kit</div>
       </div>
       <div class="phase-toggle" style="border-color:var(--f1-red);color:var(--f1-red)">+</div>
     </div>
     <div class="phase-body">
       <div class="phase-inner" style="border-left:4px solid var(--f1-red)">
         <p class="phase-narrative">
-          Every prize leaves the phone box in a custom-printed box &mdash; yellow-pages-inspired exteriors with campaign imagery inside, sized to fit a folded legging or short. The tactile unboxing extends the Phone Box moment beyond the 60-second interaction.
+          Branded signage, disclosure graphics, and a portable dressing kit that extends the phone box footprint on-site and frames queue, crowd, and content zones. Product packaging is <em>not</em> included in this revision per client direction; product units are supplied by Gymshark and distributed direct from the sliding door.
         </p>
 
         <div class="core-label" style="color:var(--f1-red)">Core Deliverables</div>
-
-        <div class="core-item" style="border-color:var(--f1-red)">
-          <div><div class="name">Custom Product Boxes (200 units)</div>
-          <div class="desc">Yellow-pages-inspired exterior print with campaign-style interior imagery. Dimensions 300mm L &times; 200mm D &times; 70mm H. Structural board, full-colour offset print, assembled flat-packed for load-in.</div></div>
-          <div class="price" style="color:var(--f1-red)">$4,800</div>
-        </div>
 
         <div class="core-item" style="border-color:var(--f1-red)">
           <div><div class="name">Disclosure &amp; Wayfinding Signage</div>
@@ -304,6 +310,12 @@ const htmlContent = `
           <div><div class="name">Venue Dressing Kit</div>
           <div class="desc">Portable A-frame sidewalk signage, branded stanchions, and pavement decals to extend phone box footprint and direct foot traffic. Reusable across both activations in Option 3.</div></div>
           <div class="price" style="color:var(--f1-red)">$1,750</div>
+        </div>
+
+        <div class="core-item" style="border-color:var(--f1-red)">
+          <div><div class="name">Daily Consumables &amp; Spares Kit</div>
+          <div class="desc">Per-activation kit: voucher paper rolls (primary + backup), cleaning supplies, sanitisation wipes, touch-up paint, vinyl repair patches, spare hardware, and pink gaffer tape. Sized for full-day operation with margin. Essential for uninterrupted live run.</div></div>
+          <div class="price" style="color:var(--f1-red)">$2,500</div>
         </div>
       </div>
     </div>
@@ -329,26 +341,97 @@ const htmlContent = `
 
         <div class="core-item">
           <div><div class="name">Inbound Logistics &amp; Install (Per Activation)</div>
-          <div class="desc">Truck, rigging hardware, 2-person install crew, venue load-in coordination, module assembly, electrical hookup, and final finishing. 4&ndash;6 hour install window.</div></div>
-          <div class="price">$4,200</div>
+          <div class="desc">Truck, rigging hardware, 3-person install crew, venue load-in coordination, module assembly, electrical hookup, permit-window supervisor, final finishing, and pre-open inspection. 4&ndash;6 hour install window.</div></div>
+          <div class="price">$5,800</div>
         </div>
 
         <div class="core-item">
-          <div><div class="name">On-Site Technician (Operating Hours)</div>
-          <div class="desc">1 dedicated technician for entire operating window to manage voucher roll, camera system, IVR prompts, and minor scenic touch-ups. Includes pre-open soundcheck and post-close shutdown.</div></div>
-          <div class="price">$1,400</div>
+          <div><div class="name">On-Site Technicians (Operating Hours)</div>
+          <div class="desc">Dedicated lead technician plus rotating second tech for rush windows and breaks. Covers voucher roll, camera system, IVR prompts, minor scenic touch-ups, live-call relay handoff with Gymshark social team, and pre-open soundcheck / post-close shutdown.</div></div>
+          <div class="price">$2,800</div>
         </div>
 
         <div class="core-item">
           <div><div class="name">Same-Day Strike &amp; Outbound Freight (Per Activation)</div>
-          <div class="desc">Complete de-installation, module breakdown, and truck-loaded within venue&rsquo;s contracted strike window. Site restored to original condition.</div></div>
-          <div class="price">$2,800</div>
+          <div class="desc">Complete de-installation, module breakdown, crated outbound freight within venue&rsquo;s contracted strike window. Site walk-through with venue operations and full restoration to original condition.</div></div>
+          <div class="price">$3,300</div>
+        </div>
+
+        <div class="core-label" style="color:var(--iwc-gold)">Option 03 Add-On &mdash; Inter-City Reskin Package</div>
+        <p class="phase-narrative" style="margin-top:4px;font-style:italic">The reskin package is activated only when Option 3 (Miami first, NYC second) is selected. Each sub-line is itemized and invoiced only if Option 3 is executed.</p>
+
+        <div class="core-item" style="border-color:var(--iwc-gold)">
+          <div><div class="name">Climate-Controlled Warehouse Hold (Miami &rarr; NYC)</div>
+          <div class="desc">Secure climate-controlled storage of the full phone box assembly and tech stack for the ~10-day window between Miami strike and NYC install. Includes rigging, inventory, and insurance coverage during hold.</div></div>
+          <div class="price" style="color:var(--iwc-gold)">$2,900</div>
         </div>
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
-          <div><div class="name">Inter-City Rewrap &amp; Transport (Option 3 Only)</div>
-          <div class="desc">Climate-controlled warehouse hold between cities, repaint or rewrap of exterior / interior vinyl to refresh branding for the second city, truck transport from Miami to NYC (or reverse), and final inspection before second install.</div></div>
-          <div class="price" style="color:var(--iwc-gold)">$9,500</div>
+          <div><div class="name">Inter-City Freight (Miami &rarr; NYC, Climate Truck)</div>
+          <div class="desc">Dedicated climate-controlled truck from the Miami strike site to the Agora NYC staging facility for reskin, with real-time GPS tracking, two-driver rotation, and driver handoff documentation.</div></div>
+          <div class="price" style="color:var(--iwc-gold)">$5,500</div>
+        </div>
+
+        <div class="core-item" style="border-color:var(--iwc-gold)">
+          <div><div class="name">Exterior Vinyl Refresh (NYC Reskin)</div>
+          <div class="desc">Removal of Miami-facing exterior vinyl and application of NYC-specific campaign wrap. Includes marine-grade clear over-laminate, on-site seam finishing, and touch-up colour matching to Gymshark Pink #FF4BA2.</div></div>
+          <div class="price" style="color:var(--iwc-gold)">$5,400</div>
+        </div>
+
+        <div class="core-item" style="border-color:var(--iwc-gold)">
+          <div><div class="name">Interior Vinyl Refresh (NYC Reskin)</div>
+          <div class="desc">Removal of Miami-facing interior pink vinyl + &ldquo;bum mirror&rdquo; messaging and application of NYC-specific interior graphics. Seam finishing, touch-up paint, and updated dimensional mirror messaging included.</div></div>
+          <div class="price" style="color:var(--iwc-gold)">$3,500</div>
+        </div>
+
+        <div class="core-item" style="border-color:var(--iwc-gold)">
+          <div><div class="name">Lightbox Graphic Refresh (NYC Reskin)</div>
+          <div class="desc">Reprint and reinstallation of the four translucent lightbox faces with NYC-specific wordmark and campaign treatment. Miami lightbox faces archived in climate-controlled storage for future reuse.</div></div>
+          <div class="price" style="color:var(--iwc-gold)">$2,400</div>
+        </div>
+
+        <div class="core-item" style="border-color:var(--iwc-gold)">
+          <div><div class="name">NYC Site Re-Survey &amp; Local Permit Coordination</div>
+          <div class="desc">On-the-ground NYC site re-survey at the chosen private venue (ballast, access, electrical, egress), local permit liaison with the venue operator, updated insurance COI issuance for the second city, and final site-readiness sign-off before NYC truck-out.</div></div>
+          <div class="price" style="color:var(--iwc-gold)">$2,500</div>
+        </div>
+
+        <div class="core-item" style="border-color:var(--iwc-gold)">
+          <div><div class="name">Pre-Deployment QC &amp; Refinishing</div>
+          <div class="desc">Full reassembly inspection, touch-up paint, electrical recheck, IVR + camera + printer systems re-bench-test at the NYC staging facility, updated voice-prompt QC, and final sign-off prior to NYC truck-out.</div></div>
+          <div class="price" style="color:var(--iwc-gold)">$2,800</div>
+        </div>
+
+        <div class="reskin-subtotal" style="margin-top:10px;padding:12px 16px;border:1px solid var(--iwc-gold);border-radius:6px;display:flex;justify-content:space-between;align-items:center;background:rgba(212,175,55,0.06)">
+          <span style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700">Reskin Package Subtotal &mdash; Option 03 Only</span>
+          <span style="font-family:var(--serif);font-size:18px;color:var(--iwc-gold);font-weight:700">$25,000</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHASE 05: PROJECT MANAGEMENT -->
+  <div class="phase" data-a>
+    <div class="phase-head" onclick="togglePhase(this)" style="border-left:4px solid var(--mercedes-teal)">
+      <div class="phase-num" style="color:var(--mercedes-teal)">05</div>
+      <div class="phase-info">
+        <h3>Project Management &amp; Client Services</h3>
+        <div class="sub">Dedicated producer, client-services coverage, and cross-agency coordination</div>
+      </div>
+      <div class="phase-toggle" style="border-color:var(--mercedes-teal);color:var(--mercedes-teal)">+</div>
+    </div>
+    <div class="phase-body">
+      <div class="phase-inner" style="border-left:4px solid var(--mercedes-teal)">
+        <p class="phase-narrative">
+          A dedicated Agora producer and client-services coverage for the full engagement &mdash; kickoff through post-event reconciliation. Includes weekly status calls, cross-agency coordination with Ominto Studio and Gymshark stakeholders, vendor and venue relationship management, budget tracking, Change Order administration, and insurance/COI coordination.
+        </p>
+
+        <div class="core-label" style="color:var(--mercedes-teal)">Core Deliverables</div>
+
+        <div class="core-item" style="border-color:var(--mercedes-teal)">
+          <div><div class="name">Project Management Fee (Full Engagement)</div>
+          <div class="desc">Dedicated senior producer, weekly status reporting, milestone tracking, Change Order administration, vendor / venue liaison, COI + insurance coordination, and post-event reconciliation. Covers the full engagement window from contract execution through project closeout.</div></div>
+          <div class="price" style="color:var(--mercedes-teal)">$12,000</div>
         </div>
       </div>
     </div>
@@ -368,110 +451,110 @@ const htmlContent = `
   <!-- NYC SUBSECTION -->
   <div class="loc-city-section" data-a>
     <div class="loc-city-heading">
-      <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">New York &bull; Six Venues</span></div>
+      <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">New York &bull; Six Venues &bull; Private-Only</span></div>
       <h3>NYC Shortlist</h3>
-      <p>A plaza in NoHo (preferred), plus five comparable downtown and Brooklyn venues matched on pedestrian volume, photo-ready backdrop, and fitness-aware audience density.</p>
+      <p>All NYC candidates are <strong>privately owned &amp; independently managed</strong> &mdash; city-owned parks, plazas, and DOT-managed spaces are unavailable during the FIFA World Cup programming window. The shortlist below covers six private campuses and waterfronts that can issue brand-first approvals independent of the city permitting process.</p>
     </div>
 
     <div class="loc-grid">
 
-      <!-- NYC: ASTOR PLACE -->
+      <!-- NYC: ROCKEFELLER CENTER -->
       <div class="loc-card" style="border-color:var(--mercedes-teal)">
-        <div class="loc-hero loc-hero-astor">
+        <div class="loc-hero loc-hero-rockefeller">
           <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
-          <div class="loc-title">Astor Place Plaza</div>
-          <div class="loc-sub">NoHo &bull; Preferred NYC Location</div>
+          <div class="loc-title">Rockefeller Center Plaza</div>
+          <div class="loc-sub">Midtown &bull; Tishman Speyer (private)</div>
         </div>
         <div class="loc-body">
-          <div class="loc-price">Est. $8,000 &ndash; $15,000 / day</div>
-          <p>Downtown hotspot at the intersection of NoHo, East Village, and Greenwich Village. Iconic Alamo Cube plaza, heavy NYU and commuter foot traffic, and just blocks from the Gymshark NYC store for retail hand-off. Managed by NYC DOT &amp; Village Alliance (permit required).</p>
+          <div class="loc-price">Est. $18,000 &ndash; $32,000 / day</div>
+          <p>Privately owned and operated by Tishman Speyer. Iconic Channel Gardens, rink-level plaza, and Top of the Rock frontage deliver globally-recognised content backdrops and premium Midtown foot traffic from the surrounding office towers and luxury gym memberships.</p>
           <ul>
-            <li>Student &amp; creative audience, fitness-aware</li>
-            <li>Open plaza layout ideal for crowd formation</li>
-            <li>Content-ready cultural landmark backdrop</li>
-            <li>Proximity to Gymshark retail for conversion</li>
+            <li>Private ownership &mdash; brand-first approvals</li>
+            <li>Globally iconic backdrop for content</li>
+            <li>Dense Midtown lunch + after-work traffic</li>
+            <li>On-site facilities, power, and security infrastructure</li>
           </ul>
-          <a href="https://villagealliance.org/public-space" class="loc-link" target="_blank" rel="noopener">Village Alliance Public Space</a>
+          <a href="https://www.rockefellercenter.com/events-and-experiences/" class="loc-link" target="_blank" rel="noopener">Rockefeller Center Events</a>
         </div>
       </div>
 
-      <!-- NYC: WASHINGTON SQUARE PARK -->
+      <!-- NYC: MANHATTAN WEST -->
       <div class="loc-card" style="border-color:var(--mercedes-teal)">
-        <div class="loc-hero loc-hero-washsq">
+        <div class="loc-hero loc-hero-manwest">
           <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
-          <div class="loc-title">Washington Square Park</div>
-          <div class="loc-sub">Greenwich Village &bull; NYU hub</div>
-        </div>
-        <div class="loc-body">
-          <div class="loc-price">Est. $6,000 &ndash; $12,000 / day</div>
-          <p>The NYU-adjacent heart of Greenwich Village with the iconic marble arch as a permanent photo backdrop. Chess players, buskers, students, and tourists create constant ambient activity. Permitting via NYC Parks (Special Events Office).</p>
-          <ul>
-            <li>Globally recognised arch backdrop</li>
-            <li>Heavy student and Gen-Z foot traffic</li>
-            <li>Built-in cultural texture for social content</li>
-            <li>Walking distance from Gymshark NYC store</li>
-          </ul>
-          <a href="https://www.nycgovparks.org/parks/washington-square-park" class="loc-link" target="_blank" rel="noopener">NYC Parks &mdash; Washington Sq</a>
-        </div>
-      </div>
-
-      <!-- NYC: UNION SQUARE -->
-      <div class="loc-card" style="border-color:var(--mercedes-teal)">
-        <div class="loc-hero loc-hero-union">
-          <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
-          <div class="loc-title">Union Square</div>
-          <div class="loc-sub">14th Street &bull; Manhattan</div>
+          <div class="loc-title">Manhattan West Plaza</div>
+          <div class="loc-sub">Hudson Yards West &bull; Brookfield Properties (private)</div>
         </div>
         <div class="loc-body">
           <div class="loc-price">Est. $10,000 &ndash; $18,000 / day</div>
-          <p>One of the busiest pedestrian plazas in Manhattan with year-round farmers market activity, skater culture, and subway confluence. Precedent for major branded activations. Permitting via NYC DOT Plaza Program / Union Square Partnership.</p>
+          <p>Privately owned open-air plaza operated by Brookfield Properties on the 9th Avenue / 33rd Street block. Modern architectural backdrop, glass-walled lobbies, and a built-in event infrastructure designed for branded activations. Direct access from Moynihan Train Hall.</p>
           <ul>
-            <li>Highest daily foot traffic on NYC shortlist</li>
-            <li>Skate/fitness/culture crossover audience</li>
-            <li>Subway hub &mdash; 14th Street / L, N/Q/R/W, 4/5/6</li>
-            <li>Strong precedent for large branded footprints</li>
+            <li>Private plaza &mdash; streamlined permitting</li>
+            <li>Event-ready infrastructure (power, data, security)</li>
+            <li>Adjacent to Hudson Yards &amp; High Line foot traffic</li>
+            <li>Moynihan / Penn commuter volume</li>
           </ul>
-          <a href="https://www.unionsquarenyc.org/" class="loc-link" target="_blank" rel="noopener">Union Square Partnership</a>
+          <a href="https://manhattanwestnyc.com/events/" class="loc-link" target="_blank" rel="noopener">Manhattan West Events</a>
         </div>
       </div>
 
-      <!-- NYC: FLATIRON PLAZA -->
+      <!-- NYC: SEAPORT DISTRICT -->
       <div class="loc-card" style="border-color:var(--mercedes-teal)">
-        <div class="loc-hero loc-hero-flatiron">
+        <div class="loc-hero loc-hero-seaport">
           <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
-          <div class="loc-title">Flatiron Public Plaza</div>
-          <div class="loc-sub">23rd St &amp; Broadway &bull; Flatiron District</div>
+          <div class="loc-title">Seaport District NYC</div>
+          <div class="loc-sub">Lower Manhattan &bull; Howard Hughes Corp. (private)</div>
         </div>
         <div class="loc-body">
-          <div class="loc-price">Est. $7,000 &ndash; $14,000 / day</div>
-          <p>The triangular pedestrian plaza at the foot of the Flatiron Building &mdash; one of the most-photographed corners in NYC. Managed by the Flatiron NoMad Partnership with a strong track record of brand pop-ups. Lunch-rush density from NoMad/Flatiron office towers.</p>
+          <div class="loc-price">Est. $8,000 &ndash; $15,000 / day</div>
+          <p>Privately master-planned district operated by Howard Hughes Corporation. Cobblestone streets, restored Fulton Market Building, Pier 17 rooftop, and East River waterfront. Strong precedent for brand pop-ups and live programming &mdash; tourist and FiDi weekday audience.</p>
           <ul>
-            <li>Globally iconic architectural backdrop</li>
-            <li>NoMad/Flatiron office lunch crowd (fitness-aware)</li>
-            <li>Experienced venue partnership for brand pop-ups</li>
-            <li>Short hop to Madison Square Park programming</li>
+            <li>Private district &mdash; single point of approval</li>
+            <li>Cobblestone + waterfront content textures</li>
+            <li>Pier 17 rooftop as secondary activation surface</li>
+            <li>Tourist + finance weekday + weekend mix</li>
           </ul>
-          <a href="https://flatironnomad.nyc/" class="loc-link" target="_blank" rel="noopener">Flatiron NoMad Partnership</a>
+          <a href="https://www.theseaport.nyc/events" class="loc-link" target="_blank" rel="noopener">Seaport District Events</a>
         </div>
       </div>
 
-      <!-- NYC: DUMBO -->
+      <!-- NYC: HUDSON YARDS -->
       <div class="loc-card" style="border-color:var(--mercedes-teal)">
-        <div class="loc-hero loc-hero-dumbo">
+        <div class="loc-hero loc-hero-hudson">
           <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
-          <div class="loc-title">DUMBO / Pearl Street</div>
-          <div class="loc-sub">Brooklyn &bull; Manhattan Bridge backdrop</div>
+          <div class="loc-title">Hudson Yards Public Square</div>
+          <div class="loc-sub">West Side &bull; Related Companies (private)</div>
+        </div>
+        <div class="loc-body">
+          <div class="loc-price">Est. $12,000 &ndash; $22,000 / day</div>
+          <p>Privately owned public square at the base of the Vessel and The Shops &amp; Restaurants. Operated by Related Companies / Oxford Properties with dedicated events infrastructure. High retail-adjacent traffic and a strong fitness-oriented audience via Equinox Hudson Yards and SoulCycle.</p>
+          <ul>
+            <li>Private property &mdash; expedited brand approvals</li>
+            <li>Retail-adjacent, fitness-dense audience</li>
+            <li>7 train, High Line, Vessel content synergy</li>
+            <li>Event operations team on-site</li>
+          </ul>
+          <a href="https://www.hudsonyardsnewyork.com/discover/events" class="loc-link" target="_blank" rel="noopener">Hudson Yards Events</a>
+        </div>
+      </div>
+
+      <!-- NYC: INDUSTRY CITY -->
+      <div class="loc-card" style="border-color:var(--mercedes-teal)">
+        <div class="loc-hero loc-hero-industry">
+          <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
+          <div class="loc-title">Industry City</div>
+          <div class="loc-sub">Sunset Park, Brooklyn &bull; Jamestown (private)</div>
         </div>
         <div class="loc-body">
           <div class="loc-price">Est. $5,000 &ndash; $10,000 / day</div>
-          <p>Cobblestone Brooklyn streets framing the Manhattan Bridge &mdash; arguably the most-photographed view in NYC and a magnet for tourists and content creators. DUMBO BID permitting, with strong precedent for fashion and lifestyle pop-ups.</p>
+          <p>Privately owned 35-acre innovation and retail campus operated by Jamestown. Outdoor courtyards, turf lawns, and waterfront access provide a flexible canvas for branded activations. Creative-class Brooklyn audience and a strong DTC/lifestyle brand precedent.</p>
           <ul>
-            <li>Postcard Manhattan Bridge backdrop</li>
-            <li>Tourist + content creator dense environment</li>
-            <li>Cobblestones + brick architecture complement pink</li>
-            <li>Brooklyn Bridge Park adjacent for overflow</li>
+            <li>Private campus &mdash; flexible brand partnerships</li>
+            <li>Creative-class Brooklyn audience</li>
+            <li>Indoor + outdoor fallback footprints</li>
+            <li>Strong precedent for DTC/lifestyle pop-ups</li>
           </ul>
-          <a href="https://dumbo.nyc/" class="loc-link" target="_blank" rel="noopener">DUMBO Improvement District</a>
+          <a href="https://industrycity.com/events/" class="loc-link" target="_blank" rel="noopener">Industry City Events</a>
         </div>
       </div>
 
@@ -480,16 +563,16 @@ const htmlContent = `
         <div class="loc-hero loc-hero-domino">
           <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
           <div class="loc-title">Domino Park</div>
-          <div class="loc-sub">Williamsburg &bull; East River waterfront</div>
+          <div class="loc-sub">Williamsburg &bull; Two Trees Management (private)</div>
         </div>
         <div class="loc-body">
           <div class="loc-price">Est. $4,000 &ndash; $8,000 / day</div>
-          <p>Young Brooklyn waterfront park at the former Domino Sugar Refinery &mdash; fitness-coded audience (dedicated beach-volleyball courts, sunset joggers) with a skyline view. Managed by Two Trees Management with favourable brand partnership terms.</p>
+          <p>Privately owned and operated waterfront park at the former Domino Sugar Refinery &mdash; fitness-coded audience (dedicated beach-volleyball courts, sunset joggers) with a skyline view. Managed by Two Trees Management with favourable brand partnership terms.</p>
           <ul>
+            <li>Private ownership &mdash; faster brand approvals</li>
             <li>Built-in fitness/wellness audience</li>
             <li>Lowest venue fee on NYC shortlist</li>
             <li>Waterfront + Manhattan skyline backdrop</li>
-            <li>Private management &mdash; faster approvals</li>
           </ul>
           <a href="https://www.dominopark.com/" class="loc-link" target="_blank" rel="noopener">Domino Park Official</a>
         </div>
@@ -568,23 +651,23 @@ const htmlContent = `
         </div>
       </div>
 
-      <!-- MIAMI: FREEDOM PARK / MAURICE FERRE -->
+      <!-- MIAMI: MIDTOWN -->
       <div class="loc-card" style="border-color:var(--f1-red)">
-        <div class="loc-hero loc-hero-ferre">
+        <div class="loc-hero loc-hero-midtown">
           <div class="loc-city" style="color:var(--f1-red)">Miami</div>
-          <div class="loc-title">Maurice A. Ferre Park</div>
-          <div class="loc-sub">Downtown Miami waterfront (formerly Museum Park)</div>
+          <div class="loc-title">Midtown Miami</div>
+          <div class="loc-sub">Between Design District &amp; Wynwood &bull; Client-preferred</div>
         </div>
         <div class="loc-body">
-          <div class="loc-price">Est. $3,000 &ndash; $6,000 / day</div>
-          <p>Open waterfront park adjacent to P&eacute;rez Art Museum and Frost Museum of Science. Strong downtown energy, clean modernist backdrop, and Biscayne Bay sightlines. Permit via City of Miami Parks Department. Recommended interpretation of the client&rsquo;s &ldquo;Freedom Park&rdquo; reference.</p>
+          <div class="loc-price">Est. $5,000 &ndash; $10,000 / day</div>
+          <p>Strategic position between the Design District and Wynwood &mdash; dense with luxury fitness operators (UFC Gym, Barry&rsquo;s Bootcamp, Elevation, Anatomy) and the target demographic that over-indexes on Gymshark. Private-plaza footprints (Midtown Miami, Shops at Midtown) enable brand-first approvals and evening extension.</p>
           <ul>
-            <li>Waterfront + skyline backdrop</li>
-            <li>Cultural adjacency (museums, arts)</li>
-            <li>Open lawns accommodate larger footprints</li>
-            <li>Transit-accessible (Metromover, parking)</li>
+            <li>Direct audience overlap with luxury gym membership base</li>
+            <li>Private property &mdash; faster permitting, brand-friendly</li>
+            <li>Walkable to Design District &amp; Wynwood for content spill</li>
+            <li>Evening bar/restaurant traffic extends activation window</li>
           </ul>
-          <a href="https://www.bayfrontparkmiami.com/maurice-a-ferre-park" class="loc-link" target="_blank" rel="noopener">Maurice A. Ferr&eacute; Park</a>
+          <a href="https://www.midtownmiami.com/" class="loc-link" target="_blank" rel="noopener">Midtown Miami Official</a>
         </div>
       </div>
 
@@ -608,21 +691,21 @@ const htmlContent = `
         </div>
       </div>
 
-      <!-- MIAMI: BRICKELL -->
+      <!-- MIAMI: BRICKELL CITY CENTRE -->
       <div class="loc-card" style="border-color:var(--f1-red)">
         <div class="loc-hero loc-hero-brickell">
           <div class="loc-city" style="color:var(--f1-red)">Miami</div>
-          <div class="loc-title">Brickell</div>
-          <div class="loc-sub">Brickell City Centre &amp; Mary Brickell Village</div>
+          <div class="loc-title">Brickell City Centre</div>
+          <div class="loc-sub">Luxury retail &amp; private plaza &bull; Swire Properties</div>
         </div>
         <div class="loc-body">
           <div class="loc-price">Est. $6,000 &ndash; $12,000 / day</div>
-          <p>Miami&rsquo;s financial and luxury-residential core. High-disposable-income audience, dense evening bar/restaurant traffic, and climate-controlled plaza options at Brickell City Centre. Private venue management (Swire Properties) enables brand-first approvals.</p>
+          <p>Miami&rsquo;s financial and luxury-residential core, narrowed to Swire Properties&rsquo; privately-managed Brickell City Centre campus. High-disposable-income audience, dense evening bar/restaurant traffic, and climate-controlled plaza options under the Climate Ribbon canopy. Private venue management enables brand-first approvals and fast turnarounds.</p>
           <ul>
             <li>Affluent, fitness-active local audience</li>
             <li>Evening traffic extends activation window</li>
-            <li>Private plazas &mdash; weather-protected options</li>
-            <li>Dense residential tower base for repeat exposure</li>
+            <li>Climate Ribbon canopy &mdash; weather-protected options</li>
+            <li>Single venue manager &mdash; streamlined approvals</li>
           </ul>
           <a href="https://www.brickellcitycentre.com/" class="loc-link" target="_blank" rel="noopener">Brickell City Centre Official</a>
         </div>
@@ -632,7 +715,7 @@ const htmlContent = `
   </div>
 
   <div class="loc-footnote" data-a>
-    <strong>Note on pricing &amp; imagery:</strong> Daily ranges are pre-permit market estimates based on published rates and comparable 2024&ndash;2025 activation precedents. Actual venue fees depend on footprint, amenities (power, water, security), seasonality, dates, and negotiation, and are billed separately from the production investment and passed through at cost. Venue imagery is sourced from Wikimedia Commons and reviewed for venue accuracy; imagery for Flatiron Plaza shows the Flatiron Building itself (the plaza is directly adjacent and named for the building), Lummus Park shows the boardwalk rather than the Muscle Beach open-air gym specifically, and Brickell City Centre shows the site during late-stage 2015 construction &mdash; firm site-scouting photography will replace any flagged imagery before final issuance. Agora Graphics will secure firm quotes and permit letters for the client&rsquo;s selected venue(s) within 5 business days of a signed letter of intent.
+    <strong>Note on pricing &amp; imagery:</strong> Daily ranges are pre-permit market estimates based on published rates and comparable 2024&ndash;2025 activation precedents. Actual venue fees depend on footprint, amenities (power, water, security), seasonality, dates, and negotiation, and are billed separately from the production investment and passed through at cost. NYC candidates are restricted to privately owned &amp; independently managed properties per FIFA programming conflicts with city-owned venues; private venue fees may exceed public venue comparables. Firm site-scouting photography and brand-first letters of intent from each private operator will be secured by Agora Graphics within 5 business days of a signed letter of intent.
   </div>
 </section>
 
@@ -715,7 +798,7 @@ const htmlContent = `
       <tr><td>Creative Lock</td><td>Final artwork, voucher template, IVR scripting, and packaging dielines delivered to Agora</td><td>May 1</td></tr>
       <tr><td>Engineering &amp; Shop Drawings</td><td>Structural, electrical, and ballast drawings issued for client review</td><td>May 4 &ndash; 15</td></tr>
       <tr><td>Scenic Fabrication</td><td>Phone box shell build, paint, finish, lightbox assembly</td><td>May 18 &ndash; June 15</td></tr>
-      <tr><td>Print &amp; Packaging Production</td><td>Vinyl, lightbox graphics, 200 product boxes, signage</td><td>May 25 &ndash; June 15</td></tr>
+      <tr><td>Print &amp; Graphics Production</td><td>Exterior vinyl, interior vinyl, lightbox graphics, disclosure + wayfinding signage</td><td>May 25 &ndash; June 15</td></tr>
       <tr><td>Tech Bench Test</td><td>Full IVR + voucher printer + camera system rehearsed end-to-end at Agora facility</td><td>June 15 &ndash; 22</td></tr>
       <tr><td>Balance Payment</td><td>Remaining 40% balance due &mdash; three business days prior to first activation</td><td>June 23</td></tr>
       <tr><td>Transit to Activation 1</td><td>Truck loaded, transported to chosen city (Miami or NYC)</td><td>June 24 &ndash; 26</td></tr>
@@ -766,83 +849,130 @@ const htmlContent = `
     <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Package Options</span></div>
     <h2>Three Ways to Activate</h2>
     <p class="sec-desc">
-      Three execution paths sized against Gymshark&rsquo;s $120,000 overall budget. All three include the full Phone Box object, interactive tech package, and 200 units of branded packaging. Option 3 is the recommended configuration: it spends the full budget, lands two cities back-to-back, and creates a natural content arc (Miami beach energy &rarr; NYC downtown energy) over a 14-day public window.
+      Three execution paths sized against Gymshark&rsquo;s $120K&ndash;$125K production-investment target for the recommended configuration. All three include the full Phone Box object, engineering &amp; shop drawings, the enhanced interactive tech + content capture platform, disclosure signage, venue dressing kit, consumables spares, and a dedicated project manager. Option 3 is the recommended configuration: it lands two cities back-to-back via a fully itemized reskin package and creates a natural content arc (Miami beach energy &rarr; NYC downtown energy) over a 14-day public window.
     </p>
   </div>
 
   <div class="pkg-grid" data-a>
 
-    <!-- OPTION 1: NYC ONLY -->
-    <div class="pkg-card" style="border-color:var(--mercedes-teal)">
-      <div class="pkg-tag" style="color:var(--mercedes-teal)">Option 01</div>
-      <h3>NYC Only</h3>
-      <div class="pkg-date">June 27 <strong>or</strong> July 11, 2026</div>
-      <div class="pkg-venue">Astor Place Plaza (preferred)</div>
-      <ul class="pkg-list">
-        <li>Complete Phone Box fabrication</li>
-        <li>Full interactive tech package (IVR + cameras + voucher printer + selfie mounts)</li>
-        <li>200 branded product boxes</li>
-        <li>Disclosure + wayfinding signage</li>
-        <li>Single-city freight, install, run, and strike</li>
-        <li>1 activation day</li>
-      </ul>
-      <div class="pkg-price">
-        <div class="pkg-prod-label">Production Investment</div>
-        <div class="pkg-amount" style="color:var(--mercedes-teal)">$57,850</div>
-        <div class="pkg-venue-line">+ NYC venue fee (est. $8K &ndash; $15K)</div>
-        <div class="pkg-total">Total All-In (est.)<strong>$65,850 &ndash; $72,850</strong></div>
-      </div>
-    </div>
-
-    <!-- OPTION 2: MIAMI ONLY -->
+    <!-- OPTION 1: MIAMI ONLY -->
     <div class="pkg-card" style="border-color:var(--f1-red)">
-      <div class="pkg-tag" style="color:var(--f1-red)">Option 02</div>
+      <div class="pkg-tag" style="color:var(--f1-red)">Option 01</div>
       <h3>Miami Only</h3>
       <div class="pkg-date">June 27 <strong>or</strong> July 11, 2026</div>
-      <div class="pkg-venue">Recommended: Wynwood or Design District</div>
+      <div class="pkg-venue">Recommended: Midtown Miami (client-preferred) or Wynwood</div>
       <ul class="pkg-list">
-        <li>Complete Phone Box fabrication</li>
-        <li>Full interactive tech package (IVR + cameras + voucher printer + selfie mounts)</li>
-        <li>200 branded product boxes</li>
-        <li>Disclosure + wayfinding signage</li>
-        <li>Single-city freight, install, run, and strike</li>
+        <li>Complete Phone Box fabrication + engineering package</li>
+        <li>Enhanced interactive tech + content capture platform ($20K)</li>
+        <li>Signage, venue dressing kit, and consumables spares</li>
+        <li>Miami freight, 3-person install, dual-tech ops, and strike</li>
+        <li>Project management &amp; client services ($12K)</li>
         <li>1 activation day</li>
       </ul>
       <div class="pkg-price">
         <div class="pkg-prod-label">Production Investment</div>
-        <div class="pkg-amount" style="color:var(--f1-red)">$58,950</div>
+        <div class="pkg-amount" style="color:var(--f1-red)">$86,650</div>
         <div class="pkg-venue-line">+ Miami venue fee (est. $2.5K &ndash; $15K)</div>
-        <div class="pkg-total">Total All-In (est.)<strong>$61,450 &ndash; $73,950</strong></div>
+        <div class="pkg-total">Total All-In (est.)<strong>$89,150 &ndash; $101,650</strong></div>
       </div>
     </div>
 
-    <!-- OPTION 3: DUAL-CITY -->
+    <!-- OPTION 2: NYC ONLY -->
+    <div class="pkg-card" style="border-color:var(--mercedes-teal)">
+      <div class="pkg-tag" style="color:var(--mercedes-teal)">Option 02</div>
+      <h3>NYC Only</h3>
+      <div class="pkg-date">June 27 <strong>or</strong> July 11, 2026</div>
+      <div class="pkg-venue">Private only: Rockefeller Center, Manhattan West, Seaport, Hudson Yards, Industry City, or Domino Park</div>
+      <ul class="pkg-list">
+        <li>Complete Phone Box fabrication + engineering package</li>
+        <li>Enhanced interactive tech + content capture platform ($20K)</li>
+        <li>Signage, venue dressing kit, and consumables spares</li>
+        <li>NYC freight, 3-person install, dual-tech ops, and strike</li>
+        <li>Project management &amp; client services ($12K)</li>
+        <li>1 activation day</li>
+      </ul>
+      <div class="pkg-price">
+        <div class="pkg-prod-label">Production Investment</div>
+        <div class="pkg-amount" style="color:var(--mercedes-teal)">$86,650</div>
+        <div class="pkg-venue-line">+ NYC private venue fee (est. $4K &ndash; $32K)</div>
+        <div class="pkg-total">Total All-In (est.)<strong>$90,650 &ndash; $118,650</strong></div>
+      </div>
+    </div>
+
+    <!-- OPTION 3: MIAMI FIRST → NYC (DUAL-CITY WITH RESKIN) -->
     <div class="pkg-card recommended" style="border-color:var(--iwc-gold)">
       <div class="pkg-ribbon" style="background:var(--iwc-gold);color:var(--dark)">Recommended &mdash; Full Budget</div>
       <div class="pkg-tag" style="color:var(--iwc-gold)">Option 03</div>
-      <h3>Dual-City</h3>
+      <h3>Miami &rarr; NYC (Reskin)</h3>
       <div class="pkg-date">Miami June 27 &rarr; NYC July 11, 2026</div>
       <div class="pkg-venue">Two venues, one object, one content arc</div>
       <ul class="pkg-list">
         <li>Everything in Options 1 &amp; 2</li>
-        <li><strong>Inter-city rewrap</strong> between activations (refresh of exterior / interior vinyl)</li>
-        <li>Climate-controlled warehouse hold</li>
-        <li>Miami &rarr; NYC transport</li>
-        <li>Second-city install, run, and strike</li>
-        <li>2 activation days &bull; 14-day public arc</li>
+        <li><strong>Full inter-city reskin package</strong> ($25,000 &mdash; 7 itemized sub-lines in Investment Summary)</li>
+        <li>Climate-controlled warehouse hold + inter-city freight</li>
+        <li>Exterior + interior + lightbox NYC reskin</li>
+        <li>NYC site re-survey &amp; local permit coordination</li>
+        <li>Second-city install, run, and strike &bull; 14-day public arc</li>
       </ul>
       <div class="pkg-price">
         <div class="pkg-prod-label">Production Investment</div>
-        <div class="pkg-amount" style="color:var(--iwc-gold)">$98,500</div>
-        <div class="pkg-venue-line">+ Miami + NYC venue fees (est. $10.5K &ndash; $27K combined)</div>
-        <div class="pkg-total">Total All-In (est.)<strong>$109,000 &ndash; $120,000</strong></div>
+        <div class="pkg-amount" style="color:var(--iwc-gold)">$123,550</div>
+        <div class="pkg-venue-line">+ Miami + NYC private venue fees (est. $6.5K &ndash; $47K combined)</div>
+        <div class="pkg-total">Total All-In (est.)<strong>$130,050 &ndash; $170,550</strong></div>
       </div>
     </div>
 
   </div>
 
+  <!-- COMPONENT SUMMARY — PRICING HIERARCHY / ITEMIZATION -->
+  <div class="pkg-component-summary" data-a style="margin-top:40px">
+    <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Component Pricing Hierarchy</span></div>
+    <h3 style="font-size:22px;margin:8px 0 16px">What&rsquo;s Included in Each Option</h3>
+    <p class="sec-desc" style="margin-bottom:20px">Side-by-side itemization of the components that build up each option&rsquo;s production investment. The shared base &mdash; phone box, tech, signage, and project management &mdash; is identical across all three options. Activation logistics and the reskin package scale by option.</p>
+
+    <table class="component-summary-table">
+      <thead>
+        <tr>
+          <th style="text-align:left">Component</th>
+          <th style="text-align:right;color:var(--f1-red)">Option 01<br><span style="font-size:10px;font-weight:400;opacity:0.7">Miami Only</span></th>
+          <th style="text-align:right;color:var(--mercedes-teal)">Option 02<br><span style="font-size:10px;font-weight:400;opacity:0.7">NYC Only</span></th>
+          <th style="text-align:right;color:var(--iwc-gold)">Option 03<br><span style="font-size:10px;font-weight:400;opacity:0.7">Miami &rarr; NYC</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Phase 01 &mdash; Phone Box (fabrication, finishes, engineering)</td><td class="r">$37,550</td><td class="r">$37,550</td><td class="r">$37,550</td></tr>
+        <tr><td>Phase 02 &mdash; Interactive Tech + Content Capture Platform</td><td class="r">$20,000</td><td class="r">$20,000</td><td class="r">$20,000</td></tr>
+        <tr><td>Phase 03 &mdash; Branding, Signage &amp; Consumables Kit</td><td class="r">$5,200</td><td class="r">$5,200</td><td class="r">$5,200</td></tr>
+        <tr><td>Phase 04 &mdash; Miami Logistics, Install &amp; Strike</td><td class="r">$11,900</td><td class="r muted">&mdash;</td><td class="r">$11,900</td></tr>
+        <tr><td>Phase 04 &mdash; NYC Logistics, Install &amp; Strike</td><td class="r muted">&mdash;</td><td class="r">$11,900</td><td class="r">$11,900</td></tr>
+        <tr><td>Phase 04 &mdash; Option 03 Reskin Package (7 itemized lines)</td><td class="r muted">&mdash;</td><td class="r muted">&mdash;</td><td class="r">$25,000</td></tr>
+        <tr><td>Phase 05 &mdash; Project Management &amp; Client Services</td><td class="r">$12,000</td><td class="r">$12,000</td><td class="r">$12,000</td></tr>
+      </tbody>
+      <tfoot>
+        <tr class="prod-total">
+          <td><strong>Production Investment</strong></td>
+          <td class="r" style="color:var(--f1-red)"><strong>$86,650</strong></td>
+          <td class="r" style="color:var(--mercedes-teal)"><strong>$86,650</strong></td>
+          <td class="r" style="color:var(--iwc-gold)"><strong>$123,550</strong></td>
+        </tr>
+        <tr class="venue-line">
+          <td>+ Venue Pass-Through (est.)</td>
+          <td class="r">$2.5K &ndash; $15K</td>
+          <td class="r">$4K &ndash; $32K</td>
+          <td class="r">$6.5K &ndash; $47K</td>
+        </tr>
+        <tr class="allin-total">
+          <td><strong>Total All-In (est.)</strong></td>
+          <td class="r"><strong>$89,150 &ndash; $101,650</strong></td>
+          <td class="r"><strong>$90,650 &ndash; $118,650</strong></td>
+          <td class="r"><strong>$130,050 &ndash; $170,550</strong></td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
   <div class="pkg-footnote" data-a>
-    <strong>Budget alignment:</strong> Option 3 is scoped to land at or just under the client&rsquo;s $120,000 overall budget after venue pass-through fees are included. Options 1 and 2 leave meaningful headroom that may be redirected to enhanced tech, additional product inventory, paid media amplification, or a second single-city activation date.
+    <strong>Budget alignment:</strong> Option 3 production investment of $123,550 lands squarely inside the client&rsquo;s $120K&ndash;$125K target window. Venue fees are passed through separately at cost; the all-in range reflects premium NYC private venues (e.g., Rockefeller Center) at the top and value-tier combinations (e.g., Midtown Miami + Domino Park) at the bottom. Options 1 and 2 at $86,650 leave meaningful headroom for enhanced tech, additional production management, paid media amplification, or a second single-city activation date.
   </div>
 </section>
 
@@ -866,33 +996,54 @@ const htmlContent = `
       <tr><td>Pink Vinyl Interior Lining &mdash; four walls, bum mirror with messaging</td><td>$3,200</td></tr>
       <tr><td>Concealed Sliding Prize Door &mdash; motorised, colour-matched</td><td>$3,400</td></tr>
       <tr><td>Interior Finishes &mdash; chequer plate floor, dome light, seat, analogue phone</td><td>$2,750</td></tr>
+      <tr><td>Engineering, Structural Calcs &amp; Shop Drawings &mdash; wind-load, ballast, electrical, CAD</td><td>$4,000</td></tr>
+      <tr class="sub-subtotal"><td><em>Phase 01 Subtotal</em></td><td><em>$37,550</em></td></tr>
 
-      <tr class="divider"><td colspan="2">Phase 02 &mdash; Interactive Tech (All Options)</td></tr>
-      <tr><td>Pre-Recorded Call-Response (IVR) System &mdash; scripting, voice, keypad logic</td><td>$3,500</td></tr>
-      <tr><td>Live Call / Walkie-Talkie Relay &mdash; social producer handoff</td><td>$1,800</td></tr>
-      <tr><td>Ceiling Dual Camera System &mdash; video + audio, cloud storage, disclosure sign</td><td>$2,400</td></tr>
-      <tr><td>Thermal Voucher Printer &amp; Shelf Mount &mdash; wrapped, shelf aligned to sliding door</td><td>$1,950</td></tr>
-      <tr><td>Selfie &amp; Belfie Mobile Mounts &mdash; colour-matched, dual-height</td><td>$650</td></tr>
+      <tr class="divider"><td colspan="2">Phase 02 &mdash; Interactive Tech + Content Capture (All Options)</td></tr>
+      <tr><td>Pre-Recorded Call-Response (IVR) System &mdash; multi-branch scripting, licensed voice, QA</td><td>$5,500</td></tr>
+      <tr><td>Live Call / Walkie-Talkie Relay &mdash; encrypted, backup uplink, producer headset</td><td>$2,900</td></tr>
+      <tr><td>Ceiling Dual Camera System &mdash; 4K, cloud storage, live-preview monitoring, disclosure sign</td><td>$4,500</td></tr>
+      <tr><td>Thermal Voucher Printer &amp; Shelf Mount &mdash; dual-speed, wrapped, redundant roll inventory</td><td>$2,800</td></tr>
+      <tr><td>Selfie &amp; Belfie Mobile Mounts &mdash; motion-triggered ring-light inserts, dual-height</td><td>$1,800</td></tr>
+      <tr><td>Content Capture &amp; Media Handoff Platform &mdash; cloud workspace, proxies, 48hr delivery</td><td>$2,500</td></tr>
+      <tr class="sub-subtotal"><td><em>Phase 02 Subtotal</em></td><td><em>$20,000</em></td></tr>
 
-      <tr class="divider"><td colspan="2">Phase 03 &mdash; Branding &amp; Packaging (All Options)</td></tr>
-      <tr><td>Custom Product Boxes (200 units) &mdash; yellow-pages inspired, 300&times;200&times;70 mm</td><td>$4,800</td></tr>
+      <tr class="divider"><td colspan="2">Phase 03 &mdash; Branding, Signage &amp; Consumables (All Options)</td></tr>
       <tr><td>Disclosure &amp; Wayfinding Signage</td><td>$950</td></tr>
       <tr><td>Venue Dressing Kit &mdash; A-frames, stanchions, pavement decals</td><td>$1,750</td></tr>
+      <tr><td>Daily Consumables &amp; Spares Kit &mdash; voucher rolls, cleaning, spares, gaffer</td><td>$2,500</td></tr>
+      <tr class="sub-subtotal"><td><em>Phase 03 Subtotal</em></td><td><em>$5,200</em></td></tr>
 
-      <tr class="divider"><td colspan="2">Phase 04 &mdash; Logistics, Install &amp; Strike (Per Activation)</td></tr>
-      <tr><td>Inbound Logistics &amp; Install (Activation 1)</td><td>$4,200</td></tr>
-      <tr><td>On-Site Technician (Activation 1)</td><td>$1,400</td></tr>
-      <tr><td>Same-Day Strike &amp; Outbound Freight (Activation 1)</td><td>$2,800</td></tr>
+      <tr class="divider"><td colspan="2">Phase 04 &mdash; Miami Logistics, Install &amp; Strike (Options 01 &amp; 03)</td></tr>
+      <tr><td>Inbound Logistics &amp; Install &mdash; Miami (3-person crew, supervisor)</td><td>$5,800</td></tr>
+      <tr><td>On-Site Technicians &mdash; Miami (lead + rotating second)</td><td>$2,800</td></tr>
+      <tr><td>Same-Day Strike &amp; Outbound Freight &mdash; Miami</td><td>$3,300</td></tr>
+      <tr class="sub-subtotal"><td><em>Miami Activation Subtotal</em></td><td><em>$11,900</em></td></tr>
 
-      <tr class="divider"><td colspan="2">Option 03 Add-Ons &mdash; Dual-City</td></tr>
-      <tr><td>Inter-City Rewrap &amp; Transport &mdash; warehouse hold, vinyl refresh, Miami&harr;NYC truck</td><td>$9,500</td></tr>
-      <tr><td>Inbound Logistics &amp; Install (Activation 2)</td><td>$4,200</td></tr>
-      <tr><td>On-Site Technician (Activation 2)</td><td>$1,400</td></tr>
-      <tr><td>Same-Day Strike &amp; Outbound Freight (Activation 2)</td><td>$2,800</td></tr>
+      <tr class="divider"><td colspan="2">Phase 04 &mdash; NYC Logistics, Install &amp; Strike (Options 02 &amp; 03)</td></tr>
+      <tr><td>Inbound Logistics &amp; Install &mdash; NYC (3-person crew, supervisor)</td><td>$5,800</td></tr>
+      <tr><td>On-Site Technicians &mdash; NYC (lead + rotating second)</td><td>$2,800</td></tr>
+      <tr><td>Same-Day Strike &amp; Outbound Freight &mdash; NYC</td><td>$3,300</td></tr>
+      <tr class="sub-subtotal"><td><em>NYC Activation Subtotal</em></td><td><em>$11,900</em></td></tr>
+
+      <tr class="divider" style="color:var(--iwc-gold)"><td colspan="2">Option 03 Reskin Package &mdash; Miami &rarr; NYC (Itemized)</td></tr>
+      <tr><td>Climate-Controlled Warehouse Hold (~10 days)</td><td>$2,900</td></tr>
+      <tr><td>Inter-City Freight (Miami &rarr; NYC, climate-controlled truck)</td><td>$5,500</td></tr>
+      <tr><td>Exterior Vinyl Refresh (NYC reskin)</td><td>$5,400</td></tr>
+      <tr><td>Interior Vinyl Refresh (NYC reskin)</td><td>$3,500</td></tr>
+      <tr><td>Lightbox Graphic Refresh (NYC reskin)</td><td>$2,400</td></tr>
+      <tr><td>NYC Site Re-Survey &amp; Local Permit Coordination</td><td>$2,500</td></tr>
+      <tr><td>Pre-Deployment QC &amp; Refinishing</td><td>$2,800</td></tr>
+      <tr class="sub-subtotal" style="color:var(--iwc-gold)"><td><em>Reskin Package Subtotal (Option 03 Only)</em></td><td><em>$25,000</em></td></tr>
+
+      <tr class="divider"><td colspan="2">Phase 05 &mdash; Project Management &amp; Client Services (All Options)</td></tr>
+      <tr><td>Project Management Fee &mdash; full engagement, dedicated producer, PM &amp; client services</td><td>$12,000</td></tr>
+      <tr class="sub-subtotal"><td><em>Phase 05 Subtotal</em></td><td><em>$12,000</em></td></tr>
     </tbody>
     <tfoot>
-      <tr><td style="color:var(--mercedes-teal)">Option 01 / Option 02 Subtotal</td><td>$57,850 &ndash; $58,950</td></tr>
-      <tr><td style="color:var(--iwc-gold)">Option 03 Subtotal (Dual-City)</td><td>$98,500</td></tr>
+      <tr><td style="color:var(--f1-red)">Option 01 Production Investment (Miami Only)</td><td style="color:var(--f1-red)">$86,650</td></tr>
+      <tr><td style="color:var(--mercedes-teal)">Option 02 Production Investment (NYC Only)</td><td style="color:var(--mercedes-teal)">$86,650</td></tr>
+      <tr><td style="color:var(--iwc-gold)">Option 03 Production Investment (Miami &rarr; NYC with Reskin)</td><td style="color:var(--iwc-gold)">$123,550</td></tr>
     </tfoot>
   </table>
 
@@ -990,14 +1141,14 @@ const htmlContent = `
   <div data-a>
     <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">Agreement</span></div>
     <h2>Terms &amp; Conditions</h2>
-    <p class="sec-desc">The terms below govern this engagement between Gymshark Ltd. (&ldquo;Client&rdquo;) and Agora Graphics, LLC (&ldquo;Producer&rdquo;), and are entered into in coordination with Ominto Studio as the Client&rsquo;s appointed creative agency. Cross-references in the form <span style="color:var(--mercedes-teal)">[MSA &sect;X.X]</span> point to the Master Services Agreement between the parties; click any reference to view the linked clause.</p>
+    <p class="sec-desc">The terms below govern this engagement between Gymshark Ltd. (&ldquo;Client&rdquo;) and Agora Graphics, LLC (&ldquo;Producer&rdquo;), and are entered into in coordination with Ominto Studio as the Client&rsquo;s appointed creative agency. Cross-references in the form <span style="color:var(--mercedes-teal)">[MSA S#]</span> point to the corresponding section of the Master Services Agreement between the parties; click any reference to open the full MSA in a side panel.</p>
   </div>
 
   <div class="terms-grid" data-a>
     <div class="terms-item">
       <h4>1. Acceptance &amp; Execution</h4>
       <ol>
-        <li>This Proposal constitutes a binding offer upon execution by Client&rsquo;s authorised signatory. Execution may be accomplished via wet signature, DocuSign, or the embedded digital signature interface, each of which shall be deemed legally equivalent. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA &sect;3.1]</span></li>
+        <li>This Proposal constitutes a binding offer upon execution by Client&rsquo;s authorised signatory. Execution may be accomplished via wet signature or the embedded digital signature interface above, each of which shall be deemed legally equivalent. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA S1]</span></li>
         <li>This Proposal is valid for thirty (30) calendar days from the version date shown on the cover. Producer reserves the right to re-price or withdraw after expiration.</li>
         <li>Execution triggers the Payment Terms in Section 3 and authorises Producer to proceed with engineering, procurement, and fabrication in accordance with the selected option.</li>
       </ol>
@@ -1006,7 +1157,7 @@ const htmlContent = `
     <div class="terms-item">
       <h4>2. Scope &amp; Change Orders</h4>
       <ol>
-        <li>Any modification to scope, quantity, dimensions, material specification, delivery schedule, venue selection, or production timeline after written approval of this Proposal requires a formally executed written Change Order signed by authorised representatives of both parties. Verbal approvals, email threads, or text messages shall not constitute binding authorisation. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA &sect;18]</span></li>
+        <li>Any modification to scope, quantity, dimensions, material specification, delivery schedule, venue selection, or production timeline after written approval of this Proposal requires a formally executed written Change Order signed by authorised representatives of both parties. Verbal approvals, email threads, or text messages shall not constitute binding authorisation. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA S2]</span></li>
         <li>Change Orders are invoiced separately and do not alter the base project investment unless expressly stated.</li>
       </ol>
     </div>
@@ -1014,7 +1165,7 @@ const htmlContent = `
     <div class="terms-item">
       <h4>3. Payment Terms</h4>
       <ol>
-        <li>60% deposit due upon Proposal execution. 40% balance due three (3) business days prior to first activation installation. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA &sect;5]</span></li>
+        <li>60% deposit due upon Proposal execution. 40% balance due three (3) business days prior to first activation installation. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA S5]</span></li>
         <li>Payment shall be made exclusively via ACH electronic transfer or domestic wire transfer. Credit card, check, and cash payments are not accepted.</li>
         <li>Late payments accrue interest at 1.5% per month or the maximum rate permitted by applicable law, whichever is lower.</li>
       </ol>
@@ -1023,7 +1174,7 @@ const htmlContent = `
     <div class="terms-item">
       <h4>4. Creative Approvals &amp; Artwork</h4>
       <ol>
-        <li>Client designates a single authorised representative empowered to approve artwork, authorise Change Orders, and make binding decisions on Client&rsquo;s behalf for the duration of this engagement. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA &sect;7.1]</span></li>
+        <li>Client designates a single authorised representative empowered to approve artwork, authorise Change Orders, and make binding decisions on Client&rsquo;s behalf for the duration of this engagement. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA S4 / S7]</span></li>
         <li>Client bears sole responsibility for final review and approval of all artwork, including copy, spelling, grammar, dimensions, colour accuracy, brand compliance, and layout. Written artwork approval constitutes authorisation to proceed to production.</li>
         <li>All final creative assets must be delivered in print-ready format by the Creative Lock milestone shown in the Workback Schedule. Late asset delivery may shift downstream milestones without relief of Client payment obligations.</li>
       </ol>
@@ -1033,7 +1184,7 @@ const htmlContent = `
       <h4>5. Venue, Permits &amp; Insurance</h4>
       <ol>
         <li>Producer will apply for and administer venue permits on Client&rsquo;s behalf. Permit issuance is at the sole discretion of the venue or governing authority. Producer makes no warranty regarding permit approval timelines or venue availability on requested dates.</li>
-        <li>Client is responsible for furnishing or underwriting all certificates of insurance, additional insured endorsements, and event liability coverage required by the selected venue(s). <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA &sect;11]</span></li>
+        <li>Client is responsible for furnishing or underwriting all certificates of insurance, additional insured endorsements, and event liability coverage required by the selected venue(s). <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA S9 / S12]</span></li>
         <li>All venue fees, mandatory security, and permit charges are passed through at cost.</li>
       </ol>
     </div>
@@ -1043,14 +1194,14 @@ const htmlContent = `
       <ol>
         <li>Creative concept, design artwork, and campaign IP are retained by Client and Ominto Studio. Producer receives a limited licence to reproduce supplied artwork solely for the purpose of fulfilling this engagement.</li>
         <li>Producer retains ownership of proprietary fabrication methods, shop drawings, engineering, and production know-how.</li>
-        <li>Producer may photograph finished work for portfolio and marketing use following public launch of the activation, unless Client expressly opts out in writing. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA &sect;9]</span></li>
+        <li>Producer may photograph finished work for portfolio and marketing use following public launch of the activation, unless Client expressly opts out in writing. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA S8]</span></li>
       </ol>
     </div>
 
     <div class="terms-item">
       <h4>7. Termination &amp; Cancellation</h4>
       <ol>
-        <li>Client may terminate for convenience upon written notice. Upon termination, Client shall reimburse Producer for all work performed, materials procured, and non-cancellable commitments incurred through the date of termination. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA &sect;15]</span></li>
+        <li>Client may terminate for convenience upon written notice. Upon termination, Client shall reimburse Producer for all work performed, materials procured, and non-cancellable commitments incurred through the date of termination. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA S10]</span></li>
         <li>Cancellation within 14 days of first activation forfeits the full deposit. Cancellation within 72 hours of first activation forfeits 100% of project investment.</li>
       </ol>
     </div>
@@ -1059,7 +1210,7 @@ const htmlContent = `
       <h4>8. Governing Law &amp; Dispute Resolution</h4>
       <ol>
         <li>This Agreement is governed by the laws of the State of New York, without regard to conflicts-of-law principles.</li>
-        <li>Any dispute arising from or relating to this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association in Nassau County, NY. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA &sect;19]</span></li>
+        <li>Any dispute arising from or relating to this Agreement shall be resolved by binding arbitration administered by the American Arbitration Association in Nassau County, NY. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA S13]</span></li>
       </ol>
     </div>
 
@@ -1122,10 +1273,6 @@ const htmlContent = `
         <button class="sig-download-btn print-btn" onclick="window.print()">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
           Print / Download PDF
-        </button>
-        <button class="sig-download-btn esign-btn" onclick="openDocuSignModal()">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg>
-          Send via DocuSign
         </button>
       </div>
 
@@ -1200,7 +1347,7 @@ const htmlContent = `
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
             Download Signed PDF
           </button>
-          <button class="sig-download-btn esign-btn" onclick="openDocuSignModal()">
+          <button class="sig-download-btn esign-btn" onclick="emailSignedCopy()">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
             Email Signed Copy
           </button>
@@ -1254,24 +1401,102 @@ const htmlContent = `
 <!-- LEGAL OVERLAY -->
 <div class="legal-overlay" onclick="if(event.target===this)closeLegal()">
 
-  <!-- MSA PANEL -->
+  <!-- MSA PANEL — FULL TEXT -->
   <div class="legal-panel" id="legal-msa">
-    <button class="legal-close" onclick="closeLegal()">&times;</button>
     <div class="legal-panel-header">
-      <div class="legal-eye">Master Services Agreement</div>
-      <h3>MSA Cross-Reference</h3>
+      <h3>Master Services Agreement</h3>
+      <button class="legal-close" onclick="closeLegal()">&times;</button>
     </div>
-    <p>This Proposal incorporates by reference the Master Services Agreement (&ldquo;MSA&rdquo;) between Gymshark Ltd. and Agora Graphics, LLC. The MSA governs the overarching business relationship &mdash; including intellectual property assignment, limitation of liability, insurance and indemnification, confidentiality, and dispute resolution &mdash; and shall control in the event of any conflict with this Proposal except where this Proposal expressly states otherwise.</p>
-    <h4>Key Sections Referenced</h4>
-    <p>&sect;3 &mdash; Engagement &amp; Execution<br>
-    &sect;5 &mdash; Payment Terms<br>
-    &sect;7 &mdash; Creative Approvals<br>
-    &sect;9 &mdash; Intellectual Property<br>
-    &sect;11 &mdash; Insurance &amp; Indemnification<br>
-    &sect;15 &mdash; Termination<br>
-    &sect;18 &mdash; Change Orders<br>
-    &sect;19 &mdash; Governing Law &amp; Dispute Resolution</p>
-    <p style="margin-top:24px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.06);font-size:11px;color:var(--text-muted)">Full MSA available upon request. Executed MSA takes precedence over any conflicting terms in this Proposal.</p>
+    <div class="legal-panel-body">
+      <p style="color:var(--iwc-gold);font-size:10px;letter-spacing:1px;text-transform:uppercase;margin-bottom:16px">Agora Graphics, LLC &mdash; 2026 Master Services Agreement</p>
+
+      <h4><div class="section-num">S1 &mdash; Parties &amp; Engagement</div>Parties to This Agreement</h4>
+      <p>This Master Services Agreement (&ldquo;Agreement&rdquo;) is entered into between Agora Graphics, LLC (&ldquo;Agora,&rdquo; &ldquo;Company,&rdquo; &ldquo;We&rdquo;) and the client identified on the executed Proposal or Estimate (&ldquo;Client,&rdquo; &ldquo;You&rdquo;). Execution of any Proposal, Estimate, or Work Order constitutes acceptance of this Agreement in its entirety.</p>
+
+      <h4><div class="section-num">S2 &mdash; Scope of Work</div>Scope of Services</h4>
+      <ol>
+        <li>Agora will provide scenic fabrication, graphics production, printing, millwork, display construction, installation, and related services as described in the executed Proposal or Estimate.</li>
+        <li>Services are limited to the narrative and itemized scope outlined in each project document. Items not explicitly described are excluded unless added via written Change Order.</li>
+        <li>All work is performed on a project basis. This Agreement does not create an employment, partnership, or joint venture relationship.</li>
+      </ol>
+
+      <h4><div class="section-num">S3 &mdash; Estimates &amp; Pricing</div>Basis of Estimate</h4>
+      <ol>
+        <li>All proposals are based on preliminary dimensions, creative materials, and project scope provided at the time of estimating.</li>
+        <li>Final pricing may adjust based on confirmed dimensions, finalized creative, engineering requirements, material availability, or scope changes.</li>
+        <li>Estimates are valid for thirty (30) days unless otherwise noted. Material costs and availability are subject to change after this period.</li>
+      </ol>
+
+      <h4><div class="section-num">S4 &mdash; Client Responsibilities</div>Client Obligations</h4>
+      <ol>
+        <li>Client shall provide print-ready artwork, brand guidelines, and all creative assets by agreed deadlines.</li>
+        <li>Client is responsible for confirming venue requirements, access schedules, floor plans, and any landlord or building approvals required for installation.</li>
+        <li>On-site discrepancies between provided information and actual site conditions may result in additional costs billed as a Change Order.</li>
+        <li>Client is responsible for final review and approval of all artwork including copy, spelling, dimensions, and layout prior to production.</li>
+      </ol>
+
+      <h4><div class="section-num">S5 &mdash; Payment Terms</div>Payment</h4>
+      <ol>
+        <li>All payments are accepted exclusively via ACH electronic transfer or domestic wire transfer. Credit card, check, and cash payments are not accepted.</li>
+        <li>Unless otherwise specified, payment terms are 60% deposit upon execution and 40% balance due three (3) business days prior to delivery or installation.</li>
+        <li>Deposit initiates engineering, procurement, and fabrication. Work will not commence until deposit is received.</li>
+        <li>Change Order invoices are due in full upon approval.</li>
+        <li>Production schedule and delivery dates may be delayed if payments are not received when due.</li>
+        <li>Late payments are subject to a 1.5% monthly interest charge on outstanding balances.</li>
+      </ol>
+
+      <h4><div class="section-num">S6 &mdash; Shipping, Delivery &amp; Installation</div>Logistics</h4>
+      <ol>
+        <li>Delivery and installation pricing is based on standard business hours unless otherwise noted in the Proposal.</li>
+        <li>Overnight, weekend, or holiday labor is subject to premium rates and will be itemized in the Proposal or billed as a Change Order.</li>
+        <li>Venue labor requirements (union, drayage, rigging) are the responsibility of the Client unless explicitly included in the Agora scope.</li>
+        <li>Risk of loss transfers to Client upon delivery to site or completion of installation.</li>
+      </ol>
+
+      <h4><div class="section-num">S7 &mdash; Artwork &amp; Proofing</div>Creative Production</h4>
+      <ol>
+        <li>Agora is not liable for errors in client-approved artwork, including color reproduction, spelling, or dimensional accuracy.</li>
+        <li>Digital proofs are provided for review. Physical color matching is approximate due to variations in substrates, inks, and viewing conditions.</li>
+        <li>Post-approval changes will be billed as additional work.</li>
+      </ol>
+
+      <h4><div class="section-num">S8 &mdash; Intellectual Property</div>Ownership &amp; IP</h4>
+      <ol>
+        <li>Client-provided artwork, logos, and brand assets remain the property of the Client.</li>
+        <li>Agora retains ownership of all custom engineering drawings, structural designs, and proprietary fabrication methods.</li>
+        <li>Fabricated elements remain the property of Agora until paid in full.</li>
+        <li>Agora reserves the right to photograph completed work for portfolio use following public installation or event.</li>
+      </ol>
+
+      <h4><div class="section-num">S9 &mdash; Warranties &amp; Liability</div>Warranties</h4>
+      <ol>
+        <li>Agora warrants that all work will be performed in a professional and workmanlike manner consistent with industry standards.</li>
+        <li>Fabricated elements are warranted against defects in materials and workmanship for the duration of the project installation period.</li>
+        <li>Agora&rsquo;s total liability under this Agreement shall not exceed the total fees paid by Client for the specific project.</li>
+        <li>Agora shall not be liable for indirect, incidental, consequential, or punitive damages.</li>
+      </ol>
+
+      <h4><div class="section-num">S10 &mdash; Cancellation</div>Cancellation &amp; Termination</h4>
+      <ol>
+        <li>Post-approval cancellation: Client is liable for all costs incurred to date including materials ordered, fabrication in progress, and labor expended.</li>
+        <li>In-progress fabrication and custom materials are non-refundable.</li>
+        <li>Cancellation within seven (7) days of scheduled delivery or installation: Client is liable for 100% of the project value.</li>
+      </ol>
+
+      <h4><div class="section-num">S11 &mdash; Force Majeure</div>Force Majeure</h4>
+      <p>Neither party shall be liable for delays or failure to perform due to circumstances beyond reasonable control, including but not limited to natural disasters, pandemics, government actions, material shortages, transportation disruptions, or labor disputes.</p>
+
+      <h4><div class="section-num">S12 &mdash; Indemnification</div>Indemnification</h4>
+      <p>Client agrees to indemnify and hold harmless Agora Graphics, LLC, its officers, employees, and agents from any claims, damages, losses, or expenses arising from Client&rsquo;s use of delivered materials, venue conditions, or third-party interactions related to the project.</p>
+
+      <h4><div class="section-num">S13 &mdash; Governing Law</div>Governing Law &amp; Disputes</h4>
+      <p>This Agreement shall be governed by and construed in accordance with the laws of the State of New York. Any disputes shall be resolved through binding arbitration in Suffolk County, New York, in accordance with the rules of the American Arbitration Association.</p>
+
+      <h4><div class="section-num">S14 &mdash; Entire Agreement</div>Entire Agreement</h4>
+      <p>This Agreement, together with any executed Proposals, Estimates, Work Orders, and Change Orders, constitutes the entire agreement between the parties and supersedes all prior negotiations, representations, or agreements. Amendments must be in writing and signed by both parties.</p>
+
+      <p style="margin-top:28px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.06);font-size:10px;color:rgba(138,138,149,0.4)">Agora Graphics, LLC &bull; 1440 Church St, Bohemia, NY 11716 &bull; EIN on file &bull; This document is incorporated by reference into all project Proposals and Estimates.</p>
+    </div>
   </div>
 
   <!-- TERMS PANEL -->
@@ -1414,6 +1639,51 @@ export default function ProposalPage() {
       checkReady();
     }
 
+    function getSignerDetails() {
+      const tab = document.querySelector('.sig-tab.active') as HTMLElement | null;
+      let name = '';
+      let title = '';
+      let method = 'Drawn Signature';
+      if (tab && tab.id === 'sig-tab-draw') {
+        const nEl = document.getElementById('sig-name-client') as HTMLInputElement | null;
+        const tEl = document.getElementById('sig-title-client') as HTMLInputElement | null;
+        name = nEl ? nEl.value : '';
+        title = tEl ? tEl.value : '';
+      } else {
+        const nEl = document.getElementById('sig-typed-client') as HTMLInputElement | null;
+        const tEl = document.getElementById('sig-typed-title-client') as HTMLInputElement | null;
+        name = nEl ? nEl.value : '';
+        title = tEl ? tEl.value : '';
+        method = 'Typed Signature';
+      }
+      return { name, title, method };
+    }
+
+    function sendCounterSignRequest(signer: { name: string; title: string; method: string }, ts: string, hash: string) {
+      const subject = encodeURIComponent('SIGNED: Gymshark Phone Box Proposal \u2014 Counter-Signature Requested | GS-PHONEBOX-001');
+      const body = encodeURIComponent(
+        'The Gymshark Phone Box Activation Proposal (GS-PHONEBOX-001) has been digitally executed by the Client and is ready for Agora Graphics counter-signature.\n\n' +
+        '--- SIGNATURE RECORD ---\n' +
+        'Document: GS-PHONEBOX-001\n' +
+        'Client: Gymshark Ltd.\n' +
+        'Signer Name: ' + (signer.name || '[pending]') + '\n' +
+        'Signer Title: ' + (signer.title || '[pending]') + '\n' +
+        'Signature Method: ' + signer.method + '\n' +
+        'Executed Timestamp: ' + ts + '\n' +
+        'Reference Hash: ' + hash + '\n\n' +
+        '--- NEXT STEPS ---\n' +
+        '1. Counter-sign the attached PDF in the Producer signature block.\n' +
+        '2. Return a countersigned PDF copy to the Client distribution list.\n' +
+        '3. Issue the 60% deposit invoice via QuickBooks per MSA S5.\n' +
+        '4. Trigger procurement, engineering, and venue permit applications.\n\n' +
+        'Client is requested to keep this email as proof of execution.\n\n---\nAgora Graphics, LLC'
+      );
+      const to = 'mike@agoragraphics.com,julian@agvmiami.com';
+      const cc = 'info@agoravisuals.com';
+      const mailto = 'mailto:' + to + '?cc=' + cc + '&subject=' + subject + '&body=' + body;
+      window.open(mailto, '_blank');
+    }
+
     function submitSignature() {
       const now = new Date();
       const ts = now.toLocaleString('en-US', {
@@ -1421,6 +1691,7 @@ export default function ProposalPage() {
         hour: '2-digit', minute: '2-digit', second: '2-digit', timeZoneName: 'short'
       });
       const hash = 'SIG-' + now.getTime().toString(36).toUpperCase() + '-' + Math.random().toString(36).substring(2, 8).toUpperCase();
+      const signer = getSignerDetails();
       const submitWrap = document.getElementById('sig-submit-wrap');
       if (submitWrap) submitWrap.style.display = 'none';
       document.querySelectorAll('.sig-tab').forEach(t => (t as HTMLElement).style.display = 'none');
@@ -1429,12 +1700,24 @@ export default function ProposalPage() {
       if (conf) conf.classList.add('show');
       const confirmTs = document.getElementById('sig-confirm-timestamp');
       if (confirmTs) confirmTs.textContent = 'Executed: ' + ts + ' | Reference: ' + hash;
+      // Notify Agora and request counter-signature (opens user's mail client in a new tab)
+      setTimeout(() => sendCounterSignRequest(signer, ts, hash), 300);
+      // Store latest record for the "Email Signed Copy" button
+      (window as any)._lastSig = { signer, ts, hash };
     }
 
-    function openDocuSignModal() {
-      const subject = encodeURIComponent('Gymshark Phone Box \u2014 Proposal for Digital Signature | GS-PHONEBOX-001');
-      const body = encodeURIComponent('Please find the Gymshark Phone Box NYC & Miami Activation proposal attached for digital signature.\n\nDocument: GS-PHONEBOX-001\n\nPlease review and execute at your earliest convenience.\n\n---\nAgora Graphics, LLC');
-      window.location.href = 'mailto:mike@agoragraphics.com,julian@agvmiami.com?cc=info@agoravisuals.com&subject=' + subject + '&body=' + body;
+    function emailSignedCopy() {
+      const rec = (window as any)._lastSig as { signer: { name: string; title: string; method: string }; ts: string; hash: string } | undefined;
+      const subject = encodeURIComponent('Your Signed Copy \u2014 Gymshark Phone Box Proposal | GS-PHONEBOX-001');
+      const body = encodeURIComponent(
+        'A signed copy of the Gymshark Phone Box Activation Proposal (GS-PHONEBOX-001) is ready for your records.\n\n' +
+        (rec
+          ? ('--- EXECUTION DETAILS ---\nSigner: ' + (rec.signer.name || '[pending]') + '\nTitle: ' + (rec.signer.title || '[pending]') + '\nMethod: ' + rec.signer.method + '\nExecuted: ' + rec.ts + '\nReference: ' + rec.hash + '\n\n')
+          : '')
+        + 'To save a PDF copy, click "Download Signed PDF" or use your browser\u2019s print dialog (Save as PDF).\n\n' +
+        'Questions? Reply to this email or contact mike@agoragraphics.com.\n\n---\nAgora Graphics, LLC'
+      );
+      window.location.href = 'mailto:?cc=mike@agoragraphics.com,julian@agvmiami.com&subject=' + subject + '&body=' + body;
     }
 
     function togglePhase(el: HTMLElement) {
@@ -1477,7 +1760,7 @@ export default function ProposalPage() {
     (window as any).switchSigTab = switchSigTab;
     (window as any).updateTypedSig = updateTypedSig;
     (window as any).submitSignature = submitSignature;
-    (window as any).openDocuSignModal = openDocuSignModal;
+    (window as any).emailSignedCopy = emailSignedCopy;
     (window as any).togglePhase = togglePhase;
     (window as any).toggleAddon = toggleAddon;
 
@@ -1513,7 +1796,7 @@ export default function ProposalPage() {
       delete (window as any).switchSigTab;
       delete (window as any).updateTypedSig;
       delete (window as any).submitSignature;
-      delete (window as any).openDocuSignModal;
+      delete (window as any).emailSignedCopy;
       delete (window as any).togglePhase;
       delete (window as any).toggleAddon;
     };
