@@ -725,7 +725,7 @@ const htmlContent = `
     <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">Your Production Journey</span></div>
     <h2>Eight Phases. One Seamless Deployment.</h2>
     <p class="sec-desc">
-      Every Agora engagement follows a structured, milestone-gated production lifecycle &mdash; from creative alignment through post-event strike. Each phase builds on the last with defined deliverables and approval checkpoints, scaled here for a 10-week lead time into a July 2026 activation.
+      Every Agora engagement follows a structured, milestone-gated production lifecycle &mdash; from creative alignment through post-event strike. Each phase builds on the last with defined deliverables and approval checkpoints, scaled here for a compressed ~9-week lead time from Scope Approval (April 27) into the June 27 / July 11 activation dates.
     </p>
   </div>
 
@@ -746,19 +746,19 @@ const htmlContent = `
       <div class="step-num" style="color:var(--iwc-gold)">03</div>
       <h4>Engineering &amp; Technical Development</h4>
       <p>Structural engineering calculations, shop drawings, electrical schematics for lightbox and tech, ballast plan for outdoor install, and venue compliance documentation.</p>
-      <div class="step-date">May 4 &ndash; May 15</div>
+      <div class="step-date">May 11 &ndash; May 22</div>
     </div>
     <div class="journey-step" style="border-color:var(--iwc-gold)">
       <div class="step-num" style="color:var(--iwc-gold)">04</div>
       <h4>Fabrication &amp; Print Production</h4>
       <p>Custom scenic builds, precision CNC milling, millwork assembly, large-format vinyl and lightbox output, packaging production, and multi-stage quality control inspections.</p>
-      <div class="step-date">May 18 &ndash; June 15</div>
+      <div class="step-date">May 25 &ndash; June 19</div>
     </div>
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
       <div class="step-num" style="color:var(--mercedes-teal)">05</div>
       <h4>Logistics &amp; Pre-Deployment</h4>
       <p>Precision crating, climate-protected transport from our Bohemia, NY fabrication facility to the activation city, and overnight delivery coordination with venue management.</p>
-      <div class="step-date">June 22 &ndash; June 26</div>
+      <div class="step-date">June 19 &ndash; June 26</div>
     </div>
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
       <div class="step-num" style="color:var(--mercedes-teal)">06</div>
@@ -792,14 +792,14 @@ const htmlContent = `
   <table class="sched-table" data-a>
     <thead><tr><th>Phase</th><th>Milestone</th><th>Date</th></tr></thead>
     <tbody>
-      <tr><td>Scope Approval</td><td>Option selected, city/cities confirmed, production authorisation issued</td><td>April 18</td></tr>
-      <tr><td>Deposit Received</td><td>60% project deposit &mdash; due upon Scope of Work approval; triggers procurement, engineering, and venue permit applications</td><td>April 22</td></tr>
-      <tr><td>Venue Permits Applied</td><td>Permit applications filed for selected city / cities; deposit letters issued</td><td>April 25</td></tr>
-      <tr><td>Creative Lock</td><td>Final artwork, voucher template, IVR scripting, and packaging dielines delivered to Agora</td><td>May 1</td></tr>
-      <tr><td>Engineering &amp; Shop Drawings</td><td>Structural, electrical, and ballast drawings issued for client review</td><td>May 4 &ndash; 15</td></tr>
-      <tr><td>Scenic Fabrication</td><td>Phone box shell build, paint, finish, lightbox assembly</td><td>May 18 &ndash; June 15</td></tr>
-      <tr><td>Print &amp; Graphics Production</td><td>Exterior vinyl, interior vinyl, lightbox graphics, disclosure + wayfinding signage</td><td>May 25 &ndash; June 15</td></tr>
-      <tr><td>Tech Bench Test</td><td>Full IVR + voucher printer + camera system rehearsed end-to-end at Agora facility</td><td>June 15 &ndash; 22</td></tr>
+      <tr><td>Scope Approval</td><td>Option selected, city/cities confirmed, production authorisation issued</td><td>Monday, April 27</td></tr>
+      <tr><td>Deposit Received</td><td>60% project deposit &mdash; due upon Scope of Work approval; triggers procurement, engineering, and venue permit applications</td><td>May 1</td></tr>
+      <tr><td>Venue Permits Applied</td><td>Permit applications filed for selected city / cities; deposit letters issued</td><td>May 4</td></tr>
+      <tr><td>Creative Lock</td><td>Final artwork, voucher template, IVR scripting, and packaging dielines delivered to Agora</td><td>May 11</td></tr>
+      <tr><td>Engineering &amp; Shop Drawings</td><td>Structural, electrical, and ballast drawings issued for client review</td><td>May 11 &ndash; 22</td></tr>
+      <tr><td>Scenic Fabrication</td><td>Phone box shell build, paint, finish, lightbox assembly</td><td>May 25 &ndash; June 19</td></tr>
+      <tr><td>Print &amp; Graphics Production</td><td>Exterior vinyl, interior vinyl, lightbox graphics, disclosure + wayfinding signage</td><td>June 1 &ndash; June 19</td></tr>
+      <tr><td>Tech Bench Test</td><td>Full IVR + voucher printer + camera system rehearsed end-to-end at Agora facility</td><td>June 19 &ndash; 23</td></tr>
       <tr><td>Balance Payment</td><td>Remaining 40% balance due &mdash; five (5) business days prior to first activation</td><td>June 22</td></tr>
       <tr><td>Transit to Activation 1</td><td>Truck loaded, transported to chosen city (Miami or NYC)</td><td>June 24 &ndash; 26</td></tr>
       <tr><td>Activation 1 Install &amp; Run</td><td>Pre-dawn install, 8&ndash;10 hr operational window, same-day strike</td><td>June 27</td></tr>
