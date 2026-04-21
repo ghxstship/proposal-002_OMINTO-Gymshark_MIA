@@ -793,14 +793,14 @@ const htmlContent = `
     <thead><tr><th>Phase</th><th>Milestone</th><th>Date</th></tr></thead>
     <tbody>
       <tr><td>Scope Approval</td><td>Option selected, city/cities confirmed, production authorisation issued</td><td>April 18</td></tr>
-      <tr><td>Deposit Received</td><td>60% project deposit &mdash; triggers procurement, engineering, and venue permit applications</td><td>April 22</td></tr>
+      <tr><td>Deposit Received</td><td>60% project deposit &mdash; due upon Scope of Work approval; triggers procurement, engineering, and venue permit applications</td><td>April 22</td></tr>
       <tr><td>Venue Permits Applied</td><td>Permit applications filed for selected city / cities; deposit letters issued</td><td>April 25</td></tr>
       <tr><td>Creative Lock</td><td>Final artwork, voucher template, IVR scripting, and packaging dielines delivered to Agora</td><td>May 1</td></tr>
       <tr><td>Engineering &amp; Shop Drawings</td><td>Structural, electrical, and ballast drawings issued for client review</td><td>May 4 &ndash; 15</td></tr>
       <tr><td>Scenic Fabrication</td><td>Phone box shell build, paint, finish, lightbox assembly</td><td>May 18 &ndash; June 15</td></tr>
       <tr><td>Print &amp; Graphics Production</td><td>Exterior vinyl, interior vinyl, lightbox graphics, disclosure + wayfinding signage</td><td>May 25 &ndash; June 15</td></tr>
       <tr><td>Tech Bench Test</td><td>Full IVR + voucher printer + camera system rehearsed end-to-end at Agora facility</td><td>June 15 &ndash; 22</td></tr>
-      <tr><td>Balance Payment</td><td>Remaining 40% balance due &mdash; three business days prior to first activation</td><td>June 23</td></tr>
+      <tr><td>Balance Payment</td><td>Remaining 40% balance due &mdash; five (5) business days prior to first activation</td><td>June 22</td></tr>
       <tr><td>Transit to Activation 1</td><td>Truck loaded, transported to chosen city (Miami or NYC)</td><td>June 24 &ndash; 26</td></tr>
       <tr><td>Activation 1 Install &amp; Run</td><td>Pre-dawn install, 8&ndash;10 hr operational window, same-day strike</td><td>June 27</td></tr>
       <tr><td>Rewrap Window (Option 3)</td><td>Climate-controlled hold + rewrap / repaint between cities</td><td>June 28 &ndash; July 9</td></tr>
@@ -1051,52 +1051,16 @@ const htmlContent = `
     <div class="engage-col" style="border-color:var(--iwc-gold)">
       <div class="tag" style="color:var(--iwc-gold)">Deposit &mdash; 60%</div>
       <div class="amt">Package-dependent</div>
-      <div class="note">Due upon execution. Triggers procurement, engineering, and permit applications.</div>
+      <div class="note">Due upon Client&rsquo;s written approval of this Scope of Work (Proposal execution). Triggers procurement, engineering, and permit applications.</div>
     </div>
     <div class="engage-col" style="border-color:var(--mercedes-teal)">
       <div class="tag" style="color:var(--mercedes-teal)">Balance &mdash; 40%</div>
       <div class="amt">Package-dependent</div>
-      <div class="note">Due three (3) business days prior to first activation installation.</div>
+      <div class="note">Due five (5) business days prior to first activation installation.</div>
     </div>
   </div>
 
-  <!-- PAYMENT METHODS -->
-  <div class="pay-section" data-a>
-    <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px">
-      <div style="width:32px;height:2px;background:var(--iwc-gold)"></div>
-      <span style="font-size:10px;letter-spacing:3px;text-transform:uppercase;font-weight:700;color:var(--iwc-gold)">Payment Methods</span>
-    </div>
-    <h3 style="font-family:var(--serif);font-size:22px;font-weight:700;color:var(--white);margin-bottom:6px">ACH or Wire Transfer Only</h3>
-    <p style="font-size:12px;color:var(--text-muted);line-height:1.7;max-width:640px">All payments under this engagement are accepted exclusively via ACH electronic transfer or domestic wire transfer. Credit card, check, and cash payments are not accepted. Please reference the project document number (GS-PHONEBOX-001) on all remittances.</p>
-
-    <div class="pay-grid">
-      <div class="pay-method">
-        <h4><div class="icon">$</div>ACH / Wire Transfer</h4>
-        <div class="detail">
-          <div class="label">Beneficiary</div>
-          <strong>Agora Graphics, LLC</strong><br>
-          <div class="label">Bank</div>
-          <strong>Chase Business Banking</strong><br>
-          <div class="label">Routing Number (ACH / Wire)</div>
-          <strong>021000021</strong><br>
-          <div class="label">Account Number</div>
-          <strong>Provided upon execution</strong><br>
-          <div class="label">Reference</div>
-          <strong>GS-PHONEBOX-001</strong>
-        </div>
-      </div>
-      <div class="pay-method">
-        <h4><div class="icon">&rarr;</div>Pay Online</h4>
-        <div class="detail">
-          <p>For your convenience, payments may also be submitted directly through our secure invoicing platform. A QuickBooks invoice with a direct payment link will be issued upon execution of this agreement.</p>
-          <div style="margin-top:14px">
-            <a href="mailto:mike@agoragraphics.com?subject=GS-PHONEBOX-001%20%E2%80%94%20Payment%20Link%20Request" class="pay-btn pay-btn-secondary">Request Invoice &amp; Payment Link</a>
-          </div>
-          <div style="margin-top:10px;font-size:9px;color:rgba(138,138,149,0.5);letter-spacing:0.5px">Powered by QuickBooks &bull; Secure ACH &amp; wire transfer accepted</div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <p class="sec-desc" style="font-size:11px;color:var(--text-muted);margin-top:16px">Payment instructions (ACH / wire details) will be issued directly to the authorised Client billing contact upon written approval of this Scope of Work. Payment shall be made exclusively via ACH electronic transfer or domestic wire transfer; credit card, check, and cash payments are not accepted.</p>
 </section>
 
 <!-- EXCLUSIONS -->
@@ -1165,7 +1129,7 @@ const htmlContent = `
     <div class="terms-item">
       <h4>3. Payment Terms</h4>
       <ol>
-        <li>60% deposit due upon Proposal execution. 40% balance due three (3) business days prior to first activation installation. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA S5]</span></li>
+        <li>60% deposit due upon Client&rsquo;s written approval of this Scope of Work (Proposal execution). 40% balance due five (5) business days prior to first activation installation. <span style="color:var(--mercedes-teal);font-size:10px;cursor:pointer" onclick="openLegal('msa')">[MSA S5]</span></li>
         <li>Payment shall be made exclusively via ACH electronic transfer or domestic wire transfer. Credit card, check, and cash payments are not accepted.</li>
         <li>Late payments accrue interest at 1.5% per month or the maximum rate permitted by applicable law, whichever is lower.</li>
       </ol>
@@ -1438,7 +1402,7 @@ const htmlContent = `
       <h4><div class="section-num">S5 &mdash; Payment Terms</div>Payment</h4>
       <ol>
         <li>All payments are accepted exclusively via ACH electronic transfer or domestic wire transfer. Credit card, check, and cash payments are not accepted.</li>
-        <li>Unless otherwise specified, payment terms are 60% deposit upon execution and 40% balance due three (3) business days prior to delivery or installation.</li>
+        <li>Unless otherwise specified, payment terms are 60% deposit upon Client&rsquo;s written approval of the applicable Scope of Work (Proposal or Estimate execution) and 40% balance due five (5) business days prior to delivery or installation.</li>
         <li>Deposit initiates engineering, procurement, and fabrication. Work will not commence until deposit is received.</li>
         <li>Change Order invoices are due in full upon approval.</li>
         <li>Production schedule and delivery dates may be delayed if payments are not received when due.</li>
