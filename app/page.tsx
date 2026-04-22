@@ -498,23 +498,24 @@ const htmlContent = `
         </div>
       </div>
 
-      <!-- NYC: SEAPORT DISTRICT -->
+      <!-- NYC: CHELSEA MARKET -->
       <div class="loc-card" style="border-color:var(--mercedes-teal)">
-        <div class="loc-hero loc-hero-seaport">
+        <div class="loc-hero loc-hero-chelsea">
           <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
-          <div class="loc-title">Seaport District NYC</div>
-          <div class="loc-sub">Lower Manhattan &bull; Howard Hughes Corp. (private)</div>
+          <div class="loc-title">Chelsea Market</div>
+          <div class="loc-sub">75 Ninth Ave &bull; Alphabet / Google (deed-held, private)</div>
         </div>
         <div class="loc-body">
           <div class="loc-price">Est. $8,000 &ndash; $15,000 / day</div>
-          <p>Privately master-planned district operated by Howard Hughes Corporation. Cobblestone streets, restored Fulton Market Building, Pier 17 rooftop, and East River waterfront. Strong precedent for brand pop-ups and live programming &mdash; tourist and FiDi weekday audience.</p>
+          <p>Full-block deed-held private property owned by Alphabet Inc. since the 2018 $2.4B acquisition from Jamestown; Jamestown still contract-manages the food hall, but approvals route through Google real estate. Directly under the High Line, two blocks from Little Island, and one block from Google&rsquo;s 111 Eighth Ave HQ and Pier 57 &mdash; one of the few truly private outdoor-capable venues left in Manhattan. Phone box can deploy on the 9th Ave frontage or inside the privately-controlled covered concourse if weather demands.</p>
           <ul>
-            <li>Private district &mdash; single point of approval</li>
-            <li>Cobblestone + waterfront content textures</li>
-            <li>Pier 17 rooftop as secondary activation surface</li>
-            <li>Tourist + finance weekday + weekend mix</li>
+            <li>Deed-held private property &mdash; single-path approvals via Google</li>
+            <li>500K+ monthly visitors to the ground-floor food hall</li>
+            <li>Fitness-coded neighbourhood (Barry&rsquo;s Chelsea, Equinox HY, SoulCycle West Village, Meatpacking hotel gyms)</li>
+            <li>High Line + Little Island + Pier 57 content spillover</li>
+            <li>Indoor concourse fallback if weather forces a pivot</li>
           </ul>
-          <a href="https://www.theseaport.nyc/events" class="loc-link" target="_blank" rel="noopener">Seaport District Events</a>
+          <a href="https://www.chelseamarket.com/" class="loc-link" target="_blank" rel="noopener">Chelsea Market Official</a>
         </div>
       </div>
 
@@ -882,7 +883,7 @@ const htmlContent = `
       <div class="pkg-tag" style="color:var(--mercedes-teal)">Option 02</div>
       <h3>NYC Only</h3>
       <div class="pkg-date">June 27 <strong>or</strong> July 11, 2026</div>
-      <div class="pkg-venue">Private only: Rockefeller Center, Manhattan West, Seaport, Hudson Yards, Industry City, or Domino Park</div>
+      <div class="pkg-venue">Private only: Rockefeller Center, Manhattan West, Chelsea Market, Hudson Yards, Industry City, or Domino Park</div>
       <ul class="pkg-list">
         <li>Complete Phone Box fabrication + engineering package</li>
         <li>Enhanced interactive tech + content capture platform ($20K)</li>
