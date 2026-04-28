@@ -64,6 +64,15 @@ const htmlContent = `
   </div>
 </nav>
 
+<!-- VERSION BANNER (SNAPSHOT) -->
+<div class="version-banner">
+  <div class="version-banner-inner">
+    <div class="version-banner-tag">Frozen Snapshot</div>
+    <div class="version-banner-text">You are viewing the <strong>Version 2.0</strong> snapshot &mdash; April 27, 2026. The canonical proposal lives at <code style="color:var(--iwc-gold)">/</code> and is currently identical; this URL will be preserved unchanged when future versions ship.</div>
+    <a href="/" class="version-banner-link">View Latest &rarr;</a>
+  </div>
+</div>
+
 <!-- HERO -->
 <section class="hero" id="top">
   <div class="hero-content">
