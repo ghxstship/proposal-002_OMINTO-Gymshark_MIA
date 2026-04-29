@@ -733,10 +733,13 @@ const htmlContent = `
         <li>Complete Phone Box fabrication + engineering package, enhanced interactive tech + content capture platform, signage, venue dressing kit, consumables spares, and dedicated project management</li>
       </ul>
       <div class="pkg-price">
-        <div class="pkg-prod-label">Production Investment</div>
-        <div class="pkg-amount" style="color:var(--iwc-gold)">$124,150</div>
+        <div class="pkg-prod-label">Gross Production Investment</div>
+        <div class="pkg-amount" style="color:var(--text-muted);font-size:22px">$124,150</div>
+        <div class="pkg-venue-line" style="color:var(--mercedes-teal)">Less: Preferred Partner Credit &mdash; &minus;$5,000</div>
+        <div class="pkg-prod-label" style="margin-top:14px">Net Production Investment</div>
+        <div class="pkg-amount" style="color:var(--iwc-gold)">$119,150</div>
         <div class="pkg-venue-line">+ Lincoln Road venue fee only (est. $5K &ndash; $10K) &bull; Gymshark Bond St has no venue rental cost or fees</div>
-        <div class="pkg-total">Estimated Total<strong>$129,150 &ndash; $134,150</strong></div>
+        <div class="pkg-total">Estimated Total<strong>$124,150 &ndash; $129,150</strong></div>
       </div>
     </div>
 
@@ -763,11 +766,12 @@ const htmlContent = `
         <tr><td>Services &mdash; Inter-City Respray to NYC Palette (7 itemized lines)</td><td class="r">$24,000</td></tr>
         <tr><td>Services &mdash; Event 02 Gymshark Bond St Delivery &amp; 4-Week Run (6 itemized lines)</td><td class="r">$13,500</td></tr>
         <tr><td>Services &mdash; Project Management &amp; Client Services</td><td class="r">$12,000</td></tr>
+        <tr><td style="color:var(--mercedes-teal)">Credits &mdash; Preferred Partner Credit</td><td class="r" style="color:var(--mercedes-teal)">&minus;$5,000</td></tr>
       </tbody>
       <tfoot>
         <tr class="prod-total">
-          <td><strong>Production Investment</strong></td>
-          <td class="r" style="color:var(--iwc-gold)"><strong>$124,150</strong></td>
+          <td><strong>Net Production Investment</strong></td>
+          <td class="r" style="color:var(--iwc-gold)"><strong>$119,150</strong></td>
         </tr>
         <tr class="venue-line">
           <td>+ Venue Pass-Through (est.)</td>
@@ -775,14 +779,14 @@ const htmlContent = `
         </tr>
         <tr class="allin-total">
           <td><strong>Estimated Total</strong></td>
-          <td class="r"><strong>$129,150 &ndash; $134,150</strong></td>
+          <td class="r"><strong>$124,150 &ndash; $129,150</strong></td>
         </tr>
       </tfoot>
     </table>
   </div>
 
   <div class="pkg-footnote" data-a>
-    <strong>Budget alignment (V2.0):</strong> Production investment of $124,150 lands inside the client&rsquo;s $120K&ndash;$125K target window. The plan delivers a Lincoln Road street activation in Miami plus a 4-week in-store run inside Gymshark Bond St in New York, with a full respray to the NYC palette in between. Lincoln Road BID is the only venue pass-through cost &mdash; Gymshark Bond St is brand-owned retail with no venue rental cost or fees, so only fabrication, transfer, install, and in-store presence apply on the NYC leg.
+    <strong>Budget alignment (V2.0):</strong> Gross production investment is $124,150; net of the $5,000 Preferred Partner Credit, V2.0 lands at $119,150 production &mdash; comfortably inside the client&rsquo;s $120K&ndash;$125K target window. The plan delivers a Lincoln Road street activation in Miami plus a 4-week in-store run inside Gymshark Bond St in New York, with a full respray to the NYC palette in between. Lincoln Road BID is the only venue pass-through cost &mdash; Gymshark Bond St is brand-owned retail with no venue rental cost or fees, so only fabrication, transfer, install, and in-store presence apply on the NYC leg.
   </div>
 </section>
 
@@ -870,21 +874,28 @@ const htmlContent = `
       <tr class="subcat"><td colspan="2">Producer &amp; Client Services</td></tr>
       <tr class="item"><td><span class="item-name">Project Management Fee</span><span class="item-desc">Dedicated senior producer, weekly status reporting, milestone tracking, Change Order administration, vendor / venue liaison, COI + insurance coordination, post-event reconciliation</span></td><td>$12,000</td></tr>
       <tr class="sub-subtotal"><td><em>Subtotal &mdash; Project Management</em></td><td><em>$12,000</em></td></tr>
+
+      <tr class="divider" style="color:var(--mercedes-teal)"><td colspan="2">Credits</td></tr>
+      <tr class="subcat"><td colspan="2">Partner Credits</td></tr>
+      <tr class="item"><td><span class="item-name">Preferred Partner Credit</span><span class="item-desc">Applied as a partner credit against the V2.0 production investment</span></td><td style="color:var(--mercedes-teal)">&minus;$5,000</td></tr>
+      <tr class="sub-subtotal" style="color:var(--mercedes-teal)"><td><em>Subtotal &mdash; Credits</em></td><td><em>&minus;$5,000</em></td></tr>
     </tbody>
     <tfoot>
-      <tr><td style="color:var(--iwc-gold)">V2.0 Production Investment (Lincoln Road &rarr; Respray &rarr; Gymshark Bond St)</td><td style="color:var(--iwc-gold)">$124,150</td></tr>
+      <tr><td style="color:var(--text-muted)">Gross Production Investment</td><td style="color:var(--text-muted)">$124,150</td></tr>
+      <tr><td style="color:var(--mercedes-teal)">Less: Preferred Partner Credit</td><td style="color:var(--mercedes-teal)">&minus;$5,000</td></tr>
+      <tr><td style="color:var(--iwc-gold)">Net V2.0 Production Investment (Lincoln Road &rarr; Respray &rarr; Gymshark Bond St)</td><td style="color:var(--iwc-gold)">$119,150</td></tr>
     </tfoot>
   </table>
 
   <div class="engage-bar" data-a>
     <div class="engage-col" style="border-color:var(--iwc-gold)">
       <div class="tag" style="color:var(--iwc-gold)">Deposit &mdash; 60%</div>
-      <div class="amt">$74,490</div>
+      <div class="amt">$71,490</div>
       <div class="note">Due upon Client&rsquo;s written approval of this Scope of Work (Proposal execution). Triggers procurement, engineering, and Lincoln Road permit application.</div>
     </div>
     <div class="engage-col" style="border-color:var(--mercedes-teal)">
       <div class="tag" style="color:var(--mercedes-teal)">Balance &mdash; 40%</div>
-      <div class="amt">$49,660</div>
+      <div class="amt">$47,660</div>
       <div class="note">Due five (5) business days prior to the Lincoln Road activation install (target June 22, 2026).</div>
     </div>
   </div>
@@ -1024,7 +1035,7 @@ const htmlContent = `
         <thead><tr><th>Version</th><th>Date</th><th>Issued By</th><th>Summary of Changes</th><th>Snapshot</th></tr></thead>
         <tbody>
           <tr><td>1.0</td><td>April 17, 2026</td><td>Agora Graphics</td><td>Initial proposal issued for Gymshark Phone Box NYC &amp; Miami July 2026 activation. Three execution options (NYC, Miami, dual-city with reskin), twelve recommended venues, $98,500 dual-city production target.</td><td><a href="/versions/v1-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v1.0 &rarr;</a></td></tr>
-          <tr><td><strong>2.0</strong></td><td><strong>April 29, 2026</strong></td><td>Agora Graphics</td><td><strong>Current.</strong> Plan refined to one venue at each location and two activations total. <strong>Event 01:</strong> Lincoln Road Mall, Miami Beach &mdash; June 27, 2026 (precise pitch within Lincoln Road still open; Euclid Oval primary recommendation). <strong>Event 02:</strong> Gymshark Bond St, 11 Bond St, New York, NY 10005 &mdash; in-store fixture, delivered on or before July 9, 2026 to anchor the July 11, 2026 product launch. No NYC street activation; no NYC venue rental cost or fees (Gymshark-owned retail). Box is resprayed/rewrapped to the NYC palette between cities. Twelve-venue shortlist removed; copy aligned with official Gymshark Bond St content (address, hours). Three execution options collapsed to a single $124,150 production-investment plan (Lincoln Road venue fee is the only pass-through).</td><td><a href="/versions/v2-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v2.0 &rarr;</a></td></tr>
+          <tr><td><strong>2.0</strong></td><td><strong>April 29, 2026</strong></td><td>Agora Graphics</td><td><strong>Current.</strong> Plan refined to one venue at each location and two activations total. <strong>Event 01:</strong> Lincoln Road Mall, Miami Beach &mdash; June 27, 2026 (precise pitch within Lincoln Road still open; Euclid Oval primary recommendation). <strong>Event 02:</strong> Gymshark Bond St, 11 Bond St, New York, NY 10005 &mdash; in-store fixture, delivered on or before July 9, 2026 to anchor the July 11, 2026 product launch. No NYC street activation; no NYC venue rental cost or fees (Gymshark-owned retail). Box is resprayed/rewrapped to the NYC palette between cities. Twelve-venue shortlist removed; copy aligned with official Gymshark Bond St content (address, hours). Three execution options collapsed to a single plan with $124,150 gross production, $5,000 Preferred Partner Credit, and $119,150 net production investment (Lincoln Road venue fee is the only pass-through).</td><td><a href="/versions/v2-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v2.0 &rarr;</a></td></tr>
         </tbody>
       </table>
     </div>
