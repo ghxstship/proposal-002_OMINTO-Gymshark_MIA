@@ -800,57 +800,75 @@ const htmlContent = `
     <thead><tr><th>Item</th><th style="text-align:right">Investment</th></tr></thead>
     <tbody>
       <tr class="divider"><td colspan="2">Components &mdash; The Phone Box</td></tr>
-      <tr><td>Phone Box Structural Shell &mdash; custom fabrication, marine-grade paint, two-piece modular</td><td>$14,500</td></tr>
-      <tr><td>4-Sided Illuminated Lightbox Signage &mdash; LED backlit, all four faces</td><td>$6,800</td></tr>
-      <tr><td>Glass &amp; Semi-Transparent Vinyl Panels &mdash; front door &amp; sides</td><td>$2,900</td></tr>
-      <tr><td>Pink Vinyl Interior Lining &mdash; four walls, bum mirror with messaging</td><td>$3,200</td></tr>
-      <tr><td>Concealed Sliding Prize Door &mdash; motorised, colour-matched</td><td>$3,400</td></tr>
-      <tr><td>Interior Finishes &mdash; chequer plate floor, dome light, seat, analogue phone</td><td>$2,750</td></tr>
-      <tr><td>Engineering, Structural Calcs &amp; Shop Drawings &mdash; wind-load, ballast, electrical, CAD</td><td>$4,000</td></tr>
+      <tr class="subcat"><td colspan="2">Structural Build</td></tr>
+      <tr class="item"><td><span class="item-name">Phone Box Structural Shell</span><span class="item-desc">Custom scenic fabrication, marine-grade paint, two-piece modular construction</span></td><td>$14,500</td></tr>
+      <tr class="item"><td><span class="item-name">4-Sided Illuminated Lightbox Signage</span><span class="item-desc">LED backlit, all four faces, weatherproof housing, single-cord power feed</span></td><td>$6,800</td></tr>
+      <tr class="item"><td><span class="item-name">Glass &amp; Semi-Transparent Vinyl Panels</span><span class="item-desc">Tempered glass, front door and sides, custom-printed privacy vinyl</span></td><td>$2,900</td></tr>
+      <tr class="subcat"><td colspan="2">Interior</td></tr>
+      <tr class="item"><td><span class="item-name">Pink Vinyl Interior Lining</span><span class="item-desc">Four-wall matte vinyl wrap, dimensional bum mirror with scripted messaging</span></td><td>$3,200</td></tr>
+      <tr class="item"><td><span class="item-name">Concealed Sliding Prize Door</span><span class="item-desc">Motorised, colour-matched, no visible handle on public face</span></td><td>$3,400</td></tr>
+      <tr class="item"><td><span class="item-name">Interior Finishes</span><span class="item-desc">Aluminium chequer-plate flooring, dome light, guest seat, branded analogue phone</span></td><td>$2,750</td></tr>
+      <tr class="subcat"><td colspan="2">Engineering &amp; Documentation</td></tr>
+      <tr class="item"><td><span class="item-name">Engineering, Structural Calcs &amp; Shop Drawings</span><span class="item-desc">Wind-load, ballast plan, electrical schematics, CAD shop drawings, venue-compliance package</span></td><td>$4,000</td></tr>
       <tr class="sub-subtotal"><td><em>Subtotal &mdash; The Phone Box</em></td><td><em>$37,550</em></td></tr>
 
       <tr class="divider"><td colspan="2">Components &mdash; Interactive Tech + Content Capture</td></tr>
-      <tr><td>Pre-Recorded Call-Response (IVR) System &mdash; multi-branch scripting, licensed voice, QA</td><td>$5,500</td></tr>
-      <tr><td>Live Call / Walkie-Talkie Relay &mdash; encrypted, backup uplink, producer headset</td><td>$2,900</td></tr>
-      <tr><td>Ceiling Dual Camera System &mdash; 4K, cloud storage, live-preview monitoring, disclosure sign</td><td>$4,500</td></tr>
-      <tr><td>Thermal Voucher Printer &amp; Shelf Mount &mdash; dual-speed, wrapped, redundant roll inventory</td><td>$2,800</td></tr>
-      <tr><td>Selfie &amp; Belfie Mobile Mounts &mdash; motion-triggered ring-light inserts, dual-height</td><td>$1,800</td></tr>
-      <tr><td>Content Capture &amp; Media Handoff Platform &mdash; cloud workspace, proxies, 48hr delivery</td><td>$2,500</td></tr>
+      <tr class="subcat"><td colspan="2">Call &amp; Response System</td></tr>
+      <tr class="item"><td><span class="item-name">Pre-Recorded Call-Response IVR System</span><span class="item-desc">Multi-branch scripting, licensed voice talent, keypad mapping, redundant win/lose logic, QA</span></td><td>$5,500</td></tr>
+      <tr class="item"><td><span class="item-name">Live Call / Walkie-Talkie Relay</span><span class="item-desc">Dual-mode encrypted relay, backup uplink, on-site producer headset, external broadcast</span></td><td>$2,900</td></tr>
+      <tr class="subcat"><td colspan="2">Capture</td></tr>
+      <tr class="item"><td><span class="item-name">Ceiling Dual Camera System</span><span class="item-desc">Two 4K video+audio cameras, cloud storage, live-preview monitoring, disclosure signage</span></td><td>$4,500</td></tr>
+      <tr class="item"><td><span class="item-name">Selfie &amp; Belfie Mobile Mounts</span><span class="item-desc">Two pink wall-mounted holders with motion-triggered ring-light inserts, dual-height</span></td><td>$1,800</td></tr>
+      <tr class="subcat"><td colspan="2">Output &amp; Handoff</td></tr>
+      <tr class="item"><td><span class="item-name">Thermal Voucher Printer &amp; Shelf Mount</span><span class="item-desc">Dual-speed thermal ticket printer, pink wrap, redundant roll inventory, firmware</span></td><td>$2,800</td></tr>
+      <tr class="item"><td><span class="item-name">Content Capture &amp; Media Handoff Platform</span><span class="item-desc">Cloud workspace, colour-corrected proxies, organised file-naming, 48-hour handoff</span></td><td>$2,500</td></tr>
       <tr class="sub-subtotal"><td><em>Subtotal &mdash; Interactive Tech + Content Capture</em></td><td><em>$20,000</em></td></tr>
 
       <tr class="divider"><td colspan="2">Components &mdash; Branding, Signage &amp; Consumables</td></tr>
-      <tr><td>Disclosure &amp; Wayfinding Signage</td><td>$950</td></tr>
-      <tr><td>Venue Dressing Kit &mdash; A-frames, stanchions, pavement decals</td><td>$1,750</td></tr>
-      <tr><td>Daily Consumables &amp; Spares Kit &mdash; voucher rolls, cleaning, spares, gaffer</td><td>$2,500</td></tr>
+      <tr class="subcat"><td colspan="2">Signage</td></tr>
+      <tr class="item"><td><span class="item-name">Disclosure &amp; Wayfinding Signage</span><span class="item-desc">Camera-disclosure sign, queue management decals, brand lockup callouts in brand palette</span></td><td>$950</td></tr>
+      <tr class="item"><td><span class="item-name">Venue Dressing Kit</span><span class="item-desc">Portable A-frame signage, branded stanchions, pavement decals, store-front variant for Bond St</span></td><td>$1,750</td></tr>
+      <tr class="subcat"><td colspan="2">Operating Supplies</td></tr>
+      <tr class="item"><td><span class="item-name">Daily Consumables &amp; Spares Kit</span><span class="item-desc">Voucher paper rolls, cleaning supplies, sanitisation wipes, touch-up paint, vinyl repair, pink gaffer</span></td><td>$2,500</td></tr>
       <tr class="sub-subtotal"><td><em>Subtotal &mdash; Branding, Signage &amp; Consumables</em></td><td><em>$5,200</em></td></tr>
 
-      <tr class="divider"><td colspan="2">Services &mdash; Event 01 Lincoln Road (Street) Logistics, Install &amp; Strike</td></tr>
-      <tr><td>Inbound Logistics &amp; Install &mdash; Lincoln Road (3-person crew, supervisor)</td><td>$5,800</td></tr>
-      <tr><td>On-Site Technicians &mdash; Lincoln Road (lead + rotating second)</td><td>$2,800</td></tr>
-      <tr><td>Same-Day Strike &amp; Outbound Freight &mdash; Lincoln Road</td><td>$3,300</td></tr>
-      <tr class="sub-subtotal"><td><em>Event 01 Subtotal</em></td><td><em>$11,900</em></td></tr>
+      <tr class="divider"><td colspan="2">Services &mdash; Event 01 Lincoln Road Logistics, Install &amp; Strike</td></tr>
+      <tr class="subcat"><td colspan="2">Install</td></tr>
+      <tr class="item"><td><span class="item-name">Inbound Logistics &amp; Install</span><span class="item-desc">Truck, rigging hardware, 3-person install crew, permit-window supervisor, 4&ndash;6 hr install window</span></td><td>$5,800</td></tr>
+      <tr class="subcat"><td colspan="2">On-Site Operations</td></tr>
+      <tr class="item"><td><span class="item-name">On-Site Technicians</span><span class="item-desc">Dedicated lead technician plus rotating second tech for rush windows and breaks</span></td><td>$2,800</td></tr>
+      <tr class="subcat"><td colspan="2">Strike &amp; Outbound</td></tr>
+      <tr class="item"><td><span class="item-name">Same-Day Strike &amp; Outbound Freight</span><span class="item-desc">Complete de-installation, module breakdown, crated outbound freight, full site restoration</span></td><td>$3,300</td></tr>
+      <tr class="sub-subtotal"><td><em>Subtotal &mdash; Event 01 Lincoln Road</em></td><td><em>$11,900</em></td></tr>
 
-      <tr class="divider" style="color:var(--iwc-gold)"><td colspan="2">Services &mdash; Inter-City Respray Package (Miami &rarr; NYC Palette, Itemized)</td></tr>
-      <tr><td>Climate-Controlled Warehouse Hold (~10 days)</td><td>$2,900</td></tr>
-      <tr><td>Inter-City Freight (Miami &rarr; NYC staging, climate-controlled truck)</td><td>$5,500</td></tr>
-      <tr><td>Exterior Respray to NYC Palette</td><td>$5,400</td></tr>
-      <tr><td>Interior Vinyl Refresh (NYC product launch creative)</td><td>$3,200</td></tr>
-      <tr><td>Lightbox Graphic Refresh (NYC launch creative)</td><td>$2,400</td></tr>
-      <tr><td>Retail Compliance &amp; Store Re-Spec</td><td>$2,000</td></tr>
-      <tr><td>Pre-Deployment QC &amp; Retail-Grade Certification</td><td>$2,600</td></tr>
-      <tr class="sub-subtotal" style="color:var(--iwc-gold)"><td><em>Respray Package Subtotal</em></td><td><em>$24,000</em></td></tr>
+      <tr class="divider" style="color:var(--iwc-gold)"><td colspan="2">Services &mdash; Inter-City Respray Package</td></tr>
+      <tr class="subcat"><td colspan="2">Storage &amp; Transport</td></tr>
+      <tr class="item"><td><span class="item-name">Climate-Controlled Warehouse Hold</span><span class="item-desc">Secure ~10-day storage of full assembly and tech stack between Miami strike and NYC respray</span></td><td>$2,900</td></tr>
+      <tr class="item"><td><span class="item-name">Inter-City Freight, Climate-Controlled Truck</span><span class="item-desc">Miami &rarr; NYC staging facility with real-time GPS tracking, two-driver rotation, handoff documentation</span></td><td>$5,500</td></tr>
+      <tr class="subcat"><td colspan="2">Respray &amp; Refresh</td></tr>
+      <tr class="item"><td><span class="item-name">Exterior Respray to NYC Palette</span><span class="item-desc">Sand &amp; prep, marine-grade respray to NYC product-launch colour callout, clear over-laminate</span></td><td>$5,400</td></tr>
+      <tr class="item"><td><span class="item-name">Interior Vinyl Refresh</span><span class="item-desc">Removal of Miami interior vinyl, application of NYC product-launch creative, mirror messaging update</span></td><td>$3,200</td></tr>
+      <tr class="item"><td><span class="item-name">Lightbox Graphic Refresh</span><span class="item-desc">Reprint and reinstall four translucent lightbox faces with NYC launch wordmark and treatment</span></td><td>$2,400</td></tr>
+      <tr class="subcat"><td colspan="2">Compliance &amp; QC</td></tr>
+      <tr class="item"><td><span class="item-name">Retail Compliance &amp; Store Re-Spec</span><span class="item-desc">Anchoring/ballast for indoor floor, electrical recheck, fire-marshal review, COI re-issuance</span></td><td>$2,000</td></tr>
+      <tr class="item"><td><span class="item-name">Pre-Deployment QC &amp; Retail-Grade Certification</span><span class="item-desc">Full reassembly inspection, IVR + camera + printer bench re-test, retail-grade finish certification</span></td><td>$2,600</td></tr>
+      <tr class="sub-subtotal" style="color:var(--iwc-gold)"><td><em>Subtotal &mdash; Inter-City Respray</em></td><td><em>$24,000</em></td></tr>
 
-      <tr class="divider" style="color:var(--iwc-gold)"><td colspan="2">Services &mdash; Event 02 Gymshark Bond St Delivery &amp; 4-Week Run (Itemized)</td></tr>
-      <tr><td>White-Glove Delivery to Gymshark Bond St (11 Bond St, NYC &mdash; target on/before July 9, 2026)</td><td>$3,000</td></tr>
-      <tr><td>Retail-Environment Install Crew (2-person, 4-hour overnight window)</td><td>$2,300</td></tr>
-      <tr><td>In-Store Fixture Setup (anchoring, electrical, tech bring-up)</td><td>$2,100</td></tr>
-      <tr><td>Store Wayfinding &amp; Footfall Driver Kit (sidewalk + window vinyl + CTA pack)</td><td>$2,200</td></tr>
-      <tr><td>4-Week In-Store Presence Support (remote tech, restock, content uploads)</td><td>$2,500</td></tr>
-      <tr><td>Retail Strike &amp; Return Freight (end-of-launch)</td><td>$1,400</td></tr>
-      <tr class="sub-subtotal" style="color:var(--iwc-gold)"><td><em>Event 02 Subtotal</em></td><td><em>$13,500</em></td></tr>
+      <tr class="divider" style="color:var(--iwc-gold)"><td colspan="2">Services &mdash; Event 02 Gymshark Bond St Delivery &amp; 4-Week Run</td></tr>
+      <tr class="subcat"><td colspan="2">Delivery &amp; Install</td></tr>
+      <tr class="item"><td><span class="item-name">White-Glove Delivery to Gymshark Bond St</span><span class="item-desc">Climate-controlled delivery to 11 Bond St, NYC, scheduled overnight or pre-open. Target on or before July 9, 2026.</span></td><td>$3,000</td></tr>
+      <tr class="item"><td><span class="item-name">Retail-Environment Install Crew</span><span class="item-desc">2-person crew with floor-protection, retail-grade hand-tool kit, store operations liaison, 4-hour window</span></td><td>$2,300</td></tr>
+      <tr class="item"><td><span class="item-name">In-Store Fixture Setup</span><span class="item-desc">Retail-spec floor anchoring, electrical drop, IVR + camera + printer + lightbox bring-up, on-floor sign-off</span></td><td>$2,100</td></tr>
+      <tr class="subcat"><td colspan="2">Footfall Drive</td></tr>
+      <tr class="item"><td><span class="item-name">Store Wayfinding &amp; Footfall Driver Kit</span><span class="item-desc">Sidewalk A-frame, branded window-vinyl tease, in-store directional decals, printed/social CTA pack</span></td><td>$2,200</td></tr>
+      <tr class="subcat"><td colspan="2">In-Store Run &amp; Strike</td></tr>
+      <tr class="item"><td><span class="item-name">4-Week In-Store Presence Support</span><span class="item-desc">Remote tech monitoring, weekly voucher-roll restock, content uploads, scenic touch-ups through August 6, 2026</span></td><td>$2,500</td></tr>
+      <tr class="item"><td><span class="item-name">Retail Strike &amp; Return Freight</span><span class="item-desc">End-of-launch de-installation, retail-grade floor restoration, return freight to Bohemia, NY facility</span></td><td>$1,400</td></tr>
+      <tr class="sub-subtotal" style="color:var(--iwc-gold)"><td><em>Subtotal &mdash; Event 02 Gymshark Bond St</em></td><td><em>$13,500</em></td></tr>
 
       <tr class="divider"><td colspan="2">Services &mdash; Project Management &amp; Client Services</td></tr>
-      <tr><td>Project Management Fee &mdash; full engagement, dedicated producer, PM &amp; client services</td><td>$12,000</td></tr>
+      <tr class="subcat"><td colspan="2">Producer &amp; Client Services</td></tr>
+      <tr class="item"><td><span class="item-name">Project Management Fee</span><span class="item-desc">Dedicated senior producer, weekly status reporting, milestone tracking, Change Order administration, vendor / venue liaison, COI + insurance coordination, post-event reconciliation</span></td><td>$12,000</td></tr>
       <tr class="sub-subtotal"><td><em>Subtotal &mdash; Project Management</em></td><td><em>$12,000</em></td></tr>
     </tbody>
     <tfoot>
