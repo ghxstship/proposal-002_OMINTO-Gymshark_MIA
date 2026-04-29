@@ -95,12 +95,12 @@ const htmlContent = `
       </div>
       <div class="hero-meta-item">
         <div class="hero-meta-label">Version</div>
-        <div class="hero-meta-value">Version 2.0 &mdash; April 27, 2026</div>
+        <div class="hero-meta-value">Version 2.0 &mdash; April 29, 2026</div>
       </div>
     </div>
 
     <p class="hero-narrative">
-      Agora Graphics is pleased to present <strong>Version 2.0</strong> of this fabrication and production proposal for the Gymshark Phone Box experiential activation, developed in partnership with Ominto Studio&rsquo;s creative direction. This engagement delivers a custom-fabricated pink British phone box equipped with interactive photo, voucher, and call-response technology. The three execution options now read: <strong>Option 01</strong> Miami-only single-day pop-up; <strong>Option 02</strong> NYC-only single-day pop-up at a private venue; and the recommended <strong>Option 03</strong> Miami activation at Lincoln Road on June 27 &rarr; respray to NYC palette &rarr; deliver to the Gymshark NYC retail store by July 9 as the in-store presence anchoring the product launch (no NYC street activation in v2.0). Twelve recommended venues across both cities (NYC restricted to private properties per FIFA programming conflicts) and a complete investment summary scaled to the client&rsquo;s $120K&ndash;$125K production-investment target.
+      Agora Graphics is pleased to present <strong>Version 2.0</strong> of this fabrication and production proposal for the Gymshark Phone Box experiential activation, developed in partnership with Ominto Studio&rsquo;s creative direction. This engagement delivers a custom-fabricated pink British phone box equipped with interactive photo, voucher, and call-response technology. V2.0 consolidates the previous three execution options into a <strong>single plan</strong>: <strong>Activation 01 &mdash; Miami</strong>, a single-day street pop-up at <strong>Lincoln Road Mall</strong> on June 27, 2026, followed by <strong>Activation 02 &mdash; New York</strong>, a respray/rewrap to the NYC palette and white-glove delivery to <strong>Gymshark Bond St</strong> on or before July 9 to anchor the in-store product launch on July 11 (no NYC street activation; no NYC venue rental). One venue at each location, two activations total, and a complete investment summary scaled to the client&rsquo;s $120K&ndash;$125K production-investment target.
     </p>
     <div class="hero-doc">Confidential &amp; Proprietary &bull; Prepared exclusively for Gymshark Ltd. and Ominto Studio</div>
   </div>
@@ -124,30 +124,32 @@ const htmlContent = `
     <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">Project Overview</span></div>
     <h2>Two Cities. One Iconic Object.</h2>
     <p class="sec-desc">
-      Gymshark&rsquo;s Phone Box activation reframes a classic British phone box as a single-day retail stunt: passers-by answer a ringing phone, navigate a pre-recorded quiz or live-call prompt, step inside a pink vinyl-lined interior, take a selfie or belfie, and walk away with a printed voucher and packaged product. The concept lives or dies on craft &mdash; the finish, the tech, the dwell time, the crowd around the object. This proposal scopes a production-ready build that can deploy in either New York or Miami on June 27 or July 11, 2026, with the option to land in both cities back-to-back via a mid-July rewrap.
+      Gymshark&rsquo;s Phone Box activation reframes a classic British phone box as a retail stunt: passers-by answer a ringing phone, navigate a pre-recorded quiz or live-call prompt, step inside a pink vinyl-lined interior, take a selfie or belfie, and walk away with a printed voucher and packaged product. The concept lives or dies on craft &mdash; the finish, the tech, the dwell time, the crowd around the object. V2.0 confirms a two-stop programme: a Miami street pop-up at Lincoln Road on June 27, followed by an in-store presence at Gymshark Bond St delivered on or before July 9 for the July 11 product launch.
     </p>
   </div>
 
   <div class="overview-grid" data-a>
-    <div class="overview-card" style="border-color:var(--mercedes-teal)">
-      <div class="ov-tag" style="color:var(--mercedes-teal)">Activation &mdash; New York</div>
-      <h3>NYC Pop-Up</h3>
-      <p><strong>Preferred Location:</strong> Rockefeller Center Plaza or Manhattan West (private properties)<br>
-      <strong>Alt. Dates:</strong> June 27 or July 11, 2026<br>
-      <strong>Hours:</strong> 10:00 AM &ndash; 6:00 PM<br>
-      <strong>Load-In:</strong> 4:00 AM &ndash; 8:00 AM (private venue window)<br>
-      <strong>Audience:</strong> Midtown office workers, luxury gym members, tourists<br>
-      <strong>Note:</strong> FIFA programming excludes city-owned venues &mdash; private only</p>
-    </div>
     <div class="overview-card" style="border-color:var(--f1-red)">
-      <div class="ov-tag" style="color:var(--f1-red)">Activation &mdash; Miami</div>
-      <h3>Miami Pop-Up</h3>
-      <p><strong>Recommended Locations:</strong> Midtown Miami (client-preferred), Wynwood, Lincoln Road, Brickell City Centre, Muscle Beach, or Bayfront Park<br>
-      <strong>Alt. Dates:</strong> June 27 or July 11, 2026<br>
+      <div class="ov-tag" style="color:var(--f1-red)">Activation 01 &mdash; Miami</div>
+      <h3>Lincoln Road Mall</h3>
+      <p><strong>Venue:</strong> <a href="https://lincolnroad.com/" target="_blank" rel="noopener" style="color:var(--f1-red);text-decoration:underline">Lincoln Road Mall</a>, Miami Beach<br>
+      <strong>Date:</strong> Saturday, June 27, 2026<br>
       <strong>Hours:</strong> 11:00 AM &ndash; 7:00 PM<br>
-      <strong>Load-In:</strong> 6:00 AM &ndash; 10:00 AM (venue-dependent)<br>
+      <strong>Load-In:</strong> 6:00 AM &ndash; 10:00 AM<br>
       <strong>Audience:</strong> Fitness culture, tourists, content creators, beach crowd<br>
-      <strong>Duration:</strong> Single-day stunt with full content capture</p>
+      <strong>Outstanding question:</strong> Precise location within Lincoln Road to be confirmed (Agora recommendation: <em>Euclid Oval</em>, 1100 block).</p>
+    </div>
+    <div class="overview-card" style="border-color:var(--mercedes-teal)">
+      <div class="ov-tag" style="color:var(--mercedes-teal)">Activation 02 &mdash; New York</div>
+      <h3>Gymshark Bond St</h3>
+      <p><strong>Venue:</strong> <a href="https://www.gymshark.com/pages/bond-street-store" target="_blank" rel="noopener" style="color:var(--mercedes-teal);text-decoration:underline">Gymshark Bond St</a> &mdash; New York, US<br>
+      <strong>Address:</strong> 11 Bond St, New York, NY 10005, United States<br>
+      <strong>Store Hours:</strong> Mon &ndash; Sat 10am&ndash;8pm &bull; Sun 11am&ndash;7pm<br>
+      <strong>Delivery Deadline:</strong> on or before Thursday, July 9, 2026<br>
+      <strong>Product Launch:</strong> Saturday, July 11, 2026<br>
+      <strong>Format:</strong> In-store fixture &mdash; <strong>no street activation</strong><br>
+      <strong>Venue Cost:</strong> None &mdash; Gymshark-owned retail, fabrication &amp; transfer only<br>
+      <strong>Driver:</strong> Maintain NYC presence and drive footfall into Gymshark Bond St for the launch window.</p>
     </div>
   </div>
 </section>
@@ -308,7 +310,7 @@ const htmlContent = `
 
         <div class="core-item" style="border-color:var(--f1-red)">
           <div><div class="name">Venue Dressing Kit</div>
-          <div class="desc">Portable A-frame sidewalk signage, branded stanchions, and pavement decals to extend phone box footprint and direct foot traffic. Reusable across both activations in Option 3.</div></div>
+          <div class="desc">Portable A-frame sidewalk signage, branded stanchions, and pavement decals to extend phone box footprint and direct foot traffic at Lincoln Road; the A-frame and window-pointing variant is also re-used at Gymshark Bond St for the in-store launch.</div></div>
           <div class="price" style="color:var(--f1-red)">$1,750</div>
         </div>
 
@@ -327,42 +329,42 @@ const htmlContent = `
       <div class="phase-num" style="color:var(--white)">04</div>
       <div class="phase-info">
         <h3>Logistics, Install &amp; Strike</h3>
-        <div class="sub">Transport, permit-window install, staffing, strike, reskin, and (new in v2.0) NYC store retail delivery</div>
+        <div class="sub">Miami street install &bull; respray / rewrap to NYC palette &bull; Gymshark Bond St delivery &amp; in-store fixture install</div>
       </div>
       <div class="phase-toggle" style="border-color:var(--white);color:var(--white)">+</div>
     </div>
     <div class="phase-body">
       <div class="phase-inner" style="border-left:4px solid var(--white)">
         <p class="phase-narrative">
-          Single-truck freight from the Agora Bohemia, NY fabrication facility. Each <em>street</em> activation includes a 3-person install crew, dual on-site technicians during operating hours, and same-day strike. <strong>Option 03 v2.0 has been reframed</strong>: Miami still runs as a single-day Lincoln Road street activation, after which the box is held at warehouse, fully resprayed/rewrapped to the NYC palette, then delivered <strong>directly to the Gymshark NYC retail store by July 9</strong> for the product launch &mdash; replacing the prior NYC street activation. NYC venue fees and street-permit logistics are no longer required for Option 03.
+          Single-truck freight from the Agora Bohemia, NY fabrication facility. The Miami activation is a single-day Lincoln Road street install with a 3-person install crew, dual on-site technicians during operating hours, and same-day strike. The box is then held at warehouse, fully resprayed/rewrapped to the NYC palette, and delivered <strong>directly to Gymshark Bond St on or before July 9</strong> for the July 11 product launch. There is no NYC street activation in V2.0, so no NYC venue fees, permits, or street-install logistics are required.
         </p>
 
-        <div class="core-label">Core Deliverables</div>
+        <div class="core-label">Activation 01 &mdash; Miami Lincoln Road (Street)</div>
 
         <div class="core-item">
-          <div><div class="name">Inbound Logistics &amp; Install (Per Activation)</div>
-          <div class="desc">Truck, rigging hardware, 3-person install crew, venue load-in coordination, module assembly, electrical hookup, permit-window supervisor, final finishing, and pre-open inspection. 4&ndash;6 hour install window.</div></div>
+          <div><div class="name">Inbound Logistics &amp; Install &mdash; Miami</div>
+          <div class="desc">Truck, rigging hardware, 3-person install crew, venue load-in coordination, module assembly, electrical hookup, permit-window supervisor, final finishing, and pre-open inspection. 4&ndash;6 hour install window at Lincoln Road.</div></div>
           <div class="price">$5,800</div>
         </div>
 
         <div class="core-item">
-          <div><div class="name">On-Site Technicians (Operating Hours)</div>
+          <div><div class="name">On-Site Technicians &mdash; Miami (Operating Hours)</div>
           <div class="desc">Dedicated lead technician plus rotating second tech for rush windows and breaks. Covers voucher roll, camera system, IVR prompts, minor scenic touch-ups, live-call relay handoff with Gymshark social team, and pre-open soundcheck / post-close shutdown.</div></div>
           <div class="price">$2,800</div>
         </div>
 
         <div class="core-item">
-          <div><div class="name">Same-Day Strike &amp; Outbound Freight (Per Activation)</div>
-          <div class="desc">Complete de-installation, module breakdown, crated outbound freight within venue&rsquo;s contracted strike window. Site walk-through with venue operations and full restoration to original condition.</div></div>
+          <div><div class="name">Same-Day Strike &amp; Outbound Freight &mdash; Miami</div>
+          <div class="desc">Complete de-installation, module breakdown, crated outbound freight within Lincoln Road&rsquo;s contracted strike window. Site walk-through with BID operations and full restoration to original condition.</div></div>
           <div class="price">$3,300</div>
         </div>
 
-        <div class="core-label" style="color:var(--iwc-gold)">Option 03 Add-On &mdash; Respray / Rewrap to NYC Palette</div>
-        <p class="phase-narrative" style="margin-top:4px;font-style:italic">The respray package is activated only when Option 03 (Miami Lincoln Road &rarr; NYC store) is selected. The box is held in climate-controlled storage between Miami strike and NYC retail delivery, fully resprayed/rewrapped to the NYC product-launch palette, lightbox graphics refreshed, and certified to retail-fixture finish standards before truck-out to the Gymshark NYC store.</p>
+        <div class="core-label" style="color:var(--iwc-gold)">Inter-City &mdash; Respray / Rewrap to NYC Palette</div>
+        <p class="phase-narrative" style="margin-top:4px;font-style:italic">Between the Miami strike and the Gymshark Bond St delivery, the box is held in climate-controlled storage, fully resprayed/rewrapped to the NYC product-launch palette, lightbox graphics refreshed, and certified to retail-fixture finish standards before truck-out to Gymshark Bond St.</p>
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
           <div><div class="name">Climate-Controlled Warehouse Hold (Miami &rarr; NYC staging)</div>
-          <div class="desc">Secure climate-controlled storage of the full phone box assembly and tech stack for the ~10-day window between Miami Lincoln Road strike and NYC reskin. Includes rigging, inventory, and insurance coverage during hold.</div></div>
+          <div class="desc">Secure climate-controlled storage of the full phone box assembly and tech stack for the ~10-day window between Miami Lincoln Road strike and NYC respray. Includes rigging, inventory, and insurance coverage during hold.</div></div>
           <div class="price" style="color:var(--iwc-gold)">$2,900</div>
         </div>
 
@@ -392,27 +394,27 @@ const htmlContent = `
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
           <div><div class="name">Retail Compliance &amp; Store Re-Spec</div>
-          <div class="desc">Re-spec of the box for the Gymshark NYC retail environment: anchoring/ballast adjusted for indoor concrete or wood floor, electrical drop verified to retail spec, fire-marshal compliance review, and updated COI issuance naming the store landlord as additional insured.</div></div>
+          <div class="desc">Re-spec of the box for the Gymshark Bond St retail environment: anchoring/ballast adjusted for indoor concrete or wood floor, electrical drop verified to retail spec, fire-marshal compliance review, and updated COI issuance naming the store as additional insured.</div></div>
           <div class="price" style="color:var(--iwc-gold)">$2,000</div>
         </div>
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
           <div><div class="name">Pre-Deployment QC &amp; Retail-Grade Certification</div>
-          <div class="desc">Full reassembly inspection, touch-up paint, electrical recheck, IVR + camera + printer systems re-bench-test at the NYC staging facility, retail-grade finish certification, and final sign-off prior to truck-out to the Gymshark NYC store.</div></div>
+          <div class="desc">Full reassembly inspection, touch-up paint, electrical recheck, IVR + camera + printer systems re-bench-test at the NYC staging facility, retail-grade finish certification, and final sign-off prior to truck-out to Gymshark Bond St.</div></div>
           <div class="price" style="color:var(--iwc-gold)">$2,600</div>
         </div>
 
         <div class="reskin-subtotal" style="margin-top:10px;padding:12px 16px;border:1px solid var(--iwc-gold);border-radius:6px;display:flex;justify-content:space-between;align-items:center;background:rgba(212,175,55,0.06)">
-          <span style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700">Respray Package Subtotal &mdash; Option 03 Only</span>
+          <span style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700">Respray Package Subtotal</span>
           <span style="font-family:var(--serif);font-size:18px;color:var(--iwc-gold);font-weight:700">$24,000</span>
         </div>
 
-        <div class="core-label" style="color:var(--iwc-gold);margin-top:24px">Option 03 Add-On &mdash; NYC Retail Delivery &amp; In-Store Activation</div>
-        <p class="phase-narrative" style="margin-top:4px;font-style:italic">New in v2.0. Replaces the prior NYC street activation. White-glove delivery to the Gymshark NYC retail store by July 9, in-store fixture install, store-front wayfinding to drive footfall, 4-week in-store presence support, and end-of-launch retail strike.</p>
+        <div class="core-label" style="color:var(--iwc-gold);margin-top:24px">Activation 02 &mdash; Gymshark Bond St (In-Store, NYC)</div>
+        <p class="phase-narrative" style="margin-top:4px;font-style:italic">White-glove delivery to Gymshark Bond St on or before July 9, in-store fixture install, store-front wayfinding to drive footfall to the launch, 4-week in-store presence support, and end-of-launch retail strike. Gymshark-owned retail &mdash; no venue rental cost or fees, fabrication and transfer only.</p>
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
-          <div><div class="name">White-Glove Delivery to Gymshark NYC Store</div>
-          <div class="desc">Climate-controlled white-glove delivery from the Agora NYC staging facility to the Gymshark NYC retail location, scheduled for an overnight or pre-open window per store operations. <strong>Target delivery: on or before July 9, 2026</strong> for the product launch.</div></div>
+          <div><div class="name">White-Glove Delivery to Gymshark Bond St</div>
+          <div class="desc">Climate-controlled white-glove delivery from the Agora NYC staging facility to Gymshark Bond St, scheduled for an overnight or pre-open window per store operations. <strong>Target delivery: on or before July 9, 2026</strong> for the July 11 product launch.</div></div>
           <div class="price" style="color:var(--iwc-gold)">$3,000</div>
         </div>
 
@@ -442,12 +444,12 @@ const htmlContent = `
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
           <div><div class="name">Retail Strike &amp; Return Freight</div>
-          <div class="desc">End-of-launch de-installation at the Gymshark NYC store, retail-grade floor restoration, return freight to Agora&rsquo;s Bohemia, NY facility, and post-event reconciliation.</div></div>
+          <div class="desc">End-of-launch de-installation at Gymshark Bond St, retail-grade floor restoration, return freight to Agora&rsquo;s Bohemia, NY facility, and post-event reconciliation.</div></div>
           <div class="price" style="color:var(--iwc-gold)">$1,400</div>
         </div>
 
         <div class="reskin-subtotal" style="margin-top:10px;padding:12px 16px;border:1px solid var(--iwc-gold);border-radius:6px;display:flex;justify-content:space-between;align-items:center;background:rgba(212,175,55,0.06)">
-          <span style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700">NYC Retail Subtotal &mdash; Option 03 Only</span>
+          <span style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700">In-Store Activation Subtotal</span>
           <span style="font-family:var(--serif);font-size:18px;color:var(--iwc-gold);font-weight:700">$13,500</span>
         </div>
       </div>
@@ -485,188 +487,34 @@ const htmlContent = `
 <!-- LOCATIONS -->
 <section id="locations" class="sec" style="padding-top:0">
   <div data-a>
-    <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Location Options</span></div>
-    <h2>Twelve Venues. Two Cities.</h2>
+    <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Venues</span></div>
+    <h2>Two Venues. Two Cities.</h2>
     <p class="sec-desc">
-      Six vetted New York venues and six Miami-area venues &mdash; spanning plazas, art districts, waterfront parks, retail corridors, and beachfronts &mdash; all suitable for a single-day Phone Box deployment. Daily venue ranges are pre-permit market estimates based on published rates and comparable 2024&ndash;2025 activation precedents; final figures are confirmed at permit issuance and vary with footprint, amenities, seasonality, and negotiation. Venue fees are passed through at cost and are <em>not</em> included in the production investment unless explicitly rolled into a package.
+      V2.0 proposes one venue at each location: <strong>Lincoln Road Mall</strong> (Miami Beach) for the June 27 street activation, and <strong>Gymshark Bond St</strong> (11 Bond St, New York, NY 10005) for the NYC in-store presence delivered on or before July 9 ahead of the July 11 product launch. The Lincoln Road venue fee is passed through at cost; Gymshark Bond St is a brand-owned retail environment with no venue rental cost or fees &mdash; fabrication and transfer only.
     </p>
-  </div>
-
-  <!-- NYC SUBSECTION -->
-  <div class="loc-city-section" data-a>
-    <div class="loc-city-heading">
-      <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">New York &bull; Six Venues &bull; Private-Only</span></div>
-      <h3>NYC Shortlist</h3>
-      <p>All NYC candidates are <strong>privately owned &amp; independently managed</strong> &mdash; city-owned parks, plazas, and DOT-managed spaces are unavailable during the FIFA World Cup programming window. The shortlist below covers six private campuses and waterfronts that can issue brand-first approvals independent of the city permitting process.</p>
-    </div>
-
-    <div class="loc-grid">
-
-      <!-- NYC: ROCKEFELLER CENTER -->
-      <div class="loc-card" style="border-color:var(--mercedes-teal)">
-        <div class="loc-hero loc-hero-rockefeller">
-          <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
-          <div class="loc-title">Rockefeller Center Plaza</div>
-          <div class="loc-sub">Midtown &bull; Tishman Speyer (private)</div>
-        </div>
-        <div class="loc-body">
-          <div class="loc-price">Est. $18,000 &ndash; $32,000 / day</div>
-          <p>Privately owned and operated by Tishman Speyer. Iconic Channel Gardens, rink-level plaza, and Top of the Rock frontage deliver globally-recognised content backdrops and premium Midtown foot traffic from the surrounding office towers and luxury gym memberships.</p>
-          <ul>
-            <li>Private ownership &mdash; brand-first approvals</li>
-            <li>Globally iconic backdrop for content</li>
-            <li>Dense Midtown lunch + after-work traffic</li>
-            <li>On-site facilities, power, and security infrastructure</li>
-          </ul>
-          <a href="https://www.rockefellercenter.com/events-and-experiences/" class="loc-link" target="_blank" rel="noopener">Rockefeller Center Events</a>
-        </div>
-      </div>
-
-      <!-- NYC: MANHATTAN WEST -->
-      <div class="loc-card" style="border-color:var(--mercedes-teal)">
-        <div class="loc-hero loc-hero-manwest">
-          <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
-          <div class="loc-title">Manhattan West Plaza</div>
-          <div class="loc-sub">Hudson Yards West &bull; Brookfield Properties (private)</div>
-        </div>
-        <div class="loc-body">
-          <div class="loc-price">Est. $10,000 &ndash; $18,000 / day</div>
-          <p>Privately owned open-air plaza operated by Brookfield Properties on the 9th Avenue / 33rd Street block. Modern architectural backdrop, glass-walled lobbies, and a built-in event infrastructure designed for branded activations. Direct access from Moynihan Train Hall.</p>
-          <ul>
-            <li>Private plaza &mdash; streamlined permitting</li>
-            <li>Event-ready infrastructure (power, data, security)</li>
-            <li>Adjacent to Hudson Yards &amp; High Line foot traffic</li>
-            <li>Moynihan / Penn commuter volume</li>
-          </ul>
-          <a href="https://manhattanwestnyc.com/events/" class="loc-link" target="_blank" rel="noopener">Manhattan West Events</a>
-        </div>
-      </div>
-
-      <!-- NYC: CHELSEA MARKET -->
-      <div class="loc-card" style="border-color:var(--mercedes-teal)">
-        <div class="loc-hero loc-hero-chelsea">
-          <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
-          <div class="loc-title">Chelsea Market</div>
-          <div class="loc-sub">75 Ninth Ave &bull; Alphabet / Google (deed-held, private)</div>
-        </div>
-        <div class="loc-body">
-          <div class="loc-price">Est. $8,000 &ndash; $15,000 / day</div>
-          <p>Full-block deed-held private property owned by Alphabet Inc. since the 2018 $2.4B acquisition from Jamestown; Jamestown still contract-manages the food hall, but approvals route through Google real estate. Directly under the High Line, two blocks from Little Island, and one block from Google&rsquo;s 111 Eighth Ave HQ and Pier 57 &mdash; one of the few truly private outdoor-capable venues left in Manhattan. Phone box can deploy on the 9th Ave frontage or inside the privately-controlled covered concourse if weather demands.</p>
-          <ul>
-            <li>Deed-held private property &mdash; single-path approvals via Google</li>
-            <li>500K+ monthly visitors to the ground-floor food hall</li>
-            <li>Fitness-coded neighbourhood (Barry&rsquo;s Chelsea, Equinox HY, SoulCycle West Village, Meatpacking hotel gyms)</li>
-            <li>High Line + Little Island + Pier 57 content spillover</li>
-            <li>Indoor concourse fallback if weather forces a pivot</li>
-          </ul>
-          <a href="https://www.chelseamarket.com/" class="loc-link" target="_blank" rel="noopener">Chelsea Market Official</a>
-        </div>
-      </div>
-
-      <!-- NYC: HUDSON YARDS -->
-      <div class="loc-card" style="border-color:var(--mercedes-teal)">
-        <div class="loc-hero loc-hero-hudson">
-          <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
-          <div class="loc-title">Hudson Yards Public Square</div>
-          <div class="loc-sub">West Side &bull; Related Companies (private)</div>
-        </div>
-        <div class="loc-body">
-          <div class="loc-price">Est. $12,000 &ndash; $22,000 / day</div>
-          <p>Privately owned public square at the base of the Vessel and The Shops &amp; Restaurants. Operated by Related Companies / Oxford Properties with dedicated events infrastructure. High retail-adjacent traffic and a strong fitness-oriented audience via Equinox Hudson Yards and SoulCycle.</p>
-          <ul>
-            <li>Private property &mdash; expedited brand approvals</li>
-            <li>Retail-adjacent, fitness-dense audience</li>
-            <li>7 train, High Line, Vessel content synergy</li>
-            <li>Event operations team on-site</li>
-          </ul>
-          <a href="https://www.hudsonyardsnewyork.com/discover/events" class="loc-link" target="_blank" rel="noopener">Hudson Yards Events</a>
-        </div>
-      </div>
-
-      <!-- NYC: INDUSTRY CITY -->
-      <div class="loc-card" style="border-color:var(--mercedes-teal)">
-        <div class="loc-hero loc-hero-industry">
-          <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
-          <div class="loc-title">Industry City</div>
-          <div class="loc-sub">Sunset Park, Brooklyn &bull; Jamestown (private)</div>
-        </div>
-        <div class="loc-body">
-          <div class="loc-price">Est. $5,000 &ndash; $10,000 / day</div>
-          <p>Privately owned 35-acre innovation and retail campus operated by Jamestown. Outdoor courtyards, turf lawns, and waterfront access provide a flexible canvas for branded activations. Creative-class Brooklyn audience and a strong DTC/lifestyle brand precedent.</p>
-          <ul>
-            <li>Private campus &mdash; flexible brand partnerships</li>
-            <li>Creative-class Brooklyn audience</li>
-            <li>Indoor + outdoor fallback footprints</li>
-            <li>Strong precedent for DTC/lifestyle pop-ups</li>
-          </ul>
-          <a href="https://industrycity.com/events/" class="loc-link" target="_blank" rel="noopener">Industry City Events</a>
-        </div>
-      </div>
-
-      <!-- NYC: DOMINO PARK -->
-      <div class="loc-card" style="border-color:var(--mercedes-teal)">
-        <div class="loc-hero loc-hero-domino">
-          <div class="loc-city" style="color:var(--mercedes-teal)">New York</div>
-          <div class="loc-title">Domino Park</div>
-          <div class="loc-sub">Williamsburg &bull; Two Trees Management (private)</div>
-        </div>
-        <div class="loc-body">
-          <div class="loc-price">Est. $4,000 &ndash; $8,000 / day</div>
-          <p>Privately owned and operated waterfront park at the former Domino Sugar Refinery &mdash; fitness-coded audience (dedicated beach-volleyball courts, sunset joggers) with a skyline view. Managed by Two Trees Management with favourable brand partnership terms.</p>
-          <ul>
-            <li>Private ownership &mdash; faster brand approvals</li>
-            <li>Built-in fitness/wellness audience</li>
-            <li>Lowest venue fee on NYC shortlist</li>
-            <li>Waterfront + Manhattan skyline backdrop</li>
-          </ul>
-          <a href="https://www.dominopark.com/" class="loc-link" target="_blank" rel="noopener">Domino Park Official</a>
-        </div>
-      </div>
-
-    </div>
   </div>
 
   <!-- MIAMI SUBSECTION -->
   <div class="loc-city-section" data-a>
     <div class="loc-city-heading">
-      <div class="sec-eye"><div class="bar" style="background:var(--f1-red)"></div><span style="color:var(--f1-red)">Miami &bull; Six Venues</span></div>
-      <h3>Miami Shortlist</h3>
-      <p>The client&rsquo;s named Miami candidates plus Agora&rsquo;s recommended additions &mdash; from beachfront fitness culture to private luxury plazas and waterfront downtown parks.</p>
+      <div class="sec-eye"><div class="bar" style="background:var(--f1-red)"></div><span style="color:var(--f1-red)">Miami &bull; Activation 01 &bull; Street</span></div>
+      <h3>Miami Venue</h3>
+      <p>The Miami activation runs as a single-day street pop-up at Lincoln Road Mall on Saturday, June 27, 2026. Lincoln Road BID handles permitting; the Miami venue fee is the only venue pass-through across the entire programme.</p>
     </div>
 
-    <div class="loc-grid">
-
-      <!-- MIAMI: WYNWOOD -->
-      <div class="loc-card" style="border-color:var(--f1-red)">
-        <div class="loc-hero loc-hero-wynwood">
-          <div class="loc-city" style="color:var(--f1-red)">Miami</div>
-          <div class="loc-title">Wynwood Walls &amp; Art District</div>
-          <div class="loc-sub">NW 2nd Ave corridor</div>
-        </div>
-        <div class="loc-body">
-          <div class="loc-price">Est. $6,000 &ndash; $12,000 / day</div>
-          <p>Globally recognised street-art district with its own pre-assembled content audience. Private management (Goldman Properties / Wynwood BID) allows for controlled activations. High concentration of creative agencies, cafes, and drop-in tourist traffic.</p>
-          <ul>
-            <li>Built-in photo-first visitor base</li>
-            <li>Colour-saturated backdrop complements pink phone box</li>
-            <li>Private venue &mdash; faster permitting turnaround</li>
-            <li>Evening crowd extends activation window</li>
-          </ul>
-          <a href="https://thewynwoodwalls.com/" class="loc-link" target="_blank" rel="noopener">Wynwood Walls Official</a>
-        </div>
-      </div>
+    <div class="loc-grid loc-grid-feature">
 
       <!-- MIAMI: LINCOLN ROAD -->
       <div class="loc-card" style="border-color:var(--f1-red)">
         <div class="loc-hero loc-hero-lincoln">
           <div class="loc-city" style="color:var(--f1-red)">Miami</div>
-          <div class="loc-title">Lincoln Road &mdash; June 27 (Confirmed)</div>
+          <div class="loc-title">Lincoln Road Mall &mdash; June 27</div>
           <div class="loc-sub">Miami Beach &bull; Recommended exact spot: <strong>Euclid Oval</strong> (1100 block)</div>
         </div>
         <div class="loc-body">
           <div class="loc-price">Est. $5,000 &ndash; $10,000 / day</div>
           <p>Pedestrian-only outdoor shopping district with recent streetscape regeneration. Bold palm-lined aesthetic with steady 7-day foot traffic of tourists, residents, and beach-goers. Permitting via City of Miami Beach &amp; Lincoln Road Business Improvement District.</p>
-          <p style="margin-top:12px;padding:12px 14px;border:1px solid var(--f1-red);border-radius:4px;background:rgba(244,162,97,0.06);font-size:11px;line-height:1.65"><strong style="color:var(--f1-red);text-transform:uppercase;letter-spacing:1.5px;font-size:10px">Precise Location Recommendation</strong><br><strong>Primary:</strong> <em>Euclid Oval</em>, the central pedestrian plaza at Lincoln Road &amp; Euclid Ave (1100 block) &mdash; ovoid hardscape with fountain backdrop, palm canopy, established BID activation slot, central to the Apple Store / J.Crew / Anthropologie anchor block.<br><strong>Private alternative:</strong> <em>1111 Lincoln Road plaza</em> &mdash; the Herzog &amp; de Meuron parking-garage retail plaza at the west end (Lincoln Rd &amp; Alton Rd), privately managed, frequent brand-activation precedent (Tesla, Cadillac).<br><strong>Backup:</strong> <em>800 block</em> (between Meridian &amp; Jefferson) &mdash; Apple flagship anchor, highest weekday lunch traffic.</p>
+          <p style="margin-top:12px;padding:12px 14px;border:1px solid var(--f1-red);border-radius:4px;background:rgba(244,162,97,0.06);font-size:11px;line-height:1.65"><strong style="color:var(--f1-red);text-transform:uppercase;letter-spacing:1.5px;font-size:10px">Precise Location &mdash; Outstanding Decision</strong><br>Lincoln Road is the venue; the precise pitch within the corridor is still open. Agora&rsquo;s recommendations:<br><strong>Primary:</strong> <em>Euclid Oval</em>, the central pedestrian plaza at Lincoln Road &amp; Euclid Ave (1100 block) &mdash; ovoid hardscape with fountain backdrop, palm canopy, established BID activation slot, central to the Apple Store / J.Crew / Anthropologie anchor block.<br><strong>Private alternative:</strong> <em>1111 Lincoln Road plaza</em> &mdash; the Herzog &amp; de Meuron parking-garage retail plaza at the west end (Lincoln Rd &amp; Alton Rd), privately managed, frequent brand-activation precedent (Tesla, Cadillac).<br><strong>Backup:</strong> <em>800 block</em> (between Meridian &amp; Jefferson) &mdash; Apple flagship anchor, highest weekday lunch traffic.</p>
           <ul>
             <li>Car-free corridor &mdash; safe for street-level activation</li>
             <li>High dwell time, shopping-mindset audience</li>
@@ -677,83 +525,39 @@ const htmlContent = `
         </div>
       </div>
 
-      <!-- MIAMI: MUSCLE BEACH -->
-      <div class="loc-card" style="border-color:var(--f1-red)">
-        <div class="loc-hero loc-hero-muscle">
-          <div class="loc-city" style="color:var(--f1-red)">Miami</div>
-          <div class="loc-title">Muscle Beach / Lummus Park</div>
-          <div class="loc-sub">South Beach beachfront</div>
-        </div>
-        <div class="loc-body">
-          <div class="loc-price">Est. $2,500 &ndash; $5,000 / day</div>
-          <p>Iconic open-air gym on Ocean Drive &mdash; arguably the most fitness-coded patch of sidewalk in the Americas. Lowest permit tier of the Miami shortlist, but adds logistical complexity (sand, sun exposure, tourist density). Permit via Miami Beach Parks &amp; Recreation.</p>
-          <ul>
-            <li>Unmatched fitness-culture association</li>
-            <li>High ambient traffic &mdash; tourists, joggers, influencers</li>
-            <li>Lowest venue fee on the Miami shortlist</li>
-            <li>Strong content environment: ocean, palms, golden hour</li>
-          </ul>
-          <a href="https://www.miamibeachfl.gov/city-hall/parks-and-recreation/parks-facilities-directory/lummus-park/" class="loc-link" target="_blank" rel="noopener">Miami Beach Parks &mdash; Lummus</a>
-        </div>
-      </div>
+    </div>
+  </div>
 
-      <!-- MIAMI: MIDTOWN -->
-      <div class="loc-card" style="border-color:var(--f1-red)">
-        <div class="loc-hero loc-hero-midtown">
-          <div class="loc-city" style="color:var(--f1-red)">Miami</div>
-          <div class="loc-title">Midtown Miami</div>
-          <div class="loc-sub">Between Design District &amp; Wynwood &bull; Client-preferred</div>
-        </div>
-        <div class="loc-body">
-          <div class="loc-price">Est. $5,000 &ndash; $10,000 / day</div>
-          <p>Strategic position between the Design District and Wynwood &mdash; dense with luxury fitness operators (UFC Gym, Barry&rsquo;s Bootcamp, Elevation, Anatomy) and the target demographic that over-indexes on Gymshark. Private-plaza footprints (Midtown Miami, Shops at Midtown) enable brand-first approvals and evening extension.</p>
-          <ul>
-            <li>Direct audience overlap with luxury gym membership base</li>
-            <li>Private property &mdash; faster permitting, brand-friendly</li>
-            <li>Walkable to Design District &amp; Wynwood for content spill</li>
-            <li>Evening bar/restaurant traffic extends activation window</li>
-          </ul>
-          <a href="https://www.midtownmiami.com/" class="loc-link" target="_blank" rel="noopener">Midtown Miami Official</a>
-        </div>
-      </div>
+  <!-- NYC SUBSECTION -->
+  <div class="loc-city-section" data-a>
+    <div class="loc-city-heading">
+      <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">New York &bull; Activation 02 &bull; In-Store</span></div>
+      <h3>NYC Venue</h3>
+      <p>The phone box is delivered directly to Gymshark Bond St as the in-store anchor for the July 11 product launch. There is no NYC street activation in V2.0 &mdash; presence in the city is maintained through the in-store fixture and store-front wayfinding driving footfall to Gymshark Bond St.</p>
+    </div>
 
-      <!-- MIAMI: BAYFRONT / BISCAYNE -->
-      <div class="loc-card" style="border-color:var(--f1-red)">
-        <div class="loc-hero loc-hero-bayfront">
-          <div class="loc-city" style="color:var(--f1-red)">Miami</div>
-          <div class="loc-title">Bayfront Park</div>
-          <div class="loc-sub">Downtown / Biscayne Boulevard</div>
-        </div>
-        <div class="loc-body">
-          <div class="loc-price">Est. $4,000 &ndash; $8,000 / day</div>
-          <p>Major downtown activation park with established infrastructure for branded events (Ultra, F1 Fan Zones, concerts). Managed by the Bayfront Park Management Trust &mdash; experienced permitting body with fast-track processes for qualified clients. Recommended interpretation of the client&rsquo;s &ldquo;Biscayne Park&rdquo; reference.</p>
-          <ul>
-            <li>Event-experienced venue team</li>
-            <li>Existing power, water, and security infrastructure</li>
-            <li>Waterfront visibility from Biscayne Blvd</li>
-            <li>Strong cruise-passenger and tourist flow</li>
-          </ul>
-          <a href="https://www.bayfrontparkmiami.com/" class="loc-link" target="_blank" rel="noopener">Bayfront Park Management Trust</a>
-        </div>
-      </div>
+    <div class="loc-grid loc-grid-feature">
 
-      <!-- MIAMI: BRICKELL CITY CENTRE -->
-      <div class="loc-card" style="border-color:var(--f1-red)">
-        <div class="loc-hero loc-hero-brickell">
-          <div class="loc-city" style="color:var(--f1-red)">Miami</div>
-          <div class="loc-title">Brickell City Centre</div>
-          <div class="loc-sub">Luxury retail &amp; private plaza &bull; Swire Properties</div>
+      <!-- NYC: GYMSHARK BOND ST -->
+      <div class="loc-card" style="border-color:var(--mercedes-teal)">
+        <div class="loc-hero loc-hero-rockefeller">
+          <div class="loc-city" style="color:var(--mercedes-teal)">New York, US</div>
+          <div class="loc-title">Gymshark Bond St</div>
+          <div class="loc-sub">11 Bond St, New York, NY 10005 &bull; Gymshark-owned retail</div>
         </div>
         <div class="loc-body">
-          <div class="loc-price">Est. $6,000 &ndash; $12,000 / day</div>
-          <p>Miami&rsquo;s financial and luxury-residential core, narrowed to Swire Properties&rsquo; privately-managed Brickell City Centre campus. High-disposable-income audience, dense evening bar/restaurant traffic, and climate-controlled plaza options under the Climate Ribbon canopy. Private venue management enables brand-first approvals and fast turnarounds.</p>
+          <div class="loc-price" style="color:var(--mercedes-teal)">Venue Cost: <strong>None</strong> (Gymshark-owned) &bull; Fabrication &amp; Transfer Only</div>
+          <p>In-store fixture activation inside Gymshark Bond St in NoHo, New York. The phone box is delivered, installed, and commissioned inside the store as the centrepiece of the July 11 product-launch retail moment. No street permit, no venue rental, no FIFA programming conflict &mdash; the activation lives entirely within Gymshark&rsquo;s own retail environment.</p>
           <ul>
-            <li>Affluent, fitness-active local audience</li>
-            <li>Evening traffic extends activation window</li>
-            <li>Climate Ribbon canopy &mdash; weather-protected options</li>
-            <li>Single venue manager &mdash; streamlined approvals</li>
+            <li><strong>Address:</strong> 11 Bond St, New York, NY 10005, United States</li>
+            <li><strong>Store hours:</strong> Mon &ndash; Sat 10am&ndash;8pm &bull; Sun 11am&ndash;7pm</li>
+            <li><strong>Delivery deadline:</strong> on or before Thursday, July 9, 2026</li>
+            <li><strong>Product launch:</strong> Saturday, July 11, 2026</li>
+            <li>No venue rental or permit cost &mdash; Gymshark-owned retail</li>
+            <li>4-week in-store presence support post-launch</li>
+            <li>Store-front wayfinding kit drives walk-in footfall to the launch</li>
           </ul>
-          <a href="https://www.brickellcitycentre.com/" class="loc-link" target="_blank" rel="noopener">Brickell City Centre Official</a>
+          <a href="https://www.gymshark.com/pages/bond-street-store" class="loc-link" target="_blank" rel="noopener">Gymshark Bond St &mdash; Official Store Page</a>
         </div>
       </div>
 
@@ -761,7 +565,7 @@ const htmlContent = `
   </div>
 
   <div class="loc-footnote" data-a>
-    <strong>Note on pricing &amp; imagery:</strong> Daily ranges are pre-permit market estimates based on published rates and comparable 2024&ndash;2025 activation precedents. Actual venue fees depend on footprint, amenities (power, water, security), seasonality, dates, and negotiation, and are billed separately from the production investment and passed through at cost. NYC candidates are restricted to privately owned &amp; independently managed properties per FIFA programming conflicts with city-owned venues; private venue fees may exceed public venue comparables. Firm site-scouting photography and brand-first letters of intent from each private operator will be secured by Agora Graphics within 5 business days of a signed letter of intent.
+    <strong>Note on pricing &amp; venue fees:</strong> The Lincoln Road daily range is a pre-permit market estimate based on published rates and comparable 2024&ndash;2025 activation precedents. The actual venue fee depends on footprint, amenities (power, water, security), seasonality, dates, and negotiation, and is billed separately from the production investment and passed through at cost. The Gymshark Bond St is a brand-owned retail environment with no venue rental cost or fees &mdash; only the fabrication and transfer line items in the Investment Summary apply to the NYC leg.
   </div>
 </section>
 
@@ -771,7 +575,7 @@ const htmlContent = `
     <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">Your Production Journey</span></div>
     <h2>Eight Phases. One Seamless Deployment.</h2>
     <p class="sec-desc">
-      Every Agora engagement follows a structured, milestone-gated production lifecycle &mdash; from creative alignment through post-event strike. Each phase builds on the last with defined deliverables and approval checkpoints, scaled here for a compressed ~9-week lead time from Scope Approval (April 27) into the June 27 / July 11 activation dates.
+      Every Agora engagement follows a structured, milestone-gated production lifecycle &mdash; from creative alignment through post-event strike. Each phase builds on the last with defined deliverables and approval checkpoints, scaled here for a compressed ~9-week lead time from Scope Approval (April 27) into the June 27 Lincoln Road activation and July 9 Gymshark Bond St delivery anchoring the July 11 product launch.
     </p>
   </div>
 
@@ -809,20 +613,20 @@ const htmlContent = `
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
       <div class="step-num" style="color:var(--mercedes-teal)">06</div>
       <h4>Installation &amp; On-Site Build</h4>
-      <p>Miami Lincoln Road permit-window install (Opts 01 / 03) and NYC private-venue install (Opt 02). Opt 03 NYC <em>retail</em> install at the Gymshark NYC store happens later via a separate retail window.</p>
-      <div class="step-date">June 27 (Lincoln Road) / Jun 27 or Jul 11 (NYC)</div>
+      <p>Miami Lincoln Road permit-window install for the June 27 street activation. The Gymshark Bond St in-store install in New York follows on or before July 9 via a separate overnight retail window.</p>
+      <div class="step-date">Lincoln Road Jun 27 &bull; Bond St Jul 7 &ndash; 9</div>
     </div>
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
       <div class="step-num" style="color:var(--mercedes-teal)">07</div>
       <h4>Activation &amp; Live Operations</h4>
-      <p>Single-day public operation with on-site tech, voucher, camera, and live-call coverage at Lincoln Road (Opt 01 / 03) or the NYC private venue (Opt 02). Opt 03 transitions into a 4-week NYC in-store run after July 9 delivery.</p>
-      <div class="step-date">Miami Jun 27 &bull; NYC Jul 9 &ndash; Aug 6 (Opt 03)</div>
+      <p>Single-day public operation at Lincoln Road on June 27 with on-site tech, voucher, camera, and live-call coverage. The programme then transitions into a 4-week in-store run at Gymshark Bond St anchoring the July 11 product launch.</p>
+      <div class="step-date">Miami Jun 27 &bull; Bond St Jul 9 &ndash; Aug 6</div>
     </div>
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
       <div class="step-num" style="color:var(--mercedes-teal)">08</div>
       <h4>Strike &amp; Project Closeout</h4>
-      <p>Same-day strike for street activations. Opt 03 v2.0: respray window between cities, then white-glove delivery to NYC store, 4-week in-store presence, and retail strike at end of launch. Post-event reconciliation, final documentation, project archive.</p>
-      <div class="step-date">Jul 18 (Opts 01 / 02) &bull; Aug 13 (Opt 03)</div>
+      <p>Same-day strike at Lincoln Road; respray window between cities; 4-week in-store presence at Gymshark Bond St; end-of-launch retail strike. Post-event reconciliation, final documentation, project archive.</p>
+      <div class="step-date">Lincoln Road same-day &bull; Bond St Aug 6 &bull; Closeout Aug 13</div>
     </div>
   </div>
 </section>
@@ -838,23 +642,23 @@ const htmlContent = `
   <table class="sched-table" data-a>
     <thead><tr><th>Phase</th><th>Milestone</th><th>Date</th></tr></thead>
     <tbody>
-      <tr><td>Scope Approval</td><td>Option selected, city/cities confirmed, production authorisation issued</td><td>Monday, April 27</td></tr>
-      <tr><td>Deposit Received</td><td>60% project deposit &mdash; due upon Scope of Work approval; triggers procurement, engineering, and venue permit applications</td><td>May 1</td></tr>
-      <tr><td>Venue Permits Applied</td><td>Permit applications filed for selected city / cities; deposit letters issued</td><td>May 4</td></tr>
-      <tr><td>Creative Lock</td><td>Final artwork, voucher template, IVR scripting, and packaging dielines delivered to Agora</td><td>May 11</td></tr>
-      <tr><td>Engineering &amp; Shop Drawings</td><td>Structural, electrical, and ballast drawings issued for client review</td><td>May 11 &ndash; 22</td></tr>
+      <tr><td>Scope Approval</td><td>V2.0 plan approved (Lincoln Road &rarr; Gymshark Bond St); production authorisation issued</td><td>Monday, April 27</td></tr>
+      <tr><td>Deposit Received</td><td>60% project deposit &mdash; due upon Scope of Work approval; triggers procurement, engineering, and Lincoln Road permit application</td><td>May 1</td></tr>
+      <tr><td>Lincoln Road Permit Applied</td><td>Permit application filed with Lincoln Road BID / City of Miami Beach; precise pitch (Euclid Oval primary) finalised</td><td>May 4</td></tr>
+      <tr><td>Creative Lock</td><td>Final artwork, voucher template, IVR scripting, and NYC palette + launch creative delivered to Agora</td><td>May 11</td></tr>
+      <tr><td>Engineering &amp; Shop Drawings</td><td>Structural, electrical, ballast, and Bond St retail-fixture drawings issued for client review</td><td>May 11 &ndash; 22</td></tr>
       <tr><td>Scenic Fabrication</td><td>Phone box shell build, paint, finish, lightbox assembly</td><td>May 25 &ndash; June 19</td></tr>
       <tr><td>Print &amp; Graphics Production</td><td>Exterior vinyl, interior vinyl, lightbox graphics, disclosure + wayfinding signage</td><td>June 1 &ndash; June 19</td></tr>
       <tr><td>Tech Bench Test</td><td>Full IVR + voucher printer + camera system rehearsed end-to-end at Agora facility</td><td>June 19 &ndash; 23</td></tr>
-      <tr><td>Balance Payment</td><td>Remaining 40% balance due &mdash; five (5) business days prior to first activation</td><td>June 22</td></tr>
-      <tr><td>Transit to Activation 1</td><td>Truck loaded, transported to chosen city (Miami or NYC)</td><td>June 24 &ndash; 26</td></tr>
-      <tr><td>Miami Activation (Lincoln Road)</td><td>Pre-dawn install at Lincoln Road / Euclid Oval, 8&ndash;10 hr operational window, same-day strike. <em>Applies to Options 01 &amp; 03.</em></td><td>June 27</td></tr>
-      <tr><td>NYC Street Activation (Option 02)</td><td>Single-day pop-up at the selected NYC private venue. <em>Option 02 only; not applicable to Option 03 in v2.0.</em></td><td>June 27 or July 11</td></tr>
-      <tr><td>Respray Window (Option 03)</td><td>Climate-controlled hold + Miami&rarr;NYC freight + respray / rewrap to NYC palette + retail-grade QC</td><td>June 28 &ndash; July 7</td></tr>
-      <tr><td>NYC Store Delivery (Option 03)</td><td><strong>White-glove delivery to Gymshark NYC store</strong> + in-store install + commissioning. <strong>Target on or before July 9</strong> for the product launch.</td><td>July 7 &ndash; 9</td></tr>
-      <tr><td>NYC In-Store Launch (Option 03)</td><td>4-week in-store presence: remote tech monitoring, voucher restock, content uploads, store wayfinding active</td><td>July 9 &ndash; Aug 6</td></tr>
-      <tr><td>Strike &amp; Return Freight</td><td>Final de-installation and return transport to Agora facility (Miami same-day for Opts 01/03; NYC same-day for Opt 02; NYC retail end-of-launch for Opt 03)</td><td>Per option</td></tr>
-      <tr><td>Project Closeout</td><td>Post-event reconciliation, captured media handoff, closeout deliverables</td><td>Aug 13 (Opt 03) / Jul 18 (Opts 01 &amp; 02)</td></tr>
+      <tr><td>Balance Payment</td><td>Remaining 40% balance due &mdash; five (5) business days prior to Lincoln Road activation</td><td>June 22</td></tr>
+      <tr><td>Transit to Miami</td><td>Truck loaded, transported from Bohemia, NY to Lincoln Road, Miami Beach</td><td>June 24 &ndash; 26</td></tr>
+      <tr><td>Activation 01 &mdash; Lincoln Road</td><td>Pre-dawn install at Lincoln Road, 8&ndash;10 hr operational window, same-day strike</td><td>Saturday, June 27</td></tr>
+      <tr><td>Respray Window</td><td>Climate-controlled hold + Miami &rarr; NYC freight + respray / rewrap to NYC palette + retail-grade QC</td><td>June 28 &ndash; July 7</td></tr>
+      <tr><td>Activation 02 &mdash; Gymshark Bond St Delivery</td><td><strong>White-glove delivery to 11 Bond St, New York, NY</strong> + in-store install + commissioning. <strong>Target on or before July 9</strong> for the product launch.</td><td>July 7 &ndash; 9</td></tr>
+      <tr><td>Bond St Product Launch</td><td>Gymshark product launch with phone box live in-store; on-floor commissioning sign-off, social handoff active</td><td>Saturday, July 11</td></tr>
+      <tr><td>4-Week In-Store Run</td><td>Remote tech monitoring, voucher restock, content uploads, store wayfinding active inside Gymshark Bond St</td><td>July 11 &ndash; Aug 6</td></tr>
+      <tr><td>Retail Strike &amp; Return Freight</td><td>End-of-launch de-installation at Gymshark Bond St, retail-grade floor restoration, return freight to Bohemia, NY</td><td>Aug 6 &ndash; 8</td></tr>
+      <tr><td>Project Closeout</td><td>Post-event reconciliation, captured media handoff, closeout deliverables</td><td>Aug 13</td></tr>
     </tbody>
   </table>
 </section>
@@ -894,78 +698,35 @@ const htmlContent = `
 <!-- PACKAGES -->
 <section id="packages" class="sec" style="padding-top:0">
   <div data-a>
-    <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Package Options</span></div>
-    <h2>Three Ways to Activate</h2>
+    <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Plan</span></div>
+    <h2>One Plan. Two Activations.</h2>
     <p class="sec-desc">
-      Three execution paths sized against Gymshark&rsquo;s $120K&ndash;$125K production-investment target for the recommended configuration. All three include the full Phone Box object, engineering &amp; shop drawings, the enhanced interactive tech + content capture platform, disclosure signage, venue dressing kit, consumables spares, and a dedicated project manager. Option 3 is the recommended configuration: it lands two cities back-to-back via a fully itemized reskin package and creates a natural content arc (Miami beach energy &rarr; NYC downtown energy) over a 14-day public window.
+      V2.0 confirms a single execution path scoped against Gymshark&rsquo;s $120K&ndash;$125K production-investment target. The plan lands two cities back-to-back via a fully itemized respray package and creates a natural content arc &mdash; Miami beach energy at Lincoln Road &rarr; NYC retail energy inside Gymshark Bond St &mdash; over a public window of approximately six weeks (June 27 street, July 11 launch, August 6 close).
     </p>
   </div>
 
-  <div class="pkg-grid" data-a>
+  <div class="pkg-grid" data-a style="grid-template-columns:1fr;max-width:780px;margin:0 auto">
 
-    <!-- OPTION 1: MIAMI ONLY -->
-    <div class="pkg-card" style="border-color:var(--f1-red)">
-      <div class="pkg-tag" style="color:var(--f1-red)">Option 01</div>
-      <h3>Miami Only</h3>
-      <div class="pkg-date">June 27 <strong>or</strong> July 11, 2026</div>
-      <div class="pkg-venue">Recommended: Midtown Miami (client-preferred) or Wynwood</div>
-      <ul class="pkg-list">
-        <li>Complete Phone Box fabrication + engineering package</li>
-        <li>Enhanced interactive tech + content capture platform ($20K)</li>
-        <li>Signage, venue dressing kit, and consumables spares</li>
-        <li>Miami freight, 3-person install, dual-tech ops, and strike</li>
-        <li>Project management &amp; client services ($12K)</li>
-        <li>1 activation day</li>
-      </ul>
-      <div class="pkg-price">
-        <div class="pkg-prod-label">Production Investment</div>
-        <div class="pkg-amount" style="color:var(--f1-red)">$86,650</div>
-        <div class="pkg-venue-line">+ Miami venue fee (est. $2.5K &ndash; $15K)</div>
-        <div class="pkg-total">Total All-In (est.)<strong>$89,150 &ndash; $101,650</strong></div>
-      </div>
-    </div>
-
-    <!-- OPTION 2: NYC ONLY -->
-    <div class="pkg-card" style="border-color:var(--mercedes-teal)">
-      <div class="pkg-tag" style="color:var(--mercedes-teal)">Option 02</div>
-      <h3>NYC Only</h3>
-      <div class="pkg-date">June 27 <strong>or</strong> July 11, 2026</div>
-      <div class="pkg-venue">Private only: Rockefeller Center, Manhattan West, Chelsea Market, Hudson Yards, Industry City, or Domino Park</div>
-      <ul class="pkg-list">
-        <li>Complete Phone Box fabrication + engineering package</li>
-        <li>Enhanced interactive tech + content capture platform ($20K)</li>
-        <li>Signage, venue dressing kit, and consumables spares</li>
-        <li>NYC freight, 3-person install, dual-tech ops, and strike</li>
-        <li>Project management &amp; client services ($12K)</li>
-        <li>1 activation day</li>
-      </ul>
-      <div class="pkg-price">
-        <div class="pkg-prod-label">Production Investment</div>
-        <div class="pkg-amount" style="color:var(--mercedes-teal)">$86,650</div>
-        <div class="pkg-venue-line">+ NYC private venue fee (est. $4K &ndash; $32K)</div>
-        <div class="pkg-total">Total All-In (est.)<strong>$90,650 &ndash; $118,650</strong></div>
-      </div>
-    </div>
-
-    <!-- OPTION 3 v2.0: MIAMI LINCOLN ROAD → RESPRAY → NYC GYMSHARK STORE (RETAIL) -->
+    <!-- PLAN: LINCOLN ROAD → RESPRAY → GYMSHARK BOND ST -->
     <div class="pkg-card recommended" style="border-color:var(--iwc-gold)">
-      <div class="pkg-ribbon" style="background:var(--iwc-gold);color:var(--dark)">Recommended &mdash; Full Budget</div>
-      <div class="pkg-tag" style="color:var(--iwc-gold)">Option 03 &bull; v2.0 reframe</div>
-      <h3>Lincoln Road &rarr; NYC Store</h3>
-      <div class="pkg-date">Miami Jun 27 (Lincoln Road) &rarr; NYC Store delivery by Jul 9, 2026</div>
-      <div class="pkg-venue">Miami street activation &rarr; respray to NYC palette &rarr; in-store presence at the Gymshark NYC retail store (no NYC street activation)</div>
+      <div class="pkg-ribbon" style="background:var(--iwc-gold);color:var(--dark)">Plan &mdash; V2.0</div>
+      <div class="pkg-tag" style="color:var(--iwc-gold)">Activation 01 &amp; Activation 02</div>
+      <h3>Lincoln Road &rarr; Gymshark Bond St</h3>
+      <div class="pkg-date">Miami Jun 27 (Lincoln Road) &rarr; Bond St delivery by Jul 9 &rarr; Launch Jul 11, 2026</div>
+      <div class="pkg-venue">Lincoln Road street activation &rarr; respray to NYC palette &rarr; in-store presence at Gymshark Bond St, 11 Bond St, New York, NY 10005 (no NYC street activation)</div>
       <ul class="pkg-list">
-        <li>Miami Lincoln Road street activation &mdash; June 27 (Euclid Oval recommended)</li>
+        <li>Activation 01 &mdash; Lincoln Road Mall street activation, Saturday June 27 (Euclid Oval recommended)</li>
         <li><strong>Full respray / rewrap to NYC palette</strong> ($24,000 &mdash; 7 itemized sub-lines in Investment Summary)</li>
         <li>Climate-controlled warehouse hold + inter-city freight (Miami &rarr; NYC staging)</li>
-        <li><strong>White-glove delivery to Gymshark NYC store by July 9</strong> for product launch</li>
+        <li><strong>White-glove delivery to Gymshark Bond St on or before July 9</strong> for the July 11 product launch</li>
         <li>In-store fixture install + store wayfinding &amp; footfall driver kit</li>
         <li>4-week in-store presence support &bull; retail strike &amp; return freight</li>
+        <li>Complete Phone Box fabrication + engineering package, enhanced interactive tech + content capture platform, signage, venue dressing kit, consumables spares, and dedicated project management</li>
       </ul>
       <div class="pkg-price">
         <div class="pkg-prod-label">Production Investment</div>
         <div class="pkg-amount" style="color:var(--iwc-gold)">$124,150</div>
-        <div class="pkg-venue-line">+ Miami venue fee only (est. $5K &ndash; $10K) &bull; NYC has no street venue fee in v2.0</div>
+        <div class="pkg-venue-line">+ Lincoln Road venue fee only (est. $5K &ndash; $10K) &bull; Gymshark Bond St has no venue rental cost or fees</div>
         <div class="pkg-total">Total All-In (est.)<strong>$129,150 &ndash; $134,150</strong></div>
       </div>
     </div>
@@ -975,45 +736,36 @@ const htmlContent = `
   <!-- COMPONENT SUMMARY — PRICING HIERARCHY / ITEMIZATION -->
   <div class="pkg-component-summary" data-a style="margin-top:40px">
     <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Component Pricing Hierarchy</span></div>
-    <h3 style="font-size:22px;margin:8px 0 16px">What&rsquo;s Included in Each Option</h3>
-    <p class="sec-desc" style="margin-bottom:20px">Side-by-side itemization of the components that build up each option&rsquo;s production investment. The shared base &mdash; phone box, tech, signage, and project management &mdash; is identical across all three options. Activation logistics and the reskin package scale by option.</p>
+    <h3 style="font-size:22px;margin:8px 0 16px">What&rsquo;s Included</h3>
+    <p class="sec-desc" style="margin-bottom:20px">Itemization of the components that build up the V2.0 production investment, organised by phase. Activation 01 logistics cover Lincoln Road (street); the respray and Activation 02 in-store delivery cover Gymshark Bond St (retail).</p>
 
     <table class="component-summary-table">
       <thead>
         <tr>
           <th style="text-align:left">Component</th>
-          <th style="text-align:right;color:var(--f1-red)">Option 01<br><span style="font-size:10px;font-weight:400;opacity:0.7">Miami Only</span></th>
-          <th style="text-align:right;color:var(--mercedes-teal)">Option 02<br><span style="font-size:10px;font-weight:400;opacity:0.7">NYC Only</span></th>
-          <th style="text-align:right;color:var(--iwc-gold)">Option 03<br><span style="font-size:10px;font-weight:400;opacity:0.7">Miami &rarr; NYC</span></th>
+          <th style="text-align:right;color:var(--iwc-gold)">V2.0 Plan<br><span style="font-size:10px;font-weight:400;opacity:0.7">Lincoln Road &rarr; Gymshark Bond St</span></th>
         </tr>
       </thead>
       <tbody>
-        <tr><td>Phase 01 &mdash; Phone Box (fabrication, finishes, engineering)</td><td class="r">$37,550</td><td class="r">$37,550</td><td class="r">$37,550</td></tr>
-        <tr><td>Phase 02 &mdash; Interactive Tech + Content Capture Platform</td><td class="r">$20,000</td><td class="r">$20,000</td><td class="r">$20,000</td></tr>
-        <tr><td>Phase 03 &mdash; Branding, Signage &amp; Consumables Kit</td><td class="r">$5,200</td><td class="r">$5,200</td><td class="r">$5,200</td></tr>
-        <tr><td>Phase 04 &mdash; Miami Street Logistics, Install &amp; Strike</td><td class="r">$11,900</td><td class="r muted">&mdash;</td><td class="r">$11,900</td></tr>
-        <tr><td>Phase 04 &mdash; NYC Street Logistics, Install &amp; Strike</td><td class="r muted">&mdash;</td><td class="r">$11,900</td><td class="r muted">&mdash;</td></tr>
-        <tr><td>Phase 04 &mdash; Option 03 Respray to NYC Palette (7 itemized lines)</td><td class="r muted">&mdash;</td><td class="r muted">&mdash;</td><td class="r">$24,000</td></tr>
-        <tr><td>Phase 04 &mdash; Option 03 NYC Retail Delivery &amp; In-Store (6 itemized lines)</td><td class="r muted">&mdash;</td><td class="r muted">&mdash;</td><td class="r">$13,500</td></tr>
-        <tr><td>Phase 05 &mdash; Project Management &amp; Client Services</td><td class="r">$12,000</td><td class="r">$12,000</td><td class="r">$12,000</td></tr>
+        <tr><td>Phase 01 &mdash; Phone Box (fabrication, finishes, engineering)</td><td class="r">$37,550</td></tr>
+        <tr><td>Phase 02 &mdash; Interactive Tech + Content Capture Platform</td><td class="r">$20,000</td></tr>
+        <tr><td>Phase 03 &mdash; Branding, Signage &amp; Consumables Kit</td><td class="r">$5,200</td></tr>
+        <tr><td>Phase 04 &mdash; Activation 01 Lincoln Road (Street) Logistics, Install &amp; Strike</td><td class="r">$11,900</td></tr>
+        <tr><td>Phase 04 &mdash; Inter-City Respray to NYC Palette (7 itemized lines)</td><td class="r">$24,000</td></tr>
+        <tr><td>Phase 04 &mdash; Activation 02 Gymshark Bond St Delivery &amp; 4-Week Run (6 itemized lines)</td><td class="r">$13,500</td></tr>
+        <tr><td>Phase 05 &mdash; Project Management &amp; Client Services</td><td class="r">$12,000</td></tr>
       </tbody>
       <tfoot>
         <tr class="prod-total">
           <td><strong>Production Investment</strong></td>
-          <td class="r" style="color:var(--f1-red)"><strong>$86,650</strong></td>
-          <td class="r" style="color:var(--mercedes-teal)"><strong>$86,650</strong></td>
           <td class="r" style="color:var(--iwc-gold)"><strong>$124,150</strong></td>
         </tr>
         <tr class="venue-line">
           <td>+ Venue Pass-Through (est.)</td>
-          <td class="r">$2.5K &ndash; $15K</td>
-          <td class="r">$4K &ndash; $32K</td>
-          <td class="r">$5K &ndash; $10K (Miami only)</td>
+          <td class="r">$5K &ndash; $10K (Lincoln Road only)</td>
         </tr>
         <tr class="allin-total">
           <td><strong>Total All-In (est.)</strong></td>
-          <td class="r"><strong>$89,150 &ndash; $101,650</strong></td>
-          <td class="r"><strong>$90,650 &ndash; $118,650</strong></td>
           <td class="r"><strong>$129,150 &ndash; $134,150</strong></td>
         </tr>
       </tfoot>
@@ -1021,7 +773,7 @@ const htmlContent = `
   </div>
 
   <div class="pkg-footnote" data-a>
-    <strong>Budget alignment (v2.0):</strong> Option 3 production investment of $124,150 lands inside the client&rsquo;s $120K&ndash;$125K target window. The v2.0 reframe replaces the prior NYC street activation with white-glove delivery to the Gymshark NYC retail store + 4-week in-store presence support &mdash; eliminating the NYC street venue fee from the all-in. Miami venue (Lincoln Road BID) is the only pass-through cost on Option 3. Options 1 and 2 at $86,650 are unchanged from v1.0 and leave headroom for enhanced tech, additional production management, paid media amplification, or a second single-city activation date.
+    <strong>Budget alignment (V2.0):</strong> Production investment of $124,150 lands inside the client&rsquo;s $120K&ndash;$125K target window. The plan delivers a Lincoln Road street activation in Miami plus a 4-week in-store run inside Gymshark Bond St in New York, with a full respray to the NYC palette in between. Lincoln Road BID is the only venue pass-through cost &mdash; Gymshark Bond St is brand-owned retail with no venue rental cost or fees, so only fabrication, transfer, install, and in-store presence apply on the NYC leg.
   </div>
 </section>
 
@@ -1031,14 +783,14 @@ const htmlContent = `
     <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Project Investment</span></div>
     <h2>Investment Summary</h2>
     <p class="sec-desc">
-      Line-item breakdown supporting the three package options above. Fabrication, tech, packaging, and single-city logistics are shared across all three. Option 3 adds inter-city rewrap and second-activation logistics. Venue fees are separate and passed through at cost.
+      Line-item breakdown supporting the V2.0 plan. Phases 01&ndash;03 (phone box, tech, branding) and Phase 05 (project management) build the shared base. Phase 04 itemises Lincoln Road street logistics, the inter-city respray to the NYC palette, and Gymshark Bond St in-store delivery and 4-week run. The Lincoln Road venue fee is the only venue pass-through; Gymshark Bond St has no venue rental cost or fees.
     </p>
   </div>
 
   <table class="invest-table" data-a>
     <thead><tr><th>Item</th><th style="text-align:right">Investment</th></tr></thead>
     <tbody>
-      <tr class="divider"><td colspan="2">Phase 01 &mdash; The Phone Box (All Options)</td></tr>
+      <tr class="divider"><td colspan="2">Phase 01 &mdash; The Phone Box</td></tr>
       <tr><td>Phone Box Structural Shell &mdash; custom fabrication, marine-grade paint, two-piece modular</td><td>$14,500</td></tr>
       <tr><td>4-Sided Illuminated Lightbox Signage &mdash; LED backlit, all four faces</td><td>$6,800</td></tr>
       <tr><td>Glass &amp; Semi-Transparent Vinyl Panels &mdash; front door &amp; sides</td><td>$2,900</td></tr>
@@ -1048,7 +800,7 @@ const htmlContent = `
       <tr><td>Engineering, Structural Calcs &amp; Shop Drawings &mdash; wind-load, ballast, electrical, CAD</td><td>$4,000</td></tr>
       <tr class="sub-subtotal"><td><em>Phase 01 Subtotal</em></td><td><em>$37,550</em></td></tr>
 
-      <tr class="divider"><td colspan="2">Phase 02 &mdash; Interactive Tech + Content Capture (All Options)</td></tr>
+      <tr class="divider"><td colspan="2">Phase 02 &mdash; Interactive Tech + Content Capture</td></tr>
       <tr><td>Pre-Recorded Call-Response (IVR) System &mdash; multi-branch scripting, licensed voice, QA</td><td>$5,500</td></tr>
       <tr><td>Live Call / Walkie-Talkie Relay &mdash; encrypted, backup uplink, producer headset</td><td>$2,900</td></tr>
       <tr><td>Ceiling Dual Camera System &mdash; 4K, cloud storage, live-preview monitoring, disclosure sign</td><td>$4,500</td></tr>
@@ -1057,25 +809,19 @@ const htmlContent = `
       <tr><td>Content Capture &amp; Media Handoff Platform &mdash; cloud workspace, proxies, 48hr delivery</td><td>$2,500</td></tr>
       <tr class="sub-subtotal"><td><em>Phase 02 Subtotal</em></td><td><em>$20,000</em></td></tr>
 
-      <tr class="divider"><td colspan="2">Phase 03 &mdash; Branding, Signage &amp; Consumables (All Options)</td></tr>
+      <tr class="divider"><td colspan="2">Phase 03 &mdash; Branding, Signage &amp; Consumables</td></tr>
       <tr><td>Disclosure &amp; Wayfinding Signage</td><td>$950</td></tr>
       <tr><td>Venue Dressing Kit &mdash; A-frames, stanchions, pavement decals</td><td>$1,750</td></tr>
       <tr><td>Daily Consumables &amp; Spares Kit &mdash; voucher rolls, cleaning, spares, gaffer</td><td>$2,500</td></tr>
       <tr class="sub-subtotal"><td><em>Phase 03 Subtotal</em></td><td><em>$5,200</em></td></tr>
 
-      <tr class="divider"><td colspan="2">Phase 04 &mdash; Miami Logistics, Install &amp; Strike (Options 01 &amp; 03)</td></tr>
-      <tr><td>Inbound Logistics &amp; Install &mdash; Miami (3-person crew, supervisor)</td><td>$5,800</td></tr>
-      <tr><td>On-Site Technicians &mdash; Miami (lead + rotating second)</td><td>$2,800</td></tr>
-      <tr><td>Same-Day Strike &amp; Outbound Freight &mdash; Miami</td><td>$3,300</td></tr>
-      <tr class="sub-subtotal"><td><em>Miami Activation Subtotal</em></td><td><em>$11,900</em></td></tr>
+      <tr class="divider"><td colspan="2">Phase 04 &mdash; Activation 01 Lincoln Road (Street) Logistics, Install &amp; Strike</td></tr>
+      <tr><td>Inbound Logistics &amp; Install &mdash; Lincoln Road (3-person crew, supervisor)</td><td>$5,800</td></tr>
+      <tr><td>On-Site Technicians &mdash; Lincoln Road (lead + rotating second)</td><td>$2,800</td></tr>
+      <tr><td>Same-Day Strike &amp; Outbound Freight &mdash; Lincoln Road</td><td>$3,300</td></tr>
+      <tr class="sub-subtotal"><td><em>Activation 01 Subtotal</em></td><td><em>$11,900</em></td></tr>
 
-      <tr class="divider"><td colspan="2">Phase 04 &mdash; NYC Street Logistics, Install &amp; Strike (Option 02 Only in v2.0)</td></tr>
-      <tr><td>Inbound Logistics &amp; Install &mdash; NYC (3-person crew, supervisor)</td><td>$5,800</td></tr>
-      <tr><td>On-Site Technicians &mdash; NYC (lead + rotating second)</td><td>$2,800</td></tr>
-      <tr><td>Same-Day Strike &amp; Outbound Freight &mdash; NYC</td><td>$3,300</td></tr>
-      <tr class="sub-subtotal"><td><em>NYC Street Activation Subtotal</em></td><td><em>$11,900</em></td></tr>
-
-      <tr class="divider" style="color:var(--iwc-gold)"><td colspan="2">Option 03 Respray Package &mdash; Miami &rarr; NYC Palette (Itemized)</td></tr>
+      <tr class="divider" style="color:var(--iwc-gold)"><td colspan="2">Phase 04 &mdash; Inter-City Respray Package (Miami &rarr; NYC Palette, Itemized)</td></tr>
       <tr><td>Climate-Controlled Warehouse Hold (~10 days)</td><td>$2,900</td></tr>
       <tr><td>Inter-City Freight (Miami &rarr; NYC staging, climate-controlled truck)</td><td>$5,500</td></tr>
       <tr><td>Exterior Respray to NYC Palette</td><td>$5,400</td></tr>
@@ -1083,38 +829,36 @@ const htmlContent = `
       <tr><td>Lightbox Graphic Refresh (NYC launch creative)</td><td>$2,400</td></tr>
       <tr><td>Retail Compliance &amp; Store Re-Spec</td><td>$2,000</td></tr>
       <tr><td>Pre-Deployment QC &amp; Retail-Grade Certification</td><td>$2,600</td></tr>
-      <tr class="sub-subtotal" style="color:var(--iwc-gold)"><td><em>Respray Package Subtotal (Option 03 Only)</em></td><td><em>$24,000</em></td></tr>
+      <tr class="sub-subtotal" style="color:var(--iwc-gold)"><td><em>Respray Package Subtotal</em></td><td><em>$24,000</em></td></tr>
 
-      <tr class="divider" style="color:var(--iwc-gold)"><td colspan="2">Option 03 NYC Retail Delivery &amp; In-Store Activation (Itemized) &mdash; <em>New in v2.0</em></td></tr>
-      <tr><td>White-Glove Delivery to Gymshark NYC Store (target on/before July 9)</td><td>$3,000</td></tr>
+      <tr class="divider" style="color:var(--iwc-gold)"><td colspan="2">Phase 04 &mdash; Activation 02 Gymshark Bond St Delivery &amp; 4-Week Run (Itemized)</td></tr>
+      <tr><td>White-Glove Delivery to Gymshark Bond St (11 Bond St, NYC &mdash; target on/before July 9)</td><td>$3,000</td></tr>
       <tr><td>Retail-Environment Install Crew (2-person, 4-hour overnight window)</td><td>$2,300</td></tr>
       <tr><td>In-Store Fixture Setup (anchoring, electrical, tech bring-up)</td><td>$2,100</td></tr>
       <tr><td>Store Wayfinding &amp; Footfall Driver Kit (sidewalk + window vinyl + CTA pack)</td><td>$2,200</td></tr>
       <tr><td>4-Week In-Store Presence Support (remote tech, restock, content uploads)</td><td>$2,500</td></tr>
       <tr><td>Retail Strike &amp; Return Freight (end-of-launch)</td><td>$1,400</td></tr>
-      <tr class="sub-subtotal" style="color:var(--iwc-gold)"><td><em>NYC Retail Subtotal (Option 03 Only)</em></td><td><em>$13,500</em></td></tr>
+      <tr class="sub-subtotal" style="color:var(--iwc-gold)"><td><em>Activation 02 Subtotal</em></td><td><em>$13,500</em></td></tr>
 
-      <tr class="divider"><td colspan="2">Phase 05 &mdash; Project Management &amp; Client Services (All Options)</td></tr>
+      <tr class="divider"><td colspan="2">Phase 05 &mdash; Project Management &amp; Client Services</td></tr>
       <tr><td>Project Management Fee &mdash; full engagement, dedicated producer, PM &amp; client services</td><td>$12,000</td></tr>
       <tr class="sub-subtotal"><td><em>Phase 05 Subtotal</em></td><td><em>$12,000</em></td></tr>
     </tbody>
     <tfoot>
-      <tr><td style="color:var(--f1-red)">Option 01 Production Investment (Miami Only)</td><td style="color:var(--f1-red)">$86,650</td></tr>
-      <tr><td style="color:var(--mercedes-teal)">Option 02 Production Investment (NYC Only)</td><td style="color:var(--mercedes-teal)">$86,650</td></tr>
-      <tr><td style="color:var(--iwc-gold)">Option 03 Production Investment (Lincoln Road &rarr; Respray &rarr; NYC Store)</td><td style="color:var(--iwc-gold)">$124,150</td></tr>
+      <tr><td style="color:var(--iwc-gold)">V2.0 Production Investment (Lincoln Road &rarr; Respray &rarr; Gymshark Bond St)</td><td style="color:var(--iwc-gold)">$124,150</td></tr>
     </tfoot>
   </table>
 
   <div class="engage-bar" data-a>
     <div class="engage-col" style="border-color:var(--iwc-gold)">
       <div class="tag" style="color:var(--iwc-gold)">Deposit &mdash; 60%</div>
-      <div class="amt">Package-dependent</div>
-      <div class="note">Due upon Client&rsquo;s written approval of this Scope of Work (Proposal execution). Triggers procurement, engineering, and permit applications.</div>
+      <div class="amt">$74,490</div>
+      <div class="note">Due upon Client&rsquo;s written approval of this Scope of Work (Proposal execution). Triggers procurement, engineering, and Lincoln Road permit application.</div>
     </div>
     <div class="engage-col" style="border-color:var(--mercedes-teal)">
       <div class="tag" style="color:var(--mercedes-teal)">Balance &mdash; 40%</div>
-      <div class="amt">Package-dependent</div>
-      <div class="note">Due five (5) business days prior to first activation installation.</div>
+      <div class="amt">$49,660</div>
+      <div class="note">Due five (5) business days prior to the Lincoln Road activation install (target Monday, June 22, 2026).</div>
     </div>
   </div>
 
@@ -1253,7 +997,7 @@ const htmlContent = `
         <thead><tr><th>Version</th><th>Date</th><th>Issued By</th><th>Summary of Changes</th><th>Snapshot</th></tr></thead>
         <tbody>
           <tr><td>1.0</td><td>April 17, 2026</td><td>Agora Graphics</td><td>Initial proposal issued for Gymshark Phone Box NYC &amp; Miami July 2026 activation. Three execution options (NYC, Miami, dual-city with reskin), twelve recommended venues, $98,500 dual-city production target.</td><td><a href="/versions/v1-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v1.0 &rarr;</a></td></tr>
-          <tr><td><strong>2.0</strong></td><td><strong>April 27, 2026</strong></td><td>Agora Graphics</td><td><strong>Current.</strong> Major Option 03 reframe: Miami Lincoln Road (Euclid Oval recommended) on June 27 &rarr; respray to NYC palette &rarr; white-glove delivery to the Gymshark NYC retail store by July 9 for the product launch (no NYC street activation). Lincoln Road precise-location recommendation added. NYC venues all private/independent (FIFA), Brickell narrowed to City Centre, Chelsea Market replaces Seaport. Pricing rework to $86,650 / $86,650 / $124,150. Project Management phase added; product boxes removed; engineering &amp; content-capture lines added. Payment terms updated to SoW approval + 5 business days. Workback timeline anchored to Mon Apr 27 Scope Approval.</td><td><a href="/versions/v2-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v2.0 &rarr;</a></td></tr>
+          <tr><td><strong>2.0</strong></td><td><strong>April 29, 2026</strong></td><td>Agora Graphics</td><td><strong>Current.</strong> Plan refined to one venue at each location and two activations total. <strong>Activation 01:</strong> Lincoln Road Mall, Miami Beach &mdash; Saturday, June 27, 2026 (precise pitch within Lincoln Road still open; Euclid Oval primary recommendation). <strong>Activation 02:</strong> Gymshark Bond St, 11 Bond St, New York, NY 10005 &mdash; in-store fixture, delivered on or before Thursday, July 9 to anchor the July 11 product launch. No NYC street activation; no NYC venue rental cost or fees (Gymshark-owned retail). Box is resprayed/rewrapped to the NYC palette between cities. Twelve-venue shortlist removed; copy aligned with official Gymshark Bond St content (address, hours). Three execution options collapsed to a single $124,150 production-investment plan (Lincoln Road venue fee is the only pass-through).</td><td><a href="/versions/v2-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v2.0 &rarr;</a></td></tr>
         </tbody>
       </table>
     </div>
@@ -1278,10 +1022,10 @@ const htmlContent = `
     <div class="sig-block" id="sig-block-main">
       <h3>Authorization to Proceed</h3>
       <p class="legal">
-        By executing this agreement, Client acknowledges review and acceptance of this Proposal, including the complete Scope of Work, Location Options, Package Options, Investment Summary, Payment Terms, Exclusions, and Terms &amp; Conditions outlined herein. Client hereby authorises Agora Graphics, LLC to proceed with engineering, procurement, and fabrication in accordance with the selected package option. Execution constitutes authorisation to initiate production and triggers applicable payment terms as stated.
+        By executing this agreement, Client acknowledges review and acceptance of this Proposal, including the complete Scope of Work, Venues, Plan, Investment Summary, Payment Terms, Exclusions, and Terms &amp; Conditions outlined herein. Client hereby authorises Agora Graphics, LLC to proceed with engineering, procurement, and fabrication for the V2.0 Plan (Lincoln Road &rarr; Gymshark Bond St). Execution constitutes authorisation to initiate production and triggers applicable payment terms as stated.
       </p>
 
-      <div class="sig-summary">Selected Option: _____________________</div>
+      <div class="sig-summary">Plan: V2.0 &mdash; Lincoln Road (June 27) &rarr; Gymshark Bond St (delivery by July 9, launch July 11)</div>
       <div class="sig-meta">Plus venue pass-through &bull; Payment Terms: 60/40 &bull; Document: GS-PHONEBOX-001</div>
 
       <!-- SIGNING OPTIONS -->
