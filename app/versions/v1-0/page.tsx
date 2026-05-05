@@ -6,7 +6,7 @@ import Script from "next/script";
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Agora Graphics",
+  "name": "AGV Miami",
   "description": "Full-service scenic fabrication and experiential production studio specializing in brand activations, custom scenic builds, large-format print and graphics, CNC millwork, and nationwide event installation. Serving New York, Miami, Las Vegas, and markets nationwide.",
   "url": "https://experienceagora.com",
   "telephone": "+1-516-283-0363",
@@ -86,7 +86,7 @@ const htmlContent = `
       <span class="sep">x</span>
       <span>Ominto Studio</span>
       <span class="sep">x</span>
-      <span>Agora Graphics</span>
+      <span>AGV Miami</span>
     </div>
 
     <div class="hero-meta">
@@ -109,7 +109,7 @@ const htmlContent = `
     </div>
 
     <p class="hero-narrative">
-      Agora Graphics is pleased to present this fabrication and production proposal for the Gymshark Phone Box experiential activation, developed in partnership with Ominto Studio&rsquo;s creative direction. This engagement delivers a custom-fabricated pink British phone box equipped with interactive photo, voucher, and call-response technology &mdash; engineered for a single-day pop-up across Miami and/or New York in July 2026. The proposal includes three execution options (Option 01 Miami-only, Option 02 NYC-only, or Option 03 Miami-first &rarr; NYC with a fully itemized reskin package), twelve recommended venues across both cities (NYC restricted to private properties per FIFA programming conflicts), and a complete investment summary scaled to the client&rsquo;s $120K&ndash;$125K production-investment target.
+      AGV Miami is pleased to present this fabrication and production proposal for the Gymshark Phone Box experiential activation, developed in partnership with Ominto Studio&rsquo;s creative direction. This engagement delivers a custom-fabricated pink British phone box equipped with interactive photo, voucher, and call-response technology &mdash; engineered for a single-day pop-up across Miami and/or New York in July 2026. The proposal includes three execution options (Option 01 Miami-only, Option 02 NYC-only, or Option 03 Miami-first &rarr; NYC with a fully itemized reskin package), twelve recommended venues across both cities (NYC restricted to private properties per FIFA programming conflicts), and a complete investment summary scaled to the client&rsquo;s $120K&ndash;$125K production-investment target.
     </p>
     <div class="hero-doc">Confidential &amp; Proprietary &bull; Prepared exclusively for Gymshark Ltd. and Ominto Studio</div>
   </div>
@@ -124,7 +124,7 @@ const htmlContent = `
   <blockquote>
     A pink British phone box on an American sidewalk is already a photograph waiting to happen. Add a ringing phone, a voucher printer, a ceiling camera, and a crowd that just stumbled into it &mdash; and you have a share-first moment built for scroll, not for spec sheets. Our job is to make the object feel inevitable on the street and flawless under close inspection.
   </blockquote>
-  <div class="attr">Agora Graphics &mdash; Building Brand Environments Since 2006</div>
+  <div class="attr">AGV Miami &mdash; Building Brand Environments Since 2006</div>
 </div>
 
 <!-- OVERVIEW -->
@@ -254,7 +254,7 @@ const htmlContent = `
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
           <div><div class="name">Pre-Recorded Call-Response System</div>
-          <div class="desc">Working analogue phone wired to a production-grade IVR prize quiz with multi-branch scripting, licensed voice talent, keypad mapping (star = YES, hash = NO), and redundant win/lose logic. Scripting, voice talent, and QA supplied by Agora in collaboration with Gymshark comms team.</div></div>
+          <div class="desc">Working analogue phone wired to a production-grade IVR prize quiz with multi-branch scripting, licensed voice talent, keypad mapping (star = YES, hash = NO), and redundant win/lose logic. Scripting, voice talent, and QA supplied by AGV Miami in collaboration with Gymshark comms team.</div></div>
           <div class="price" style="color:var(--mercedes-teal)">$5,500</div>
         </div>
 
@@ -272,7 +272,7 @@ const htmlContent = `
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
           <div><div class="name">Thermal Voucher Printer &amp; Shelf Mount</div>
-          <div class="desc">Premium dual-speed thermal ticket printer wrapped in matching pink vinyl, shelf-mounted under the phone and aligned to the bottom of the sliding door. Voucher template designed by Gymshark; Agora handles printer procurement, firmware, redundant roll inventory, and wrap.</div></div>
+          <div class="desc">Premium dual-speed thermal ticket printer wrapped in matching pink vinyl, shelf-mounted under the phone and aligned to the bottom of the sliding door. Voucher template designed by Gymshark; AGV Miami handles printer procurement, firmware, redundant roll inventory, and wrap.</div></div>
           <div class="price" style="color:var(--mercedes-teal)">$2,800</div>
         </div>
 
@@ -343,7 +343,7 @@ const htmlContent = `
     <div class="phase-body">
       <div class="phase-inner" style="border-left:4px solid var(--white)">
         <p class="phase-narrative">
-          Single-truck freight from the Agora Bohemia, NY fabrication facility. Each activation includes a 2-person install crew, 1 on-site technician during operating hours, and same-day strike. Option 3 adds a climate-controlled warehouse hold and a repaint/rewrap window between activations.
+          Single-truck freight from the AGV Miami Bohemia, NY fabrication facility. Each activation includes a 2-person install crew, 1 on-site technician during operating hours, and same-day strike. Option 3 adds a climate-controlled warehouse hold and a repaint/rewrap window between activations.
         </p>
 
         <div class="core-label">Core Deliverables</div>
@@ -377,7 +377,7 @@ const htmlContent = `
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
           <div><div class="name">Inter-City Freight (Miami &rarr; NYC, Climate Truck)</div>
-          <div class="desc">Dedicated climate-controlled truck from the Miami strike site to the Agora NYC staging facility for reskin, with real-time GPS tracking, two-driver rotation, and driver handoff documentation.</div></div>
+          <div class="desc">Dedicated climate-controlled truck from the Miami strike site to the AGV Miami NYC staging facility for reskin, with real-time GPS tracking, two-driver rotation, and driver handoff documentation.</div></div>
           <div class="price" style="color:var(--iwc-gold)">$5,500</div>
         </div>
 
@@ -432,7 +432,7 @@ const htmlContent = `
     <div class="phase-body">
       <div class="phase-inner" style="border-left:4px solid var(--mercedes-teal)">
         <p class="phase-narrative">
-          A dedicated Agora producer and client-services coverage for the full engagement &mdash; kickoff through post-event reconciliation. Includes weekly status calls, cross-agency coordination with Ominto Studio and Gymshark stakeholders, vendor and venue relationship management, budget tracking, Change Order administration, and insurance/COI coordination.
+          A dedicated AGV Miami producer and client-services coverage for the full engagement &mdash; kickoff through post-event reconciliation. Includes weekly status calls, cross-agency coordination with Ominto Studio and Gymshark stakeholders, vendor and venue relationship management, budget tracking, Change Order administration, and insurance/COI coordination.
         </p>
 
         <div class="core-label" style="color:var(--mercedes-teal)">Core Deliverables</div>
@@ -596,7 +596,7 @@ const htmlContent = `
     <div class="loc-city-heading">
       <div class="sec-eye"><div class="bar" style="background:var(--f1-red)"></div><span style="color:var(--f1-red)">Miami &bull; Six Venues</span></div>
       <h3>Miami Shortlist</h3>
-      <p>The client&rsquo;s named Miami candidates plus Agora&rsquo;s recommended additions &mdash; from beachfront fitness culture to private luxury plazas and waterfront downtown parks.</p>
+      <p>The client&rsquo;s named Miami candidates plus AGV Miami&rsquo;s recommended additions &mdash; from beachfront fitness culture to private luxury plazas and waterfront downtown parks.</p>
     </div>
 
     <div class="loc-grid">
@@ -725,7 +725,7 @@ const htmlContent = `
   </div>
 
   <div class="loc-footnote" data-a>
-    <strong>Note on pricing &amp; imagery:</strong> Daily ranges are pre-permit market estimates based on published rates and comparable 2024&ndash;2025 activation precedents. Actual venue fees depend on footprint, amenities (power, water, security), seasonality, dates, and negotiation, and are billed separately from the production investment and passed through at cost. NYC candidates are restricted to privately owned &amp; independently managed properties per FIFA programming conflicts with city-owned venues; private venue fees may exceed public venue comparables. Firm site-scouting photography and brand-first letters of intent from each private operator will be secured by Agora Graphics within 5 business days of a signed letter of intent.
+    <strong>Note on pricing &amp; imagery:</strong> Daily ranges are pre-permit market estimates based on published rates and comparable 2024&ndash;2025 activation precedents. Actual venue fees depend on footprint, amenities (power, water, security), seasonality, dates, and negotiation, and are billed separately from the production investment and passed through at cost. NYC candidates are restricted to privately owned &amp; independently managed properties per FIFA programming conflicts with city-owned venues; private venue fees may exceed public venue comparables. Firm site-scouting photography and brand-first letters of intent from each private operator will be secured by AGV Miami within 5 business days of a signed letter of intent.
   </div>
 </section>
 
@@ -735,7 +735,7 @@ const htmlContent = `
     <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">Your Production Journey</span></div>
     <h2>Eight Phases. One Seamless Deployment.</h2>
     <p class="sec-desc">
-      Every Agora engagement follows a structured, milestone-gated production lifecycle &mdash; from creative alignment through post-event strike. Each phase builds on the last with defined deliverables and approval checkpoints, scaled here for a compressed ~9-week lead time from Scope Approval (April 27) into the June 27 / July 11 activation dates.
+      Every AGV Miami engagement follows a structured, milestone-gated production lifecycle &mdash; from creative alignment through post-event strike. Each phase builds on the last with defined deliverables and approval checkpoints, scaled here for a compressed ~9-week lead time from Scope Approval (April 27) into the June 27 / July 11 activation dates.
     </p>
   </div>
 
@@ -805,17 +805,17 @@ const htmlContent = `
       <tr><td>Scope Approval</td><td>Option selected, city/cities confirmed, production authorisation issued</td><td>Monday, April 27</td></tr>
       <tr><td>Deposit Received</td><td>60% project deposit &mdash; due upon Scope of Work approval; triggers procurement, engineering, and venue permit applications</td><td>May 1</td></tr>
       <tr><td>Venue Permits Applied</td><td>Permit applications filed for selected city / cities; deposit letters issued</td><td>May 4</td></tr>
-      <tr><td>Creative Lock</td><td>Final artwork, voucher template, IVR scripting, and packaging dielines delivered to Agora</td><td>May 11</td></tr>
+      <tr><td>Creative Lock</td><td>Final artwork, voucher template, IVR scripting, and packaging dielines delivered to AGV Miami</td><td>May 11</td></tr>
       <tr><td>Engineering &amp; Shop Drawings</td><td>Structural, electrical, and ballast drawings issued for client review</td><td>May 11 &ndash; 22</td></tr>
       <tr><td>Scenic Fabrication</td><td>Phone box shell build, paint, finish, lightbox assembly</td><td>May 25 &ndash; June 19</td></tr>
       <tr><td>Print &amp; Graphics Production</td><td>Exterior vinyl, interior vinyl, lightbox graphics, disclosure + wayfinding signage</td><td>June 1 &ndash; June 19</td></tr>
-      <tr><td>Tech Bench Test</td><td>Full IVR + voucher printer + camera system rehearsed end-to-end at Agora facility</td><td>June 19 &ndash; 23</td></tr>
+      <tr><td>Tech Bench Test</td><td>Full IVR + voucher printer + camera system rehearsed end-to-end at AGV Miami facility</td><td>June 19 &ndash; 23</td></tr>
       <tr><td>Balance Payment</td><td>Remaining 40% balance due &mdash; five (5) business days prior to first activation</td><td>June 22</td></tr>
       <tr><td>Transit to Activation 1</td><td>Truck loaded, transported to chosen city (Miami or NYC)</td><td>June 24 &ndash; 26</td></tr>
       <tr><td>Activation 1 Install &amp; Run</td><td>Pre-dawn install, 8&ndash;10 hr operational window, same-day strike</td><td>June 27</td></tr>
       <tr><td>Rewrap Window (Option 3)</td><td>Climate-controlled hold + rewrap / repaint between cities</td><td>June 28 &ndash; July 9</td></tr>
       <tr><td>Activation 2 Install &amp; Run (Option 3 / Alt Date)</td><td>Second-city install, operational run, same-day strike</td><td>July 11</td></tr>
-      <tr><td>Strike &amp; Return Freight</td><td>Final de-installation and return transport to Agora facility</td><td>July 11 &ndash; 13</td></tr>
+      <tr><td>Strike &amp; Return Freight</td><td>Final de-installation and return transport to AGV Miami facility</td><td>July 11 &ndash; 13</td></tr>
       <tr><td>Project Closeout</td><td>Post-event reconciliation, captured media handoff, closeout deliverables</td><td>July 18</td></tr>
     </tbody>
   </table>
@@ -825,9 +825,9 @@ const htmlContent = `
 <section class="sec" style="padding-top:0">
   <div data-a>
     <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Production Capabilities</span></div>
-    <h2>Why Agora Graphics</h2>
+    <h2>Why AGV Miami</h2>
     <p class="sec-desc">
-      Since 2006, Agora Graphics has delivered scenic fabrication and experiential production for leading fashion, fitness, and lifestyle brands. Our vertically integrated operation &mdash; in-house engineering, CNC fabrication, large-format print, and field installation &mdash; enables uncompromising quality control from concept through strike, with the agility to execute single-day stunts in demanding venue environments.
+      Since 2006, AGV Miami has delivered scenic fabrication and experiential production for leading fashion, fitness, and lifestyle brands. Our vertically integrated operation &mdash; in-house engineering, CNC fabrication, large-format print, and field installation &mdash; enables uncompromising quality control from concept through strike, with the agility to execute single-day stunts in demanding venue environments.
     </p>
   </div>
 
@@ -1078,7 +1078,7 @@ const htmlContent = `
   <div data-a>
     <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Exclusions &amp; Clarifications</span></div>
     <h2>Scope Exclusions</h2>
-    <p class="sec-desc" style="margin-bottom:8px">The following items, services, and responsibilities are expressly excluded from the scope of this proposal and shall not be provided, arranged, or assumed by Agora Graphics, LLC (&ldquo;Producer&rdquo;) under this engagement. Client acknowledges and agrees that Producer bears no obligation, liability, or responsibility for any item listed below unless separately authorised in writing via executed change order.</p>
+    <p class="sec-desc" style="margin-bottom:8px">The following items, services, and responsibilities are expressly excluded from the scope of this proposal and shall not be provided, arranged, or assumed by AGV Miami, LLC (&ldquo;Producer&rdquo;) under this engagement. Client acknowledges and agrees that Producer bears no obligation, liability, or responsibility for any item listed below unless separately authorised in writing via executed change order.</p>
     <div class="legal-disclaimer">All capitalised terms not otherwise defined herein shall have the meanings ascribed to them in the Master Services Agreement between the parties.</div>
   </div>
 
@@ -1115,7 +1115,7 @@ const htmlContent = `
   <div data-a>
     <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">Agreement</span></div>
     <h2>Terms &amp; Conditions</h2>
-    <p class="sec-desc">The terms below govern this engagement between Gymshark Ltd. (&ldquo;Client&rdquo;) and Agora Graphics, LLC (&ldquo;Producer&rdquo;), and are entered into in coordination with Ominto Studio as the Client&rsquo;s appointed creative agency. Cross-references in the form <span style="color:var(--mercedes-teal)">[MSA S#]</span> point to the corresponding section of the Master Services Agreement between the parties; click any reference to open the full MSA in a side panel.</p>
+    <p class="sec-desc">The terms below govern this engagement between Gymshark Ltd. (&ldquo;Client&rdquo;) and AGV Miami, LLC (&ldquo;Producer&rdquo;), and are entered into in coordination with Ominto Studio as the Client&rsquo;s appointed creative agency. Cross-references in the form <span style="color:var(--mercedes-teal)">[MSA S#]</span> point to the corresponding section of the Master Services Agreement between the parties; click any reference to open the full MSA in a side panel.</p>
   </div>
 
   <div class="terms-grid" data-a>
@@ -1203,7 +1203,7 @@ const htmlContent = `
       <table class="version-table">
         <thead><tr><th>Version</th><th>Date</th><th>Issued By</th><th>Summary of Changes</th></tr></thead>
         <tbody>
-          <tr><td>1.0</td><td>April 17, 2026</td><td>Agora Graphics</td><td>Initial proposal issued for Gymshark Phone Box NYC &amp; Miami July 2026 activation</td></tr>
+          <tr><td>1.0</td><td>April 17, 2026</td><td>AGV Miami</td><td>Initial proposal issued for Gymshark Phone Box NYC &amp; Miami July 2026 activation</td></tr>
         </tbody>
       </table>
     </div>
@@ -1228,7 +1228,7 @@ const htmlContent = `
     <div class="sig-block" id="sig-block-main">
       <h3>Authorization to Proceed</h3>
       <p class="legal">
-        By executing this agreement, Client acknowledges review and acceptance of this Proposal, including the complete Scope of Work, Location Options, Package Options, Investment Summary, Payment Terms, Exclusions, and Terms &amp; Conditions outlined herein. Client hereby authorises Agora Graphics, LLC to proceed with engineering, procurement, and fabrication in accordance with the selected package option. Execution constitutes authorisation to initiate production and triggers applicable payment terms as stated.
+        By executing this agreement, Client acknowledges review and acceptance of this Proposal, including the complete Scope of Work, Location Options, Package Options, Investment Summary, Payment Terms, Exclusions, and Terms &amp; Conditions outlined herein. Client hereby authorises AGV Miami, LLC to proceed with engineering, procurement, and fabrication in accordance with the selected package option. Execution constitutes authorisation to initiate production and triggers applicable payment terms as stated.
       </p>
 
       <div class="sig-summary">Selected Option: _____________________</div>
@@ -1268,7 +1268,7 @@ const htmlContent = `
           </div>
           <div class="sig-col">
             <div class="role">Producer</div>
-            <div class="company">Agora Graphics, LLC</div>
+            <div class="company">AGV Miami, LLC</div>
             <div class="sig-canvas-wrap">
               <canvas class="sig-canvas" id="sig-canvas-producer"></canvas>
               <div class="sig-canvas-hint">Draw your signature here</div>
@@ -1294,7 +1294,7 @@ const htmlContent = `
           </div>
           <div class="sig-col">
             <div class="role">Producer</div>
-            <div class="company">Agora Graphics, LLC</div>
+            <div class="company">AGV Miami, LLC</div>
             <input class="sig-input" id="sig-typed-producer" type="text" placeholder="Type your full name" oninput="updateTypedSig('producer')">
             <div class="sig-typed-preview" id="sig-typed-preview-producer"></div>
             <input class="sig-input" id="sig-typed-title-producer" type="text" placeholder="Title">
@@ -1367,7 +1367,7 @@ const htmlContent = `
     </div>
   </div>
   <div class="footer-bottom">
-    <div>&copy; 2026 Agora Graphics, LLC. All rights reserved. Gymshark&reg; is a registered trademark of Gymshark Ltd.</div>
+    <div>&copy; 2026 AGV Miami, LLC. All rights reserved. Gymshark&reg; is a registered trademark of Gymshark Ltd.</div>
     <div>Document GS-PHONEBOX-001 &bull; Confidential &amp; Proprietary &bull; Prepared exclusively for Gymshark Ltd. and Ominto Studio</div>
   </div>
 </footer>
@@ -1382,14 +1382,14 @@ const htmlContent = `
       <button class="legal-close" onclick="closeLegal()">&times;</button>
     </div>
     <div class="legal-panel-body">
-      <p style="color:var(--iwc-gold);font-size:10px;letter-spacing:1px;text-transform:uppercase;margin-bottom:16px">Agora Graphics, LLC &mdash; 2026 Master Services Agreement</p>
+      <p style="color:var(--iwc-gold);font-size:10px;letter-spacing:1px;text-transform:uppercase;margin-bottom:16px">AGV Miami, LLC &mdash; 2026 Master Services Agreement</p>
 
       <h4><div class="section-num">S1 &mdash; Parties &amp; Engagement</div>Parties to This Agreement</h4>
-      <p>This Master Services Agreement (&ldquo;Agreement&rdquo;) is entered into between Agora Graphics, LLC (&ldquo;Agora,&rdquo; &ldquo;Company,&rdquo; &ldquo;We&rdquo;) and the client identified on the executed Proposal or Estimate (&ldquo;Client,&rdquo; &ldquo;You&rdquo;). Execution of any Proposal, Estimate, or Work Order constitutes acceptance of this Agreement in its entirety.</p>
+      <p>This Master Services Agreement (&ldquo;Agreement&rdquo;) is entered into between AGV Miami, LLC (&ldquo;AGV Miami,&rdquo; &ldquo;Company,&rdquo; &ldquo;We&rdquo;) and the client identified on the executed Proposal or Estimate (&ldquo;Client,&rdquo; &ldquo;You&rdquo;). Execution of any Proposal, Estimate, or Work Order constitutes acceptance of this Agreement in its entirety.</p>
 
       <h4><div class="section-num">S2 &mdash; Scope of Work</div>Scope of Services</h4>
       <ol>
-        <li>Agora will provide scenic fabrication, graphics production, printing, millwork, display construction, installation, and related services as described in the executed Proposal or Estimate.</li>
+        <li>AGV Miami will provide scenic fabrication, graphics production, printing, millwork, display construction, installation, and related services as described in the executed Proposal or Estimate.</li>
         <li>Services are limited to the narrative and itemized scope outlined in each project document. Items not explicitly described are excluded unless added via written Change Order.</li>
         <li>All work is performed on a project basis. This Agreement does not create an employment, partnership, or joint venture relationship.</li>
       </ol>
@@ -1423,13 +1423,13 @@ const htmlContent = `
       <ol>
         <li>Delivery and installation pricing is based on standard business hours unless otherwise noted in the Proposal.</li>
         <li>Overnight, weekend, or holiday labor is subject to premium rates and will be itemized in the Proposal or billed as a Change Order.</li>
-        <li>Venue labor requirements (union, drayage, rigging) are the responsibility of the Client unless explicitly included in the Agora scope.</li>
+        <li>Venue labor requirements (union, drayage, rigging) are the responsibility of the Client unless explicitly included in the AGV Miami scope.</li>
         <li>Risk of loss transfers to Client upon delivery to site or completion of installation.</li>
       </ol>
 
       <h4><div class="section-num">S7 &mdash; Artwork &amp; Proofing</div>Creative Production</h4>
       <ol>
-        <li>Agora is not liable for errors in client-approved artwork, including color reproduction, spelling, or dimensional accuracy.</li>
+        <li>AGV Miami is not liable for errors in client-approved artwork, including color reproduction, spelling, or dimensional accuracy.</li>
         <li>Digital proofs are provided for review. Physical color matching is approximate due to variations in substrates, inks, and viewing conditions.</li>
         <li>Post-approval changes will be billed as additional work.</li>
       </ol>
@@ -1437,17 +1437,17 @@ const htmlContent = `
       <h4><div class="section-num">S8 &mdash; Intellectual Property</div>Ownership &amp; IP</h4>
       <ol>
         <li>Client-provided artwork, logos, and brand assets remain the property of the Client.</li>
-        <li>Agora retains ownership of all custom engineering drawings, structural designs, and proprietary fabrication methods.</li>
-        <li>Fabricated elements remain the property of Agora until paid in full.</li>
-        <li>Agora reserves the right to photograph completed work for portfolio use following public installation or event.</li>
+        <li>AGV Miami retains ownership of all custom engineering drawings, structural designs, and proprietary fabrication methods.</li>
+        <li>Fabricated elements remain the property of AGV Miami until paid in full.</li>
+        <li>AGV Miami reserves the right to photograph completed work for portfolio use following public installation or event.</li>
       </ol>
 
       <h4><div class="section-num">S9 &mdash; Warranties &amp; Liability</div>Warranties</h4>
       <ol>
-        <li>Agora warrants that all work will be performed in a professional and workmanlike manner consistent with industry standards.</li>
+        <li>AGV Miami warrants that all work will be performed in a professional and workmanlike manner consistent with industry standards.</li>
         <li>Fabricated elements are warranted against defects in materials and workmanship for the duration of the project installation period.</li>
-        <li>Agora&rsquo;s total liability under this Agreement shall not exceed the total fees paid by Client for the specific project.</li>
-        <li>Agora shall not be liable for indirect, incidental, consequential, or punitive damages.</li>
+        <li>AGV Miami&rsquo;s total liability under this Agreement shall not exceed the total fees paid by Client for the specific project.</li>
+        <li>AGV Miami shall not be liable for indirect, incidental, consequential, or punitive damages.</li>
       </ol>
 
       <h4><div class="section-num">S10 &mdash; Cancellation</div>Cancellation &amp; Termination</h4>
@@ -1461,7 +1461,7 @@ const htmlContent = `
       <p>Neither party shall be liable for delays or failure to perform due to circumstances beyond reasonable control, including but not limited to natural disasters, pandemics, government actions, material shortages, transportation disruptions, or labor disputes.</p>
 
       <h4><div class="section-num">S12 &mdash; Indemnification</div>Indemnification</h4>
-      <p>Client agrees to indemnify and hold harmless Agora Graphics, LLC, its officers, employees, and agents from any claims, damages, losses, or expenses arising from Client&rsquo;s use of delivered materials, venue conditions, or third-party interactions related to the project.</p>
+      <p>Client agrees to indemnify and hold harmless AGV Miami, LLC, its officers, employees, and agents from any claims, damages, losses, or expenses arising from Client&rsquo;s use of delivered materials, venue conditions, or third-party interactions related to the project.</p>
 
       <h4><div class="section-num">S13 &mdash; Governing Law</div>Governing Law &amp; Disputes</h4>
       <p>This Agreement shall be governed by and construed in accordance with the laws of the State of New York. Any disputes shall be resolved through binding arbitration in Suffolk County, New York, in accordance with the rules of the American Arbitration Association.</p>
@@ -1469,7 +1469,7 @@ const htmlContent = `
       <h4><div class="section-num">S14 &mdash; Entire Agreement</div>Entire Agreement</h4>
       <p>This Agreement, together with any executed Proposals, Estimates, Work Orders, and Change Orders, constitutes the entire agreement between the parties and supersedes all prior negotiations, representations, or agreements. Amendments must be in writing and signed by both parties.</p>
 
-      <p style="margin-top:28px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.06);font-size:10px;color:rgba(138,138,149,0.4)">Agora Graphics, LLC &bull; 1440 Church St, Bohemia, NY 11716 &bull; EIN on file &bull; This document is incorporated by reference into all project Proposals and Estimates.</p>
+      <p style="margin-top:28px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.06);font-size:10px;color:rgba(138,138,149,0.4)">AGV Miami, LLC &bull; 1440 Church St, Bohemia, NY 11716 &bull; EIN on file &bull; This document is incorporated by reference into all project Proposals and Estimates.</p>
     </div>
   </div>
 
@@ -1478,9 +1478,9 @@ const htmlContent = `
     <button class="legal-close" onclick="closeLegal()">&times;</button>
     <div class="legal-panel-header">
       <div class="legal-eye">Terms of Service</div>
-      <h3>Agora Graphics Terms of Service</h3>
+      <h3>AGV Miami Terms of Service</h3>
     </div>
-    <p>Use of Agora Graphics services, websites, and digital properties is governed by our standard Terms of Service, which incorporate by reference the specific terms of any executed engagement (including this Proposal and the MSA).</p>
+    <p>Use of AGV Miami services, websites, and digital properties is governed by our standard Terms of Service, which incorporate by reference the specific terms of any executed engagement (including this Proposal and the MSA).</p>
     <h4>Engagement Terms</h4>
     <p>Specific terms governing this engagement are enumerated in Section &ldquo;Terms &amp; Conditions&rdquo; above and in the executed MSA. Where a conflict exists, the MSA controls.</p>
   </div>
@@ -1492,9 +1492,9 @@ const htmlContent = `
       <div class="legal-eye">Privacy &amp; Confidentiality</div>
       <h3>Information Handling</h3>
     </div>
-    <p>This Proposal and all attached or referenced documents contain confidential and proprietary information of Agora Graphics, LLC, Ominto Studio, and Gymshark Ltd. All parties agree to maintain strict confidentiality and not to disclose, distribute, or reproduce this document or its contents to any third party without prior written consent.</p>
+    <p>This Proposal and all attached or referenced documents contain confidential and proprietary information of AGV Miami, LLC, Ominto Studio, and Gymshark Ltd. All parties agree to maintain strict confidentiality and not to disclose, distribute, or reproduce this document or its contents to any third party without prior written consent.</p>
     <h4>Data Handling</h4>
-    <p>Agora Graphics collects and processes only the information necessary to fulfil project obligations: contact details, project specifications, creative assets, and payment information. We do not sell, share, or distribute client information to third parties except as required to perform contracted services.</p>
+    <p>AGV Miami collects and processes only the information necessary to fulfil project obligations: contact details, project specifications, creative assets, and payment information. We do not sell, share, or distribute client information to third parties except as required to perform contracted services.</p>
     <h4>Guest Capture &amp; Disclosure</h4>
     <p>The Phone Box includes ceiling-mounted video and audio capture. On-site disclosure signage (&ldquo;Smile &mdash; you&rsquo;re on camera&rdquo;) will be installed at guest eye-line. Captured media is owned by Client and processed in accordance with Client&rsquo;s privacy policy and applicable state/federal law.</p>
     <p style="margin-top:28px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.06);font-size:10px;color:rgba(138,138,149,0.4)">Document: GS-PHONEBOX-001 &bull; Confidential &amp; Proprietary</p>
@@ -1636,7 +1636,7 @@ export default function ProposalPage() {
     function sendCounterSignRequest(signer: { name: string; title: string; method: string }, ts: string, hash: string) {
       const subject = encodeURIComponent('SIGNED: Gymshark Phone Box Proposal \u2014 Counter-Signature Requested | GS-PHONEBOX-001');
       const body = encodeURIComponent(
-        'The Gymshark Phone Box Activation Proposal (GS-PHONEBOX-001) has been digitally executed by the Client and is ready for Agora Graphics counter-signature.\n\n' +
+        'The Gymshark Phone Box Activation Proposal (GS-PHONEBOX-001) has been digitally executed by the Client and is ready for AGV Miami counter-signature.\n\n' +
         '--- SIGNATURE RECORD ---\n' +
         'Document: GS-PHONEBOX-001\n' +
         'Client: Gymshark Ltd.\n' +
@@ -1650,7 +1650,7 @@ export default function ProposalPage() {
         '2. Return a countersigned PDF copy to the Client distribution list.\n' +
         '3. Issue the 60% deposit invoice via QuickBooks per MSA S5.\n' +
         '4. Trigger procurement, engineering, and venue permit applications.\n\n' +
-        'Client is requested to keep this email as proof of execution.\n\n---\nAgora Graphics, LLC'
+        'Client is requested to keep this email as proof of execution.\n\n---\nAGV Miami, LLC'
       );
       const to = 'mike@agoragraphics.com,julian@agvmiami.com';
       const cc = 'info@agoravisuals.com';
@@ -1674,7 +1674,7 @@ export default function ProposalPage() {
       if (conf) conf.classList.add('show');
       const confirmTs = document.getElementById('sig-confirm-timestamp');
       if (confirmTs) confirmTs.textContent = 'Executed: ' + ts + ' | Reference: ' + hash;
-      // Notify Agora and request counter-signature (opens user's mail client in a new tab)
+      // Notify AGV Miami and request counter-signature (opens user's mail client in a new tab)
       setTimeout(() => sendCounterSignRequest(signer, ts, hash), 300);
       // Store latest record for the "Email Signed Copy" button
       (window as any)._lastSig = { signer, ts, hash };
@@ -1689,7 +1689,7 @@ export default function ProposalPage() {
           ? ('--- EXECUTION DETAILS ---\nSigner: ' + (rec.signer.name || '[pending]') + '\nTitle: ' + (rec.signer.title || '[pending]') + '\nMethod: ' + rec.signer.method + '\nExecuted: ' + rec.ts + '\nReference: ' + rec.hash + '\n\n')
           : '')
         + 'To save a PDF copy, click "Download Signed PDF" or use your browser\u2019s print dialog (Save as PDF).\n\n' +
-        'Questions? Reply to this email or contact mike@agoragraphics.com.\n\n---\nAgora Graphics, LLC'
+        'Questions? Reply to this email or contact mike@agoragraphics.com.\n\n---\nAGV Miami, LLC'
       );
       window.location.href = 'mailto:?cc=mike@agoragraphics.com,julian@agvmiami.com&subject=' + subject + '&body=' + body;
     }

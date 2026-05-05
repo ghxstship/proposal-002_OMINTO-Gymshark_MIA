@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Gymshark Phone Box — NYC & Miami Activation Proposal | Agora Graphics",
-  description: "Fabrication and production proposal for the Gymshark Phone Box experiential activation — New York and Miami, July 2026. Custom pink phone box fabrication, photo activation, interactive tech, and multi-city deployment by Agora Graphics in partnership with Ominto Studio.",
-  keywords: "Gymshark, Phone Box, experiential activation, New York, Miami, Astor Place, Wynwood, Lincoln Road, Brickell, scenic fabrication, Agora Graphics, Ominto Studio",
+  title: "Gymshark Phone Box — NYC & Miami Activation Proposal | AGV Miami",
+  description: "Fabrication and production proposal for the Gymshark Phone Box experiential activation — New York and Miami, July 2026. Custom pink phone box fabrication, photo activation, interactive tech, and multi-city deployment by AGV Miami in partnership with Ominto Studio.",
+  keywords: "Gymshark, Phone Box, experiential activation, New York, Miami, Astor Place, Wynwood, Lincoln Road, Brickell, scenic fabrication, AGV Miami, Ominto Studio",
   openGraph: {
     title: "Gymshark Phone Box — NYC & Miami Activation Proposal",
-    description: "Fabrication & Production Proposal by Agora Graphics",
+    description: "Fabrication & Production Proposal by AGV Miami",
     type: "website",
   },
 };
