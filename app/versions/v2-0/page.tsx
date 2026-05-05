@@ -67,8 +67,8 @@ const htmlContent = `
 <!-- VERSION BANNER (SNAPSHOT) -->
 <div class="version-banner">
   <div class="version-banner-inner">
-    <div class="version-banner-tag">Frozen Snapshot</div>
-    <div class="version-banner-text">You are viewing the <strong>Version 2.0</strong> snapshot &mdash; April 29, 2026. The canonical proposal lives at <code style="color:var(--iwc-gold)">/</code> and is currently identical; this URL will be preserved unchanged when future versions ship.</div>
+    <div class="version-banner-tag">Historical Version</div>
+    <div class="version-banner-text">You are viewing <strong>Version 2.0</strong> &mdash; April 29, 2026. <strong>This version has been superseded by V3.0</strong> (April 29, 2026 &mdash; single Lincoln Road activation, no Bond St, painted finish). This URL is preserved as a historical snapshot.</div>
     <a href="/" class="version-banner-link">View Latest &rarr;</a>
   </div>
 </div>
