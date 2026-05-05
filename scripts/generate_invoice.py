@@ -1,17 +1,20 @@
 """
-Generate the multi-version invoice xlsx for the Gymshark Phone Box proposal.
+Generate invoice xlsx files for the Gymshark Phone Box proposal.
 Producer: AGV Miami (legal entity AGV Miami, LLC).
-One workbook with three sheets, in this order:
-  1. V3.0 (current — Euclid Oval, Lincoln Road Mall + Logistics to NYC)
-  2. V2.0 (two-event sequence — Miami Lincoln Road + NYC Bond St in-store)
-  3. V1.0 (initial issuance — three options, $98,500 dual-city target)
-Run: python3 scripts/generate_invoice.py
-Output: public/invoices/GS-PHONEBOX-001-V3.0.xlsx
+
+Two outputs (run: python3 scripts/generate_invoice.py):
+  1. public/invoices/GS-PHONEBOX-001-V3.0.xlsx
+       Single tab — the current V3.0 invoice for the active scope.
+  2. public/invoices/GS-PHONEBOX-001-VERSION-HISTORY.xlsx
+       Three tabs in this order: V3.0 (current), V2.0 (superseded),
+       V1.0 (initial). Each tab uses the same formatting as the V3
+       single-tab invoice.
 """
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 
-OUTPUT = "public/invoices/GS-PHONEBOX-001-V3.0.xlsx"
+OUTPUT_V3 = "public/invoices/GS-PHONEBOX-001-V3.0.xlsx"
+OUTPUT_HISTORY = "public/invoices/GS-PHONEBOX-001-VERSION-HISTORY.xlsx"
 
 GOLD = "D4AF37"
 DARK = "0C0C10"
@@ -231,11 +234,11 @@ def build_v3_sheet(ws):
     row = line_item(ws, row, "Phone Box Structural Shell", "Custom scenic fabrication, marine-grade paint in Gymshark Pink, two-piece modular construction", 14500)
     row = line_item(ws, row, "4-Sided Illuminated Lightbox Signage", "LED-backlit translucent face panels on all four sides; weatherproof housing", 6800)
     row = line_item(ws, row, "Glass & Semi-Transparent Vinyl Panels", "Tempered glass on front door + sides with custom-printed semi-transparent privacy vinyl", 2900)
-    row = line_item(ws, row, "Pink Painted Interior Finish (V3.0)", "Fully-painted four-wall pink interior — replaces vinyl-lined interior for durability and finish quality", 3200)
+    row = line_item(ws, row, "Painted Pink Interior (V3 — paint, not vinyl)", "Four-wall matte paint finish (Gymshark Pink), dimensional bum mirror with scripted messaging. Replaces V2.0 vinyl lining for durability and finish quality.", 3800)
     row = line_item(ws, row, "Concealed Sliding Prize Door", "Motorised, colour-matched, no visible handle on public face", 3400)
     row = line_item(ws, row, "Interior Finishes", "Aluminium chequer-plate flooring, dome light, guest seat, branded analogue phone", 2750)
     row = line_item(ws, row, "Engineering, Structural Calcs & Shop Drawings", "Wind-load, ballast plan, electrical schematics, CAD shop drawings, venue-compliance package", 4000)
-    row = subtotal_row(ws, row, "Subtotal — The Phone Box", 37550)
+    row = subtotal_row(ws, row, "Subtotal — The Phone Box", 38150)
 
     row = phase_header(ws, row, "Phase 02  —  Interactive Tech + Content Capture")
     row = line_item(ws, row, "Pre-Recorded Call-Response (IVR) System", "Multi-branch scripting, licensed voice talent, keypad mapping, redundant win/lose logic, QA", 5500)
@@ -329,20 +332,23 @@ def build_v2_sheet(ws):
     row = subtotal_row(ws, row, "Subtotal — Event 01 Miami", 11900)
 
     row = phase_header(ws, row, "Phase 04b  —  Inter-City Respray/Rewrap to NYC Palette")
-    row = line_item(ws, row, "Climate-Controlled Warehouse Hold (10 days)", "Secure climate-controlled storage between Miami strike and NYC delivery", 2900)
-    row = line_item(ws, row, "Inter-City Freight (Miami → NYC, climate truck)", "Dedicated climate truck with two-driver rotation, GPS tracking", 5500)
-    row = line_item(ws, row, "Exterior Vinyl Refresh (NYC Reskin)", "Removal of Miami exterior vinyl + NYC-specific campaign wrap", 5400)
-    row = line_item(ws, row, "Interior Vinyl Refresh (NYC Reskin)", "Removal of Miami interior vinyl + NYC product-launch creative", 3500)
-    row = line_item(ws, row, "Lightbox Graphic Refresh (NYC Reskin)", "Reprint and reinstallation of four lightbox faces with NYC creative", 2400)
-    row = line_item(ws, row, "NYC Site Re-Survey & Local Permit Coordination", "On-the-ground survey, permit liaison, COI issuance, site readiness sign-off", 2500)
-    row = line_item(ws, row, "Pre-Deployment QC & Refinishing", "Reassembly inspection, touch-up paint, electrical recheck, system bench-test", 2800)
-    row = subtotal_row(ws, row, "Subtotal — Respray Package", 25000)
+    row = line_item(ws, row, "Climate-Controlled Warehouse Hold (~10 days)", "Secure climate-controlled storage between Miami strike and NYC respray", 2900)
+    row = line_item(ws, row, "Inter-City Freight (Miami → NYC, Climate Truck)", "Dedicated climate truck with two-driver rotation, real-time GPS tracking, handoff documentation", 5500)
+    row = line_item(ws, row, "Exterior Respray to NYC Palette", "Sand & prep, marine-grade respray to NYC product-launch colour callout, clear over-laminate", 5400)
+    row = line_item(ws, row, "Interior Vinyl Refresh (NYC Product Launch Creative)", "Removal of Miami interior vinyl, application of NYC product-launch creative, mirror messaging update", 3200)
+    row = line_item(ws, row, "Lightbox Graphic Refresh (NYC Launch Creative)", "Reprint and reinstall four translucent lightbox faces with NYC launch wordmark and treatment", 2400)
+    row = line_item(ws, row, "Retail Compliance & Store Re-Spec", "Anchoring/ballast for indoor floor, electrical recheck, fire-marshal review, COI re-issuance for Bond St", 2000)
+    row = line_item(ws, row, "Pre-Deployment QC & Retail-Grade Certification", "Full reassembly inspection, IVR + camera + printer bench re-test, retail-grade finish certification", 2600)
+    row = subtotal_row(ws, row, "Subtotal — Respray Package", 24000)
 
-    row = phase_header(ws, row, "Phase 04c  —  Event 02: NYC Bond St In-Store Activation")
-    row = line_item(ws, row, "Inbound Logistics & Install (NYC)", "3-person install crew, permit-window supervisor", 5800)
-    row = line_item(ws, row, "On-Site Technicians (NYC)", "Lead technician + rotating second tech", 2800)
-    row = line_item(ws, row, "Strike & Outbound Freight (NYC)", "End-of-launch de-installation and return freight", 3300)
-    row = subtotal_row(ws, row, "Subtotal — Event 02 NYC", 11900)
+    row = phase_header(ws, row, "Phase 04c  —  Event 02: Gymshark Bond St Delivery & 4-Week In-Store Run")
+    row = line_item(ws, row, "White-Glove Delivery to Gymshark Bond St", "Climate-controlled delivery to 11 Bond St, NYC, scheduled overnight or pre-open. Target on or before July 9, 2026.", 3000)
+    row = line_item(ws, row, "Retail-Environment Install Crew", "2-person crew with floor-protection, retail-grade hand-tool kit, store operations liaison, 4-hour install window", 2300)
+    row = line_item(ws, row, "In-Store Fixture Setup", "Retail-spec floor anchoring, electrical drop, IVR + camera + printer + lightbox bring-up, on-floor sign-off with store manager", 2100)
+    row = line_item(ws, row, "Store Wayfinding & Footfall Driver Kit", "Sidewalk A-frame, branded window-vinyl tease, in-store directional decals, printed/social CTA pack", 2200)
+    row = line_item(ws, row, "4-Week In-Store Presence Support", "Remote tech monitoring, weekly voucher-roll restock, content uploads, scenic touch-ups through August 6, 2026", 2500)
+    row = line_item(ws, row, "Retail Strike & Return Freight", "End-of-launch de-installation, retail-grade floor restoration, return freight to Bohemia, NY facility", 1400)
+    row = subtotal_row(ws, row, "Subtotal — Event 02 Bond St", 13500)
 
     row = phase_header(ws, row, "Phase 05  —  Project Management & Client Services")
     row = line_item(ws, row, "Project Management Fee", "Dedicated senior producer, weekly status, milestone tracking, COI + insurance coordination", 12000)
@@ -430,20 +436,29 @@ def build_v1_sheet(ws):
 
 
 def main():
-    wb = Workbook()
-
-    ws3 = wb.active
+    # 1. Single-tab V3.0 invoice (current scope only)
+    wb_v3 = Workbook()
+    ws3 = wb_v3.active
     ws3.title = "V3.0 — Current"
     build_v3_sheet(ws3)
+    wb_v3.save(OUTPUT_V3)
+    print(f"Wrote {OUTPUT_V3} with sheets: {[s.title for s in wb_v3.worksheets]}")
 
-    ws2 = wb.create_sheet(title="V2.0 — Superseded")
-    build_v2_sheet(ws2)
+    # 2. Three-tab version history workbook (V3, V2, V1 in that order)
+    wb_history = Workbook()
 
-    ws1 = wb.create_sheet(title="V1.0 — Initial")
-    build_v1_sheet(ws1)
+    ws3h = wb_history.active
+    ws3h.title = "V3.0 — Current"
+    build_v3_sheet(ws3h)
 
-    wb.save(OUTPUT)
-    print(f"Wrote {OUTPUT} with sheets: {[s.title for s in wb.worksheets]}")
+    ws2h = wb_history.create_sheet(title="V2.0 — Superseded")
+    build_v2_sheet(ws2h)
+
+    ws1h = wb_history.create_sheet(title="V1.0 — Initial")
+    build_v1_sheet(ws1h)
+
+    wb_history.save(OUTPUT_HISTORY)
+    print(f"Wrote {OUTPUT_HISTORY} with sheets: {[s.title for s in wb_history.worksheets]}")
 
 
 if __name__ == "__main__":
