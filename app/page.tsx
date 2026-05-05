@@ -87,7 +87,7 @@ const htmlContent = `
       </div>
       <div class="hero-meta-item">
         <div class="hero-meta-label">Activation Dates</div>
-        <div class="hero-meta-value">July 17, 2026 (backup July 18)</div>
+        <div class="hero-meta-value">Friday, July 17, 2026</div>
       </div>
       <div class="hero-meta-item">
         <div class="hero-meta-label">Document</div>
@@ -100,7 +100,7 @@ const htmlContent = `
     </div>
 
     <p class="hero-narrative">
-      AGV Miami is pleased to present <strong>Version 3.0</strong> of this fabrication and production proposal for the Gymshark Phone Box experiential activation, developed in partnership with Ominto Studio&rsquo;s creative direction. V3.0 is a <strong>single-event programme</strong>: a fully-painted pink British phone box equipped with interactive photo, voucher, and call-response technology, deployed for a one-day street activation at <strong>Lincoln Road Mall, Miami Beach</strong> on <strong>July 17, 2026</strong> (backup July 18, 2026). After Miami, the box receives a light touchup and is logistically returned to a New York handoff destination &mdash; no Gymshark NYC retail activation, no Bond St in-store presence, no respray / rewrap package. Booth construction has been simplified to a fully painted finish (no interior vinyl) for durability and finish quality.
+      AGV Miami is pleased to present <strong>Version 3.0</strong> of this fabrication and production proposal for the Gymshark Phone Box experiential activation, developed in partnership with Ominto Studio&rsquo;s creative direction. V3.0 is a <strong>single-event programme</strong>: a fully-painted pink British phone box equipped with interactive photo, voucher, and call-response technology, deployed for a one-day street activation at <strong>Euclid Oval, Lincoln Road Mall, Miami Beach</strong> on <strong>Friday, July 17, 2026</strong>. After Miami, the box receives a light touchup and is logistically returned to a New York handoff destination &mdash; no Gymshark NYC retail activation, no Bond St in-store presence, no respray / rewrap package. Booth construction has been simplified to a fully painted finish (no interior vinyl) for durability and finish quality.
     </p>
     <div class="hero-doc">Confidential &amp; Proprietary &bull; Prepared exclusively for Gymshark Ltd. and Ominto Studio</div>
   </div>
@@ -122,23 +122,23 @@ const htmlContent = `
 <section id="overview" class="sec">
   <div data-a>
     <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">Project Overview</span></div>
-    <h2>Two Cities. One Iconic Object.</h2>
+    <h2>One Object. One Day. One Plaza.</h2>
     <p class="sec-desc">
-      Gymshark&rsquo;s Phone Box activation reframes a classic British phone box as a one-day street stunt: passers-by answer a ringing phone, navigate a pre-recorded quiz or live-call prompt, step inside a fully-painted pink interior, take a selfie or belfie, and walk away with a printed voucher and packaged product. The concept lives or dies on craft &mdash; the finish, the tech, the dwell time, the crowd around the object. V3.0 is a focused single-event programme at <strong>Lincoln Road Mall, Miami Beach on July 17, 2026 (backup July 18)</strong>, followed by a light touchup and return logistics to a New York handoff destination.
+      Gymshark&rsquo;s Phone Box activation reframes a classic British phone box as a one-day street stunt: passers-by answer a ringing phone, navigate a pre-recorded quiz or live-call prompt, step inside a fully-painted pink interior, take a selfie or belfie, and walk away with a printed voucher and packaged product. The concept lives or dies on craft &mdash; the finish, the tech, the dwell time, the crowd around the object. V3.0 is a focused single-event programme at <strong>Euclid Oval, Lincoln Road Mall, Miami Beach</strong> on <strong>Friday, July 17, 2026</strong>, followed by a light touchup and return logistics to a New York handoff destination.
     </p>
   </div>
 
   <div class="overview-grid" data-a>
     <div class="overview-card" style="border-color:var(--f1-red)">
       <div class="ov-tag" style="color:var(--f1-red)">The Activation &mdash; Miami</div>
-      <h3>Lincoln Road Mall</h3>
-      <p><strong>Venue:</strong> <a href="https://lincolnroad.com/" target="_blank" rel="noopener" style="color:var(--f1-red);text-decoration:underline">Lincoln Road Mall</a>, Miami Beach<br>
-      <strong>Primary Date:</strong> July 17, 2026<br>
-      <strong>Backup Date:</strong> July 18, 2026<br>
+      <h3>Euclid Oval, Lincoln Road Mall</h3>
+      <p><strong>Venue:</strong> Euclid Oval (1100 block), <a href="https://lincolnroad.com/" target="_blank" rel="noopener" style="color:var(--f1-red);text-decoration:underline">Lincoln Road Mall</a>, Miami Beach<br>
+      <strong>Date:</strong> Friday, July 17, 2026<br>
+      <strong>Weather Contingency:</strong> Saturday, July 18, 2026<br>
       <strong>Hours:</strong> 11:00 AM &ndash; 7:00 PM<br>
       <strong>Load-In:</strong> 6:00 AM &ndash; 10:00 AM<br>
       <strong>Audience:</strong> Fitness culture, tourists, content creators, beach crowd<br>
-      <strong>Outstanding question:</strong> Precise pitch within Lincoln Road to be confirmed (AGV Miami recommendation: <em>Euclid Oval</em>, 1100 block).</p>
+      <strong>Pitch:</strong> Confirmed at the central pedestrian plaza on Lincoln Road &amp; Euclid Ave &mdash; ovoid hardscape, fountain backdrop, palm canopy, central to the Apple Store / J.Crew / Anthropologie anchor block.</p>
     </div>
     <div class="overview-card" style="border-color:var(--iwc-gold)">
       <div class="ov-tag" style="color:var(--iwc-gold)">Post-Activation &mdash; Logistics to NYC</div>
@@ -308,7 +308,7 @@ const htmlContent = `
 
         <div class="core-item" style="border-color:var(--f1-red)">
           <div><div class="name">Venue Dressing Kit</div>
-          <div class="desc">Portable A-frame sidewalk signage, branded stanchions, and pavement decals to extend phone box footprint and direct foot traffic at Lincoln Road.</div></div>
+          <div class="desc">Portable A-frame sidewalk signage, branded stanchions, and pavement decals to extend phone box footprint and direct foot traffic at Euclid Oval.</div></div>
           <div class="price" style="color:var(--f1-red)">$1,750</div>
         </div>
 
@@ -327,21 +327,21 @@ const htmlContent = `
       <div class="phase-num" style="color:var(--white)">04</div>
       <div class="phase-info">
         <h3>Logistics, Install &amp; Strike</h3>
-        <div class="sub">Miami Lincoln Road street install &bull; light touchup &bull; logistics to NYC handoff destination</div>
+        <div class="sub">Euclid Oval (Lincoln Road Mall) street install &bull; light touchup &bull; logistics to NYC handoff destination</div>
       </div>
       <div class="phase-toggle" style="border-color:var(--white);color:var(--white)">+</div>
     </div>
     <div class="phase-body">
       <div class="phase-inner" style="border-left:4px solid var(--white)">
         <p class="phase-narrative">
-          Single-truck freight from the AGV Miami Bohemia, NY fabrication facility. The activation is a one-day Lincoln Road street install on July 17, 2026 (backup July 18, 2026) with a 3-person install crew, dual on-site technicians during operating hours, and same-day strike. After Miami, a single light cosmetic touchup is applied at warehouse, then the box is logistically returned to a New York handoff destination. <strong>V3.0 removes the prior respray/rewrap package and the Gymshark Bond St in-store activation entirely</strong> &mdash; the box is now an asset transfer to NYC, not an activation in NYC.
+          Single-truck freight from the AGV Miami Bohemia, NY fabrication facility. The activation is a one-day Euclid Oval (Lincoln Road Mall) street install on Friday, July 17, 2026, with a 3-person install crew, dual on-site technicians during operating hours, and same-day strike. Saturday, July 18, 2026 is held as a weather contingency only. After Miami, a single light cosmetic touchup is applied at warehouse, then the box is logistically returned to a New York handoff destination. <strong>V3.0 removes the prior respray/rewrap package and the Gymshark Bond St in-store activation entirely</strong> &mdash; the box is now an asset transfer to NYC, not an activation in NYC.
         </p>
 
-        <div class="core-label">The Activation &mdash; Miami Lincoln Road (Street)</div>
+        <div class="core-label">The Activation &mdash; Euclid Oval, Lincoln Road Mall (Miami Beach)</div>
 
         <div class="core-item">
           <div><div class="name">Inbound Logistics &amp; Install &mdash; Miami</div>
-          <div class="desc">Truck, rigging hardware, 3-person install crew, venue load-in coordination, module assembly, electrical hookup, permit-window supervisor, final finishing, and pre-open inspection. 4&ndash;6 hour install window at Lincoln Road.</div></div>
+          <div class="desc">Truck, rigging hardware, 3-person install crew, venue load-in coordination, module assembly, electrical hookup, permit-window supervisor, final finishing, and pre-open inspection. 4&ndash;6 hour install window at Euclid Oval.</div></div>
           <div class="price">$5,800</div>
         </div>
 
@@ -353,7 +353,7 @@ const htmlContent = `
 
         <div class="core-item">
           <div><div class="name">Same-Day Strike &amp; Outbound Freight &mdash; Miami</div>
-          <div class="desc">Complete de-installation, module breakdown, crated outbound freight within Lincoln Road&rsquo;s contracted strike window. Site walk-through with BID operations and full restoration to original condition.</div></div>
+          <div class="desc">Complete de-installation, module breakdown, crated outbound freight within Euclid Oval&rsquo;s contracted strike window. Site walk-through with the Lincoln Road BID operations team and full restoration to original condition.</div></div>
           <div class="price">$3,300</div>
         </div>
 
@@ -368,7 +368,7 @@ const htmlContent = `
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
           <div><div class="name">Inter-City Freight (Miami &rarr; NYC, Climate Truck)</div>
-          <div class="desc">Dedicated climate-controlled truck from the Miami Lincoln Road strike site to the AGV Miami NYC staging facility, with real-time GPS tracking, two-driver rotation, and driver handoff documentation.</div></div>
+          <div class="desc">Dedicated climate-controlled truck from Euclid Oval, Lincoln Road Mall to the AGV Miami NYC staging facility, with real-time GPS tracking, two-driver rotation, and driver handoff documentation.</div></div>
           <div class="price" style="color:var(--iwc-gold)">$5,500</div>
         </div>
 
@@ -426,7 +426,7 @@ const htmlContent = `
     <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Venue</span></div>
     <h2>One Venue. One Activation.</h2>
     <p class="sec-desc">
-      V3.0 proposes a single venue: <strong>Lincoln Road Mall</strong> (Miami Beach) for a one-day street activation on <strong>July 17, 2026</strong> (backup July 18, 2026). The Lincoln Road venue fee is passed through at cost. <strong>No NYC venue, no Bond St activation</strong>; the box is logistically returned to a New York handoff destination after Miami.
+      V3.0 proposes a single venue: <strong>Euclid Oval, Lincoln Road Mall</strong> (Miami Beach) for a one-day street activation on <strong>Friday, July 17, 2026</strong>. Saturday, July 18, 2026 is held against the same permit window as a weather contingency only. The Lincoln Road venue fee is passed through at cost. <strong>No NYC venue, no Bond St activation</strong>; the box is logistically returned to a New York handoff destination after Miami.
     </p>
   </div>
 
@@ -435,22 +435,22 @@ const htmlContent = `
     <div class="loc-city-heading">
       <div class="sec-eye"><div class="bar" style="background:var(--f1-red)"></div><span style="color:var(--f1-red)">Miami &bull; The Activation &bull; Street</span></div>
       <h3>Miami Venue</h3>
-      <p>The activation runs as a one-day street pop-up at Lincoln Road Mall on July 17, 2026 (backup July 18, 2026). Lincoln Road BID handles permitting; the Miami venue fee is the only venue pass-through across the entire programme.</p>
+      <p>The activation runs as a one-day street pop-up at Euclid Oval, Lincoln Road Mall on Friday, July 17, 2026 (with Saturday, July 18, 2026 held as a weather contingency). The Lincoln Road BID handles permitting; the Miami venue fee is the only venue pass-through across the entire programme.</p>
     </div>
 
     <div class="loc-grid loc-grid-feature">
 
-      <!-- MIAMI: LINCOLN ROAD -->
+      <!-- MIAMI: EUCLID OVAL, LINCOLN ROAD MALL -->
       <div class="loc-card" style="border-color:var(--f1-red)">
         <div class="loc-hero loc-hero-lincoln">
           <div class="loc-city" style="color:var(--f1-red)">Miami</div>
-          <div class="loc-title">Lincoln Road Mall &mdash; July 17, 2026 (backup July 18)</div>
-          <div class="loc-sub">Miami Beach &bull; Recommended exact spot: <strong>Euclid Oval</strong> (1100 block)</div>
+          <div class="loc-title">Euclid Oval, Lincoln Road Mall</div>
+          <div class="loc-sub">Miami Beach &bull; Friday, July 17, 2026</div>
         </div>
         <div class="loc-body">
           <div class="loc-price">Est. $5,000 &ndash; $10,000 / day</div>
-          <p>Pedestrian-only outdoor shopping district with recent streetscape regeneration. Bold palm-lined aesthetic with steady 7-day foot traffic of tourists, residents, and beach-goers. Permitting via City of Miami Beach &amp; Lincoln Road Business Improvement District.</p>
-          <p style="margin-top:12px;padding:12px 14px;border:1px solid var(--f1-red);border-radius:4px;background:rgba(244,162,97,0.06);font-size:11px;line-height:1.65"><strong style="color:var(--f1-red);text-transform:uppercase;letter-spacing:1.5px;font-size:10px">Precise Location &mdash; Outstanding Decision</strong><br>Lincoln Road is the venue; the precise pitch within the corridor is still open. AGV Miami&rsquo;s recommendations:<br><strong>Primary:</strong> <em>Euclid Oval</em>, the central pedestrian plaza at Lincoln Road &amp; Euclid Ave (1100 block) &mdash; ovoid hardscape with fountain backdrop, palm canopy, established BID activation slot, central to the Apple Store / J.Crew / Anthropologie anchor block.<br><strong>Private alternative:</strong> <em>1111 Lincoln Road plaza</em> &mdash; the Herzog &amp; de Meuron parking-garage retail plaza at the west end (Lincoln Rd &amp; Alton Rd), privately managed, frequent brand-activation precedent (Tesla, Cadillac).<br><strong>Backup:</strong> <em>800 block</em> (between Meridian &amp; Jefferson) &mdash; Apple flagship anchor, highest weekday lunch traffic.</p>
+          <p>Pedestrian-only outdoor shopping district with recent streetscape regeneration. Bold palm-lined aesthetic with steady 7-day foot traffic of tourists, residents, and beach-goers. Permitting via City of Miami Beach and the Lincoln Road Business Improvement District.</p>
+          <p style="margin-top:12px;padding:12px 14px;border:1px solid var(--f1-red);border-radius:4px;background:rgba(244,162,97,0.06);font-size:11px;line-height:1.65"><strong style="color:var(--f1-red);text-transform:uppercase;letter-spacing:1.5px;font-size:10px">Venue &amp; Pitch &mdash; Confirmed</strong><br><strong>Pitch:</strong> <em>Euclid Oval</em>, the central pedestrian plaza at Lincoln Road &amp; Euclid Ave (1100 block) &mdash; ovoid hardscape with fountain backdrop, palm canopy, established BID activation slot, central to the Apple Store / J.Crew / Anthropologie anchor block.<br><strong>Date:</strong> Friday, July 17, 2026.<br><strong>Weather contingency:</strong> Saturday, July 18, 2026 &mdash; held by the BID against the same permit window for outdoor weather displacement only.</p>
           <ul>
             <li>Car-free corridor &mdash; safe for street-level activation</li>
             <li>High dwell time, shopping-mindset audience</li>
@@ -475,7 +475,7 @@ const htmlContent = `
     <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">Your Production Journey</span></div>
     <h2>Eight Phases. One Seamless Deployment.</h2>
     <p class="sec-desc">
-      Every AGV Miami engagement follows a structured, milestone-gated production lifecycle &mdash; from creative alignment through post-event strike. Each phase builds on the last with defined deliverables and approval checkpoints, scaled here for a ~10-week lead time from Scope Approval (Mon May 4, 2026) into the July 17, 2026 Lincoln Road activation (backup July 18, 2026), followed by light touchup and logistics return to a New York handoff destination.
+      Every AGV Miami engagement follows a structured, milestone-gated production lifecycle &mdash; from creative alignment through post-event strike. Each phase builds on the last with defined deliverables and approval checkpoints, scaled here for a ~10-week lead time from Scope Approval (Monday, May 4, 2026) into the Friday, July 17, 2026 activation at Euclid Oval, Lincoln Road Mall, followed by light touchup and logistics return to a New York handoff destination.
     </p>
   </div>
 
@@ -495,7 +495,7 @@ const htmlContent = `
     <div class="journey-step" style="border-color:var(--iwc-gold)">
       <div class="step-num" style="color:var(--iwc-gold)">03</div>
       <h4>Engineering &amp; Technical Development</h4>
-      <p>Structural engineering calculations, shop drawings, electrical schematics for lightbox and tech, ballast plan for outdoor install, and Lincoln Road BID compliance documentation.</p>
+      <p>Structural engineering calculations, shop drawings, electrical schematics for lightbox and tech, ballast plan for outdoor install, and Lincoln Road BID / Euclid Oval compliance documentation.</p>
       <div class="step-date">May 22 &ndash; June 5, 2026</div>
     </div>
     <div class="journey-step" style="border-color:var(--iwc-gold)">
@@ -513,19 +513,19 @@ const htmlContent = `
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
       <div class="step-num" style="color:var(--mercedes-teal)">06</div>
       <h4>Installation &amp; On-Site Build</h4>
-      <p>Lincoln Road permit-window install on Friday, July 17, 2026 (backup Saturday, July 18, 2026). 4&ndash;6 hour install window, 3-person crew, dual on-site technicians, pre-open inspection.</p>
-      <div class="step-date">July 17, 2026 (backup July 18, 2026)</div>
+      <p>Permit-window install at Euclid Oval, Lincoln Road Mall on Friday, July 17, 2026. 4&ndash;6 hour install window, 3-person crew, dual on-site technicians, pre-open inspection. Saturday, July 18, 2026 held as a weather contingency.</p>
+      <div class="step-date">Friday, July 17, 2026</div>
     </div>
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
       <div class="step-num" style="color:var(--mercedes-teal)">07</div>
       <h4>Activation &amp; Live Operations</h4>
-      <p>One-day public operation at Lincoln Road with on-site tech, voucher, camera, and live-call coverage. <strong>No NYC activation in V3.0.</strong></p>
-      <div class="step-date">July 17, 2026 (or backup July 18)</div>
+      <p>One-day public operation at Euclid Oval with on-site tech, voucher, camera, and live-call coverage. <strong>No NYC activation in V3.0.</strong></p>
+      <div class="step-date">Friday, July 17, 2026</div>
     </div>
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
       <div class="step-num" style="color:var(--mercedes-teal)">08</div>
       <h4>Strike, Touchup &amp; NYC Logistics Handoff</h4>
-      <p>Same-day strike at Lincoln Road; inter-city freight Miami &rarr; NYC; climate-controlled hold + light touchup ($3,000) at AGV Miami&rsquo;s NYC staging facility; final delivery to a NYC handoff destination. Post-event reconciliation, final documentation, project archive.</p>
+      <p>Same-day strike at Euclid Oval; inter-city freight Miami &rarr; NYC; climate-controlled hold + light touchup ($3,000) at AGV Miami&rsquo;s NYC staging facility; final delivery to a NYC handoff destination. Post-event reconciliation, final documentation, project archive.</p>
       <div class="step-date">Strike July 17 &bull; NYC handoff by August 1, 2026 &bull; Closeout August 7, 2026</div>
     </div>
   </div>
@@ -542,18 +542,18 @@ const htmlContent = `
   <table class="sched-table" data-a>
     <thead><tr><th>Phase</th><th>Milestone</th><th>Date</th></tr></thead>
     <tbody>
-      <tr><td>Scope Approval</td><td>V3.0 plan approved (Lincoln Road only + logistics to NYC handoff); production authorisation issued</td><td>Mon May 4, 2026</td></tr>
-      <tr><td>Deposit Received</td><td>60% project deposit &mdash; due upon Scope of Work approval; triggers procurement, engineering, and Lincoln Road permit application</td><td>May 6, 2026</td></tr>
-      <tr><td>Lincoln Road Permit Applied</td><td>Permit application filed with Lincoln Road BID / City of Miami Beach; precise pitch (Euclid Oval primary) finalised</td><td>May 8, 2026</td></tr>
+      <tr><td>Scope Approval</td><td>V3.0 plan approved (Euclid Oval, Lincoln Road Mall + logistics to NYC handoff); production authorisation issued</td><td>Monday, May 4, 2026</td></tr>
+      <tr><td>Deposit Received</td><td>60% project deposit &mdash; due upon Scope of Work approval; triggers procurement, engineering, and Lincoln Road BID permit application</td><td>May 6, 2026</td></tr>
+      <tr><td>Permit Applied &mdash; Euclid Oval</td><td>Permit application filed with the Lincoln Road BID and the City of Miami Beach for the Euclid Oval pitch (1100 block) on Friday, July 17, 2026</td><td>May 8, 2026</td></tr>
       <tr><td>Creative Lock</td><td>Final artwork, voucher template, and IVR scripting delivered to AGV Miami</td><td>May 22, 2026</td></tr>
-      <tr><td>Engineering &amp; Shop Drawings</td><td>Structural, electrical, ballast, and Lincoln Road BID compliance drawings issued for client review</td><td>May 22 &ndash; June 5, 2026</td></tr>
+      <tr><td>Engineering &amp; Shop Drawings</td><td>Structural, electrical, ballast, and Lincoln Road BID / Euclid Oval compliance drawings issued for client review</td><td>May 22 &ndash; June 5, 2026</td></tr>
       <tr><td>Scenic Fabrication</td><td>Phone box shell build, full paint finish (no interior vinyl in V3), lightbox assembly</td><td>June 8 &ndash; July 6, 2026</td></tr>
       <tr><td>Print &amp; Graphics Production</td><td>Lightbox graphics, disclosure + wayfinding signage, sidewalk/window signage</td><td>June 15 &ndash; July 6, 2026</td></tr>
       <tr><td>Tech Bench Test</td><td>Full IVR + voucher printer + camera system rehearsed end-to-end at AGV Miami facility</td><td>July 6 &ndash; 10, 2026</td></tr>
-      <tr><td>Balance Payment</td><td>Remaining 40% balance due &mdash; five (5) business days prior to Lincoln Road activation</td><td>Fri July 10, 2026</td></tr>
-      <tr><td>Transit to Miami</td><td>Truck loaded, transported from Bohemia, NY to Lincoln Road, Miami Beach</td><td>July 14 &ndash; 16, 2026</td></tr>
-      <tr><td>The Activation &mdash; Lincoln Road</td><td><strong>Primary date:</strong> Friday, July 17, 2026 &bull; <strong>Backup date:</strong> Saturday, July 18, 2026. Pre-dawn install, 8&ndash;10 hr operational window, same-day strike.</td><td>July 17, 2026 (backup July 18)</td></tr>
-      <tr><td>Inter-City Freight Miami &rarr; NYC</td><td>Climate-controlled truck from Lincoln Road strike site to AGV Miami&rsquo;s NYC staging facility</td><td>July 18 &ndash; 21, 2026</td></tr>
+      <tr><td>Balance Payment</td><td>Remaining 40% balance due &mdash; five (5) business days prior to the Euclid Oval activation</td><td>Friday, July 10, 2026</td></tr>
+      <tr><td>Transit to Miami</td><td>Truck loaded, transported from Bohemia, NY to Euclid Oval, Lincoln Road Mall, Miami Beach</td><td>July 14 &ndash; 16, 2026</td></tr>
+      <tr><td>The Activation &mdash; Euclid Oval</td><td>Pre-dawn install at Euclid Oval, Lincoln Road Mall, 8&ndash;10 hr operational window, same-day strike. Saturday, July 18, 2026 held as a weather contingency only.</td><td>Friday, July 17, 2026</td></tr>
+      <tr><td>Inter-City Freight Miami &rarr; NYC</td><td>Climate-controlled truck from Euclid Oval strike site to AGV Miami&rsquo;s NYC staging facility</td><td>July 18 &ndash; 21, 2026</td></tr>
       <tr><td>Light Touchup After First Activation</td><td>Single light cosmetic touchup pass ($3,000): scuff/scratch repair, paint colour-match, lightbox edge cleanup, IVR/camera/printer functional re-test</td><td>July 22 &ndash; 28, 2026</td></tr>
       <tr><td>Final Delivery to NYC Handoff Destination</td><td>Climate-controlled final-mile delivery from AGV Miami NYC staging to the client&rsquo;s designated NYC handoff address (TBC by Gymshark). Asset transfer only &mdash; no install, commissioning, or activation.</td><td>By August 1, 2026</td></tr>
       <tr><td>Project Closeout</td><td>Post-event reconciliation, captured media handoff, closeout deliverables</td><td>August 7, 2026</td></tr>
@@ -599,7 +599,7 @@ const htmlContent = `
     <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Plan</span></div>
     <h2>One Plan. One Activation.</h2>
     <p class="sec-desc">
-      V3.0 is a focused, single-event programme: a one-day street activation at <strong>Lincoln Road Mall, Miami Beach</strong> on <strong>July 17, 2026</strong> (backup July 18, 2026), followed by a light cosmetic touchup at the AGV Miami NYC staging facility and a final asset-handoff delivery to a New York address designated by the client. Booth construction simplified to fully painted finish; respray/rewrap package and Bond St in-store activation removed in V3.0.
+      V3.0 is a focused, single-event programme: a one-day street activation at <strong>Euclid Oval, Lincoln Road Mall, Miami Beach</strong> on <strong>Friday, July 17, 2026</strong>, followed by a light cosmetic touchup at the AGV Miami NYC staging facility and a final asset-handoff delivery to a New York address designated by the client. Booth construction simplified to fully painted finish; respray/rewrap package and Bond St in-store activation removed in V3.0.
     </p>
   </div>
 
@@ -609,11 +609,11 @@ const htmlContent = `
     <div class="pkg-card recommended" style="border-color:var(--iwc-gold)">
       <div class="pkg-ribbon" style="background:var(--iwc-gold);color:var(--dark)">Plan &mdash; V3.0</div>
       <div class="pkg-tag" style="color:var(--iwc-gold)">The Activation</div>
-      <h3>Lincoln Road + Logistics to NYC</h3>
-      <div class="pkg-date">Miami Lincoln Road July 17, 2026 (backup July 18) &rarr; NYC handoff delivery by August 1, 2026</div>
-      <div class="pkg-venue">One street activation at Lincoln Road Mall, Miami Beach &bull; light touchup &bull; final delivery to a NYC handoff destination &bull; <strong>no NYC activation, no Bond St in-store presence</strong></div>
+      <h3>Euclid Oval + Logistics to NYC</h3>
+      <div class="pkg-date">Euclid Oval, Lincoln Road Mall &mdash; Friday, July 17, 2026 &rarr; NYC handoff delivery by August 1, 2026</div>
+      <div class="pkg-venue">One street activation at Euclid Oval, Lincoln Road Mall, Miami Beach &bull; light touchup &bull; final delivery to a NYC handoff destination &bull; <strong>no NYC activation, no Bond St in-store presence</strong></div>
       <ul class="pkg-list">
-        <li>Lincoln Road Mall street activation &mdash; <strong>July 17, 2026 primary, July 18 backup</strong> (Euclid Oval recommended)</li>
+        <li><strong>Euclid Oval, Lincoln Road Mall street activation &mdash; Friday, July 17, 2026</strong> (Saturday, July 18 held as a weather contingency)</li>
         <li><strong>Painted pink interior</strong> (no vinyl) for durability and finish quality</li>
         <li>Climate-controlled warehouse hold + inter-city freight (Miami &rarr; AGV Miami NYC staging)</li>
         <li><strong>Light touchup after first activation</strong> &mdash; $3,000 single-pass cosmetic refurbish</li>
@@ -637,20 +637,20 @@ const htmlContent = `
   <div class="pkg-component-summary" data-a style="margin-top:40px">
     <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Component Pricing Hierarchy</span></div>
     <h3 style="font-size:22px;margin:8px 0 16px">What&rsquo;s Included</h3>
-    <p class="sec-desc" style="margin-bottom:20px">Itemization of the Components and Services that build up the V3.0 production investment. The Activation covers Lincoln Road street logistics; Logistics-to-NYC covers warehouse hold, light touchup ($3,000), inter-city freight, and final delivery to a NYC handoff destination. <strong>No respray, no rewrap, no Bond St in-store activation in V3.0.</strong></p>
+    <p class="sec-desc" style="margin-bottom:20px">Itemization of the Components and Services that build up the V3.0 production investment. The Activation covers the Euclid Oval (Lincoln Road Mall) street install, on-site ops, and same-day strike; Logistics-to-NYC covers warehouse hold, light touchup ($3,000), inter-city freight, and final delivery to a NYC handoff destination. <strong>No respray, no rewrap, no Bond St in-store activation in V3.0.</strong></p>
 
     <table class="component-summary-table">
       <thead>
         <tr>
           <th style="text-align:left">Component</th>
-          <th style="text-align:right;color:var(--iwc-gold)">V3.0 Plan<br><span style="font-size:10px;font-weight:400;opacity:0.7">Lincoln Road + Logistics to NYC</span></th>
+          <th style="text-align:right;color:var(--iwc-gold)">V3.0 Plan<br><span style="font-size:10px;font-weight:400;opacity:0.7">Euclid Oval + Logistics to NYC</span></th>
         </tr>
       </thead>
       <tbody>
         <tr><td>Components &mdash; The Phone Box (painted finish, fabrication, engineering)</td><td class="r">$38,150</td></tr>
         <tr><td>Components &mdash; Interactive Tech + Content Capture Platform</td><td class="r">$20,000</td></tr>
         <tr><td>Components &mdash; Branding, Signage &amp; Consumables Kit</td><td class="r">$5,200</td></tr>
-        <tr><td>Services &mdash; The Activation: Lincoln Road (Street) Logistics, Install &amp; Strike</td><td class="r">$11,900</td></tr>
+        <tr><td>Services &mdash; The Activation: Euclid Oval (Lincoln Road Mall) Logistics, Install &amp; Strike</td><td class="r">$11,900</td></tr>
         <tr><td>Services &mdash; Logistics to NYC (warehouse, freight, light touchup, final delivery)</td><td class="r">$12,900</td></tr>
         <tr><td>Services &mdash; Project Management &amp; Client Services</td><td class="r">$12,000</td></tr>
         <tr><td style="color:var(--mercedes-teal)">Credits &mdash; Preferred Partner Credit</td><td class="r" style="color:var(--mercedes-teal)">&minus;$5,000</td></tr>
@@ -673,7 +673,7 @@ const htmlContent = `
   </div>
 
   <div class="pkg-footnote" data-a>
-    <strong>Budget alignment (V3.0):</strong> Gross production investment is $100,150; net of the $5,000 Preferred Partner Credit, V3.0 lands at $95,150 production. Removing the Bond St in-store activation and the inter-city respray package nets approximately $24,000 below the prior $120K&ndash;$125K target. Lincoln Road BID is the only venue pass-through cost. The post-activation logistics-to-NYC line items cover the asset transfer to a New York handoff destination only &mdash; no NYC activation.
+    <strong>Budget alignment (V3.0):</strong> Gross production investment is $100,150; net of the $5,000 Preferred Partner Credit, V3.0 lands at $95,150 production. Removing the Bond St in-store activation and the inter-city respray package nets approximately $24,000 below the prior $120K&ndash;$125K target. The Euclid Oval / Lincoln Road BID venue fee is the only pass-through cost. The post-activation logistics-to-NYC line items cover the asset transfer to a New York handoff destination only &mdash; no NYC activation.
   </div>
 </section>
 
@@ -683,7 +683,7 @@ const htmlContent = `
     <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Project Investment</span></div>
     <h2>Investment Summary</h2>
     <p class="sec-desc">
-      Line-item breakdown supporting the V3.0 plan. The Components scope (painted phone box, tech, branding) and Project Management Services build the production base. Activation Services itemise Lincoln Road street logistics; Logistics-to-NYC Services itemise the warehouse hold, $3,000 light touchup, inter-city freight, and final NYC handoff delivery. The Lincoln Road venue fee is the only venue pass-through; <strong>no NYC venue, no Bond St, no respray/rewrap package in V3.0.</strong>
+      Line-item breakdown supporting the V3.0 plan. The Components scope (painted phone box, tech, branding) and Project Management Services build the production base. Activation Services itemise the Euclid Oval (Lincoln Road Mall) street logistics; Logistics-to-NYC Services itemise the warehouse hold, $3,000 light touchup, inter-city freight, and final NYC handoff delivery. The Lincoln Road BID venue fee is the only venue pass-through; <strong>no NYC venue, no Bond St, no respray/rewrap package in V3.0.</strong>
     </p>
   </div>
 
@@ -718,19 +718,19 @@ const htmlContent = `
       <tr class="divider"><td colspan="2">Components &mdash; Branding, Signage &amp; Consumables</td></tr>
       <tr class="subcat"><td colspan="2">Signage</td></tr>
       <tr class="item"><td><span class="item-name">Disclosure &amp; Wayfinding Signage</span><span class="item-desc">Camera-disclosure sign, queue management decals, brand lockup callouts in brand palette</span></td><td>$950</td></tr>
-      <tr class="item"><td><span class="item-name">Venue Dressing Kit</span><span class="item-desc">Portable A-frame signage, branded stanchions, pavement decals for Lincoln Road street activation</span></td><td>$1,750</td></tr>
+      <tr class="item"><td><span class="item-name">Venue Dressing Kit</span><span class="item-desc">Portable A-frame signage, branded stanchions, pavement decals for the Euclid Oval street activation</span></td><td>$1,750</td></tr>
       <tr class="subcat"><td colspan="2">Operating Supplies</td></tr>
       <tr class="item"><td><span class="item-name">Daily Consumables &amp; Spares Kit</span><span class="item-desc">Voucher paper rolls, cleaning supplies, sanitisation wipes, touch-up paint, vinyl repair, pink gaffer</span></td><td>$2,500</td></tr>
       <tr class="sub-subtotal"><td><em>Subtotal &mdash; Branding, Signage &amp; Consumables</em></td><td><em>$5,200</em></td></tr>
 
-      <tr class="divider"><td colspan="2">Services &mdash; The Activation: Lincoln Road (Street) Logistics, Install &amp; Strike</td></tr>
+      <tr class="divider"><td colspan="2">Services &mdash; The Activation: Euclid Oval (Lincoln Road Mall) Logistics, Install &amp; Strike</td></tr>
       <tr class="subcat"><td colspan="2">Install</td></tr>
       <tr class="item"><td><span class="item-name">Inbound Logistics &amp; Install</span><span class="item-desc">Truck, rigging hardware, 3-person install crew, permit-window supervisor, 4&ndash;6 hr install window</span></td><td>$5,800</td></tr>
       <tr class="subcat"><td colspan="2">On-Site Operations</td></tr>
       <tr class="item"><td><span class="item-name">On-Site Technicians</span><span class="item-desc">Dedicated lead technician plus rotating second tech for rush windows and breaks</span></td><td>$2,800</td></tr>
       <tr class="subcat"><td colspan="2">Strike &amp; Outbound</td></tr>
       <tr class="item"><td><span class="item-name">Same-Day Strike &amp; Outbound Freight</span><span class="item-desc">Complete de-installation, module breakdown, crated outbound freight, full site restoration</span></td><td>$3,300</td></tr>
-      <tr class="sub-subtotal"><td><em>Subtotal &mdash; The Activation (Lincoln Road)</em></td><td><em>$11,900</em></td></tr>
+      <tr class="sub-subtotal"><td><em>Subtotal &mdash; The Activation (Euclid Oval, Lincoln Road Mall)</em></td><td><em>$11,900</em></td></tr>
 
       <tr class="divider" style="color:var(--iwc-gold)"><td colspan="2">Services &mdash; Logistics to NYC (Post-Activation) <span style="font-size:9px;font-weight:400;text-transform:none;letter-spacing:0.5px">&mdash; replaces V2.0 respray package &amp; Bond St in-store run</span></td></tr>
       <tr class="subcat"><td colspan="2">Storage &amp; Transport</td></tr>
@@ -755,7 +755,7 @@ const htmlContent = `
     <tfoot>
       <tr><td style="color:var(--text-muted)">Gross Production Investment</td><td style="color:var(--text-muted)">$100,150</td></tr>
       <tr><td style="color:var(--mercedes-teal)">Less: Preferred Partner Credit</td><td style="color:var(--mercedes-teal)">&minus;$5,000</td></tr>
-      <tr><td style="color:var(--iwc-gold)">Net V3.0 Production Investment (Lincoln Road + Logistics to NYC)</td><td style="color:var(--iwc-gold)">$95,150</td></tr>
+      <tr><td style="color:var(--iwc-gold)">Net V3.0 Production Investment (Euclid Oval + Logistics to NYC)</td><td style="color:var(--iwc-gold)">$95,150</td></tr>
     </tfoot>
   </table>
 
@@ -763,12 +763,12 @@ const htmlContent = `
     <div class="engage-col" style="border-color:var(--iwc-gold)">
       <div class="tag" style="color:var(--iwc-gold)">Deposit &mdash; 60%</div>
       <div class="amt">$57,090</div>
-      <div class="note">Due upon Client&rsquo;s written approval of this Scope of Work (Proposal execution). Triggers procurement, engineering, and Lincoln Road permit application. Calculated on the V3.0 net production investment of $95,150.</div>
+      <div class="note">Due upon Client&rsquo;s written approval of this Scope of Work (Proposal execution). Triggers procurement, engineering, and the Euclid Oval / Lincoln Road BID permit application. Calculated on the V3.0 net production investment of $95,150.</div>
     </div>
     <div class="engage-col" style="border-color:var(--mercedes-teal)">
       <div class="tag" style="color:var(--mercedes-teal)">Balance &mdash; 40%</div>
       <div class="amt">$38,060</div>
-      <div class="note">Due five (5) business days prior to the Lincoln Road activation install (target Friday, July 10, 2026).</div>
+      <div class="note">Due five (5) business days prior to the Euclid Oval activation install (target Friday, July 10, 2026).</div>
     </div>
   </div>
 
@@ -908,7 +908,7 @@ const htmlContent = `
         <tbody>
           <tr><td>1.0</td><td>April 17, 2026</td><td>AGV Miami</td><td>Initial proposal issued to Gymshark and Ominto Studio for the Gymshark Phone Box activation in New York and Miami in July 2026. Three execution paths offered: Miami-only single-day pop-up, NYC-only single-day pop-up, or dual-city back-to-back deployment with inter-city reskin. Production-investment target of $98,500 for the dual-city configuration.</td><td><a href="/versions/v1-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v1.0 &rarr;</a></td></tr>
           <tr><td>2.0</td><td>April 29, 2026</td><td>AGV Miami</td><td>Two-event sequence. <strong>Event 01 &mdash; Miami:</strong> Lincoln Road Mall street activation on June 27, 2026 (AGV Miami recommended Euclid Oval, 1100 block). <strong>Event 02 &mdash; New York:</strong> in-store fixture at Gymshark Bond St (11 Bond St, NY 10005), delivered by July 9, 2026 to anchor the July 11 product launch and a 4-week in-store run through August 6, 2026. Inter-city respray to NYC palette between events. <strong>Production:</strong> $124,150 gross less $5,000 Partner Credit = $119,150 net. <strong>Estimated total:</strong> $124,150&ndash;$129,150.</td><td><a href="/versions/v2-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v2.0 &rarr;</a></td></tr>
-          <tr><td><strong>3.0</strong></td><td><strong>April 29, 2026</strong></td><td>AGV Miami</td><td><strong>Current.</strong> V3.0 narrows the programme to a <strong>single street activation</strong>: Lincoln Road Mall, Miami Beach on <strong>July 17, 2026</strong> (backup July 18, 2026), Euclid Oval recommended. <strong>Removed in V3.0:</strong> Bond St / NYC flagship activation entirely; inter-city respray/rewrap package; in-store fixture install; 4-week in-store presence support. <strong>Added in V3.0:</strong> $3,000 light touchup line after first activation; simplified logistics-to-NYC (climate-controlled hold, freight, final delivery to a NYC handoff destination). <strong>Booth construction change:</strong> painted pink interior throughout (replaces vinyl lining for durability and finish quality). <strong>Production:</strong> $100,150 gross less $5,000 Partner Credit = $95,150 net. <strong>Estimated total:</strong> $100,150&ndash;$105,150 (Lincoln Road venue fee passed through). Payment: 60% deposit $57,090 on SoW approval; 40% balance $38,060 due Friday, July 10, 2026.</td><td><a href="/versions/v3-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v3.0 &rarr;</a></td></tr>
+          <tr><td><strong>3.0</strong></td><td><strong>April 29, 2026</strong></td><td>AGV Miami</td><td><strong>Current.</strong> V3.0 narrows the programme to a <strong>single street activation</strong> at <strong>Euclid Oval, Lincoln Road Mall, Miami Beach</strong> on <strong>Friday, July 17, 2026</strong> (Saturday, July 18 held as a weather contingency). <strong>Removed in V3.0:</strong> Bond St / NYC flagship activation entirely; inter-city respray/rewrap package; in-store fixture install; 4-week in-store presence support. <strong>Added in V3.0:</strong> $3,000 light touchup line after first activation; simplified logistics-to-NYC (climate-controlled hold, freight, final delivery to a NYC handoff destination). <strong>Booth construction change:</strong> painted pink interior throughout (replaces vinyl lining for durability and finish quality). <strong>Production:</strong> $100,150 gross less $5,000 Partner Credit = $95,150 net. <strong>Estimated total:</strong> $100,150&ndash;$105,150 (Lincoln Road BID venue fee passed through). Payment: 60% deposit $57,090 on SoW approval; 40% balance $38,060 due Friday, July 10, 2026.</td><td><a href="/versions/v3-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v3.0 &rarr;</a></td></tr>
         </tbody>
       </table>
     </div>
@@ -933,10 +933,10 @@ const htmlContent = `
     <div class="sig-block" id="sig-block-main">
       <h3>Authorization to Proceed</h3>
       <p class="legal">
-        By executing this agreement, Client acknowledges review and acceptance of this Proposal, including the complete Scope of Work, Venue, Plan, Investment Summary, Payment Terms, Exclusions, and Terms &amp; Conditions outlined herein. Client hereby authorises AGV Miami, LLC to proceed with engineering, procurement, and fabrication for the V3.0 Plan (Lincoln Road, July 17, 2026 + Logistics to NYC). Execution constitutes authorisation to initiate production and triggers applicable payment terms as stated.
+        By executing this agreement, Client acknowledges review and acceptance of this Proposal, including the complete Scope of Work, Venue, Plan, Investment Summary, Payment Terms, Exclusions, and Terms &amp; Conditions outlined herein. Client hereby authorises AGV Miami, LLC to proceed with engineering, procurement, and fabrication for the V3.0 Plan (Euclid Oval, Lincoln Road Mall, Friday, July 17, 2026 + Logistics to NYC). Execution constitutes authorisation to initiate production and triggers applicable payment terms as stated.
       </p>
 
-      <div class="sig-summary">Plan: V3.0 &mdash; Lincoln Road, Miami Beach (July 17, 2026 primary, July 18, 2026 backup) + Logistics to NYC handoff destination by August 1, 2026</div>
+      <div class="sig-summary">Plan: V3.0 &mdash; Euclid Oval, Lincoln Road Mall, Miami Beach (Friday, July 17, 2026; Saturday, July 18, 2026 held as weather contingency) + Logistics to NYC handoff destination by August 1, 2026</div>
       <div class="sig-meta">Plus venue pass-through &bull; Payment Terms: 60/40 &bull; Document: GS-PHONEBOX-001</div>
 
       <!-- SIGNING OPTIONS -->

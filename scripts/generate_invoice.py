@@ -92,11 +92,11 @@ def main():
 
     ws.cell(row=row, column=2, value="julian@agvmiami.com").font = f_meta
     ws.cell(row=row, column=3, value="").font = f_meta
-    ws.cell(row=row, column=4, value="Activation: July 17, 2026").font = f_meta
+    ws.cell(row=row, column=4, value="Activation: Friday, July 17, 2026").font = f_meta
     row += 1
 
     ws.cell(row=row, column=2, value="info@agoravisuals.com").font = f_meta
-    ws.cell(row=row, column=4, value="(backup July 18, 2026)").font = f_meta
+    ws.cell(row=row, column=4, value="Venue: Euclid Oval, Lincoln Road Mall").font = f_meta
     row += 2
 
     # Project description
@@ -108,8 +108,8 @@ def main():
     ws.merge_cells(start_row=row, start_column=2, end_row=row, end_column=4)
     cell = ws.cell(row=row, column=2, value=(
         "Single-event programme: fully-painted pink British phone box with interactive call/voucher/photo tech, "
-        "deployed for a one-day street activation at Lincoln Road Mall, Miami Beach on July 17, 2026 "
-        "(backup July 18). Light touchup post-Miami; logistical return to NYC handoff destination — "
+        "deployed for a one-day street activation at Euclid Oval, Lincoln Road Mall, Miami Beach on Friday, July 17, 2026 "
+        "(Saturday, July 18 held as a weather contingency). Light touchup post-Miami; logistical return to NYC handoff destination — "
         "no NYC retail activation, no respray/rewrap package."
     ))
     cell.font = Font(name="Helvetica", size=10, color=DARK)
@@ -180,16 +180,16 @@ def main():
     # Phase 03
     phase_header("Phase 03  —  Branding, Signage & Consumables")
     line_item("Disclosure & Wayfinding Signage", "Camera-disclosure sign, queue management decals, brand lockup callouts in brand palette", 950)
-    line_item("Venue Dressing Kit", "Portable A-frame signage, branded stanchions, pavement decals for Lincoln Road street activation", 1750)
+    line_item("Venue Dressing Kit", "Portable A-frame signage, branded stanchions, pavement decals for the Euclid Oval street activation", 1750)
     line_item("Daily Consumables & Spares Kit", "Voucher paper rolls, cleaning supplies, sanitisation wipes, touch-up paint, vinyl repair, pink gaffer", 2500)
     subtotal("Subtotal — Branding, Signage & Consumables", 5200)
 
     # Phase 04 — Activation
-    phase_header("Phase 04a  —  The Activation (Lincoln Road, Miami Beach)")
+    phase_header("Phase 04a  —  The Activation (Euclid Oval, Lincoln Road Mall, Miami Beach)")
     line_item("Inbound Logistics & Install", "Truck, rigging hardware, 3-person install crew, permit-window supervisor, 4–6 hr install window", 5800)
     line_item("On-Site Technicians", "Dedicated lead technician plus rotating second tech for rush windows and breaks", 2800)
     line_item("Same-Day Strike & Outbound Freight", "Complete de-installation, module breakdown, crated outbound freight, full site restoration", 3300)
-    subtotal("Subtotal — The Activation (Lincoln Road)", 11900)
+    subtotal("Subtotal — The Activation (Euclid Oval)", 11900)
 
     # Phase 04b — Logistics to NYC
     phase_header("Phase 04b  —  Logistics to NYC (Asset Transfer Only)")
