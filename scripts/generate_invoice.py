@@ -2,24 +2,30 @@
 Generate invoice xlsx files for the Gymshark Phone Box proposal.
 Producer: AGV Miami (legal entity AGV Miami, LLC).
 
-Three outputs (run: python3 scripts/generate_invoice.py):
+Four outputs (run: python3 scripts/generate_invoice.py):
   1. public/invoices/GS-PHONEBOX-001-V3.0.xlsx
-       Single tab — the V3.0 invoice (issued, awaiting V3.1 sign-off).
+       Single tab — the V3.0 invoice (issued).
   2. public/invoices/GS-PHONEBOX-001-V3.1.xlsx
        Single tab — the V3.1 proposed update (yellow palette, hours
        extended to 8 PM, back-of-house compartment, walkie/selfie
        mounts simplified, content-capture removed, packaging added,
        NYC local install team added).
-  3. public/invoices/GS-PHONEBOX-001-VERSION-HISTORY.xlsx
-       Four tabs in this order: V3.1 (proposed), V3.0 (issued), V2.0
-       (superseded), V1.0 (initial). Each tab uses the same
-       formatting as the V3 single-tab invoice.
+  3. public/invoices/GS-PHONEBOX-001-V4.0.xlsx
+       Single tab — the V4.0 value-engineered version (V3.1 + safe
+       cuts: PM lean, single ceiling cam, 100-unit packaging,
+       trimmed consumables, standard warehouse hold).
+  4. public/invoices/GS-PHONEBOX-001-VERSION-HISTORY.xlsx
+       Five tabs in this order: V4.0 (current proposed), V3.1
+       (preceding proposed), V3.0 (issued), V2.0 (superseded), V1.0
+       (initial). Each tab uses the same formatting as the V3
+       single-tab invoice.
 """
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 
 OUTPUT_V3 = "public/invoices/GS-PHONEBOX-001-V3.0.xlsx"
 OUTPUT_V31 = "public/invoices/GS-PHONEBOX-001-V3.1.xlsx"
+OUTPUT_V40 = "public/invoices/GS-PHONEBOX-001-V4.0.xlsx"
 OUTPUT_HISTORY = "public/invoices/GS-PHONEBOX-001-VERSION-HISTORY.xlsx"
 
 GOLD = "D4AF37"
@@ -45,6 +51,7 @@ fill_total = PatternFill("solid", start_color=GOLD, end_color=GOLD)
 
 TAB_GOLD = "D4AF37"
 TAB_YELLOW = "F4C430"
+TAB_GREEN = "6FCF97"
 TAB_TEAL = "00C2A8"
 TAB_MUTED = "8A8A95"
 
@@ -366,6 +373,81 @@ def build_v31_sheet(ws):
     footer(ws, row, "V3.1 — proposed update, awaiting Client sign-off")
 
 
+# ---------- V4.0 SHEET (value-engineered — current proposed) ----------
+def build_v40_sheet(ws):
+    setup(ws)
+    ws.sheet_properties.tabColor = TAB_GREEN
+    row = header_block(
+        ws, row=1,
+        version="Version 4.0",
+        issue_date="May 7, 2026",
+        scope_summary=(
+            "V4.0 — value-engineered build of the V3.1 scope. Same activation, same booth, same dates, "
+            "same yellow palette; trimmed where it doesn't affect the on-day moment. Right-sized packaging "
+            "(100 units), single ceiling camera (Gymshark handles media internally), leaner consumables kit, "
+            "standard warehouse hold (painted shell tolerates), and a focused project-management engagement "
+            "(weekly producer cadence, async-first). Activation remains Friday, July 17, 2026 at Euclid Oval, "
+            "Lincoln Road Mall (Saturday, July 18 held as a weather contingency)."
+        ),
+        activation_summary=("Activation: Friday, July 17, 2026, 11 AM–8 PM", "Venue: Euclid Oval, Lincoln Road Mall"),
+    )
+
+    row = phase_header(ws, row, "Phase 01  —  The Phone Box (Painted Yellow Finish)")
+    row = line_item(ws, row, "Phone Box Structural Shell", "Custom scenic fabrication, marine-grade paint in Miami yellow (PMS TBC by Ominto), two-piece modular construction", 14500)
+    row = line_item(ws, row, "4-Sided Illuminated Lightbox Signage", "LED-backlit translucent face panels on all four sides; weatherproof housing", 6800)
+    row = line_item(ws, row, "Glass & Semi-Transparent Vinyl Panels", "Tempered glass on front door + sides with custom-printed yellow-palette privacy vinyl", 2900)
+    row = line_item(ws, row, "Painted Yellow Interior", "Four-wall matte paint finish in Miami yellow, dimensional bum mirror with scripted messaging", 3800)
+    row = line_item(ws, row, "Concealed Sliding Prize Door", "Motorised, colour-matched, no visible handle on public face — for slot-style product handoff from the back-of-house staff compartment", 3400)
+    row = line_item(ws, row, "Interior Finishes", "Aluminium chequer-plate flooring, dome light, guest seat, branded analogue phone", 2750)
+    row = line_item(ws, row, "Engineering, Structural Calcs & Shop Drawings", "Wind-load, ballast plan, electrical schematics, CAD shop drawings, venue-compliance package", 4000)
+    row = line_item(ws, row, "Back-of-House Compartment + Back Access Door", "Interior partition wall + hinged back-access door + small staff stoop, allowing one Gymshark-supplied team member to occupy a private back compartment and dispense product through the motorised slot to the guest. Talent supplied by Client per the proposal exclusions.", 2400)
+    row = subtotal_row(ws, row, "Subtotal — The Phone Box", 40550)
+
+    row = phase_header(ws, row, "Phase 02  —  Interactive Tech (V4 — single camera)")
+    row = line_item(ws, row, "Pre-Recorded Call-Response (IVR) System", "Multi-branch scripting, licensed voice talent, keypad mapping, redundant win/lose logic, QA", 5500)
+    row = line_item(ws, row, "Walkie-Talkie Pair (consumer-grade)", "Off-the-shelf Motorola pair: one inside the booth for the guest, one with the on-site Gymshark athlete. Includes spares.", 400)
+    row = line_item(ws, row, "Ceiling Camera (V4 — single, value-engineered)", "Single 4K ceiling-mounted video+audio camera with cloud storage, live-preview monitoring, disclosure signage. Single camera is sufficient now that Gymshark handles media internally — V3.1 dual-camera coverage was redundant.", 2500)
+    row = line_item(ws, row, "Selfie & Belfie Mobile Mounts (basic)", "Two simple wall-mounted phone holders for guests' own phones; painted to match interior", 600)
+    row = line_item(ws, row, "Thermal Voucher Printer & Shelf Mount", "Dual-speed thermal ticket printer, wrapped, redundant roll inventory, firmware", 2800)
+    row = subtotal_row(ws, row, "Subtotal — Interactive Tech", 11800)
+
+    row = phase_header(ws, row, "Phase 03  —  Branding, Signage & Consumables (V4 — right-sized)")
+    row = line_item(ws, row, "Disclosure & Wayfinding Signage", "Camera-disclosure sign, queue management decals, brand lockup callouts in yellow palette", 950)
+    row = line_item(ws, row, "Venue Dressing Kit", "Portable A-frame signage, branded stanchions, pavement decals for the Euclid Oval street activation, yellow palette", 1750)
+    row = line_item(ws, row, "Daily Consumables & Spares Kit (V4 — leaner)", "Voucher paper rolls, cleaning supplies, sanitisation wipes, yellow touch-up paint, vinyl repair, gaffer. Trimmed buffer vs V3.1 — adequate for a single-day window.", 1500)
+    row = line_item(ws, row, "Custom Product Packaging (V4 — 100 units)", "Yellow-palette product boxes, structural board, full-colour offset print, 300 × 200 × 70 mm, flat-packed for load-in. Right-sized to 100 units (V3.1 was 200) at the same per-unit cost.", 2400)
+    row = subtotal_row(ws, row, "Subtotal — Branding, Signage & Consumables", 6600)
+
+    row = phase_header(ws, row, "Phase 04a  —  The Activation (Euclid Oval, 11 AM–8 PM)")
+    row = line_item(ws, row, "Inbound Logistics & Install", "Truck, rigging hardware, 3-person install crew, permit-window supervisor, 4–6 hr install window", 5800)
+    row = line_item(ws, row, "On-Site Technicians (Extended to 8 PM)", "Dedicated lead technician plus rotating second tech for rush windows and breaks, covering an extended 11 AM–8 PM operating window. Includes pre-open soundcheck and post-close shutdown.", 3000)
+    row = line_item(ws, row, "Same-Day Strike & Outbound Freight", "Complete de-installation, module breakdown, crated outbound freight within Euclid Oval's contracted strike window. Site walk-through with the Lincoln Road BID operations team.", 3300)
+    row = subtotal_row(ws, row, "Subtotal — The Activation (Euclid Oval)", 12100)
+
+    row = phase_header(ws, row, "Phase 04b  —  Logistics + Local Install at NYC Retail (V4 — standard hold)")
+    row = line_item(ws, row, "Standard Warehouse Hold (V4 — painted shell)", "Secure storage at the AGV Miami NYC staging facility between Miami strike and NYC delivery. V4 drops the climate-controlled premium since the painted shell is transit-tolerant; standard ambient hold is sufficient.", 1400)
+    row = line_item(ws, row, "Inter-City Freight (Climate-Controlled Truck)", "Miami → AGV Miami NYC staging facility with real-time GPS tracking, two-driver rotation, handoff documentation", 5500)
+    row = line_item(ws, row, "Light Touchup After First Activation", "Single light cosmetic touchup pass after the Miami activation: scuff/scratch repair, paint colour-match, lightbox edge cleanup, IVR/camera/printer functional re-test. Brief refurbish, not a full repaint.", 3000)
+    row = line_item(ws, row, "White-Glove Delivery to NYC Retail Location", "Climate-controlled final-mile delivery from AGV Miami NYC staging to the Client's nominated NYC retail address. Scheduled overnight or pre-open per store operations.", 2000)
+    row = line_item(ws, row, "Retail-Environment Install Crew", "2-person retail-environment install crew with floor-protection, retail-grade hand-tool kit, store operations liaison. 4-hour install window scheduled to avoid trading hours.", 2300)
+    row = line_item(ws, row, "In-Store Fixture Setup", "Anchoring to retail-spec floor (no permanent penetration), electrical drop, IVR + camera + printer + lightbox bring-up, on-floor commissioning sign-off with the store manager.", 2100)
+    row = line_item(ws, row, "Store Wayfinding & Footfall Driver Kit", "Sidewalk A-frame outside the store entrance, branded window-vinyl tease pointing to the Phone Box installation inside, in-store directional decals, and a printed/social CTA pack.", 1000)
+    row = subtotal_row(ws, row, "Subtotal — Logistics + NYC Retail Install", 17300)
+
+    row = phase_header(ws, row, "Phase 05  —  Project Management (V4 — focused engagement)")
+    row = line_item(ws, row, "Project Management Fee (V4 — leaner)", "Dedicated senior producer, weekly status reporting (vs daily), milestone tracking, vendor / venue liaison, COI + insurance coordination, post-event reconciliation. Async-first cadence appropriate for a single-event programme; same producer, lighter touch than V3.1's $12K engagement.", 6000)
+    row = subtotal_row(ws, row, "Subtotal — Project Management", 6000)
+
+    row += 1
+    row = gross_total_row(ws, row, "Gross Production Investment", 94350)
+    row = credit_row(ws, row, "Less: Preferred Partner Credit", -5000)
+    row = net_total_bar(ws, row, "NET V4.0 PRODUCTION INVESTMENT", 89350)
+    row += 1
+
+    row = payment_block(ws, row, deposit=53610, balance=35740, balance_due_date="on or before Friday, July 10, 2026", version_short="V4.0")
+    footer(ws, row, "V4.0 — value-engineered, current proposed")
+
+
 # ---------- V2.0 SHEET ----------
 def build_v2_sheet(ws):
     setup(ws)
@@ -528,7 +610,7 @@ def main():
     wb_v3.save(OUTPUT_V3)
     print(f"Wrote {OUTPUT_V3} with sheets: {[s.title for s in wb_v3.worksheets]}")
 
-    # 2. Single-tab V3.1 invoice (proposed update)
+    # 2. Single-tab V3.1 invoice (preceding proposed update)
     wb_v31 = Workbook()
     ws31 = wb_v31.active
     ws31.title = "V3.1 — Proposed"
@@ -536,11 +618,22 @@ def main():
     wb_v31.save(OUTPUT_V31)
     print(f"Wrote {OUTPUT_V31} with sheets: {[s.title for s in wb_v31.worksheets]}")
 
-    # 3. Four-tab version history workbook (V3.1 proposed → V3.0 → V2.0 → V1.0)
+    # 3. Single-tab V4.0 invoice (current proposed — value-engineered)
+    wb_v40 = Workbook()
+    ws40 = wb_v40.active
+    ws40.title = "V4.0 — Value-Engineered"
+    build_v40_sheet(ws40)
+    wb_v40.save(OUTPUT_V40)
+    print(f"Wrote {OUTPUT_V40} with sheets: {[s.title for s in wb_v40.worksheets]}")
+
+    # 4. Five-tab version history workbook (V4.0 → V3.1 → V3.0 → V2.0 → V1.0)
     wb_history = Workbook()
 
-    ws31h = wb_history.active
-    ws31h.title = "V3.1 — Proposed"
+    ws40h = wb_history.active
+    ws40h.title = "V4.0 — Value-Engineered"
+    build_v40_sheet(ws40h)
+
+    ws31h = wb_history.create_sheet(title="V3.1 — Proposed")
     build_v31_sheet(ws31h)
 
     ws3h = wb_history.create_sheet(title="V3.0 — Issued")
