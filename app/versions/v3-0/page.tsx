@@ -929,7 +929,7 @@ const htmlContent = `
   <h2>Next Steps</h2>
   <div class="cta-row">
     <a href="#authorize" class="cta-btn cta-primary" onclick="document.getElementById('authorize').scrollIntoView({behavior:'smooth'});return false;">Approve &amp; Execute &rarr;</a>
-    <a href="mailto:mike@agoragraphics.com,julian@agvmiami.com?cc=info@agoravisuals.com&subject=Gymshark%20Phone%20Box%20%E2%80%94%20Revision%20Request%20%7C%20GS-PHONEBOX-001" class="cta-btn cta-secondary">Request Revisions</a>
+    <a href="mailto:mike@agoragraphics.com,jclarkson@agvmiami.com?cc=info@agoravisuals.com&subject=Gymshark%20Phone%20Box%20%E2%80%94%20Revision%20Request%20%7C%20GS-PHONEBOX-001" class="cta-btn cta-secondary">Request Revisions</a>
     <a href="https://experienceagora.com" class="cta-btn cta-tertiary" target="_blank" rel="noopener">Explore Our Portfolio</a>
   </div>
 </section>
@@ -1366,7 +1366,7 @@ export default function ProposalPage() {
         '4. Trigger procurement, engineering, and venue permit applications.\n\n' +
         'Client is requested to keep this email as proof of execution.\n\n---\nAGV Miami, LLC'
       );
-      const to = 'mike@agoragraphics.com,julian@agvmiami.com';
+      const to = 'mike@agoragraphics.com,jclarkson@agvmiami.com';
       const cc = 'info@agoravisuals.com';
       const mailto = 'mailto:' + to + '?cc=' + cc + '&subject=' + subject + '&body=' + body;
       window.open(mailto, '_blank');
@@ -1405,7 +1405,7 @@ export default function ProposalPage() {
         + 'To save a PDF copy, click "Download Signed PDF" or use your browser\u2019s print dialog (Save as PDF).\n\n' +
         'Questions? Reply to this email or contact mike@agoragraphics.com.\n\n---\nAGV Miami, LLC'
       );
-      window.location.href = 'mailto:?cc=mike@agoragraphics.com,julian@agvmiami.com&subject=' + subject + '&body=' + body;
+      window.location.href = 'mailto:?cc=mike@agoragraphics.com,jclarkson@agvmiami.com&subject=' + subject + '&body=' + body;
     }
 
     function togglePhase(el: HTMLElement) {
