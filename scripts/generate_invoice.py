@@ -373,7 +373,7 @@ def build_v31_sheet(ws):
     footer(ws, row, "V3.1 — proposed update, awaiting Client sign-off")
 
 
-# ---------- V4.0 SHEET (value-engineered — current proposed, sub-$90K net) ----------
+# ---------- V4.0 SHEET (current proposed — V3.1 clarifications + deeper VE) ----------
 def build_v40_sheet(ws):
     setup(ws)
     ws.sheet_properties.tabColor = TAB_GREEN
@@ -382,71 +382,79 @@ def build_v40_sheet(ws):
         version="Version 4.0",
         issue_date="May 7, 2026",
         scope_summary=(
-            "V4.0 — value-engineered build of the V3.1 scope, landing under $90K net. Same activation, same "
-            "booth, same dates, same yellow palette; trimmed where it doesn't affect the on-day moment. "
-            "Packaging stays at 200 units and warehouse hold remains climate-controlled per Client direction. "
-            "Cuts: focused project-management engagement (weekly cadence), single ceiling camera (Gymshark "
-            "handles media internally), leaner consumables, simplified venue dressing, install crew without "
-            "dedicated permit-window supervisor, selfie mounts removed (guests use phones in-hand), and the "
-            "store wayfinding kit dropped (Bond St VM team handles in-store wayfinding). Activation remains "
-            "Friday, July 17, 2026 at Euclid Oval, Lincoln Road Mall (Saturday, July 18 held as a weather "
+            "V4.0 — clarifications & value-engineering on top of V3.1. Yellow palette confirmed; "
+            "concealed motorised slot replaced with a true hinged back distribution door for staff "
+            "operation from inside; walkie scaled to consumer-grade; ceiling camera held at single 4K "
+            "(pending production-team review); basic static selfie/belfie wall mounts (articulating "
+            "upgrade quoted as add-on); content capture omitted; disclosure & wayfinding signage "
+            "removed; venue dressing kit pared to stanchions only (qty TBC); store wayfinding kit "
+            "removed; NYC base scope is transport-only with the local install team quoted as an "
+            "available add-on. $5K Preferred Partner Credit retained. Activation: Friday, July 17, "
+            "2026, 11 AM–8 PM at Euclid Oval, Lincoln Road Mall (Saturday, July 18 held as a weather "
             "contingency)."
         ),
         activation_summary=("Activation: Friday, July 17, 2026, 11 AM–8 PM", "Venue: Euclid Oval, Lincoln Road Mall"),
     )
 
-    row = phase_header(ws, row, "Phase 01  —  The Phone Box (Painted Yellow Finish)")
+    row = phase_header(ws, row, "Phase 01  —  The Phone Box (Painted Yellow, Hinged Back Door)")
     row = line_item(ws, row, "Phone Box Structural Shell", "Custom scenic fabrication, marine-grade paint in Miami yellow (PMS TBC by Ominto), two-piece modular construction", 14500)
     row = line_item(ws, row, "4-Sided Illuminated Lightbox Signage", "LED-backlit translucent face panels on all four sides; weatherproof housing", 6800)
     row = line_item(ws, row, "Glass & Semi-Transparent Vinyl Panels", "Tempered glass on front door + sides with custom-printed yellow-palette privacy vinyl", 2900)
     row = line_item(ws, row, "Painted Yellow Interior", "Four-wall matte paint finish in Miami yellow, dimensional bum mirror with scripted messaging", 3800)
-    row = line_item(ws, row, "Concealed Sliding Prize Door", "Motorised, colour-matched, no visible handle on public face — for slot-style product handoff from the back-of-house staff compartment", 3400)
+    row = line_item(ws, row, "Hinged Back Distribution Door (V4 — replaces motorised slot)", "True hinged back door, brand-yellow painted, no visible handle on the public face. Allows a Gymshark-supplied staff member to operate from inside the back-of-house compartment and hand product directly to the guest. Replaces the previously quoted concealed motorised sliding slot — simpler, lower-cost, and clearer staff workflow.", 1800)
     row = line_item(ws, row, "Interior Finishes", "Aluminium chequer-plate flooring, dome light, guest seat, branded analogue phone", 2750)
     row = line_item(ws, row, "Engineering, Structural Calcs & Shop Drawings", "Wind-load, ballast plan, electrical schematics, CAD shop drawings, venue-compliance package", 4000)
-    row = line_item(ws, row, "Back-of-House Compartment + Back Access Door", "Interior partition wall + hinged back-access door + small staff stoop, allowing one Gymshark-supplied team member to occupy a private back compartment and dispense product through the motorised slot to the guest. Talent supplied by Client per the proposal exclusions.", 2400)
-    row = subtotal_row(ws, row, "Subtotal — The Phone Box", 40550)
+    row = line_item(ws, row, "Back-of-House Staff Compartment", "Interior partition wall + small staff stoop creating a private back compartment behind the hinged distribution door (above). One Gymshark-supplied team member operates from inside, handing product through the back door. Talent supplied by Client per the proposal exclusions.", 1800)
+    row = subtotal_row(ws, row, "Subtotal — The Phone Box", 38350)
 
-    row = phase_header(ws, row, "Phase 02  —  Interactive Tech (V4 — single camera, mounts removed)")
+    row = phase_header(ws, row, "Phase 02  —  Interactive Tech (V4 — clarified specs)")
     row = line_item(ws, row, "Pre-Recorded Call-Response (IVR) System", "Multi-branch scripting, licensed voice talent, keypad mapping, redundant win/lose logic, QA", 5500)
-    row = line_item(ws, row, "Walkie-Talkie Pair (consumer-grade)", "Off-the-shelf Motorola pair: one inside the booth for the guest, one with the on-site Gymshark athlete. Includes spares.", 400)
-    row = line_item(ws, row, "Ceiling Camera (V4 — single, value-engineered)", "Single 4K ceiling-mounted video+audio camera with cloud storage, live-preview monitoring, disclosure signage. Single camera is sufficient now that Gymshark handles media internally — V3.1 dual-camera coverage was redundant.", 2500)
+    row = line_item(ws, row, "Walkie-Talkie Pair (V4 — consumer-grade)", "Off-the-shelf consumer Motorola pair: one inside the booth for the guest, one with the on-site Gymshark athlete; includes spare batteries. The originally-quoted line was a higher-tech encrypted relay with online live-call routing — scaled down here to a conventional radio per Client preference.", 400)
+    row = line_item(ws, row, "Single 4K Ceiling Camera (V4 — pending production review)", "Single 4K ceiling-mounted video+audio camera with cloud storage and disclosure signage. Production team currently confirming compatibility and any further savings opportunity — this line may revise downward in a V4.1 once that review closes; price held as a placeholder.", 2500)
+    row = line_item(ws, row, "Selfie & Belfie Wall Mounts (V4 — static basic)", "Two simple static wall-mounted phone holders for guests' own phones, painted to match the interior. Articulating selfie-stick belfie mount available as an upgrade ($900 instead of $400) — listed here as the V4 baseline.", 400)
     row = line_item(ws, row, "Thermal Voucher Printer & Shelf Mount", "Dual-speed thermal ticket printer, wrapped, redundant roll inventory, firmware", 2800)
-    row = subtotal_row(ws, row, "Subtotal — Interactive Tech", 11200)
+    row = subtotal_row(ws, row, "Subtotal — Interactive Tech", 11600)
 
-    row = phase_header(ws, row, "Phase 03  —  Branding, Signage & Consumables (V4 — packaging held at 200 units)")
-    row = line_item(ws, row, "Disclosure & Wayfinding Signage", "Camera-disclosure sign, queue management decals, brand lockup callouts in yellow palette", 950)
-    row = line_item(ws, row, "Venue Dressing Kit (V4 — simplified)", "A-frame sidewalk signage + pavement decals for the Euclid Oval street activation, yellow palette. Dedicated branded stanchions removed; BID-supplied crowd-control stanchions used at no cost.", 1000)
-    row = line_item(ws, row, "Daily Consumables & Spares Kit (V4 — leaner)", "Voucher paper rolls, cleaning supplies, sanitisation wipes, yellow touch-up paint, vinyl repair, gaffer. Trimmed buffer vs V3.1 — adequate for a single-day window.", 1500)
+    row = phase_header(ws, row, "Phase 03  —  Branding, Signage & Consumables (V4 — disclosure removed, dressing pared)")
+    row = line_item(ws, row, "Venue Dressing Kit (V4 — stanchions only, qty TBC)", "Branded stanchion poles + ropes for crowd management at the Euclid Oval street activation. Quantity / linear feet to be confirmed by Client; price held as a placeholder pending that confirmation.", 1000)
+    row = line_item(ws, row, "Daily Consumables & Spares Kit", "Voucher paper rolls, cleaning supplies, sanitisation wipes, yellow touch-up paint, vinyl repair, gaffer", 1500)
     row = line_item(ws, row, "Custom Product Packaging — 200 units", "Yellow-palette product boxes, structural board, full-colour offset print, 300 × 200 × 70 mm, flat-packed for load-in. Held at 200 units per Client direction.", 4800)
-    row = subtotal_row(ws, row, "Subtotal — Branding, Signage & Consumables", 8250)
+    row = subtotal_row(ws, row, "Subtotal — Branding, Signage & Consumables", 7300)
 
-    row = phase_header(ws, row, "Phase 04a  —  The Activation (Euclid Oval, 11 AM–8 PM, V4 — install supervisor removed)")
-    row = line_item(ws, row, "Inbound Logistics & Install (V4 — no dedicated supervisor)", "Truck, rigging hardware, 3-person install crew, 4–6 hr install window. Lead technician (covered in Phase 04 on-site line) takes the supervisor role at load-in instead of a dedicated supervisor.", 4800)
+    row = phase_header(ws, row, "Phase 04a  —  The Activation (Euclid Oval, 11 AM–8 PM)")
+    row = line_item(ws, row, "Inbound Logistics & Install", "Truck, rigging hardware, 3-person install crew, 4–6 hr install window. Lead technician takes the supervisor role at load-in.", 4800)
     row = line_item(ws, row, "On-Site Technicians (Extended to 8 PM)", "Dedicated lead technician plus rotating second tech for rush windows and breaks, covering an extended 11 AM–8 PM operating window. Includes pre-open soundcheck and post-close shutdown.", 3000)
     row = line_item(ws, row, "Same-Day Strike & Outbound Freight", "Complete de-installation, module breakdown, crated outbound freight within Euclid Oval's contracted strike window. Site walk-through with the Lincoln Road BID operations team.", 3300)
     row = subtotal_row(ws, row, "Subtotal — The Activation (Euclid Oval)", 11100)
 
-    row = phase_header(ws, row, "Phase 04b  —  Logistics + Local Install at NYC Retail (V4 — wayfinding kit removed)")
+    row = phase_header(ws, row, "Phase 04b  —  Logistics to NYC (V4 — Base, transport-only)")
     row = line_item(ws, row, "Climate-Controlled Warehouse Hold", "Secure climate-controlled storage at the AGV Miami NYC staging facility between Miami strike and NYC delivery. Held at climate spec per Client direction.", 2400)
     row = line_item(ws, row, "Inter-City Freight (Climate-Controlled Truck)", "Miami → AGV Miami NYC staging facility with real-time GPS tracking, two-driver rotation, handoff documentation", 5500)
-    row = line_item(ws, row, "Light Touchup After First Activation", "Single light cosmetic touchup pass after the Miami activation: scuff/scratch repair, paint colour-match, lightbox edge cleanup, IVR/camera/printer functional re-test. Brief refurbish, not a full repaint.", 3000)
-    row = line_item(ws, row, "White-Glove Delivery to NYC Retail Location", "Climate-controlled final-mile delivery from AGV Miami NYC staging to the Client's nominated NYC retail address. Scheduled overnight or pre-open per store operations.", 2000)
-    row = line_item(ws, row, "Retail-Environment Install Crew", "2-person retail-environment install crew with floor-protection, retail-grade hand-tool kit, store operations liaison. 4-hour install window scheduled to avoid trading hours.", 2300)
-    row = line_item(ws, row, "In-Store Fixture Setup", "Anchoring to retail-spec floor (no permanent penetration), electrical drop, IVR + camera + printer + lightbox bring-up, on-floor commissioning sign-off with the store manager.", 2100)
-    row = subtotal_row(ws, row, "Subtotal — Logistics + NYC Retail Install", 17300)
+    row = line_item(ws, row, "Light Touchup at NYC Staging", "Light cosmetic touchup pass at AGV Miami's NYC shop after Miami strike, prior to flagship delivery. Per Client direction, the booth ships straight to the NY shop and is refreshed locally before final delivery to the flagship store — tightest possible timeline.", 3000)
+    row = line_item(ws, row, "White-Glove Delivery to Gymshark NYC Flagship", "Climate-controlled final-mile delivery from AGV Miami NYC staging to the Gymshark NYC flagship retail address. Scheduled overnight or pre-open per store operations.", 2000)
+    row = subtotal_row(ws, row, "Subtotal — Logistics to NYC (Base)", 12900)
 
-    row = phase_header(ws, row, "Phase 05  —  Project Management (V4 — focused engagement)")
-    row = line_item(ws, row, "Project Management Fee (V4 — leaner)", "Dedicated senior producer, weekly status reporting (vs daily), milestone tracking, vendor / venue liaison, COI + insurance coordination, post-event reconciliation. Async-first cadence appropriate for a single-event programme; same producer, lighter touch than V3.1's $12K engagement.", 6000)
+    row = phase_header(ws, row, "Phase 05  —  Project Management (V4 — lean engagement)")
+    row = line_item(ws, row, "Project Management Fee (V4 — lean)", "Dedicated senior producer, weekly status reporting (vs daily), milestone tracking, vendor / venue liaison, COI + insurance coordination, post-event reconciliation. Async-first cadence appropriate for a single-event programme.", 6000)
     row = subtotal_row(ws, row, "Subtotal — Project Management", 6000)
 
     row += 1
-    row = gross_total_row(ws, row, "Gross Production Investment", 94400)
+    row = gross_total_row(ws, row, "Gross Production Investment (Base)", 87250)
     row = credit_row(ws, row, "Less: Preferred Partner Credit", -5000)
-    row = net_total_bar(ws, row, "NET V4.0 PRODUCTION INVESTMENT", 89400)
+    row = net_total_bar(ws, row, "NET V4.0 PRODUCTION INVESTMENT (BASE)", 82250)
     row += 1
 
-    row = payment_block(ws, row, deposit=53640, balance=35760, balance_due_date="on or before Friday, July 10, 2026", version_short="V4.0")
-    footer(ws, row, "V4.0 — value-engineered, current proposed (under $90K net)")
+    # Optional add-on block
+    row = phase_header(ws, row, "Optional Add-On  —  NYC Local Install Team (Available, Not in Base)")
+    row = line_item(ws, row, "Local Install Team — 1 Lead + 2 Crew", "On-site retail-environment install team for the Gymshark NYC flagship: 1 lead technician + 2 crew, floor-protection kit, retail-grade hand-tool kit, store-operations liaison. 4-hour install window scheduled to avoid trading hours.", 2800)
+    row = line_item(ws, row, "In-Store Fixture Setup", "Anchoring to retail-spec floor (no permanent penetration), electrical drop, IVR + camera + printer + lightbox bring-up, on-floor commissioning sign-off with the flagship store manager.", 1600)
+    row = subtotal_row(ws, row, "Subtotal — Optional Local Install Team", 4400)
+    row += 1
+    row = gross_total_row(ws, row, "Net V4.0 with Optional Local Install Team", 86650)
+    row += 1
+
+    row = payment_block(ws, row, deposit=49350, balance=32900, balance_due_date="on or before Friday, July 10, 2026", version_short="V4.0")
+    footer(ws, row, "V4.0 — current proposed (Base under $90K; optional NYC install add-on still under $90K)")
 
 
 # ---------- V2.0 SHEET ----------
