@@ -68,7 +68,7 @@ const htmlContent = `
 <div class="version-banner">
   <div class="version-banner-inner">
     <div class="version-banner-tag">Frozen Snapshot</div>
-    <div class="version-banner-text">You are viewing the <strong>Version 4.0</strong> snapshot &mdash; May 7, 2026. The canonical proposal lives at <code style="color:var(--iwc-gold)">/</code> and is currently identical; this URL will be preserved unchanged when future versions ship.</div>
+    <div class="version-banner-text">You are viewing the <strong>Version 4.0</strong> snapshot &mdash; May 8, 2026. The canonical proposal lives at <code style="color:var(--iwc-gold)">/</code> and is currently identical; this URL will be preserved unchanged when future versions ship.</div>
     <a href="/" class="version-banner-link">View Latest &rarr;</a>
   </div>
 </div>
@@ -104,12 +104,12 @@ const htmlContent = `
       </div>
       <div class="hero-meta-item">
         <div class="hero-meta-label">Version</div>
-        <div class="hero-meta-value">Version 4.0 &mdash; May 7, 2026</div>
+        <div class="hero-meta-value">Version 4.0 &mdash; May 8, 2026</div>
       </div>
     </div>
 
     <p class="hero-narrative">
-      AGV Miami is pleased to present <strong>Version 4.0</strong> of this fabrication and production proposal for the Gymshark Phone Box experiential activation, developed in partnership with Ominto Studio&rsquo;s creative direction. V4.0 is a <strong>single-event programme</strong>: a fully-painted <strong>yellow</strong> British phone box equipped with interactive photo, voucher, and call-response technology, deployed for a one-day street activation at <strong>Euclid Oval, Lincoln Road Mall, Miami Beach</strong> on <strong>Friday, July 17, 2026</strong> from <strong>11 AM&ndash;8 PM</strong> (Saturday, July 18 held as a weather contingency). After Miami the booth ships straight to AGV Miami&rsquo;s NY shop, receives a light touchup, and is delivered to the Gymshark NYC flagship store. The previously-quoted concealed motorised slot has been replaced with a true <strong>hinged back distribution door</strong> for in-booth staff to dispense product directly. V4.0 lands at <strong>$82,250 net production (base)</strong> with an optional NYC local install team add-on at $4,400 &mdash; both inside the $90K target.
+      AGV Miami is pleased to present <strong>Version 4.0</strong> of this fabrication and production proposal for the Gymshark Phone Box experiential activation, developed in partnership with Ominto Studio&rsquo;s creative direction. V4.0 is a <strong>single-event programme</strong>: a fully-painted <strong>yellow</strong> British phone box equipped with interactive photo, voucher, and call-response technology, deployed for a one-day street activation at <strong>Euclid Oval, Lincoln Road Mall, Miami Beach</strong> on <strong>Friday, July 17, 2026</strong> from <strong>11 AM&ndash;8 PM</strong> (Saturday, July 18 held as a weather contingency). After Miami the booth ships straight to AGV Miami&rsquo;s NY shop, receives a light touchup, and is delivered to the Gymshark NYC flagship store. The previously-quoted concealed motorised slot has been replaced with a true <strong>hinged back distribution door</strong> for in-booth staff to dispense product directly. V4.0 lands at <strong>$79,550 net production (base)</strong> with an optional NYC local install team add-on at $4,400 &mdash; both well inside the $90K target.
     </p>
     <div class="hero-doc">Confidential &amp; Proprietary &bull; Prepared exclusively for Gymshark Ltd. and Ominto Studio</div>
   </div>
@@ -190,8 +190,8 @@ const htmlContent = `
         <div class="core-label" style="color:var(--iwc-gold)">Core Deliverables</div>
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
-          <div><div class="name">Phone Box Structural Shell</div>
-          <div class="desc">Custom scenic fabrication per Ominto V2 dimensions. Weatherproof exterior, marine-grade paint in Gymshark Pink (PMS match to #FF4BA2), modular two-piece construction for freight. Engineered for curb-level install on pavement/plaza surface with concealed ballasting.</div></div>
+          <div><div class="name">Phone Box Structural Shell <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--iwc-gold);border-radius:3px">V4 &mdash; dimensions per Ominto V2</span></div>
+          <div class="desc">Custom scenic fabrication per Ominto V2 design pack. <strong>Footprint 164 &times; 94 cm</strong> (~5'4&Prime; &times; 3'1&Prime;); <strong>body height 213 cm</strong> (~7'0&Prime;); <strong>lightbox header +20 cm</strong> (total ~7'8&Prime;). Two-piece modular construction split into a 70 cm-deep back-of-house staff compartment and a 94 cm-deep guest compartment. Weatherproof marine-grade paint in Miami yellow (PMS callout TBC by Ominto). Engineered for curb-level install on pavement/plaza surface with concealed ballasting.</div></div>
           <div class="price" style="color:var(--iwc-gold)">$14,500</div>
         </div>
 
@@ -265,27 +265,27 @@ const htmlContent = `
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
-          <div><div class="name">Walkie-Talkie Pair <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mercedes-teal);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--mercedes-teal);border-radius:3px">V4 &mdash; consumer-grade</span></div>
-          <div class="desc">Off-the-shelf consumer Motorola pair: one inside the booth for the guest, one with the on-site Gymshark athlete; includes spare batteries. The originally-quoted line was a higher-tech encrypted relay with online live-call routing &mdash; scaled down here to a conventional radio per Client preference.</div></div>
-          <div class="price" style="color:var(--mercedes-teal)">$400</div>
+          <div><div class="name">Two-Way Radio Pair &mdash; Motorola RMU2040 <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mercedes-teal);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--mercedes-teal);border-radius:3px">V4 &mdash; itemised</span></div>
+          <div class="desc">2 &times; <a href="https://www.globalindustrial.com/p/motorola-rmu2040-rm-series-2-way-radio-2-channel-2-watt" target="_blank" rel="noopener" style="color:var(--mercedes-teal);text-decoration:underline">Motorola RMU2040 RM-Series 2-Way Radios</a> (2-channel, 2-watt UHF business-grade, license-free, ~250,000 sq ft / 12-floor range, NOAA weather alerts). One inside the booth for the guest, one with the on-site Gymshark athlete; includes spare batteries. Supports the deck&rsquo;s live-call moment (deck p.14) so the crowd can overhear both sides of the conversation while the GS social team records.</div></div>
+          <div class="price" style="color:var(--mercedes-teal)">$700 <span style="font-size:9px;color:var(--text-muted);font-weight:400">(2 &times; $350)</span></div>
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
-          <div><div class="name">Single 4K Ceiling Camera <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mercedes-teal);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--mercedes-teal);border-radius:3px">V4 &mdash; pending production review</span></div>
-          <div class="desc">Single 4K ceiling-mounted video+audio camera with cloud storage and disclosure signage. Production team is currently confirming compatibility and any further savings opportunity &mdash; this line may revise downward in a V4.1 once that review closes; price held as a placeholder.</div></div>
-          <div class="price" style="color:var(--mercedes-teal)">$2,500</div>
+          <div><div class="name">Ceiling Cameras &mdash; Ring Mini Indoor Plug-In <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mercedes-teal);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--mercedes-teal);border-radius:3px">V4 &mdash; restored to dual per deck</span></div>
+          <div class="desc">2 &times; <a href="https://ring.com/products/mini-indoor-security-camera-plug-in/" target="_blank" rel="noopener" style="color:var(--mercedes-teal);text-decoration:underline">Ring Mini Indoor Security Cameras</a> (1080p HD, two-way talk, motion detection, plug-in / no batteries, Wi-Fi, white finish). Cloud storage via Ring Protect subscription. Ceiling-mounted to cover both the guest compartment and back-of-house staff compartment per Ominto deck spec (p.15: &ldquo;2&times; camera fitted to ceiling&rdquo;).</div></div>
+          <div class="price" style="color:var(--mercedes-teal)">$300 <span style="font-size:9px;color:var(--text-muted);font-weight:400">(2 &times; $150)</span></div>
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
-          <div><div class="name">Thermal Voucher Printer &amp; Shelf Mount</div>
-          <div class="desc">Premium dual-speed thermal ticket printer wrapped in matching yellow vinyl, shelf-mounted under the phone. Voucher template designed by Gymshark; AGV Miami handles printer procurement, firmware, redundant roll inventory, and wrap.</div></div>
-          <div class="price" style="color:var(--mercedes-teal)">$2,800</div>
+          <div><div class="name">Thermal Voucher Printer &amp; Shelf Mount <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mercedes-teal);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--mercedes-teal);border-radius:3px">V4 &mdash; right-sized</span></div>
+          <div class="desc">80mm thermal ticket printer (<a href="https://a.co/d/0hWbMj1N" target="_blank" rel="noopener" style="color:var(--mercedes-teal);text-decoration:underline">Amazon-sourced hardware-equivalent class</a>) shelf-mounted under the analogue phone, wrapped in yellow vinyl. Voucher template designed by Gymshark; AGV Miami handles printer procurement, firmware, redundant roll inventory, and wrap.</div></div>
+          <div class="price" style="color:var(--mercedes-teal)">$1,500</div>
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
-          <div><div class="name">Selfie &amp; Belfie Wall Mounts <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mercedes-teal);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--mercedes-teal);border-radius:3px">V4 &mdash; static basic</span></div>
-          <div class="desc">Two simple static wall-mounted phone holders for guests&rsquo; own phones, painted to match the interior &mdash; one at face level, one positioned for the signature Gymshark &ldquo;belfie.&rdquo; <strong>Articulating belfie selfie-stick mount</strong> available as an upgrade ($900 instead of $400) for added angle range &mdash; baseline below is the V4 static option.</div></div>
-          <div class="price" style="color:var(--mercedes-teal)">$400</div>
+          <div><div class="name">Wall-Mounted Selfie Stations <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mercedes-teal);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--mercedes-teal);border-radius:3px">V4 &mdash; upgraded to stations</span></div>
+          <div class="desc">2 &times; wall-mounted selfie stations, painted to match the booth interior &mdash; one at face level, one positioned for the signature Gymshark &ldquo;belfie.&rdquo; Each station provides a stable phone holder for guests using their own devices. Replaces the V3 simple mobile-phone-mount line per Client direction.</div></div>
+          <div class="price" style="color:var(--mercedes-teal)">$900 <span style="font-size:9px;color:var(--text-muted);font-weight:400">(2 &times; $450)</span></div>
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal);opacity:0.55">
@@ -664,12 +664,12 @@ const htmlContent = `
       </ul>
       <div class="pkg-price">
         <div class="pkg-prod-label">Gross Production Investment (Base)</div>
-        <div class="pkg-amount" style="color:var(--text-muted);font-size:22px">$87,250</div>
+        <div class="pkg-amount" style="color:var(--text-muted);font-size:22px">$84,550</div>
         <div class="pkg-venue-line" style="color:var(--mercedes-teal)">Less: Preferred Partner Credit &mdash; &minus;$5,000</div>
         <div class="pkg-prod-label" style="margin-top:14px">Net V4.0 Production Investment (Base)</div>
-        <div class="pkg-amount" style="color:var(--iwc-gold)">$82,250</div>
+        <div class="pkg-amount" style="color:var(--iwc-gold)">$79,550</div>
         <div class="pkg-venue-line">+ Lincoln Road venue fee (est. $5K &ndash; $10K) &bull; Optional NYC install add-on +$4,400</div>
-        <div class="pkg-total">With Optional Install Add-On<strong>$86,650 net</strong></div>
+        <div class="pkg-total">With Optional Install Add-On<strong>$83,950 net</strong></div>
       </div>
     </div>
 
@@ -689,8 +689,8 @@ const htmlContent = `
         </tr>
       </thead>
       <tbody>
-        <tr><td>Components &mdash; The Phone Box (painted yellow, hinged back door, compartment)</td><td class="r">$38,350</td></tr>
-        <tr><td>Components &mdash; Interactive Tech (single camera, basic mounts, no content capture)</td><td class="r">$11,600</td></tr>
+        <tr><td>Components &mdash; The Phone Box (painted yellow, hinged back door, compartment, dims per Ominto V2)</td><td class="r">$38,350</td></tr>
+        <tr><td>Components &mdash; Interactive Tech (2&times; Ring cameras, 2&times; Motorola RMU2040 radios, $1.5K printer, 2&times; selfie stations)</td><td class="r">$8,900</td></tr>
         <tr><td>Components &mdash; Branding, Signage &amp; Consumables (no disclosure, stanchions only, packaging in)</td><td class="r">$7,300</td></tr>
         <tr><td>Services &mdash; The Activation: Euclid Oval (Lincoln Road Mall), 11 AM&ndash;8 PM</td><td class="r">$11,100</td></tr>
         <tr><td>Services &mdash; Logistics to NYC (Base, transport-only)</td><td class="r">$12,900</td></tr>
@@ -700,7 +700,7 @@ const htmlContent = `
       <tfoot>
         <tr class="prod-total">
           <td><strong>Net V4.0 Production Investment (Base)</strong></td>
-          <td class="r" style="color:var(--iwc-gold)"><strong>$82,250</strong></td>
+          <td class="r" style="color:var(--iwc-gold)"><strong>$79,550</strong></td>
         </tr>
         <tr class="venue-line">
           <td>Optional Add-On &mdash; NYC Local Install Team</td>
@@ -712,14 +712,14 @@ const htmlContent = `
         </tr>
         <tr class="allin-total">
           <td><strong>Net with Optional Install + Venue (est.)</strong></td>
-          <td class="r"><strong>$91,650 &ndash; $96,650</strong></td>
+          <td class="r"><strong>$88,950 &ndash; $93,950</strong></td>
         </tr>
       </tfoot>
     </table>
   </div>
 
   <div class="pkg-footnote" data-a>
-    <strong>Budget alignment (V4.0):</strong> Gross base production investment is $87,250; net of the $5,000 Preferred Partner Credit, V4.0 lands at <strong>$82,250 net (base)</strong>. The optional NYC local install team add-on is $4,400 if elected, taking the net to $86,650 &mdash; both inside the $90K target. V4 deltas vs V3.0: hinged back distribution door replaces the motorised slot (cleaner, lower-cost); selfie/belfie spec held at static-basic with articulating upgrade quoted as an option; ceiling camera held at single 4K pending production-team review; consumer walkie pair; content capture, disclosure & wayfinding signage, and store wayfinding kit removed; venue dressing kit pared to stanchions only (qty TBC); 200-unit packaging held; NYC base scope is transport-only with the local install team available as an add-on; PM engagement at the leaner $6K cadence. Lincoln Road BID venue fee (covering the BID daily fee, pop-up permit, expedited permitting, and supplemental insurance) is the only pass-through cost.
+    <strong>Budget alignment (V4.0):</strong> Gross base production investment is $84,550; net of the $5,000 Preferred Partner Credit, V4.0 lands at <strong>$79,550 net (base)</strong>. The optional NYC local install team add-on is $4,400 if elected, taking the net to $83,950 &mdash; both well inside the $90K target. Tech package itemised against the Ominto deck (2&times; Ring Mini cameras, 2&times; Motorola RMU2040 radios, $1.5K thermal printer, 2&times; wall-mounted selfie stations). V4 deltas vs V3.0: hinged back distribution door replaces the motorised slot (cleaner, lower-cost); selfie/belfie spec held at static-basic with articulating upgrade quoted as an option; ceiling camera held at single 4K pending production-team review; consumer walkie pair; content capture, disclosure & wayfinding signage, and store wayfinding kit removed; venue dressing kit pared to stanchions only (qty TBC); 200-unit packaging held; NYC base scope is transport-only with the local install team available as an add-on; PM engagement at the leaner $6K cadence. Lincoln Road BID venue fee (covering the BID daily fee, pop-up permit, expedited permitting, and supplemental insurance) is the only pass-through cost.
   </div>
 </section>
 
@@ -751,17 +751,17 @@ const htmlContent = `
       <tr class="item"><td><span class="item-name">Back-of-House Staff Compartment <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — clarified</span></span><span class="item-desc">Interior partition + small staff stoop creating a private back compartment behind the hinged distribution door. Staff supplied by Client.</span></td><td>$1,800</td></tr>
       <tr class="sub-subtotal"><td><em>Subtotal &mdash; The Phone Box</em></td><td><em>$38,350</em></td></tr>
 
-      <tr class="divider"><td colspan="2">Components &mdash; Interactive Tech</td></tr>
+      <tr class="divider"><td colspan="2">Components &mdash; Interactive Tech (V4 — itemised hardware)</td></tr>
       <tr class="subcat"><td colspan="2">Call &amp; Response System</td></tr>
-      <tr class="item"><td><span class="item-name">Pre-Recorded Call-Response IVR System</span><span class="item-desc">Multi-branch scripting, licensed voice talent, keypad mapping, redundant win/lose logic, QA</span></td><td>$5,500</td></tr>
-      <tr class="item"><td><span class="item-name">Walkie-Talkie Pair <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — consumer-grade</span></span><span class="item-desc">Off-the-shelf consumer Motorola pair (one inside, one with the Gymshark athlete) + spare batteries. Replaces the originally-quoted higher-tech encrypted relay with online live-call routing.</span></td><td>$400</td></tr>
+      <tr class="item"><td><span class="item-name">Pre-Recorded Call-Response IVR System</span><span class="item-desc">Multi-branch scripting, licensed voice talent, keypad mapping (* = YES, # = NO), redundant win/lose logic, QA</span></td><td>$5,500</td></tr>
+      <tr class="item"><td><span class="item-name">Two-Way Radio Pair &mdash; Motorola RMU2040 (2 &times; $350) <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — itemised</span></span><span class="item-desc">2 &times; Motorola RMU2040 RM-Series 2-Way Radios (2-channel, 2-watt UHF business-grade, ~250,000 sq ft / 12-floor range, NOAA weather alerts). One inside the booth, one with the Gymshark athlete; includes spare batteries.</span></td><td>$700</td></tr>
       <tr class="subcat"><td colspan="2">Capture</td></tr>
-      <tr class="item"><td><span class="item-name">Single 4K Ceiling Camera <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — pending review</span></span><span class="item-desc">Single 4K ceiling-mounted video+audio camera with cloud storage and disclosure signage. Production team confirming compatibility and any further savings; line may revise downward in V4.1.</span></td><td>$2,500</td></tr>
-      <tr class="item"><td><span class="item-name">Selfie &amp; Belfie Wall Mounts <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — static basic</span></span><span class="item-desc">Two simple static wall-mounted phone holders for guests&rsquo; own phones (face-level + belfie-angle). Articulating belfie selfie-stick mount available as an upgrade ($900 instead of $400).</span></td><td>$400</td></tr>
+      <tr class="item"><td><span class="item-name">Ceiling Cameras &mdash; Ring Mini Indoor Plug-In (2 &times; $150) <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — restored to dual</span></span><span class="item-desc">2 &times; Ring Mini Indoor Security Cameras (1080p HD, two-way talk, motion detection, plug-in/Wi-Fi, white). Cloud storage via Ring Protect subscription. Restored to dual per Ominto deck spec (p.15: &ldquo;2&times; camera fitted to ceiling&rdquo;).</span></td><td>$300</td></tr>
+      <tr class="item"><td><span class="item-name">Wall-Mounted Selfie Stations (2 &times; $450) <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — upgraded</span></span><span class="item-desc">2 &times; wall-mounted selfie stations, painted to match the booth interior &mdash; face-level + belfie-angle. Each station provides a stable phone holder for guests using their own devices.</span></td><td>$900</td></tr>
       <tr class="subcat"><td colspan="2">Output &amp; Handoff</td></tr>
-      <tr class="item"><td><span class="item-name">Thermal Voucher Printer &amp; Shelf Mount</span><span class="item-desc">Dual-speed thermal ticket printer, yellow wrap, redundant roll inventory, firmware</span></td><td>$2,800</td></tr>
+      <tr class="item"><td><span class="item-name">Thermal Voucher Printer &amp; Shelf Mount <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — right-sized</span></span><span class="item-desc">80mm thermal ticket printer (Amazon-sourced hardware-equivalent class), yellow wrap, shelf-mounted under the analogue phone, redundant roll inventory, firmware.</span></td><td>$1,500</td></tr>
       <tr class="item omitted" style="opacity:0.55"><td><span class="item-name" style="text-decoration:line-through">Content Capture &amp; Media Handoff Platform</span><span class="item-desc">Omitted in V4 per Client direction. Raw camera files handed over on drive at strike at no extra cost; Gymshark social team handles the pipeline internally.</span></td><td style="text-decoration:line-through">&mdash;</td></tr>
-      <tr class="sub-subtotal"><td><em>Subtotal &mdash; Interactive Tech</em></td><td><em>$11,600</em></td></tr>
+      <tr class="sub-subtotal"><td><em>Subtotal &mdash; Interactive Tech</em></td><td><em>$8,900</em></td></tr>
 
       <tr class="divider"><td colspan="2">Components &mdash; Branding, Signage &amp; Consumables</td></tr>
       <tr class="subcat"><td colspan="2">Signage</td></tr>
@@ -808,22 +808,22 @@ const htmlContent = `
       <tr class="sub-subtotal" style="color:var(--iwc-gold)"><td><em>Subtotal &mdash; Optional Local Install Add-On</em></td><td><em>$4,400</em></td></tr>
     </tbody>
     <tfoot>
-      <tr><td style="color:var(--text-muted)">Gross Production Investment (Base)</td><td style="color:var(--text-muted)">$87,250</td></tr>
+      <tr><td style="color:var(--text-muted)">Gross Production Investment (Base)</td><td style="color:var(--text-muted)">$84,550</td></tr>
       <tr><td style="color:var(--mercedes-teal)">Less: Preferred Partner Credit</td><td style="color:var(--mercedes-teal)">&minus;$5,000</td></tr>
-      <tr><td style="color:var(--iwc-gold)">Net V4.0 Production Investment (Base)</td><td style="color:var(--iwc-gold)">$82,250</td></tr>
-      <tr><td>Net V4.0 with Optional Local Install Team</td><td>$86,650</td></tr>
+      <tr><td style="color:var(--iwc-gold)">Net V4.0 Production Investment (Base)</td><td style="color:var(--iwc-gold)">$79,550</td></tr>
+      <tr><td>Net V4.0 with Optional Local Install Team</td><td>$83,950</td></tr>
     </tfoot>
   </table>
 
   <div class="engage-bar" data-a>
     <div class="engage-col" style="border-color:var(--iwc-gold)">
       <div class="tag" style="color:var(--iwc-gold)">Deposit &mdash; 60%</div>
-      <div class="amt">$49,350</div>
-      <div class="note">Due upon Client&rsquo;s written approval of this Scope of Work (Proposal execution). Triggers procurement, engineering, and the Euclid Oval / Lincoln Road BID permit application. Calculated on the V4.0 net base production investment of $82,250.</div>
+      <div class="amt">$47,730</div>
+      <div class="note">Due upon Client&rsquo;s written approval of this Scope of Work (Proposal execution). Triggers procurement, engineering, and the Euclid Oval / Lincoln Road BID permit application. Calculated on the V4.0 net base production investment of $79,550.</div>
     </div>
     <div class="engage-col" style="border-color:var(--mercedes-teal)">
       <div class="tag" style="color:var(--mercedes-teal)">Balance &mdash; 40%</div>
-      <div class="amt">$32,900</div>
+      <div class="amt">$31,820</div>
       <div class="note">Due five (5) business days prior to the Euclid Oval activation install (target Friday, July 10, 2026).</div>
     </div>
   </div>
@@ -965,7 +965,7 @@ const htmlContent = `
           <tr><td>1.0</td><td>April 17, 2026</td><td>AGV Miami</td><td>Initial proposal issued to Gymshark and Ominto Studio for the Gymshark Phone Box activation in New York and Miami in July 2026. Three execution paths offered: Miami-only single-day pop-up, NYC-only single-day pop-up, or dual-city back-to-back deployment with inter-city reskin. Production-investment target of $98,500 for the dual-city configuration.</td><td><a href="/versions/v1-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v1.0 &rarr;</a></td></tr>
           <tr><td>2.0</td><td>April 29, 2026</td><td>AGV Miami</td><td>Two-event sequence. <strong>Event 01 &mdash; Miami:</strong> Lincoln Road Mall street activation on June 27, 2026 (AGV Miami recommended Euclid Oval, 1100 block). <strong>Event 02 &mdash; New York:</strong> in-store fixture at Gymshark Bond St (11 Bond St, NY 10005), delivered by July 9, 2026 to anchor the July 11 product launch and a 4-week in-store run through August 6, 2026. Inter-city respray to NYC palette between events. <strong>Production:</strong> $124,150 gross less $5,000 Partner Credit = $119,150 net. <strong>Estimated total:</strong> $124,150&ndash;$129,150.</td><td><a href="/versions/v2-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v2.0 &rarr;</a></td></tr>
           <tr><td>3.0</td><td>April 29, 2026</td><td>AGV Miami</td><td>V3.0 narrows the programme to a <strong>single street activation</strong> at <strong>Euclid Oval, Lincoln Road Mall, Miami Beach</strong> on <strong>Friday, July 17, 2026</strong>. <strong>Production:</strong> $100,150 gross less $5,000 Partner Credit = $95,150 net.</td><td><a href="/versions/v3-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v3.0 &rarr;</a></td></tr>
-          <tr><td><strong>4.0</strong></td><td><strong>May 7, 2026</strong></td><td>AGV Miami</td><td><strong>Current.</strong> V4.0 lands the V3.1 clarifications and adds value engineering. <strong>Yellow palette confirmed.</strong> <strong>Concealed motorised slot replaced with a true hinged back distribution door</strong> for staff to operate from inside ($1,800, was $3,400). <strong>Walkie</strong> scaled to a consumer Motorola pair ($400). <strong>Single 4K ceiling camera</strong> (pending production-team review). <strong>Static basic selfie/belfie wall mounts</strong> back in scope ($400; articulating belfie upgrade quoted at $900). <strong>Content Capture &amp; Media Handoff omitted</strong> per Client direction; raw camera files handed over on drive. <strong>Disclosure &amp; Wayfinding Signage and Store Wayfinding Kit removed.</strong> <strong>Venue Dressing Kit pared to stanchions only</strong> (qty TBC). <strong>Packaging held at 200 units.</strong> <strong>NYC base scope is transport-only</strong> (climate hold, climate freight, light touchup at AGV Miami&rsquo;s NY shop, white-glove delivery to the Gymshark NYC flagship store); the local install team (1 lead + 2 crew) is available as a $4,400 add-on. <strong>Operating hours extended to 11 AM&ndash;8 PM. PM at $6K (lean engagement). $5K Preferred Partner Credit retained.</strong> <strong>Production (Base):</strong> $87,250 gross less $5,000 Partner Credit = <strong>$82,250 net</strong>. With optional NYC install add-on: <strong>$86,650 net</strong>. Both inside the $90K target. Payment: 60% deposit $49,350 on SoW approval; 40% balance $32,900 due Friday, July 10, 2026.</td><td><a href="/versions/v4-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v4.0 &rarr;</a></td></tr>
+          <tr><td><strong>4.0</strong></td><td><strong>May 8, 2026</strong></td><td>AGV Miami</td><td><strong>Current.</strong> V4.0 lands the V3.1 clarifications and itemises hardware against the Ominto deck. <strong>Yellow palette confirmed.</strong> <strong>Booth dimensions per Ominto V2:</strong> 164 &times; 94 cm body, 213 cm height + 20 cm lightbox header, 70 cm staff compartment + 94 cm guest compartment. <strong>Concealed motorised slot replaced with a true hinged back distribution door</strong> ($1,800, was $3,400). <strong>Tech itemised:</strong> 2&times; Motorola RMU2040 radios ($700), 2&times; Ring Mini Indoor cameras restored to dual per deck ($300), $1,500 thermal printer, 2&times; wall-mounted selfie stations ($900). <strong>Content Capture, Disclosure &amp; Wayfinding, Store Wayfinding Kit all removed</strong> per Client direction. <strong>Venue Dressing pared to stanchions only</strong> (qty TBC). <strong>Packaging held at 200 units.</strong> <strong>NYC base scope is transport-only</strong>; local install team (1 lead + 2 crew) available as a $4,400 add-on. <strong>11 AM&ndash;8 PM. PM at $6K. $5K Preferred Partner Credit retained.</strong> <strong>Production (Base):</strong> $84,550 gross less $5,000 Partner Credit = <strong>$79,550 net</strong>. With optional NYC install add-on: <strong>$83,950 net</strong>. Both well inside the $90K target. Payment: 60% deposit $47,730 on SoW approval; 40% balance $31,820 due Friday, July 10, 2026.</td><td><a href="/versions/v4-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v4.0 &rarr;</a></td></tr>
         </tbody>
       </table>
     </div>

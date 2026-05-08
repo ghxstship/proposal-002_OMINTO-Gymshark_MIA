@@ -382,38 +382,38 @@ def build_v40_sheet(ws):
         version="Version 4.0",
         issue_date="May 7, 2026",
         scope_summary=(
-            "V4.0 — clarifications & value-engineering on top of V3.1. Yellow palette confirmed; "
-            "concealed motorised slot replaced with a true hinged back distribution door for staff "
-            "operation from inside; walkie scaled to consumer-grade; ceiling camera held at single 4K "
-            "(pending production-team review); basic static selfie/belfie wall mounts (articulating "
-            "upgrade quoted as add-on); content capture omitted; disclosure & wayfinding signage "
-            "removed; venue dressing kit pared to stanchions only (qty TBC); store wayfinding kit "
-            "removed; NYC base scope is transport-only with the local install team quoted as an "
-            "available add-on. $5K Preferred Partner Credit retained. Activation: Friday, July 17, "
-            "2026, 11 AM–8 PM at Euclid Oval, Lincoln Road Mall (Saturday, July 18 held as a weather "
-            "contingency)."
+            "V4.0 — Yellow palette confirmed; concealed motorised slot replaced with a true hinged "
+            "back distribution door; tech package itemised against deck spec (2× Motorola RMU2040 "
+            "radios, 2× Ring Mini Indoor cameras restored to dual per Ominto deck p.15, 80mm thermal "
+            "voucher printer, 2× wall-mounted selfie stations); content capture omitted; disclosure "
+            "& wayfinding signage removed; venue dressing kit pared to stanchions only (qty TBC); "
+            "200-unit yellow-palette product packaging held; NYC base scope is transport-only with a "
+            "local install team available as an add-on. $5K Preferred Partner Credit retained. "
+            "Booth dimensions per Ominto V2 design: 164 × 94 × 213 cm body + 20 cm lightbox header. "
+            "Activation: Friday, July 17, 2026, 11 AM–8 PM at Euclid Oval, Lincoln Road Mall "
+            "(Saturday, July 18 held as a weather contingency)."
         ),
         activation_summary=("Activation: Friday, July 17, 2026, 11 AM–8 PM", "Venue: Euclid Oval, Lincoln Road Mall"),
     )
 
     row = phase_header(ws, row, "Phase 01  —  The Phone Box (Painted Yellow, Hinged Back Door)")
-    row = line_item(ws, row, "Phone Box Structural Shell", "Custom scenic fabrication, marine-grade paint in Miami yellow (PMS TBC by Ominto), two-piece modular construction", 14500)
-    row = line_item(ws, row, "4-Sided Illuminated Lightbox Signage", "LED-backlit translucent face panels on all four sides; weatherproof housing", 6800)
-    row = line_item(ws, row, "Glass & Semi-Transparent Vinyl Panels", "Tempered glass on front door + sides with custom-printed yellow-palette privacy vinyl", 2900)
-    row = line_item(ws, row, "Painted Yellow Interior", "Four-wall matte paint finish in Miami yellow, dimensional bum mirror with scripted messaging", 3800)
+    row = line_item(ws, row, "Phone Box Structural Shell", "Custom scenic fabrication per Ominto V2 design pack. Footprint 164 × 94 cm (~5'4\" × 3'1\"); body height 213 cm (~7'0\"); lightbox header +20 cm (total ≈7'8\"). Two-piece modular construction (staff compartment 70 cm deep + guest compartment 94 cm deep). Marine-grade paint in Miami yellow (PMS TBC by Ominto).", 14500)
+    row = line_item(ws, row, "4-Sided Illuminated Lightbox Signage", "20 cm lightbox header on all four faces. LED-backlit translucent face panels with weatherproof housing, dimmable driver, single-cord power feed.", 6800)
+    row = line_item(ws, row, "Glass & Semi-Transparent Vinyl Panels", "Tempered glass on front door + sides per Ominto deck spec. Custom-printed semi-transparent privacy vinyl preserves the reveal moment when guests enter; finish print-matched to yellow palette.", 2900)
+    row = line_item(ws, row, "Painted Yellow Interior", "Four-wall matte paint finish in Miami yellow on interior compartment. Dimensional bum mirror with scripted messaging above and below. Interior compartment dim: 65 × 86 cm (back compartment) per Ominto V2 design.", 3800)
     row = line_item(ws, row, "Hinged Back Distribution Door (V4 — replaces motorised slot)", "True hinged back door, brand-yellow painted, no visible handle on the public face. Allows a Gymshark-supplied staff member to operate from inside the back-of-house compartment and hand product directly to the guest. Replaces the previously quoted concealed motorised sliding slot — simpler, lower-cost, and clearer staff workflow.", 1800)
-    row = line_item(ws, row, "Interior Finishes", "Aluminium chequer-plate flooring, dome light, guest seat, branded analogue phone", 2750)
-    row = line_item(ws, row, "Engineering, Structural Calcs & Shop Drawings", "Wind-load, ballast plan, electrical schematics, CAD shop drawings, venue-compliance package", 4000)
-    row = line_item(ws, row, "Back-of-House Staff Compartment", "Interior partition wall + small staff stoop creating a private back compartment behind the hinged distribution door (above). One Gymshark-supplied team member operates from inside, handing product through the back door. Talent supplied by Client per the proposal exclusions.", 1800)
+    row = line_item(ws, row, "Interior Finishes", "Aluminium chequer-plate (five-bar pattern) flooring, circular dome overhead light, compact guest seat (~70 cm wide), and branded analogue phone with yellow handset. Shelf below the phone receives the thermal printer.", 2750)
+    row = line_item(ws, row, "Engineering, Structural Calcs & Shop Drawings", "Wind-load, ballast plan, electrical schematics, CAD shop drawings, venue-compliance package. Reconciles deck V2 dimensions (164 × 94 × 213 cm + 20 cm lightbox) at engineering lock.", 4000)
+    row = line_item(ws, row, "Back-of-House Staff Compartment", "70 cm-deep × 94 cm-wide private back compartment behind the hinged distribution door. Includes interior partition wall, small staff stoop, and dispensing shelf for product handoff. Talent supplied by Client per proposal exclusions.", 1800)
     row = subtotal_row(ws, row, "Subtotal — The Phone Box", 38350)
 
-    row = phase_header(ws, row, "Phase 02  —  Interactive Tech (V4 — clarified specs)")
-    row = line_item(ws, row, "Pre-Recorded Call-Response (IVR) System", "Multi-branch scripting, licensed voice talent, keypad mapping, redundant win/lose logic, QA", 5500)
-    row = line_item(ws, row, "Walkie-Talkie Pair (V4 — consumer-grade)", "Off-the-shelf consumer Motorola pair: one inside the booth for the guest, one with the on-site Gymshark athlete; includes spare batteries. The originally-quoted line was a higher-tech encrypted relay with online live-call routing — scaled down here to a conventional radio per Client preference.", 400)
-    row = line_item(ws, row, "Single 4K Ceiling Camera (V4 — pending production review)", "Single 4K ceiling-mounted video+audio camera with cloud storage and disclosure signage. Production team currently confirming compatibility and any further savings opportunity — this line may revise downward in a V4.1 once that review closes; price held as a placeholder.", 2500)
-    row = line_item(ws, row, "Selfie & Belfie Wall Mounts (V4 — static basic)", "Two simple static wall-mounted phone holders for guests' own phones, painted to match the interior. Articulating selfie-stick belfie mount available as an upgrade ($900 instead of $400) — listed here as the V4 baseline.", 400)
-    row = line_item(ws, row, "Thermal Voucher Printer & Shelf Mount", "Dual-speed thermal ticket printer, wrapped, redundant roll inventory, firmware", 2800)
-    row = subtotal_row(ws, row, "Subtotal — Interactive Tech", 11600)
+    row = phase_header(ws, row, "Phase 02  —  Interactive Tech (V4 — itemised hardware)")
+    row = line_item(ws, row, "Pre-Recorded Call-Response (IVR) System", "Multi-branch scripting, licensed voice talent, keypad mapping (* = YES, # = NO), redundant win/lose logic, QA. Wired to the analogue phone handset.", 5500)
+    row = line_item(ws, row, "Two-Way Radio Pair — Motorola RMU2040 (2 × $350)", "2 × Motorola RMU2040 RM-Series 2-Way Radios (2-channel, 2-watt UHF business-grade, license-free, ~250,000 sq ft / 12-floor range, NOAA weather alerts). One inside the booth for the guest, one with the on-site Gymshark athlete; includes spare batteries.", 700)
+    row = line_item(ws, row, "Ceiling Cameras — Ring Mini Indoor Plug-In (2 × $150)", "2 × Ring Mini Indoor Security Cameras (1080p HD, two-way talk, motion detection, plug-in / no batteries, Wi-Fi, white finish). Cloud storage via Ring Protect subscription. Ceiling-mounted in front and back compartments. Restored to dual-camera per the original Ominto deck spec (p.15).", 300)
+    row = line_item(ws, row, "Wall-Mounted Selfie Stations (2 × $450)", "2 × wall-mounted selfie stations, painted to match the booth interior — face-level + belfie-angle. Each station provides a stable phone holder for guests using their own devices. Replaces V3 mobile-phone-mount line.", 900)
+    row = line_item(ws, row, "Thermal Voucher Printer & Shelf Mount", "80mm thermal ticket printer (Amazon-sourced, ~$1,500 hardware-equivalent class), shelf-mounted under the analogue phone, wrapped in yellow vinyl. Voucher template designed by Gymshark; AGV Miami handles printer procurement, firmware, redundant roll inventory.", 1500)
+    row = subtotal_row(ws, row, "Subtotal — Interactive Tech", 8900)
 
     row = phase_header(ws, row, "Phase 03  —  Branding, Signage & Consumables (V4 — disclosure removed, dressing pared)")
     row = line_item(ws, row, "Venue Dressing Kit (V4 — stanchions only, qty TBC)", "Branded stanchion poles + ropes for crowd management at the Euclid Oval street activation. Quantity / linear feet to be confirmed by Client; price held as a placeholder pending that confirmation.", 1000)
@@ -439,9 +439,9 @@ def build_v40_sheet(ws):
     row = subtotal_row(ws, row, "Subtotal — Project Management", 6000)
 
     row += 1
-    row = gross_total_row(ws, row, "Gross Production Investment (Base)", 87250)
+    row = gross_total_row(ws, row, "Gross Production Investment (Base)", 84550)
     row = credit_row(ws, row, "Less: Preferred Partner Credit", -5000)
-    row = net_total_bar(ws, row, "NET V4.0 PRODUCTION INVESTMENT (BASE)", 82250)
+    row = net_total_bar(ws, row, "NET V4.0 PRODUCTION INVESTMENT (BASE)", 79550)
     row += 1
 
     # Optional add-on block
@@ -450,11 +450,11 @@ def build_v40_sheet(ws):
     row = line_item(ws, row, "In-Store Fixture Setup", "Anchoring to retail-spec floor (no permanent penetration), electrical drop, IVR + camera + printer + lightbox bring-up, on-floor commissioning sign-off with the flagship store manager.", 1600)
     row = subtotal_row(ws, row, "Subtotal — Optional Local Install Team", 4400)
     row += 1
-    row = gross_total_row(ws, row, "Net V4.0 with Optional Local Install Team", 86650)
+    row = gross_total_row(ws, row, "Net V4.0 with Optional Local Install Team", 83950)
     row += 1
 
-    row = payment_block(ws, row, deposit=49350, balance=32900, balance_due_date="on or before Friday, July 10, 2026", version_short="V4.0")
-    footer(ws, row, "V4.0 — current proposed (Base under $90K; optional NYC install add-on still under $90K)")
+    row = payment_block(ws, row, deposit=47730, balance=31820, balance_due_date="on or before Friday, July 10, 2026", version_short="V4.0")
+    footer(ws, row, "V4.0 — current proposed (Base $79,550 net; with optional NYC install add-on $83,950 net)")
 
 
 # ---------- V2.0 SHEET ----------
@@ -627,11 +627,18 @@ def main():
     wb_v31.save(OUTPUT_V31)
     print(f"Wrote {OUTPUT_V31} with sheets: {[s.title for s in wb_v31.worksheets]}")
 
-    # 3. Single-tab V4.0 invoice (current proposed — value-engineered)
+    # 3. V4.0 invoice — multi-tab (current proposed + V3.0 issued + V2.0 superseded for reference)
     wb_v40 = Workbook()
     ws40 = wb_v40.active
-    ws40.title = "V4.0 — Value-Engineered"
+    ws40.title = "V4.0 — Current Proposed"
     build_v40_sheet(ws40)
+
+    ws40_v3 = wb_v40.create_sheet(title="V3.0 — Issued")
+    build_v3_sheet(ws40_v3)
+
+    ws40_v2 = wb_v40.create_sheet(title="V2.0 — Superseded")
+    build_v2_sheet(ws40_v2)
+
     wb_v40.save(OUTPUT_V40)
     print(f"Wrote {OUTPUT_V40} with sheets: {[s.title for s in wb_v40.worksheets]}")
 
