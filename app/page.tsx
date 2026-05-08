@@ -138,12 +138,12 @@ const htmlContent = `
       <strong>Hours:</strong> 11:00 AM &ndash; 8:00 PM<br>
       <strong>Load-In:</strong> 6:00 AM &ndash; 10:00 AM<br>
       <strong>Audience:</strong> Fitness culture, tourists, content creators, beach crowd<br>
-      <strong>Pitch:</strong> Confirmed within Lincoln Road Mall &mdash; pedestrian-only outdoor shopping district with palm canopy, central to the Apple Store / J.Crew / Anthropologie anchor block. Exact location pending Lincoln Road BID confirmation.</p>
+      <strong>Setting:</strong> Pedestrian-only outdoor shopping district with palm canopy, central to the Apple Store / J.Crew / Anthropologie anchor block.</p>
     </div>
     <div class="overview-card" style="border-color:var(--iwc-gold)">
       <div class="ov-tag" style="color:var(--iwc-gold)">Post-Activation &mdash; Logistics to NYC</div>
       <h3>Light Touchup &amp; Return to NYC</h3>
-      <p><strong>Activity:</strong> Light touchup after Miami activation + return logistics to a New York handoff destination<br>
+      <p><strong>Activity:</strong> Light touchup at AGV Miami&rsquo;s NY shop + white-glove delivery to the Gymshark NYC flagship store<br>
       <strong>Window:</strong> July 18 &ndash; August 1, 2026<br>
       <strong>NYC Activation:</strong> <strong>None</strong> &mdash; no Bond St presence, no in-store fixture, no street pop-up<br>
       <strong>Scope:</strong> Climate-controlled warehouse hold, light cosmetic touchup ($3,000), inter-city freight Miami &rarr; NYC, and final delivery handoff at the client&rsquo;s designated NYC address<br>
@@ -181,8 +181,8 @@ const htmlContent = `
         <div class="core-label" style="color:var(--iwc-gold)">Core Deliverables</div>
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
-          <div><div class="name">Phone Box Structural Shell <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--iwc-gold);border-radius:3px">V4 &mdash; dimensions per Ominto V2</span></div>
-          <div class="desc">Custom scenic fabrication per Ominto V2 design pack. <strong>Footprint 164 &times; 94 cm</strong> (~5'4&Prime; &times; 3'1&Prime;); <strong>body height 213 cm</strong> (~7'0&Prime;); <strong>lightbox header +20 cm</strong> (total ~7'8&Prime;). Two-piece modular construction split into a 70 cm-deep back-of-house staff compartment and a 94 cm-deep guest compartment. Weatherproof marine-grade paint in Miami yellow (PMS callout TBC by Ominto). Engineered for curb-level install on pavement/plaza surface with concealed ballasting.</div></div>
+          <div><div class="name">Phone Box Structural Shell</div>
+          <div class="desc">Custom scenic fabrication per Ominto V2 design pack. <strong>Footprint 164 &times; 94 cm</strong> (~5'4&Prime; &times; 3'1&Prime;); <strong>body height 213 cm</strong> (~7'0&Prime;); <strong>lightbox header +20 cm</strong> (total ~7'8&Prime;). Two-piece modular construction split into a 70 cm-deep back-of-house staff compartment and a 94 cm-deep guest compartment. Weatherproof marine-grade paint in Miami yellow per Ominto brand guidelines. Engineered for curb-level install on pavement/plaza surface with concealed ballasting.</div></div>
           <div class="price" style="color:var(--iwc-gold)">$14,500</div>
         </div>
 
@@ -199,13 +199,13 @@ const htmlContent = `
         </div>
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
-          <div><div class="name">Painted Yellow Interior <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--iwc-gold);border-radius:3px">V4 &mdash; yellow confirmed</span></div>
-          <div class="desc">Full four-wall yellow interior in marine-grade <strong>paint</strong>. Sand &amp; prep, primer, three-coat application of Miami yellow (PMS callout TBC by Ominto) in matte finish to minimise flash bounce on photo/video. Includes dimensional &ldquo;bum mirror&rdquo; with scripted messaging above and below.</div></div>
+          <div><div class="name">Painted Yellow Interior</div>
+          <div class="desc">Full four-wall yellow interior in marine-grade <strong>paint</strong>. Sand &amp; prep, primer, three-coat application of Miami yellow per Ominto brand guidelines in matte finish to minimise flash bounce on photo/video. Includes dimensional &ldquo;bum mirror&rdquo; with scripted messaging above and below.</div></div>
           <div class="price" style="color:var(--iwc-gold)">$3,800</div>
         </div>
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
-          <div><div class="name">Hinged Back Distribution Door <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--iwc-gold);border-radius:3px">V4 &mdash; replaces motorised slot</span></div>
+          <div><div class="name">Hinged Back Distribution Door</div>
           <div class="desc">True hinged back door, brand-yellow painted, no visible handle on the public face. Allows a Gymshark-supplied staff member to operate from inside the back-of-house compartment and hand product directly to the guest. Replaces the previously quoted concealed motorised sliding slot &mdash; simpler, lower-cost, and clearer staff workflow.</div></div>
           <div class="price" style="color:var(--iwc-gold)">$1,800</div>
         </div>
@@ -223,7 +223,7 @@ const htmlContent = `
         </div>
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
-          <div><div class="name">Back-of-House Staff Compartment <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--iwc-gold);border-radius:3px">V4 &mdash; clarified spec</span></div>
+          <div><div class="name">Back-of-House Staff Compartment</div>
           <div class="desc">Interior partition wall + small staff stoop creating a private back compartment behind the hinged distribution door. One Gymshark-supplied team member operates from inside, handing product through the back door to the guest. Talent supplied by Client per the proposal exclusions.</div></div>
           <div class="price" style="color:var(--iwc-gold)">$1,800</div>
         </div>
@@ -256,34 +256,29 @@ const htmlContent = `
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
-          <div><div class="name">Two-Way Radio Pair &mdash; Motorola RMU2040 <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mercedes-teal);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--mercedes-teal);border-radius:3px">V4 &mdash; itemised</span></div>
+          <div><div class="name">Two-Way Radio Pair &mdash; Motorola RMU2040</div>
           <div class="desc">2 &times; <a href="https://www.globalindustrial.com/p/motorola-rmu2040-rm-series-2-way-radio-2-channel-2-watt" target="_blank" rel="noopener" style="color:var(--mercedes-teal);text-decoration:underline">Motorola RMU2040 RM-Series 2-Way Radios</a> (2-channel, 2-watt UHF business-grade, license-free, ~250,000 sq ft / 12-floor range, NOAA weather alerts). One inside the booth for the guest, one with the on-site Gymshark athlete; includes spare batteries. Supports the deck&rsquo;s live-call moment (deck p.14) so the crowd can overhear both sides of the conversation while the GS social team records.</div></div>
-          <div class="price" style="color:var(--mercedes-teal)">$700 <span style="font-size:9px;color:var(--text-muted);font-weight:400">(2 &times; $350)</span></div>
+          <div class="price" style="color:var(--mercedes-teal)">$700</div>
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
-          <div><div class="name">Ceiling Cameras &mdash; Ring Mini Indoor Plug-In <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mercedes-teal);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--mercedes-teal);border-radius:3px">V4 &mdash; restored to dual per deck</span></div>
+          <div><div class="name">Ceiling Cameras &mdash; Ring Mini Indoor Plug-In</div>
           <div class="desc">2 &times; <a href="https://ring.com/products/mini-indoor-security-camera-plug-in/" target="_blank" rel="noopener" style="color:var(--mercedes-teal);text-decoration:underline">Ring Mini Indoor Security Cameras</a> (1080p HD, two-way talk, motion detection, plug-in / no batteries, Wi-Fi, white finish). Cloud storage via Ring Protect subscription. Ceiling-mounted to cover both the guest compartment and back-of-house staff compartment per Ominto deck spec (p.15: &ldquo;2&times; camera fitted to ceiling&rdquo;).</div></div>
-          <div class="price" style="color:var(--mercedes-teal)">$300 <span style="font-size:9px;color:var(--text-muted);font-weight:400">(2 &times; $150)</span></div>
+          <div class="price" style="color:var(--mercedes-teal)">$300</div>
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
-          <div><div class="name">Thermal Voucher Printer &amp; Shelf Mount <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mercedes-teal);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--mercedes-teal);border-radius:3px">V4 &mdash; right-sized</span></div>
+          <div><div class="name">Thermal Voucher Printer &amp; Shelf Mount</div>
           <div class="desc">80mm thermal ticket printer (<a href="https://a.co/d/0hWbMj1N" target="_blank" rel="noopener" style="color:var(--mercedes-teal);text-decoration:underline">Amazon-sourced hardware-equivalent class</a>) shelf-mounted under the analogue phone, wrapped in yellow vinyl. Voucher template designed by Gymshark; AGV Miami handles printer procurement, firmware, redundant roll inventory, and wrap.</div></div>
           <div class="price" style="color:var(--mercedes-teal)">$1,500</div>
         </div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
-          <div><div class="name">Wall-Mounted Selfie Stations <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mercedes-teal);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--mercedes-teal);border-radius:3px">V4 &mdash; upgraded to stations</span></div>
+          <div><div class="name">Wall-Mounted Selfie Stations</div>
           <div class="desc">2 &times; wall-mounted selfie stations, painted to match the booth interior &mdash; one at face level, one positioned for the signature Gymshark &ldquo;belfie.&rdquo; Each station provides a stable phone holder for guests using their own devices. Replaces the V3 simple mobile-phone-mount line per Client direction.</div></div>
-          <div class="price" style="color:var(--mercedes-teal)">$900 <span style="font-size:9px;color:var(--text-muted);font-weight:400">(2 &times; $450)</span></div>
+          <div class="price" style="color:var(--mercedes-teal)">$900</div>
         </div>
 
-        <div class="core-item" style="border-color:var(--mercedes-teal);opacity:0.55">
-          <div><div class="name">Content Capture &amp; Media Handoff Platform <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mercedes-teal);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--mercedes-teal);border-radius:3px">V4 &mdash; omitted</span></div>
-          <div class="desc">Originally a traditional photobooth-style cloud workspace for AGV Miami to collect, colour-correct, and hand off UGC to Gymshark&rsquo;s social team within 48 hours of strike. Omitted in V4 per Client direction &mdash; raw camera files handed over on drive at strike, Gymshark social team handles the pipeline internally.</div></div>
-          <div class="price" style="color:var(--mercedes-teal);text-decoration:line-through">$2,500</div>
-        </div>
       </div>
     </div>
   </div>
@@ -306,15 +301,9 @@ const htmlContent = `
 
         <div class="core-label" style="color:var(--f1-red)">Core Deliverables</div>
 
-        <div class="core-item" style="border-color:var(--f1-red);opacity:0.55">
-          <div><div class="name">Disclosure &amp; Wayfinding Signage <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--f1-red);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--f1-red);border-radius:3px">V4 &mdash; removed</span></div>
-          <div class="desc">Originally: &ldquo;Smile &mdash; you&rsquo;re on camera&rdquo; disclosure sign, queue management decals, and brand lockup callouts. <strong>Removed in V4 per Client direction</strong> &mdash; the camera-disclosure copy will be folded into existing booth signage at no extra cost.</div></div>
-          <div class="price" style="color:var(--f1-red);text-decoration:line-through">$950</div>
-        </div>
-
         <div class="core-item" style="border-color:var(--f1-red)">
-          <div><div class="name">Venue Dressing Kit <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--f1-red);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--f1-red);border-radius:3px">V4 &mdash; stanchions only, qty TBC</span></div>
-          <div class="desc">Branded stanchion poles + ropes for crowd management at the Lincoln Road Mall street activation. <strong>Quantity / linear feet to be confirmed by Client</strong> (how many poles, how many feet of rope) &mdash; the price below is held as a placeholder and will revise to firm with the count.</div></div>
+          <div><div class="name">Venue Dressing Kit</div>
+          <div class="desc">Branded stanchion poles and ropes for crowd management at the Lincoln Road Mall street activation. Yellow palette to match booth.</div></div>
           <div class="price" style="color:var(--f1-red)">$1,000</div>
         </div>
 
@@ -325,7 +314,7 @@ const htmlContent = `
         </div>
 
         <div class="core-item" style="border-color:var(--f1-red)">
-          <div><div class="name">Custom Product Packaging &mdash; 200 units <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--f1-red);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--f1-red);border-radius:3px">V4 &mdash; reinstated</span></div>
+          <div><div class="name">Custom Product Packaging &mdash; 200 units</div>
           <div class="desc">Yellow-palette product boxes, structural board, full-colour offset print, 300 &times; 200 &times; 70 mm, flat-packed for load-in. Quantity held at 200 per Client direction.</div></div>
           <div class="price" style="color:var(--f1-red)">$4,800</div>
         </div>
@@ -339,14 +328,14 @@ const htmlContent = `
       <div class="phase-num" style="color:var(--white)">04</div>
       <div class="phase-info">
         <h3>Logistics, Install &amp; Strike</h3>
-        <div class="sub">Lincoln Road Mall street install &bull; light touchup &bull; logistics to NYC handoff destination</div>
+        <div class="sub">Lincoln Road Mall street install &bull; light touchup at NY shop &bull; delivery to Gymshark NYC flagship store</div>
       </div>
       <div class="phase-toggle" style="border-color:var(--white);color:var(--white)">+</div>
     </div>
     <div class="phase-body">
       <div class="phase-inner" style="border-left:4px solid var(--white)">
         <p class="phase-narrative">
-          Single-truck freight from the AGV Miami Bohemia, NY fabrication facility. The activation is a one-day Lincoln Road Mall street install on Friday, July 17, 2026, with a 3-person install crew, dual on-site technicians during operating hours, and same-day strike. Saturday, July 18, 2026 is held as a weather contingency only. After Miami, a single light cosmetic touchup is applied at warehouse, then the box is logistically returned to a New York handoff destination. <strong>V3.0 removes the prior respray/rewrap package and the Gymshark Bond St in-store activation entirely</strong> &mdash; the box is now an asset transfer to NYC, not an activation in NYC.
+          Single-truck freight from the AGV Miami Bohemia, NY fabrication facility. The activation is a one-day Lincoln Road Mall street install on Friday, July 17, 2026, with a 3-person install crew, dual on-site technicians during operating hours, and same-day strike. Saturday, July 18, 2026 is held as a weather contingency only. After Miami, the booth is freighted to AGV Miami&rsquo;s NY shop for a light cosmetic touchup, then white-glove delivered to the Gymshark NYC flagship store by Thursday, July 23, 2026. The optional NYC local install team is available as an add-on if Client elects on-floor commissioning at the flagship.
         </p>
 
         <div class="core-label">The Activation &mdash; Lincoln Road Mall (Miami Beach)</div>
@@ -369,7 +358,7 @@ const htmlContent = `
           <div class="price">$3,300</div>
         </div>
 
-        <div class="core-label" style="color:var(--iwc-gold)">Post-Activation &mdash; Logistics to NYC <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--iwc-gold);border-radius:3px">V4 &mdash; transport-only base</span></div>
+        <div class="core-label" style="color:var(--iwc-gold)">Post-Activation &mdash; Logistics to NYC</div>
         <p class="phase-narrative" style="margin-top:4px;font-style:italic">After Miami strike, the booth ships straight to AGV Miami&rsquo;s NY shop for a light cosmetic touchup, then white-glove delivery to the Gymshark NYC flagship store. <strong>Base scope is transport-only;</strong> the local install team is available as an optional add-on quoted below.</p>
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
@@ -401,7 +390,7 @@ const htmlContent = `
           <span style="font-family:var(--serif);font-size:18px;color:var(--iwc-gold);font-weight:700">$12,900</span>
         </div>
 
-        <div class="core-label" style="color:var(--iwc-gold);margin-top:24px">Optional Add-On &mdash; NYC Local Install Team <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--iwc-gold);border-radius:3px">V4 &mdash; available, not in base</span></div>
+        <div class="core-label" style="color:var(--iwc-gold);margin-top:24px">Optional Add-On &mdash; NYC Local Install Team</div>
         <p class="phase-narrative" style="margin-top:4px;font-style:italic">Quoted as an available add-on per Client direction. Activates only if Client elects to have AGV Miami install and commission the booth on-floor at the Gymshark NYC flagship store.</p>
 
         <div class="core-item" style="border-color:var(--iwc-gold)">
@@ -443,7 +432,7 @@ const htmlContent = `
         <div class="core-label" style="color:var(--mercedes-teal)">Core Deliverables</div>
 
         <div class="core-item" style="border-color:var(--mercedes-teal)">
-          <div><div class="name">Project Management Fee <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mercedes-teal);font-weight:700;margin-left:8px;padding:2px 6px;border:1px solid var(--mercedes-teal);border-radius:3px">V4 &mdash; lean engagement</span></div>
+          <div><div class="name">Project Management Fee</div>
           <div class="desc">Dedicated senior producer, weekly status reporting (vs daily), milestone tracking, vendor / venue liaison, COI + insurance coordination, post-event reconciliation. Async-first cadence appropriate for a single-event programme; same producer, lighter touch.</div></div>
           <div class="price" style="color:var(--mercedes-teal)">$6,000</div>
         </div>
@@ -458,7 +447,7 @@ const htmlContent = `
     <div class="sec-eye"><div class="bar" style="background:var(--iwc-gold)"></div><span style="color:var(--iwc-gold)">Venue</span></div>
     <h2>One Venue. One Activation.</h2>
     <p class="sec-desc">
-      V3.0 proposes a single venue: <strong>Lincoln Road Mall</strong> (Miami Beach) for a one-day street activation on <strong>Friday, July 17, 2026</strong>. Saturday, July 18, 2026 is held against the same permit window as a weather contingency only. The Lincoln Road venue fee is passed through at cost. <strong>No NYC venue, no Bond St activation</strong>; the box is logistically returned to a New York handoff destination after Miami.
+      V4.0 proposes a single venue: <strong>Lincoln Road Mall</strong> (Miami Beach) for a one-day street activation on <strong>Friday, July 17, 2026</strong>, 11 AM&ndash;8 PM. Saturday, July 18, 2026 is held against the same permit window as a weather contingency only. The Lincoln Road venue fee is passed through at cost. After Miami, the booth is freighted to AGV Miami&rsquo;s NY shop for a light touchup and white-glove delivered to the Gymshark NYC flagship store.
     </p>
   </div>
 
@@ -482,7 +471,7 @@ const htmlContent = `
         <div class="loc-body">
           <div class="loc-price">Est. $5,000 &ndash; $10,000 / day</div>
           <p>Pedestrian-only outdoor shopping district with recent streetscape regeneration. Bold palm-lined aesthetic with steady 7-day foot traffic of tourists, residents, and beach-goers. Permitting via City of Miami Beach and the Lincoln Road Business Improvement District.</p>
-          <p style="margin-top:12px;padding:12px 14px;border:1px solid var(--f1-red);border-radius:4px;background:rgba(244,162,97,0.06);font-size:11px;line-height:1.65"><strong style="color:var(--f1-red);text-transform:uppercase;letter-spacing:1.5px;font-size:10px">Venue &mdash; Confirmed</strong><br><strong>Venue:</strong> Lincoln Road Mall, Miami Beach &mdash; pedestrian-only outdoor shopping district with palm canopy, central to the Apple Store / J.Crew / Anthropologie anchor block. Exact location within the corridor TBC pending Lincoln Road BID confirmation; AGV Miami site walk in progress with imagery to follow.<br><strong>Date:</strong> Friday, July 17, 2026.<br><strong>Weather contingency:</strong> Saturday, July 18, 2026 &mdash; held by the BID against the same permit window for outdoor weather displacement only.</p>
+          <p style="margin-top:12px;padding:12px 14px;border:1px solid var(--f1-red);border-radius:4px;background:rgba(244,162,97,0.06);font-size:11px;line-height:1.65"><strong style="color:var(--f1-red);text-transform:uppercase;letter-spacing:1.5px;font-size:10px">Venue &mdash; Confirmed</strong><br><strong>Venue:</strong> Lincoln Road Mall, Miami Beach &mdash; pedestrian-only outdoor shopping district with palm canopy, central to the Apple Store / J.Crew / Anthropologie anchor block.<br><strong>Date:</strong> Friday, July 17, 2026.<br><strong>Weather contingency:</strong> Saturday, July 18, 2026 &mdash; held by the BID against the same permit window for outdoor weather displacement only.</p>
           <ul>
             <li>Car-free corridor &mdash; safe for street-level activation</li>
             <li>High dwell time, shopping-mindset audience</li>
@@ -497,7 +486,7 @@ const htmlContent = `
   </div>
 
   <div class="loc-footnote" data-a>
-    <strong>Note on pricing &amp; venue fees:</strong> The Lincoln Road daily range is a pre-permit market estimate based on published rates and comparable 2024&ndash;2025 activation precedents. The actual venue fee depends on footprint, amenities (power, water, security), seasonality, dates, and negotiation, and is billed separately from the production investment and passed through at cost. <strong>V3.0 has no NYC venue.</strong> Post-Miami, the box is logistically returned to a New York handoff destination &mdash; the line items for warehouse hold, light touchup, inter-city freight, and final NYC delivery in the Investment Summary cover this transfer at cost. No respray, no rewrap, no in-store activation in V3.0.
+    <strong>Note on pricing &amp; venue fees.</strong> The Lincoln Road daily range is a pre-permit market estimate based on published rates and comparable 2024&ndash;2025 activation precedents. The actual venue fee depends on footprint, amenities (power, water, security), seasonality, dates, and negotiation, and is billed separately from the production investment and passed through at cost. There is no NYC venue cost; post-Miami, the booth is freighted to AGV Miami&rsquo;s NY shop and delivered to the Gymshark NYC flagship store as a brand-owned retail handoff &mdash; the line items for warehouse hold, light touchup, inter-city freight, and white-glove flagship delivery in the Investment Summary cover this transfer at cost.
   </div>
 </section>
 
@@ -507,7 +496,7 @@ const htmlContent = `
     <div class="sec-eye"><div class="bar" style="background:var(--mercedes-teal)"></div><span style="color:var(--mercedes-teal)">Your Production Journey</span></div>
     <h2>Eight Phases. One Seamless Deployment.</h2>
     <p class="sec-desc">
-      Every AGV Miami engagement follows a structured, milestone-gated production lifecycle &mdash; from creative alignment through post-event strike. Each phase builds on the last with defined deliverables and approval checkpoints, scaled here for a ~10-week lead time from Scope Approval (Monday, May 4, 2026) into the Friday, July 17, 2026 activation at Lincoln Road Mall, followed by light touchup and logistics return to a New York handoff destination.
+      Every AGV Miami engagement follows a structured, milestone-gated production lifecycle &mdash; from creative alignment through post-event strike. Each phase builds on the last with defined deliverables and approval checkpoints, scaled here for a 9-week lead time from Scope Approval (Monday, May 11, 2026) into the Friday, July 17, 2026 activation at Lincoln Road Mall, followed by light touchup at AGV Miami&rsquo;s NY shop and delivery to the Gymshark NYC flagship store.
     </p>
   </div>
 
@@ -528,18 +517,18 @@ const htmlContent = `
       <div class="step-num" style="color:var(--iwc-gold)">03</div>
       <h4>Engineering &amp; Technical Development</h4>
       <p>Structural engineering calculations, shop drawings, electrical schematics for lightbox and tech, ballast plan for outdoor install, and Lincoln Road BID compliance documentation.</p>
-      <div class="step-date">May 22 &ndash; June 5, 2026</div>
+      <div class="step-date">May 29 &ndash; June 12, 2026</div>
     </div>
     <div class="journey-step" style="border-color:var(--iwc-gold)">
       <div class="step-num" style="color:var(--iwc-gold)">04</div>
       <h4>Fabrication &amp; Print Production</h4>
-      <p>Custom scenic builds, precision CNC milling, millwork assembly, full painted-finish phase (no interior vinyl in V3), lightbox output, and multi-stage QC inspections.</p>
-      <div class="step-date">June 8 &ndash; July 6, 2026</div>
+      <p>Custom scenic builds, precision CNC milling, millwork assembly, full yellow paint finish, lightbox output, and multi-stage QC inspections.</p>
+      <div class="step-date">June 15 &ndash; July 6, 2026</div>
     </div>
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
       <div class="step-num" style="color:var(--mercedes-teal)">05</div>
       <h4>Logistics &amp; Pre-Deployment</h4>
-      <p>Precision crating, climate-protected transport from our Bohemia, NY fabrication facility to Lincoln Road, Miami Beach, with overnight delivery coordination with the BID.</p>
+      <p>Precision crating, climate-protected transport from our Bohemia, NY fabrication facility to Lincoln Road Mall, Miami Beach, with overnight delivery coordination with the BID.</p>
       <div class="step-date">July 14 &ndash; 16, 2026</div>
     </div>
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
@@ -551,14 +540,14 @@ const htmlContent = `
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
       <div class="step-num" style="color:var(--mercedes-teal)">07</div>
       <h4>Activation &amp; Live Operations</h4>
-      <p>One-day public operation at Lincoln Road Mall with on-site tech, voucher, camera, and live-call coverage. <strong>No NYC activation in V3.0.</strong></p>
+      <p>One-day public operation at Lincoln Road Mall with on-site tech, voucher, camera, and live-call coverage from 11 AM&ndash;8 PM.</p>
       <div class="step-date">Friday, July 17, 2026</div>
     </div>
     <div class="journey-step" style="border-color:var(--mercedes-teal)">
       <div class="step-num" style="color:var(--mercedes-teal)">08</div>
-      <h4>Strike, Touchup &amp; NYC Logistics Handoff</h4>
-      <p>Same-day strike at Lincoln Road Mall; inter-city freight Miami &rarr; NYC; climate-controlled hold + light touchup ($3,000) at AGV Miami&rsquo;s NYC staging facility; final delivery to a NYC handoff destination. Post-event reconciliation, final documentation, project archive.</p>
-      <div class="step-date">Strike July 17 &bull; NYC handoff by August 1, 2026 &bull; Closeout August 7, 2026</div>
+      <h4>Strike, Touchup &amp; NYC Flagship Delivery</h4>
+      <p>Same-day strike at Lincoln Road Mall; inter-city climate freight Miami &rarr; NYC; light touchup at AGV Miami&rsquo;s NY shop; white-glove delivery to the Gymshark NYC flagship store. Post-event reconciliation, final documentation, project archive.</p>
+      <div class="step-date">Strike July 17 &bull; NYC flagship delivery July 23 &bull; Closeout July 31, 2026</div>
     </div>
   </div>
 </section>
@@ -574,21 +563,21 @@ const htmlContent = `
   <table class="sched-table" data-a>
     <thead><tr><th>Phase</th><th>Milestone</th><th>Date</th></tr></thead>
     <tbody>
-      <tr><td>Scope Approval</td><td>V3.0 plan approved (Lincoln Road Mall + logistics to NYC handoff); production authorisation issued</td><td>Monday, May 4, 2026</td></tr>
-      <tr><td>Deposit Received</td><td>60% project deposit &mdash; due upon Scope of Work approval; triggers procurement, engineering, and Lincoln Road BID permit application</td><td>May 6, 2026</td></tr>
-      <tr><td>Permit Applied &mdash; Lincoln Road Mall</td><td>Permit application filed with the Lincoln Road BID and the City of Miami Beach for the Friday, July 17, 2026</td><td>May 8, 2026</td></tr>
-      <tr><td>Creative Lock</td><td>Final artwork, voucher template, and IVR scripting delivered to AGV Miami</td><td>May 22, 2026</td></tr>
-      <tr><td>Engineering &amp; Shop Drawings</td><td>Structural, electrical, ballast, and Lincoln Road BID compliance drawings issued for client review</td><td>May 22 &ndash; June 5, 2026</td></tr>
-      <tr><td>Scenic Fabrication</td><td>Phone box shell build, full paint finish (no interior vinyl in V3), lightbox assembly</td><td>June 8 &ndash; July 6, 2026</td></tr>
-      <tr><td>Print &amp; Graphics Production</td><td>Lightbox graphics, disclosure + wayfinding signage, sidewalk/window signage</td><td>June 15 &ndash; July 6, 2026</td></tr>
+      <tr><td>Scope Approval</td><td>V4.0 plan approved (Lincoln Road Mall + transport to Gymshark NYC flagship); production authorisation issued</td><td>Monday, May 11, 2026</td></tr>
+      <tr><td>Deposit Received</td><td>60% project deposit &mdash; due upon Scope of Work approval; triggers procurement, engineering, and Lincoln Road BID permit application</td><td>May 13, 2026</td></tr>
+      <tr><td>Permit Applied &mdash; Lincoln Road Mall</td><td>Permit application filed with the Lincoln Road BID and the City of Miami Beach for Friday, July 17, 2026</td><td>May 15, 2026</td></tr>
+      <tr><td>Creative Lock</td><td>Final artwork, voucher template, and IVR scripting delivered to AGV Miami</td><td>May 29, 2026</td></tr>
+      <tr><td>Engineering &amp; Shop Drawings</td><td>Structural, electrical, ballast, and Lincoln Road BID compliance drawings issued for client review</td><td>May 29 &ndash; June 12, 2026</td></tr>
+      <tr><td>Scenic Fabrication</td><td>Phone box shell build, full yellow paint finish, lightbox assembly, hinged back distribution door</td><td>June 15 &ndash; July 6, 2026</td></tr>
+      <tr><td>Print &amp; Graphics Production</td><td>Lightbox graphics, venue dressing, packaging print run</td><td>June 22 &ndash; July 6, 2026</td></tr>
       <tr><td>Tech Bench Test</td><td>Full IVR + voucher printer + camera system rehearsed end-to-end at AGV Miami facility</td><td>July 6 &ndash; 10, 2026</td></tr>
       <tr><td>Balance Payment</td><td>Remaining 40% balance due &mdash; five (5) business days prior to the Lincoln Road Mall activation</td><td>Friday, July 10, 2026</td></tr>
       <tr><td>Transit to Miami</td><td>Truck loaded, transported from Bohemia, NY to Lincoln Road Mall, Miami Beach</td><td>July 14 &ndash; 16, 2026</td></tr>
-      <tr><td>The Activation &mdash; Lincoln Road Mall</td><td>Pre-dawn install at Lincoln Road Mall, 8&ndash;10 hr operational window, same-day strike. Saturday, July 18, 2026 held as a weather contingency only.</td><td>Friday, July 17, 2026</td></tr>
-      <tr><td>Inter-City Freight Miami &rarr; NYC</td><td>Climate-controlled truck from Lincoln Road Mall strike site to AGV Miami&rsquo;s NYC staging facility</td><td>July 18 &ndash; 21, 2026</td></tr>
-      <tr><td>Light Touchup After First Activation</td><td>Single light cosmetic touchup pass ($3,000): scuff/scratch repair, paint colour-match, lightbox edge cleanup, IVR/camera/printer functional re-test</td><td>July 22 &ndash; 28, 2026</td></tr>
-      <tr><td>Final Delivery to NYC Handoff Destination</td><td>Climate-controlled final-mile delivery from AGV Miami NYC staging to the client&rsquo;s designated NYC handoff address (TBC by Gymshark). Asset transfer only &mdash; no install, commissioning, or activation.</td><td>By August 1, 2026</td></tr>
-      <tr><td>Project Closeout</td><td>Post-event reconciliation, captured media handoff, closeout deliverables</td><td>August 7, 2026</td></tr>
+      <tr><td>The Activation &mdash; Lincoln Road Mall</td><td>Pre-dawn install at Lincoln Road Mall, 11 AM&ndash;8 PM operating window, same-day strike. Saturday, July 18, 2026 held as a weather contingency.</td><td>Friday, July 17, 2026</td></tr>
+      <tr><td>Inter-City Freight Miami &rarr; NYC</td><td>Climate-controlled truck from Lincoln Road Mall strike site to AGV Miami&rsquo;s NYC staging facility</td><td>July 18 &ndash; 20, 2026</td></tr>
+      <tr><td>Light Touchup at NYC Staging</td><td>Light cosmetic touchup pass at AGV Miami&rsquo;s NY shop: scuff repair, paint colour-match, lightbox edge cleanup, IVR/camera/printer functional re-test</td><td>July 21 &ndash; 22, 2026</td></tr>
+      <tr><td>White-Glove Delivery to Gymshark NYC Flagship</td><td>Climate-controlled final-mile delivery from AGV Miami&rsquo;s NY shop to the Gymshark NYC flagship store, scheduled overnight or pre-open per store operations</td><td>Thursday, July 23, 2026</td></tr>
+      <tr><td>Project Closeout</td><td>Post-event reconciliation, captured media handoff, closeout deliverables</td><td>July 31, 2026</td></tr>
     </tbody>
   </table>
 </section>
@@ -710,7 +699,7 @@ const htmlContent = `
   </div>
 
   <div class="pkg-footnote" data-a>
-    <strong>Budget alignment (V4.0):</strong> Gross base production investment is $84,550; net of the $5,000 Preferred Partner Credit, V4.0 lands at <strong>$79,550 net (base)</strong>. The optional NYC local install team add-on is $4,400 if elected, taking the net to $83,950 &mdash; both well inside the $90K target. Tech package itemised against the Ominto deck (2&times; Ring Mini cameras, 2&times; Motorola RMU2040 radios, $1.5K thermal printer, 2&times; wall-mounted selfie stations). V4 deltas vs V3.0: hinged back distribution door replaces the motorised slot (cleaner, lower-cost); selfie/belfie spec held at static-basic with articulating upgrade quoted as an option; ceiling camera held at single 4K pending production-team review; consumer walkie pair; content capture, disclosure & wayfinding signage, and store wayfinding kit removed; venue dressing kit pared to stanchions only (qty TBC); 200-unit packaging held; NYC base scope is transport-only with the local install team available as an add-on; PM engagement at the leaner $6K cadence. Lincoln Road BID venue fee (covering the BID daily fee, pop-up permit, expedited permitting, and supplemental insurance) is the only pass-through cost.
+    <strong>Budget alignment.</strong> Gross base production investment is $84,550; net of the $5,000 Preferred Partner Credit, V4.0 lands at <strong>$79,550 net (base)</strong>. The optional NYC local install team add-on is $4,400, taking the net to $83,950 &mdash; both well inside the $90K target. Lincoln Road BID venue fee (covering the BID daily fee, pop-up permit, expedited permitting, and supplemental insurance) is the only pass-through cost.
   </div>
 </section>
 
@@ -729,39 +718,37 @@ const htmlContent = `
     <tbody>
       <tr class="divider"><td colspan="2">Components &mdash; The Phone Box</td></tr>
       <tr class="subcat"><td colspan="2">Structural Build</td></tr>
-      <tr class="item"><td><span class="item-name">Phone Box Structural Shell</span><span class="item-desc">Custom scenic fabrication, marine-grade paint in Miami yellow (PMS TBC by Ominto), two-piece modular construction</span></td><td>$14,500</td></tr>
+      <tr class="item"><td><span class="item-name">Phone Box Structural Shell</span><span class="item-desc">Custom scenic fabrication, marine-grade paint in Miami yellow, two-piece modular construction</span></td><td>$14,500</td></tr>
       <tr class="item"><td><span class="item-name">4-Sided Illuminated Lightbox Signage</span><span class="item-desc">LED backlit, all four faces, weatherproof housing, single-cord power feed</span></td><td>$6,800</td></tr>
       <tr class="item"><td><span class="item-name">Glass &amp; Semi-Transparent Vinyl Panels</span><span class="item-desc">Tempered glass, front door and sides, custom-printed yellow-palette privacy vinyl</span></td><td>$2,900</td></tr>
       <tr class="subcat"><td colspan="2">Interior</td></tr>
-      <tr class="item"><td><span class="item-name">Painted Yellow Interior <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — yellow confirmed</span></span><span class="item-desc">Four-wall matte paint finish (Miami yellow), dimensional bum mirror with scripted messaging.</span></td><td>$3,800</td></tr>
-      <tr class="item"><td><span class="item-name">Hinged Back Distribution Door <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — replaces motorised slot</span></span><span class="item-desc">True hinged back door, brand-yellow painted, no visible public-face handle. Allows staff to operate from inside and dispense product directly. Replaces the previously quoted concealed motorised sliding slot.</span></td><td>$1,800</td></tr>
+      <tr class="item"><td><span class="item-name">Painted Yellow Interior</span><span class="item-desc">Four-wall matte paint finish (Miami yellow), dimensional bum mirror with scripted messaging.</span></td><td>$3,800</td></tr>
+      <tr class="item"><td><span class="item-name">Hinged Back Distribution Door</span><span class="item-desc">True hinged back door, brand-yellow painted, no visible public-face handle. Allows staff to operate from inside and dispense product directly. Replaces the previously quoted concealed motorised sliding slot.</span></td><td>$1,800</td></tr>
       <tr class="item"><td><span class="item-name">Interior Finishes</span><span class="item-desc">Aluminium chequer-plate flooring, dome light, guest seat, branded analogue phone</span></td><td>$2,750</td></tr>
       <tr class="subcat"><td colspan="2">Engineering &amp; Documentation</td></tr>
       <tr class="item"><td><span class="item-name">Engineering, Structural Calcs &amp; Shop Drawings</span><span class="item-desc">Wind-load, ballast plan, electrical schematics, CAD shop drawings, venue-compliance package</span></td><td>$4,000</td></tr>
       <tr class="subcat"><td colspan="2">Back-of-House</td></tr>
-      <tr class="item"><td><span class="item-name">Back-of-House Staff Compartment <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — clarified</span></span><span class="item-desc">Interior partition + small staff stoop creating a private back compartment behind the hinged distribution door. Staff supplied by Client.</span></td><td>$1,800</td></tr>
+      <tr class="item"><td><span class="item-name">Back-of-House Staff Compartment</span><span class="item-desc">Interior partition + small staff stoop creating a private back compartment behind the hinged distribution door. Staff supplied by Client.</span></td><td>$1,800</td></tr>
       <tr class="sub-subtotal"><td><em>Subtotal &mdash; The Phone Box</em></td><td><em>$38,350</em></td></tr>
 
       <tr class="divider"><td colspan="2">Components &mdash; Interactive Tech (V4 — itemised hardware)</td></tr>
       <tr class="subcat"><td colspan="2">Call &amp; Response System</td></tr>
       <tr class="item"><td><span class="item-name">Pre-Recorded Call-Response IVR System</span><span class="item-desc">Multi-branch scripting, licensed voice talent, keypad mapping (* = YES, # = NO), redundant win/lose logic, QA</span></td><td>$5,500</td></tr>
-      <tr class="item"><td><span class="item-name">Two-Way Radio Pair &mdash; Motorola RMU2040 (2 &times; $350) <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — itemised</span></span><span class="item-desc">2 &times; Motorola RMU2040 RM-Series 2-Way Radios (2-channel, 2-watt UHF business-grade, ~250,000 sq ft / 12-floor range, NOAA weather alerts). One inside the booth, one with the Gymshark athlete; includes spare batteries.</span></td><td>$700</td></tr>
+      <tr class="item"><td><span class="item-name">Two-Way Radio Pair &mdash; Motorola RMU2040</span><span class="item-desc">2 &times; Motorola RMU2040 RM-Series 2-Way Radios (2-channel, 2-watt UHF business-grade, ~250,000 sq ft / 12-floor range, NOAA weather alerts). One inside the booth, one with the Gymshark athlete; includes spare batteries.</span></td><td>$700</td></tr>
       <tr class="subcat"><td colspan="2">Capture</td></tr>
-      <tr class="item"><td><span class="item-name">Ceiling Cameras &mdash; Ring Mini Indoor Plug-In (2 &times; $150) <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — restored to dual</span></span><span class="item-desc">2 &times; Ring Mini Indoor Security Cameras (1080p HD, two-way talk, motion detection, plug-in/Wi-Fi, white). Cloud storage via Ring Protect subscription. Restored to dual per Ominto deck spec (p.15: &ldquo;2&times; camera fitted to ceiling&rdquo;).</span></td><td>$300</td></tr>
-      <tr class="item"><td><span class="item-name">Wall-Mounted Selfie Stations (2 &times; $450) <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — upgraded</span></span><span class="item-desc">2 &times; wall-mounted selfie stations, painted to match the booth interior &mdash; face-level + belfie-angle. Each station provides a stable phone holder for guests using their own devices.</span></td><td>$900</td></tr>
+      <tr class="item"><td><span class="item-name">Ceiling Cameras &mdash; Ring Mini Indoor Plug-In</span><span class="item-desc">2 &times; Ring Mini Indoor Security Cameras (1080p HD, two-way talk, motion detection, plug-in/Wi-Fi, white). Cloud storage via Ring Protect subscription. Restored to dual per Ominto deck spec (p.15: &ldquo;2&times; camera fitted to ceiling&rdquo;).</span></td><td>$300</td></tr>
+      <tr class="item"><td><span class="item-name">Wall-Mounted Selfie Stations</span><span class="item-desc">2 &times; wall-mounted selfie stations, painted to match the booth interior &mdash; face-level + belfie-angle. Each station provides a stable phone holder for guests using their own devices.</span></td><td>$900</td></tr>
       <tr class="subcat"><td colspan="2">Output &amp; Handoff</td></tr>
-      <tr class="item"><td><span class="item-name">Thermal Voucher Printer &amp; Shelf Mount <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — right-sized</span></span><span class="item-desc">80mm thermal ticket printer (Amazon-sourced hardware-equivalent class), yellow wrap, shelf-mounted under the analogue phone, redundant roll inventory, firmware.</span></td><td>$1,500</td></tr>
-      <tr class="item omitted" style="opacity:0.55"><td><span class="item-name" style="text-decoration:line-through">Content Capture &amp; Media Handoff Platform</span><span class="item-desc">Omitted in V4 per Client direction. Raw camera files handed over on drive at strike at no extra cost; Gymshark social team handles the pipeline internally.</span></td><td style="text-decoration:line-through">&mdash;</td></tr>
+      <tr class="item"><td><span class="item-name">Thermal Voucher Printer &amp; Shelf Mount</span><span class="item-desc">80mm thermal ticket printer, yellow wrap, shelf-mounted under the analogue phone, redundant roll inventory, firmware.</span></td><td>$1,500</td></tr>
       <tr class="sub-subtotal"><td><em>Subtotal &mdash; Interactive Tech</em></td><td><em>$8,900</em></td></tr>
 
       <tr class="divider"><td colspan="2">Components &mdash; Branding, Signage &amp; Consumables</td></tr>
       <tr class="subcat"><td colspan="2">Signage</td></tr>
-      <tr class="item omitted" style="opacity:0.55"><td><span class="item-name" style="text-decoration:line-through">Disclosure &amp; Wayfinding Signage</span><span class="item-desc">Removed in V4 per Client direction. Camera-disclosure copy folded into existing booth signage at no extra cost.</span></td><td style="text-decoration:line-through">&mdash;</td></tr>
-      <tr class="item"><td><span class="item-name">Venue Dressing Kit <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — stanchions only, qty TBC</span></span><span class="item-desc">Branded stanchion poles + ropes for crowd management. Quantity / linear feet TBC by Client; price held as a placeholder pending that confirmation.</span></td><td>$1,000</td></tr>
+      <tr class="item"><td><span class="item-name">Venue Dressing Kit</span><span class="item-desc">Branded stanchion poles and ropes for crowd management. Yellow palette to match booth.</span></td><td>$1,000</td></tr>
       <tr class="subcat"><td colspan="2">Operating Supplies</td></tr>
       <tr class="item"><td><span class="item-name">Daily Consumables &amp; Spares Kit</span><span class="item-desc">Voucher paper rolls, cleaning supplies, sanitisation wipes, yellow touch-up paint, vinyl repair, gaffer</span></td><td>$1,500</td></tr>
       <tr class="subcat"><td colspan="2">Packaging</td></tr>
-      <tr class="item"><td><span class="item-name">Custom Product Packaging &mdash; 200 units <span style="font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--iwc-gold);font-weight:700;margin-left:6px;padding:1px 5px;border:1px solid var(--iwc-gold);border-radius:2px">V4 — reinstated</span></span><span class="item-desc">Yellow-palette product boxes, structural board, full-colour offset print, 300 &times; 200 &times; 70 mm, flat-packed.</span></td><td>$4,800</td></tr>
+      <tr class="item"><td><span class="item-name">Custom Product Packaging &mdash; 200 units</span><span class="item-desc">Yellow-palette product boxes, structural board, full-colour offset print, 300 &times; 200 &times; 70 mm, flat-packed.</span></td><td>$4,800</td></tr>
       <tr class="sub-subtotal"><td><em>Subtotal &mdash; Branding, Signage &amp; Consumables</em></td><td><em>$7,300</em></td></tr>
 
       <tr class="divider"><td colspan="2">Services &mdash; The Activation: Lincoln Road Mall, 11 AM&ndash;8 PM</td></tr>
@@ -956,7 +943,7 @@ const htmlContent = `
           <tr><td>1.0</td><td>April 17, 2026</td><td>AGV Miami</td><td>Initial proposal issued to Gymshark and Ominto Studio for the Gymshark Phone Box activation in New York and Miami in July 2026. Three execution paths offered: Miami-only single-day pop-up, NYC-only single-day pop-up, or dual-city back-to-back deployment with inter-city reskin. Production-investment target of $98,500 for the dual-city configuration.</td><td><a href="/versions/v1-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v1.0 &rarr;</a></td></tr>
           <tr><td>2.0</td><td>April 29, 2026</td><td>AGV Miami</td><td>Two-event sequence. <strong>Event 01 &mdash; Miami:</strong> Lincoln Road Mall street activation on June 27, 2026. <strong>Event 02 &mdash; New York:</strong> in-store fixture at Gymshark Bond St (11 Bond St, NY 10005), delivered by July 9, 2026 to anchor the July 11 product launch and a 4-week in-store run through August 6, 2026. Inter-city respray to NYC palette between events. <strong>Production:</strong> $124,150 gross less $5,000 Partner Credit = $119,150 net. <strong>Estimated total:</strong> $124,150&ndash;$129,150.</td><td><a href="/versions/v2-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v2.0 &rarr;</a></td></tr>
           <tr><td>3.0</td><td>April 29, 2026</td><td>AGV Miami</td><td>V3.0 narrows the programme to a <strong>single street activation</strong> at <strong>Lincoln Road Mall, Miami Beach</strong> on <strong>Friday, July 17, 2026</strong>. <strong>Production:</strong> $100,150 gross less $5,000 Partner Credit = $95,150 net.</td><td><a href="/versions/v3-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v3.0 &rarr;</a></td></tr>
-          <tr><td><strong>4.0</strong></td><td><strong>May 8, 2026</strong></td><td>AGV Miami</td><td><strong>Current.</strong> V4.0 lands the V3.1 clarifications and itemises hardware against the Ominto deck. <strong>Yellow palette confirmed.</strong> <strong>Booth dimensions per Ominto V2:</strong> 164 &times; 94 cm body, 213 cm height + 20 cm lightbox header, 70 cm staff compartment + 94 cm guest compartment. <strong>Concealed motorised slot replaced with a true hinged back distribution door</strong> ($1,800, was $3,400). <strong>Tech itemised:</strong> 2&times; Motorola RMU2040 radios ($700), 2&times; Ring Mini Indoor cameras restored to dual per deck ($300), $1,500 thermal printer, 2&times; wall-mounted selfie stations ($900). <strong>Content Capture, Disclosure &amp; Wayfinding, Store Wayfinding Kit all removed</strong> per Client direction. <strong>Venue Dressing pared to stanchions only</strong> (qty TBC). <strong>Packaging held at 200 units.</strong> <strong>NYC base scope is transport-only</strong>; local install team (1 lead + 2 crew) available as a $4,400 add-on. <strong>11 AM&ndash;8 PM. PM at $6K. $5K Preferred Partner Credit retained.</strong> <strong>Production (Base):</strong> $84,550 gross less $5,000 Partner Credit = <strong>$79,550 net</strong>. With optional NYC install add-on: <strong>$83,950 net</strong>. Both well inside the $90K target. Payment: 60% deposit $47,730 on SoW approval; 40% balance $31,820 due Friday, July 10, 2026.</td><td><a href="/versions/v4-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v4.0 &rarr;</a></td></tr>
+          <tr><td><strong>4.0</strong></td><td><strong>May 8, 2026</strong></td><td>AGV Miami</td><td><strong>Current.</strong> Single-event programme at <strong>Lincoln Road Mall, Miami Beach</strong>, Friday, July 17, 2026, 11 AM&ndash;8 PM. Yellow palette throughout. Booth dimensions per Ominto V2 (164 &times; 94 cm body + 20 cm lightbox header). Hinged back distribution door for in-booth staff; 2&times; Motorola RMU2040 radios, 2&times; Ring Mini cameras, 80mm thermal printer, 2&times; wall-mounted selfie stations, 200-unit yellow-palette product packaging. NYC base scope is transport-only to the Gymshark NYC flagship store; local install team available as an add-on. <strong>Production (Base):</strong> $84,550 gross less $5,000 Partner Credit = <strong>$79,550 net</strong>. With optional NYC install add-on: <strong>$83,950 net</strong>. Payment: 60% deposit $47,730 on SoW approval; 40% balance $31,820 due Friday, July 10, 2026.</td><td><a href="/versions/v4-0" target="_blank" rel="noopener" style="color:var(--iwc-gold);text-decoration:underline">View v4.0 &rarr;</a></td></tr>
         </tbody>
       </table>
     </div>

@@ -2,23 +2,13 @@
 Generate invoice xlsx files for the Gymshark Phone Box proposal.
 Producer: AGV Miami (legal entity AGV Miami, LLC).
 
-Four outputs (run: python3 scripts/generate_invoice.py):
-  1. public/invoices/GS-PHONEBOX-001-V3.0.xlsx
-       Single tab — the V3.0 invoice (issued).
-  2. public/invoices/GS-PHONEBOX-001-V3.1.xlsx
-       Single tab — the V3.1 proposed update (yellow palette, hours
-       extended to 8 PM, back-of-house compartment, walkie/selfie
-       mounts simplified, content-capture removed, packaging added,
-       NYC local install team added).
-  3. public/invoices/GS-PHONEBOX-001-V4.0.xlsx
-       Single tab — the V4.0 value-engineered version (V3.1 + safe
-       cuts: PM lean, single ceiling cam, 100-unit packaging,
-       trimmed consumables, standard warehouse hold).
-  4. public/invoices/GS-PHONEBOX-001-VERSION-HISTORY.xlsx
-       Five tabs in this order: V4.0 (current proposed), V3.1
-       (preceding proposed), V3.0 (issued), V2.0 (superseded), V1.0
-       (initial). Each tab uses the same formatting as the V3
-       single-tab invoice.
+Outputs (run: python3 scripts/generate_invoice.py):
+  1. public/invoices/GS-PHONEBOX-001-V3.0.xlsx — Single-tab V3.0.
+  2. public/invoices/GS-PHONEBOX-001-V3.1.xlsx — Single-tab V3.1.
+  3. public/invoices/GS-PHONEBOX-001-V4.0.xlsx — Three tabs: V4.0
+     (current), V3.0, V2.0.
+  4. public/invoices/GS-PHONEBOX-001-VERSION-HISTORY.xlsx — Five
+     tabs: V4.0, V3.1, V3.0, V2.0, V1.0.
 """
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
@@ -380,62 +370,61 @@ def build_v40_sheet(ws):
     row = header_block(
         ws, row=1,
         version="Version 4.0",
-        issue_date="May 7, 2026",
+        issue_date="May 8, 2026",
         scope_summary=(
-            "V4.0 — Yellow palette confirmed; concealed motorised slot replaced with a true hinged "
-            "back distribution door; tech package itemised against deck spec (2× Motorola RMU2040 "
-            "radios, 2× Ring Mini Indoor cameras restored to dual per Ominto deck p.15, 80mm thermal "
-            "voucher printer, 2× wall-mounted selfie stations); content capture omitted; disclosure "
-            "& wayfinding signage removed; venue dressing kit pared to stanchions only (qty TBC); "
-            "200-unit yellow-palette product packaging held; NYC base scope is transport-only with a "
-            "local install team available as an add-on. $5K Preferred Partner Credit retained. "
-            "Booth dimensions per Ominto V2 design: 164 × 94 × 213 cm body + 20 cm lightbox header. "
-            "Activation: Friday, July 17, 2026, 11 AM–8 PM at Lincoln Road Mall "
-            "(Saturday, July 18 held as a weather contingency)."
+            "Single-event programme: a fully-painted yellow British phone box equipped with interactive "
+            "photo, voucher, and call-response technology, deployed for a one-day street activation at "
+            "Lincoln Road Mall, Miami Beach on Friday, July 17, 2026, 11 AM–8 PM (Saturday, July 18 held "
+            "as a weather contingency). After Miami the booth ships to AGV Miami's NY shop for a light "
+            "touchup and is white-glove delivered to the Gymshark NYC flagship store by Thursday, "
+            "July 23, 2026. Booth dimensions per Ominto V2 design: 164 × 94 cm body + 20 cm lightbox "
+            "header. Hinged back distribution door for in-booth staff to dispense product directly. "
+            "$5,000 Preferred Partner Credit applied. Local NYC install team available as an optional "
+            "add-on."
         ),
         activation_summary=("Activation: Friday, July 17, 2026, 11 AM–8 PM", "Venue: Lincoln Road Mall"),
     )
 
-    row = phase_header(ws, row, "Phase 01  —  The Phone Box (Painted Yellow, Hinged Back Door)")
-    row = line_item(ws, row, "Phone Box Structural Shell", "Custom scenic fabrication per Ominto V2 design pack. Footprint 164 × 94 cm (~5'4\" × 3'1\"); body height 213 cm (~7'0\"); lightbox header +20 cm (total ≈7'8\"). Two-piece modular construction (staff compartment 70 cm deep + guest compartment 94 cm deep). Marine-grade paint in Miami yellow (PMS TBC by Ominto).", 14500)
+    row = phase_header(ws, row, "Phase 01  —  The Phone Box")
+    row = line_item(ws, row, "Phone Box Structural Shell", "Custom scenic fabrication per Ominto V2 design pack. Footprint 164 × 94 cm (~5'4\" × 3'1\"); body height 213 cm (~7'0\"); lightbox header +20 cm (total ≈7'8\"). Two-piece modular construction (staff compartment 70 cm deep + guest compartment 94 cm deep). Marine-grade paint in Miami yellow per Ominto brand guidelines.", 14500)
     row = line_item(ws, row, "4-Sided Illuminated Lightbox Signage", "20 cm lightbox header on all four faces. LED-backlit translucent face panels with weatherproof housing, dimmable driver, single-cord power feed.", 6800)
     row = line_item(ws, row, "Glass & Semi-Transparent Vinyl Panels", "Tempered glass on front door + sides per Ominto deck spec. Custom-printed semi-transparent privacy vinyl preserves the reveal moment when guests enter; finish print-matched to yellow palette.", 2900)
     row = line_item(ws, row, "Painted Yellow Interior", "Four-wall matte paint finish in Miami yellow on interior compartment. Dimensional bum mirror with scripted messaging above and below. Interior compartment dim: 65 × 86 cm (back compartment) per Ominto V2 design.", 3800)
-    row = line_item(ws, row, "Hinged Back Distribution Door (V4 — replaces motorised slot)", "True hinged back door, brand-yellow painted, no visible handle on the public face. Allows a Gymshark-supplied staff member to operate from inside the back-of-house compartment and hand product directly to the guest. Replaces the previously quoted concealed motorised sliding slot — simpler, lower-cost, and clearer staff workflow.", 1800)
+    row = line_item(ws, row, "Hinged Back Distribution Door", "True hinged back door, brand-yellow painted, no visible handle on the public face. Allows a Gymshark-supplied staff member to operate from inside the back-of-house compartment and hand product directly to the guest.", 1800)
     row = line_item(ws, row, "Interior Finishes", "Aluminium chequer-plate (five-bar pattern) flooring, circular dome overhead light, compact guest seat (~70 cm wide), and branded analogue phone with yellow handset. Shelf below the phone receives the thermal printer.", 2750)
     row = line_item(ws, row, "Engineering, Structural Calcs & Shop Drawings", "Wind-load, ballast plan, electrical schematics, CAD shop drawings, venue-compliance package. Reconciles deck V2 dimensions (164 × 94 × 213 cm + 20 cm lightbox) at engineering lock.", 4000)
     row = line_item(ws, row, "Back-of-House Staff Compartment", "70 cm-deep × 94 cm-wide private back compartment behind the hinged distribution door. Includes interior partition wall, small staff stoop, and dispensing shelf for product handoff. Talent supplied by Client per proposal exclusions.", 1800)
     row = subtotal_row(ws, row, "Subtotal — The Phone Box", 38350)
 
-    row = phase_header(ws, row, "Phase 02  —  Interactive Tech (V4 — itemised hardware)")
+    row = phase_header(ws, row, "Phase 02  —  Interactive Tech")
     row = line_item(ws, row, "Pre-Recorded Call-Response (IVR) System", "Multi-branch scripting, licensed voice talent, keypad mapping (* = YES, # = NO), redundant win/lose logic, QA. Wired to the analogue phone handset.", 5500)
-    row = line_item(ws, row, "Two-Way Radio Pair — Motorola RMU2040 (2 × $350)", "2 × Motorola RMU2040 RM-Series 2-Way Radios (2-channel, 2-watt UHF business-grade, license-free, ~250,000 sq ft / 12-floor range, NOAA weather alerts). One inside the booth for the guest, one with the on-site Gymshark athlete; includes spare batteries.", 700)
-    row = line_item(ws, row, "Ceiling Cameras — Ring Mini Indoor Plug-In (2 × $150)", "2 × Ring Mini Indoor Security Cameras (1080p HD, two-way talk, motion detection, plug-in / no batteries, Wi-Fi, white finish). Cloud storage via Ring Protect subscription. Ceiling-mounted in front and back compartments. Restored to dual-camera per the original Ominto deck spec (p.15).", 300)
-    row = line_item(ws, row, "Wall-Mounted Selfie Stations (2 × $450)", "2 × wall-mounted selfie stations, painted to match the booth interior — face-level + belfie-angle. Each station provides a stable phone holder for guests using their own devices. Replaces V3 mobile-phone-mount line.", 900)
-    row = line_item(ws, row, "Thermal Voucher Printer & Shelf Mount", "80mm thermal ticket printer (Amazon-sourced, ~$1,500 hardware-equivalent class), shelf-mounted under the analogue phone, wrapped in yellow vinyl. Voucher template designed by Gymshark; AGV Miami handles printer procurement, firmware, redundant roll inventory.", 1500)
+    row = line_item(ws, row, "Two-Way Radio Pair — Motorola RMU2040", "2 × Motorola RMU2040 RM-Series 2-Way Radios (2-channel, 2-watt UHF business-grade, license-free, ~250,000 sq ft / 12-floor range, NOAA weather alerts). One inside the booth for the guest, one with the on-site Gymshark athlete; includes spare batteries.", 700)
+    row = line_item(ws, row, "Ceiling Cameras — Ring Mini Indoor Plug-In", "2 × Ring Mini Indoor Security Cameras (1080p HD, two-way talk, motion detection, plug-in / no batteries, Wi-Fi, white finish). Cloud storage via Ring Protect subscription. Ceiling-mounted in front and back compartments per Ominto deck spec.", 300)
+    row = line_item(ws, row, "Wall-Mounted Selfie Stations", "2 × wall-mounted selfie stations, painted to match the booth interior — face-level + belfie-angle. Each station provides a stable phone holder for guests using their own devices.", 900)
+    row = line_item(ws, row, "Thermal Voucher Printer & Shelf Mount", "80mm thermal ticket printer, shelf-mounted under the analogue phone, wrapped in yellow vinyl. Voucher template designed by Gymshark; AGV Miami handles printer procurement, firmware, redundant roll inventory.", 1500)
     row = subtotal_row(ws, row, "Subtotal — Interactive Tech", 8900)
 
-    row = phase_header(ws, row, "Phase 03  —  Branding, Signage & Consumables (V4 — disclosure removed, dressing pared)")
-    row = line_item(ws, row, "Venue Dressing Kit (V4 — stanchions only, qty TBC)", "Branded stanchion poles + ropes for crowd management at the Lincoln Road Mall street activation. Quantity / linear feet to be confirmed by Client; price held as a placeholder pending that confirmation.", 1000)
-    row = line_item(ws, row, "Daily Consumables & Spares Kit", "Voucher paper rolls, cleaning supplies, sanitisation wipes, yellow touch-up paint, vinyl repair, gaffer", 1500)
-    row = line_item(ws, row, "Custom Product Packaging — 200 units", "Yellow-palette product boxes, structural board, full-colour offset print, 300 × 200 × 70 mm, flat-packed for load-in. Held at 200 units per Client direction.", 4800)
+    row = phase_header(ws, row, "Phase 03  —  Branding, Signage & Consumables")
+    row = line_item(ws, row, "Venue Dressing Kit", "Branded stanchion poles and ropes for crowd management at the Lincoln Road Mall street activation. Yellow palette to match booth.", 1000)
+    row = line_item(ws, row, "Daily Consumables & Spares Kit", "Voucher paper rolls, cleaning supplies, sanitisation wipes, yellow touch-up paint, vinyl repair, gaffer.", 1500)
+    row = line_item(ws, row, "Custom Product Packaging — 200 units", "Yellow-palette product boxes, structural board, full-colour offset print, 300 × 200 × 70 mm, flat-packed for load-in.", 4800)
     row = subtotal_row(ws, row, "Subtotal — Branding, Signage & Consumables", 7300)
 
     row = phase_header(ws, row, "Phase 04a  —  The Activation (Lincoln Road Mall, 11 AM–8 PM)")
     row = line_item(ws, row, "Inbound Logistics & Install", "Truck, rigging hardware, 3-person install crew, 4–6 hr install window. Lead technician takes the supervisor role at load-in.", 4800)
-    row = line_item(ws, row, "On-Site Technicians (Extended to 8 PM)", "Dedicated lead technician plus rotating second tech for rush windows and breaks, covering an extended 11 AM–8 PM operating window. Includes pre-open soundcheck and post-close shutdown.", 3000)
+    row = line_item(ws, row, "On-Site Technicians", "Dedicated lead technician plus rotating second tech for rush windows and breaks, covering the 11 AM–8 PM operating window. Includes pre-open soundcheck and post-close shutdown.", 3000)
     row = line_item(ws, row, "Same-Day Strike & Outbound Freight", "Complete de-installation, module breakdown, crated outbound freight within the Lincoln Road BID's contracted strike window. Site walk-through with the BID operations team.", 3300)
     row = subtotal_row(ws, row, "Subtotal — The Activation (Lincoln Road Mall)", 11100)
 
-    row = phase_header(ws, row, "Phase 04b  —  Logistics to NYC (V4 — Base, transport-only)")
-    row = line_item(ws, row, "Climate-Controlled Warehouse Hold", "Secure climate-controlled storage at the AGV Miami NYC staging facility between Miami strike and NYC delivery. Held at climate spec per Client direction.", 2400)
-    row = line_item(ws, row, "Inter-City Freight (Climate-Controlled Truck)", "Miami → AGV Miami NYC staging facility with real-time GPS tracking, two-driver rotation, handoff documentation", 5500)
-    row = line_item(ws, row, "Light Touchup at NYC Staging", "Light cosmetic touchup pass at AGV Miami's NYC shop after Miami strike, prior to flagship delivery. Per Client direction, the booth ships straight to the NY shop and is refreshed locally before final delivery to the flagship store — tightest possible timeline.", 3000)
-    row = line_item(ws, row, "White-Glove Delivery to Gymshark NYC Flagship", "Climate-controlled final-mile delivery from AGV Miami NYC staging to the Gymshark NYC flagship retail address. Scheduled overnight or pre-open per store operations.", 2000)
-    row = subtotal_row(ws, row, "Subtotal — Logistics to NYC (Base)", 12900)
+    row = phase_header(ws, row, "Phase 04b  —  Logistics to NYC")
+    row = line_item(ws, row, "Climate-Controlled Warehouse Hold", "Secure climate-controlled storage at AGV Miami's NY shop between Miami strike and Gymshark NYC flagship delivery.", 2400)
+    row = line_item(ws, row, "Inter-City Freight (Climate-Controlled Truck)", "Miami → AGV Miami NY shop with real-time GPS tracking, two-driver rotation, handoff documentation.", 5500)
+    row = line_item(ws, row, "Light Touchup at NYC Staging", "Light cosmetic touchup pass at AGV Miami's NY shop following Miami strike: scuff/scratch repair, paint colour-match, lightbox edge cleanup, IVR/camera/printer functional re-test.", 3000)
+    row = line_item(ws, row, "White-Glove Delivery to Gymshark NYC Flagship", "Climate-controlled final-mile delivery from AGV Miami's NY shop to the Gymshark NYC flagship retail address. Scheduled overnight or pre-open per store operations.", 2000)
+    row = subtotal_row(ws, row, "Subtotal — Logistics to NYC", 12900)
 
-    row = phase_header(ws, row, "Phase 05  —  Project Management (V4 — lean engagement)")
-    row = line_item(ws, row, "Project Management Fee (V4 — lean)", "Dedicated senior producer, weekly status reporting (vs daily), milestone tracking, vendor / venue liaison, COI + insurance coordination, post-event reconciliation. Async-first cadence appropriate for a single-event programme.", 6000)
+    row = phase_header(ws, row, "Phase 05  —  Project Management & Client Services")
+    row = line_item(ws, row, "Project Management Fee", "Dedicated senior producer, weekly status reporting, milestone tracking, vendor / venue liaison, COI + insurance coordination, post-event reconciliation. Async-first cadence appropriate for a single-event programme.", 6000)
     row = subtotal_row(ws, row, "Subtotal — Project Management", 6000)
 
     row += 1
@@ -454,7 +443,7 @@ def build_v40_sheet(ws):
     row += 1
 
     row = payment_block(ws, row, deposit=47730, balance=31820, balance_due_date="on or before Friday, July 10, 2026", version_short="V4.0")
-    footer(ws, row, "V4.0 — current proposed (Base $79,550 net; with optional NYC install add-on $83,950 net)")
+    footer(ws, row, "V4.0 — Lincoln Road Mall, Friday, July 17, 2026")
 
 
 # ---------- V2.0 SHEET ----------
