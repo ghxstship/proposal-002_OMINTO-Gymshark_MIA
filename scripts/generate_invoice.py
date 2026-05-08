@@ -237,11 +237,11 @@ def build_v3_sheet(ws):
         issue_date="April 29, 2026",
         scope_summary=(
             "Single-event programme: fully-painted pink British phone box with interactive call/voucher/photo tech, "
-            "deployed for a one-day street activation at Euclid Oval, Lincoln Road Mall, Miami Beach on Friday, "
+            "deployed for a one-day street activation at Lincoln Road Mall, Miami Beach on Friday, "
             "July 17, 2026 (Saturday, July 18 held as a weather contingency). Light touchup post-Miami; logistical "
             "return to NYC handoff destination — no NYC retail activation, no respray/rewrap package."
         ),
-        activation_summary=("Activation: Friday, July 17, 2026", "Venue: Euclid Oval, Lincoln Road Mall"),
+        activation_summary=("Activation: Friday, July 17, 2026", "Venue: Lincoln Road Mall"),
     )
 
     row = phase_header(ws, row, "Phase 01  —  The Phone Box (Painted Finish)")
@@ -265,15 +265,15 @@ def build_v3_sheet(ws):
 
     row = phase_header(ws, row, "Phase 03  —  Branding, Signage & Consumables")
     row = line_item(ws, row, "Disclosure & Wayfinding Signage", "Camera-disclosure sign, queue management decals, brand lockup callouts in brand palette", 950)
-    row = line_item(ws, row, "Venue Dressing Kit", "Portable A-frame signage, branded stanchions, pavement decals for the Euclid Oval street activation", 1750)
+    row = line_item(ws, row, "Venue Dressing Kit", "Portable A-frame signage, branded stanchions, pavement decals for the Lincoln Road Mall street activation", 1750)
     row = line_item(ws, row, "Daily Consumables & Spares Kit", "Voucher paper rolls, cleaning supplies, sanitisation wipes, touch-up paint, vinyl repair, pink gaffer", 2500)
     row = subtotal_row(ws, row, "Subtotal — Branding, Signage & Consumables", 5200)
 
-    row = phase_header(ws, row, "Phase 04a  —  The Activation (Euclid Oval, Lincoln Road Mall, Miami Beach)")
+    row = phase_header(ws, row, "Phase 04a  —  The Activation (Lincoln Road Mall, Miami Beach)")
     row = line_item(ws, row, "Inbound Logistics & Install", "Truck, rigging hardware, 3-person install crew, permit-window supervisor, 4–6 hr install window", 5800)
     row = line_item(ws, row, "On-Site Technicians", "Dedicated lead technician plus rotating second tech for rush windows and breaks", 2800)
     row = line_item(ws, row, "Same-Day Strike & Outbound Freight", "Complete de-installation, module breakdown, crated outbound freight, full site restoration", 3300)
-    row = subtotal_row(ws, row, "Subtotal — The Activation (Euclid Oval)", 11900)
+    row = subtotal_row(ws, row, "Subtotal — The Activation (Lincoln Road Mall)", 11900)
 
     row = phase_header(ws, row, "Phase 04b  —  Logistics to NYC (Asset Transfer Only)")
     row = line_item(ws, row, "Climate-Controlled Warehouse Hold", "Secure climate-controlled storage at the AGV Miami NYC staging facility between Miami strike and NYC handoff", 2400)
@@ -310,10 +310,10 @@ def build_v31_sheet(ws):
             "access door, simplified consumer walkie-talkie pair, basic selfie/belfie mounts (no ring lights), "
             "Content Capture & Media Handoff Platform removed, 200-unit custom packaging added, and a local "
             "NYC install crew + in-store fixture setup + store wayfinding for the post-Miami delivery. "
-            "Activation remains Friday, July 17, 2026 at Euclid Oval, Lincoln Road Mall (Saturday, July 18 "
+            "Activation remains Friday, July 17, 2026 at Lincoln Road Mall (Saturday, July 18 "
             "held as a weather contingency)."
         ),
-        activation_summary=("Activation: Friday, July 17, 2026, 11 AM–8 PM", "Venue: Euclid Oval, Lincoln Road Mall"),
+        activation_summary=("Activation: Friday, July 17, 2026, 11 AM–8 PM", "Venue: Lincoln Road Mall"),
     )
 
     row = phase_header(ws, row, "Phase 01  —  The Phone Box (Painted Yellow Finish)")
@@ -338,16 +338,16 @@ def build_v31_sheet(ws):
 
     row = phase_header(ws, row, "Phase 03  —  Branding, Signage & Consumables (V3.1 — packaging added)")
     row = line_item(ws, row, "Disclosure & Wayfinding Signage", "Camera-disclosure sign, queue management decals, brand lockup callouts in yellow palette", 950)
-    row = line_item(ws, row, "Venue Dressing Kit", "Portable A-frame signage, branded stanchions, pavement decals for the Euclid Oval street activation, yellow palette", 1750)
+    row = line_item(ws, row, "Venue Dressing Kit", "Portable A-frame signage, branded stanchions, pavement decals for the Lincoln Road Mall street activation, yellow palette", 1750)
     row = line_item(ws, row, "Daily Consumables & Spares Kit", "Voucher paper rolls, cleaning supplies, sanitisation wipes, yellow touch-up paint, vinyl repair, gaffer", 2500)
     row = line_item(ws, row, "Custom Product Packaging (V3.1 — new) — 200 units", "Yellow-palette product boxes, structural board, full-colour offset print, 300 × 200 × 70 mm, flat-packed for load-in. Per-unit scales linearly above 100; under 100 the per-unit cost climbs.", 4800)
     row = subtotal_row(ws, row, "Subtotal — Branding, Signage & Consumables", 10000)
 
-    row = phase_header(ws, row, "Phase 04a  —  The Activation (Euclid Oval, 11 AM–8 PM, V3.1)")
+    row = phase_header(ws, row, "Phase 04a  —  The Activation (Lincoln Road Mall, 11 AM–8 PM, V3.1)")
     row = line_item(ws, row, "Inbound Logistics & Install", "Truck, rigging hardware, 3-person install crew, permit-window supervisor, 4–6 hr install window", 5800)
     row = line_item(ws, row, "On-Site Technicians (V3.1 — extended to 8 PM)", "Dedicated lead technician plus rotating second tech for rush windows and breaks, covering an extended 11 AM–8 PM operating window. Includes pre-open soundcheck and post-close shutdown.", 3000)
-    row = line_item(ws, row, "Same-Day Strike & Outbound Freight", "Complete de-installation, module breakdown, crated outbound freight within Euclid Oval's contracted strike window. Site walk-through with the Lincoln Road BID operations team.", 3300)
-    row = subtotal_row(ws, row, "Subtotal — The Activation (Euclid Oval)", 12100)
+    row = line_item(ws, row, "Same-Day Strike & Outbound Freight", "Complete de-installation, module breakdown, crated outbound freight within the Lincoln Road BID's contracted strike window. Site walk-through with the BID operations team.", 3300)
+    row = subtotal_row(ws, row, "Subtotal — The Activation (Lincoln Road Mall)", 12100)
 
     row = phase_header(ws, row, "Phase 04b  —  Logistics + Local Install at NYC Retail (V3.1)")
     row = line_item(ws, row, "Climate-Controlled Warehouse Hold", "Secure climate-controlled storage at the AGV Miami NYC staging facility between Miami strike and NYC delivery", 2400)
@@ -390,10 +390,10 @@ def build_v40_sheet(ws):
             "200-unit yellow-palette product packaging held; NYC base scope is transport-only with a "
             "local install team available as an add-on. $5K Preferred Partner Credit retained. "
             "Booth dimensions per Ominto V2 design: 164 × 94 × 213 cm body + 20 cm lightbox header. "
-            "Activation: Friday, July 17, 2026, 11 AM–8 PM at Euclid Oval, Lincoln Road Mall "
+            "Activation: Friday, July 17, 2026, 11 AM–8 PM at Lincoln Road Mall "
             "(Saturday, July 18 held as a weather contingency)."
         ),
-        activation_summary=("Activation: Friday, July 17, 2026, 11 AM–8 PM", "Venue: Euclid Oval, Lincoln Road Mall"),
+        activation_summary=("Activation: Friday, July 17, 2026, 11 AM–8 PM", "Venue: Lincoln Road Mall"),
     )
 
     row = phase_header(ws, row, "Phase 01  —  The Phone Box (Painted Yellow, Hinged Back Door)")
@@ -416,16 +416,16 @@ def build_v40_sheet(ws):
     row = subtotal_row(ws, row, "Subtotal — Interactive Tech", 8900)
 
     row = phase_header(ws, row, "Phase 03  —  Branding, Signage & Consumables (V4 — disclosure removed, dressing pared)")
-    row = line_item(ws, row, "Venue Dressing Kit (V4 — stanchions only, qty TBC)", "Branded stanchion poles + ropes for crowd management at the Euclid Oval street activation. Quantity / linear feet to be confirmed by Client; price held as a placeholder pending that confirmation.", 1000)
+    row = line_item(ws, row, "Venue Dressing Kit (V4 — stanchions only, qty TBC)", "Branded stanchion poles + ropes for crowd management at the Lincoln Road Mall street activation. Quantity / linear feet to be confirmed by Client; price held as a placeholder pending that confirmation.", 1000)
     row = line_item(ws, row, "Daily Consumables & Spares Kit", "Voucher paper rolls, cleaning supplies, sanitisation wipes, yellow touch-up paint, vinyl repair, gaffer", 1500)
     row = line_item(ws, row, "Custom Product Packaging — 200 units", "Yellow-palette product boxes, structural board, full-colour offset print, 300 × 200 × 70 mm, flat-packed for load-in. Held at 200 units per Client direction.", 4800)
     row = subtotal_row(ws, row, "Subtotal — Branding, Signage & Consumables", 7300)
 
-    row = phase_header(ws, row, "Phase 04a  —  The Activation (Euclid Oval, 11 AM–8 PM)")
+    row = phase_header(ws, row, "Phase 04a  —  The Activation (Lincoln Road Mall, 11 AM–8 PM)")
     row = line_item(ws, row, "Inbound Logistics & Install", "Truck, rigging hardware, 3-person install crew, 4–6 hr install window. Lead technician takes the supervisor role at load-in.", 4800)
     row = line_item(ws, row, "On-Site Technicians (Extended to 8 PM)", "Dedicated lead technician plus rotating second tech for rush windows and breaks, covering an extended 11 AM–8 PM operating window. Includes pre-open soundcheck and post-close shutdown.", 3000)
-    row = line_item(ws, row, "Same-Day Strike & Outbound Freight", "Complete de-installation, module breakdown, crated outbound freight within Euclid Oval's contracted strike window. Site walk-through with the Lincoln Road BID operations team.", 3300)
-    row = subtotal_row(ws, row, "Subtotal — The Activation (Euclid Oval)", 11100)
+    row = line_item(ws, row, "Same-Day Strike & Outbound Freight", "Complete de-installation, module breakdown, crated outbound freight within the Lincoln Road BID's contracted strike window. Site walk-through with the BID operations team.", 3300)
+    row = subtotal_row(ws, row, "Subtotal — The Activation (Lincoln Road Mall)", 11100)
 
     row = phase_header(ws, row, "Phase 04b  —  Logistics to NYC (V4 — Base, transport-only)")
     row = line_item(ws, row, "Climate-Controlled Warehouse Hold", "Secure climate-controlled storage at the AGV Miami NYC staging facility between Miami strike and NYC delivery. Held at climate spec per Client direction.", 2400)
@@ -467,7 +467,7 @@ def build_v2_sheet(ws):
         issue_date="April 29, 2026",
         scope_summary=(
             "Two-event sequence. Event 01 — Miami: Lincoln Road Mall street activation on Saturday, June 27, 2026 "
-            "(AGV Miami recommended Euclid Oval, 1100 block). Event 02 — New York: in-store fixture at Gymshark "
+            ". Event 02 — New York: in-store fixture at Gymshark "
             "Bond St, delivered by July 9, 2026 to anchor the July 11 product launch and a 4-week in-store run "
             "through August 6, 2026. Inter-city respray/rewrap to NYC palette between events. "
             "[Superseded by V3.0 — included for reference only.]"
